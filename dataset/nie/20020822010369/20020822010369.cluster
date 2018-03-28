@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE EXTRACT SYSTEM '/clair2/projects/nie/nie3/dtd/cluster.dtd'>
+<CLUSTER LANG='ENG'>
+	<D DID='http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20020821_562.html.20020822010369' />
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2207888.stm.20020822010369' />
+	<D DID='http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=LycosWorld%26storyId=54672.20020822010369' />
+	<D DID='http:%2F%2Fnews.xinhuanet.com%2Fenglish%2F2002-08%2F21%2Fcontent_533596.htm.20020822010369' />
+	<D DID='http:%2F%2Fnews.xinhuanet.com%2Fenglish%2F2002-08%2F22%2Fcontent_533651.htm.20020822010369' />
+	<D DID='http:%2F%2Fnews.xinhuanet.com%2Fenglish%2F2002-08%2F22%2Fcontent_534171.htm.20020822010369' />
+	<D DID='http:%2F%2Fwww.cbsnews.com%2Fstories%2F2002%2F08%2F16%2Fworld%2Fmain518918.shtml.20020822010369' />
+	<D DID='http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Fmeast%2F08%2F21%2Fmideast%2Findex.html.20020822010369' />
+	<D DID='http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,60942,00.html.20020822010369' />
+	<D DID='http:%2F%2Fwww.msnbc.com%2Fnews%2F677951.asp?0si=-.20020822010369' />
+	<D DID='http:%2F%2Fwww.washingtonpost.com%2Fwp-dyn%2Farticles%2FA47102-2002Aug21.html.20020822010369' />
+</CLUSTER>

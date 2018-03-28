@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE EXTRACT SYSTEM "/clair/tools/mead/dtd/extract.dtd">
+
+<EXTRACT QID="20020822010395" LANG="ENG" COMPRESSION="10" SYSTEM="9-1-0.5-1-novelty-0.9-10pct" RUN="Wed Nov 19 15:12:31 2003">
+<S ORDER="1" DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F020821%2Fw082194.html.20020822010395" SNO="2" />
+<S ORDER="2" DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2002%2F08%2F21%2Fnational%2Fmain519385.shtml.20020822010395" SNO="1" />
+<S ORDER="3" DID="http:%2F%2Fwww.cnn.com%2F2002%2FUS%2F08%2F21%2Fmiami.airport.evac%2Findex.html.20020822010395" SNO="1" />
+<S ORDER="4" DID="http:%2F%2Fwww.cnn.com%2F2002%2FUS%2F08%2F21%2Fmiami.airport.evac%2Findex.html.20020822010395" SNO="3" />
+<S ORDER="5" DID="http:%2F%2Fwww.cnn.com%2F2002%2FUS%2F08%2F21%2Fmiami.airport.evac%2Findex.html.20020822010395" SNO="4" />
+<S ORDER="6" DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,60964,00.html.20020822010395" SNO="2" />
+<S ORDER="7" DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,60964,00.html.20020822010395" SNO="4" />
+<S ORDER="8" DID="http:%2F%2Fwww.washingtonpost.com%2Fwp-dyn%2Farticles%2FA44817-2002Aug21.html.20020822010395" SNO="1" />
+<S ORDER="9" DID="http:%2F%2Fwww.washingtonpost.com%2Fwp-dyn%2Farticles%2FA44817-2002Aug21.html.20020822010395" SNO="2" />
+<S ORDER="10" DID="http:%2F%2Fwww.washingtonpost.com%2Fwp-dyn%2Farticles%2FA44817-2002Aug21.html.20020822010395" SNO="4" />
+</EXTRACT>

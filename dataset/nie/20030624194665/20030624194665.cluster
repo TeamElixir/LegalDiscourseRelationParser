@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE EXTRACT SYSTEM '/clair2/projects/nie/nie3/dtd/cluster.dtd'>
+<CLUSTER LANG='ENG'>
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fafrica%2F3027621.stm.20030624194665' />
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2F3017834.stm.20030624194665' />
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F3012810.stm.20030624194665' />
+	<D DID='http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F1668.htm.20030624194665' />
+	<D DID='http:%2F%2Fstraitstimes.asia1.com.sg%2Fcommentary%2Fstory%2F0,4386,196412,00.html?.20030624194665' />
+	<D DID='http:%2F%2Fstraitstimes.asia1.com.sg%2Fworld%2Fstory%2F0,4386,196441,00.html?.20030624194665' />
+	<D DID='http:%2F%2Fstraitstimes.asia1.com.sg%2Fworld%2Fstory%2F0,4386,196449,00.html?.20030624194665' />
+	<D DID='http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F06%2F24%2Fworld%2Fmain560207.shtml.20030624194665' />
+</CLUSTER>

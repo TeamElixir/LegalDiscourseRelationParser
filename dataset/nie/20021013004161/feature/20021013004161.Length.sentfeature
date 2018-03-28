@@ -1,0 +1,822 @@
+<?xml version='1.0'?>
+<SENT-FEATURE>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=218912%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20021013004161" SNO="1" >
+		<FEATURE N="Length" V="2" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=218912%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20021013004161" SNO="2" >
+		<FEATURE N="Length" V="22" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=218912%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20021013004161" SNO="3" >
+		<FEATURE N="Length" V="23" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=218912%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20021013004161" SNO="4" >
+		<FEATURE N="Length" V="27" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=218912%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20021013004161" SNO="5" >
+		<FEATURE N="Length" V="26" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=218912%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20021013004161" SNO="6" >
+		<FEATURE N="Length" V="8" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=218912%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20021013004161" SNO="7" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=218912%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20021013004161" SNO="8" >
+		<FEATURE N="Length" V="17" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=218912%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20021013004161" SNO="9" >
+		<FEATURE N="Length" V="15" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=218912%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20021013004161" SNO="10" >
+		<FEATURE N="Length" V="8" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=218912%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20021013004161" SNO="11" >
+		<FEATURE N="Length" V="22" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=218912%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20021013004161" SNO="12" >
+		<FEATURE N="Length" V="20" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=218912%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20021013004161" SNO="13" >
+		<FEATURE N="Length" V="8" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=218912%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20021013004161" SNO="14" >
+		<FEATURE N="Length" V="10" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=218912%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20021013004161" SNO="15" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=218912%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20021013004161" SNO="16" >
+		<FEATURE N="Length" V="37" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=218912%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20021013004161" SNO="17" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=218912%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20021013004161" SNO="18" >
+		<FEATURE N="Length" V="19" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=218912%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20021013004161" SNO="19" >
+		<FEATURE N="Length" V="27" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=218912%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20021013004161" SNO="20" >
+		<FEATURE N="Length" V="18" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=218912%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20021013004161" SNO="21" >
+		<FEATURE N="Length" V="18" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=218912%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20021013004161" SNO="22" >
+		<FEATURE N="Length" V="12" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=218912%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20021013004161" SNO="23" >
+		<FEATURE N="Length" V="31" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=218912%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20021013004161" SNO="24" >
+		<FEATURE N="Length" V="24" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=218912%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20021013004161" SNO="25" >
+		<FEATURE N="Length" V="2" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161" SNO="1" >
+		<FEATURE N="Length" V="7" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161" SNO="2" >
+		<FEATURE N="Length" V="19" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161" SNO="3" >
+		<FEATURE N="Length" V="10" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161" SNO="4" >
+		<FEATURE N="Length" V="34" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161" SNO="5" >
+		<FEATURE N="Length" V="5" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161" SNO="6" >
+		<FEATURE N="Length" V="15" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161" SNO="7" >
+		<FEATURE N="Length" V="15" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161" SNO="8" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161" SNO="9" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161" SNO="10" >
+		<FEATURE N="Length" V="15" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161" SNO="11" >
+		<FEATURE N="Length" V="27" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161" SNO="12" >
+		<FEATURE N="Length" V="12" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161" SNO="13" >
+		<FEATURE N="Length" V="23" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161" SNO="14" >
+		<FEATURE N="Length" V="21" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161" SNO="15" >
+		<FEATURE N="Length" V="21" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161" SNO="16" >
+		<FEATURE N="Length" V="13" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161" SNO="17" >
+		<FEATURE N="Length" V="40" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161" SNO="18" >
+		<FEATURE N="Length" V="30" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161" SNO="19" >
+		<FEATURE N="Length" V="30" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161" SNO="20" >
+		<FEATURE N="Length" V="13" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161" SNO="21" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161" SNO="22" >
+		<FEATURE N="Length" V="7" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161" SNO="23" >
+		<FEATURE N="Length" V="16" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161" SNO="24" >
+		<FEATURE N="Length" V="19" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161" SNO="25" >
+		<FEATURE N="Length" V="22" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161" SNO="26" >
+		<FEATURE N="Length" V="3" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161" SNO="27" >
+		<FEATURE N="Length" V="16" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="1" >
+		<FEATURE N="Length" V="2" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="2" >
+		<FEATURE N="Length" V="35" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="3" >
+		<FEATURE N="Length" V="31" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="4" >
+		<FEATURE N="Length" V="36" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="5" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="6" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="7" >
+		<FEATURE N="Length" V="20" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="8" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="9" >
+		<FEATURE N="Length" V="9" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="10" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="11" >
+		<FEATURE N="Length" V="25" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="12" >
+		<FEATURE N="Length" V="15" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="13" >
+		<FEATURE N="Length" V="3" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="14" >
+		<FEATURE N="Length" V="7" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="15" >
+		<FEATURE N="Length" V="45" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="16" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="17" >
+		<FEATURE N="Length" V="29" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="18" >
+		<FEATURE N="Length" V="25" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="19" >
+		<FEATURE N="Length" V="22" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="20" >
+		<FEATURE N="Length" V="18" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="21" >
+		<FEATURE N="Length" V="18" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="22" >
+		<FEATURE N="Length" V="12" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="23" >
+		<FEATURE N="Length" V="12" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="24" >
+		<FEATURE N="Length" V="31" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="25" >
+		<FEATURE N="Length" V="4" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="26" >
+		<FEATURE N="Length" V="22" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="27" >
+		<FEATURE N="Length" V="16" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="28" >
+		<FEATURE N="Length" V="4" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="29" >
+		<FEATURE N="Length" V="9" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="30" >
+		<FEATURE N="Length" V="28" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="31" >
+		<FEATURE N="Length" V="17" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="32" >
+		<FEATURE N="Length" V="5" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="33" >
+		<FEATURE N="Length" V="5" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="34" >
+		<FEATURE N="Length" V="2" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="35" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="36" >
+		<FEATURE N="Length" V="3" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="37" >
+		<FEATURE N="Length" V="10" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="38" >
+		<FEATURE N="Length" V="5" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="39" >
+		<FEATURE N="Length" V="3" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="40" >
+		<FEATURE N="Length" V="6" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="41" >
+		<FEATURE N="Length" V="4" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="42" >
+		<FEATURE N="Length" V="3" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161" SNO="43" >
+		<FEATURE N="Length" V="13" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="1" >
+		<FEATURE N="Length" V="4" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="2" >
+		<FEATURE N="Length" V="30" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="3" >
+		<FEATURE N="Length" V="18" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="4" >
+		<FEATURE N="Length" V="6" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="5" >
+		<FEATURE N="Length" V="21" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="6" >
+		<FEATURE N="Length" V="6" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="7" >
+		<FEATURE N="Length" V="10" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="8" >
+		<FEATURE N="Length" V="13" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="9" >
+		<FEATURE N="Length" V="22" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="10" >
+		<FEATURE N="Length" V="7" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="11" >
+		<FEATURE N="Length" V="20" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="12" >
+		<FEATURE N="Length" V="21" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="13" >
+		<FEATURE N="Length" V="15" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="14" >
+		<FEATURE N="Length" V="8" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="15" >
+		<FEATURE N="Length" V="20" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="16" >
+		<FEATURE N="Length" V="23" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="17" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="18" >
+		<FEATURE N="Length" V="17" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="19" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="20" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="21" >
+		<FEATURE N="Length" V="37" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="22" >
+		<FEATURE N="Length" V="28" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="23" >
+		<FEATURE N="Length" V="9" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="24" >
+		<FEATURE N="Length" V="33" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="25" >
+		<FEATURE N="Length" V="18" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="26" >
+		<FEATURE N="Length" V="18" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="27" >
+		<FEATURE N="Length" V="12" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="28" >
+		<FEATURE N="Length" V="12" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="29" >
+		<FEATURE N="Length" V="33" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="30" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="31" >
+		<FEATURE N="Length" V="25" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="32" >
+		<FEATURE N="Length" V="28" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="33" >
+		<FEATURE N="Length" V="13" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="34" >
+		<FEATURE N="Length" V="27" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="35" >
+		<FEATURE N="Length" V="6" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161" SNO="36" >
+		<FEATURE N="Length" V="26" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fprimenews%2Fstory%2F0,1870,148770,00.html?.20021013004161" SNO="1" >
+		<FEATURE N="Length" V="9" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fprimenews%2Fstory%2F0,1870,148770,00.html?.20021013004161" SNO="2" >
+		<FEATURE N="Length" V="33" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fprimenews%2Fstory%2F0,1870,148770,00.html?.20021013004161" SNO="3" >
+		<FEATURE N="Length" V="35" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fprimenews%2Fstory%2F0,1870,148770,00.html?.20021013004161" SNO="4" >
+		<FEATURE N="Length" V="10" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fprimenews%2Fstory%2F0,1870,148770,00.html?.20021013004161" SNO="5" >
+		<FEATURE N="Length" V="31" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fprimenews%2Fstory%2F0,1870,148770,00.html?.20021013004161" SNO="6" >
+		<FEATURE N="Length" V="30" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fprimenews%2Fstory%2F0,1870,148770,00.html?.20021013004161" SNO="7" >
+		<FEATURE N="Length" V="12" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fprimenews%2Fstory%2F0,1870,148770,00.html?.20021013004161" SNO="8" >
+		<FEATURE N="Length" V="18" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fprimenews%2Fstory%2F0,1870,148770,00.html?.20021013004161" SNO="9" >
+		<FEATURE N="Length" V="33" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fprimenews%2Fstory%2F0,1870,148770,00.html?.20021013004161" SNO="10" >
+		<FEATURE N="Length" V="10" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fprimenews%2Fstory%2F0,1870,148770,00.html?.20021013004161" SNO="11" >
+		<FEATURE N="Length" V="37" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fprimenews%2Fstory%2F0,1870,148770,00.html?.20021013004161" SNO="12" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fprimenews%2Fstory%2F0,1870,148770,00.html?.20021013004161" SNO="13" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fprimenews%2Fstory%2F0,1870,148770,00.html?.20021013004161" SNO="14" >
+		<FEATURE N="Length" V="29" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fprimenews%2Fstory%2F0,1870,148770,00.html?.20021013004161" SNO="15" >
+		<FEATURE N="Length" V="7" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fprimenews%2Fstory%2F0,1870,148770,00.html?.20021013004161" SNO="16" >
+		<FEATURE N="Length" V="27" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fprimenews%2Fstory%2F0,1870,148770,00.html?.20021013004161" SNO="17" >
+		<FEATURE N="Length" V="10" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2Fcountry_profiles%2F1023629.stm.20021013004161" SNO="1" >
+		<FEATURE N="Length" V="7" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2Fcountry_profiles%2F1023629.stm.20021013004161" SNO="2" >
+		<FEATURE N="Length" V="15" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2Fcountry_profiles%2F1023629.stm.20021013004161" SNO="3" >
+		<FEATURE N="Length" V="15" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2Fcountry_profiles%2F1023629.stm.20021013004161" SNO="4" >
+		<FEATURE N="Length" V="13" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2Fcountry_profiles%2F1023629.stm.20021013004161" SNO="5" >
+		<FEATURE N="Length" V="10" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2Fcountry_profiles%2F1023629.stm.20021013004161" SNO="6" >
+		<FEATURE N="Length" V="34" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2Fcountry_profiles%2F1023629.stm.20021013004161" SNO="7" >
+		<FEATURE N="Length" V="20" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2Fcountry_profiles%2F1023629.stm.20021013004161" SNO="8" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2Fcountry_profiles%2F1023629.stm.20021013004161" SNO="9" >
+		<FEATURE N="Length" V="23" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2Fcountry_profiles%2F1023629.stm.20021013004161" SNO="10" >
+		<FEATURE N="Length" V="15" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2Fcountry_profiles%2F1023629.stm.20021013004161" SNO="11" >
+		<FEATURE N="Length" V="15" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2Fcountry_profiles%2F1023629.stm.20021013004161" SNO="12" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2Fcountry_profiles%2F1023629.stm.20021013004161" SNO="13" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2Fcountry_profiles%2F1023629.stm.20021013004161" SNO="14" >
+		<FEATURE N="Length" V="10" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2Fcountry_profiles%2F1023629.stm.20021013004161" SNO="15" >
+		<FEATURE N="Length" V="10" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2Fcountry_profiles%2F1023629.stm.20021013004161" SNO="16" >
+		<FEATURE N="Length" V="10" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2Fcountry_profiles%2F1023629.stm.20021013004161" SNO="17" >
+		<FEATURE N="Length" V="17" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2Fcountry_profiles%2F1023629.stm.20021013004161" SNO="18" >
+		<FEATURE N="Length" V="29" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2Fcountry_profiles%2F1023629.stm.20021013004161" SNO="19" >
+		<FEATURE N="Length" V="21" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2Fcountry_profiles%2F1023629.stm.20021013004161" SNO="20" >
+		<FEATURE N="Length" V="17" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2Fcountry_profiles%2F1023629.stm.20021013004161" SNO="21" >
+		<FEATURE N="Length" V="12" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2Fcountry_profiles%2F1023629.stm.20021013004161" SNO="22" >
+		<FEATURE N="Length" V="13" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2Fcountry_profiles%2F1023629.stm.20021013004161" SNO="23" >
+		<FEATURE N="Length" V="9" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2Fcountry_profiles%2F1023629.stm.20021013004161" SNO="24" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2Fcountry_profiles%2F1023629.stm.20021013004161" SNO="25" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2Fcountry_profiles%2F1023629.stm.20021013004161" SNO="26" >
+		<FEATURE N="Length" V="29" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="1" >
+		<FEATURE N="Length" V="12" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="2" >
+		<FEATURE N="Length" V="28" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="3" >
+		<FEATURE N="Length" V="21" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="4" >
+		<FEATURE N="Length" V="6" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="5" >
+		<FEATURE N="Length" V="20" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="6" >
+		<FEATURE N="Length" V="18" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="7" >
+		<FEATURE N="Length" V="39" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="8" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="9" >
+		<FEATURE N="Length" V="19" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="10" >
+		<FEATURE N="Length" V="12" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="11" >
+		<FEATURE N="Length" V="8" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="12" >
+		<FEATURE N="Length" V="27" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="13" >
+		<FEATURE N="Length" V="5" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="14" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="15" >
+		<FEATURE N="Length" V="22" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="16" >
+		<FEATURE N="Length" V="7" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="17" >
+		<FEATURE N="Length" V="3" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="18" >
+		<FEATURE N="Length" V="12" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="19" >
+		<FEATURE N="Length" V="13" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="20" >
+		<FEATURE N="Length" V="27" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="21" >
+		<FEATURE N="Length" V="6" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="22" >
+		<FEATURE N="Length" V="26" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="23" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="24" >
+		<FEATURE N="Length" V="9" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="25" >
+		<FEATURE N="Length" V="25" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="26" >
+		<FEATURE N="Length" V="13" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="27" >
+		<FEATURE N="Length" V="5" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="28" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="29" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="30" >
+		<FEATURE N="Length" V="28" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="31" >
+		<FEATURE N="Length" V="9" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="32" >
+		<FEATURE N="Length" V="3" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="33" >
+		<FEATURE N="Length" V="10" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="34" >
+		<FEATURE N="Length" V="9" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="35" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="36" >
+		<FEATURE N="Length" V="2" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="37" >
+		<FEATURE N="Length" V="12" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="38" >
+		<FEATURE N="Length" V="5" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="39" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="40" >
+		<FEATURE N="Length" V="9" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161" SNO="41" >
+		<FEATURE N="Length" V="7" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2F2322275.stm.20021013004161" SNO="1" >
+		<FEATURE N="Length" V="10" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2F2322275.stm.20021013004161" SNO="2" >
+		<FEATURE N="Length" V="25" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2F2322275.stm.20021013004161" SNO="3" >
+		<FEATURE N="Length" V="23" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2F2322275.stm.20021013004161" SNO="4" >
+		<FEATURE N="Length" V="22" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2F2322275.stm.20021013004161" SNO="5" >
+		<FEATURE N="Length" V="25" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2F2322275.stm.20021013004161" SNO="6" >
+		<FEATURE N="Length" V="23" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2F2322275.stm.20021013004161" SNO="7" >
+		<FEATURE N="Length" V="13" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2F2322275.stm.20021013004161" SNO="8" >
+		<FEATURE N="Length" V="20" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2F2322275.stm.20021013004161" SNO="9" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2F2322275.stm.20021013004161" SNO="10" >
+		<FEATURE N="Length" V="19" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2F2322275.stm.20021013004161" SNO="11" >
+		<FEATURE N="Length" V="32" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2F2322275.stm.20021013004161" SNO="12" >
+		<FEATURE N="Length" V="12" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2F2322275.stm.20021013004161" SNO="13" >
+		<FEATURE N="Length" V="13" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2F2322275.stm.20021013004161" SNO="14" >
+		<FEATURE N="Length" V="8" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2F2322275.stm.20021013004161" SNO="15" >
+		<FEATURE N="Length" V="19" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2F2322275.stm.20021013004161" SNO="16" >
+		<FEATURE N="Length" V="22" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2F2322275.stm.20021013004161" SNO="17" >
+		<FEATURE N="Length" V="20" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2F2322275.stm.20021013004161" SNO="18" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2F2322275.stm.20021013004161" SNO="19" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2F2322275.stm.20021013004161" SNO="20" >
+		<FEATURE N="Length" V="15" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2F2322275.stm.20021013004161" SNO="21" >
+		<FEATURE N="Length" V="12" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="1" >
+		<FEATURE N="Length" V="10" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="2" >
+		<FEATURE N="Length" V="26" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="3" >
+		<FEATURE N="Length" V="18" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="4" >
+		<FEATURE N="Length" V="19" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="5" >
+		<FEATURE N="Length" V="9" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="6" >
+		<FEATURE N="Length" V="24" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="7" >
+		<FEATURE N="Length" V="29" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="8" >
+		<FEATURE N="Length" V="16" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="9" >
+		<FEATURE N="Length" V="13" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="10" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="11" >
+		<FEATURE N="Length" V="18" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="12" >
+		<FEATURE N="Length" V="39" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="13" >
+		<FEATURE N="Length" V="8" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="14" >
+		<FEATURE N="Length" V="7" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="15" >
+		<FEATURE N="Length" V="28" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="16" >
+		<FEATURE N="Length" V="3" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="17" >
+		<FEATURE N="Length" V="10" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="18" >
+		<FEATURE N="Length" V="10" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="19" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="20" >
+		<FEATURE N="Length" V="22" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="21" >
+		<FEATURE N="Length" V="26" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="22" >
+		<FEATURE N="Length" V="25" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="23" >
+		<FEATURE N="Length" V="30" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="24" >
+		<FEATURE N="Length" V="30" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="25" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="26" >
+		<FEATURE N="Length" V="19" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="27" >
+		<FEATURE N="Length" V="3" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="28" >
+		<FEATURE N="Length" V="3" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="29" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="30" >
+		<FEATURE N="Length" V="9" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="31" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="32" >
+		<FEATURE N="Length" V="2" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="33" >
+		<FEATURE N="Length" V="12" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="34" >
+		<FEATURE N="Length" V="5" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="35" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="36" >
+		<FEATURE N="Length" V="9" />
+	</S>
+	<S DID="http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161" SNO="37" >
+		<FEATURE N="Length" V="7" />
+	</S>
+</SENT-FEATURE>

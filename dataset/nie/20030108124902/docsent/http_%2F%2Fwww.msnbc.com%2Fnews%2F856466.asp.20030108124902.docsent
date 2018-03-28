@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<!DOCTYPE DOCSENT SYSTEM '/clair2/projects/nie/nie3/dtd/docsent.dtd'>
+<DOCSENT DID='http:%2F%2Fwww.msnbc.com%2Fnews%2F856466.asp.20030108124902'>
+    <HEAD>
+        <PDATE>0</PDATE>
+    </HEAD>
+    <BODY>
+        <HEADLINE>
+            <S SNO='1' PAR='1' RSNT='1'>
+                OPEC to meet as oil prices surge
+            </S>
+        </HEADLINE>
+        <TEXT>
+            <S SNO='2' PAR='2' RSNT='1'>
+                OPEC to meet as oil prices surge
+            </S>
+            <S SNO='3' PAR='3' RSNT='1'>
+                DUBAI/KUWAIT, Jan 8    OPEC producers on Wednesday called an emergency weekend meeting to decide how much more crude to pump to prevent a long-running strike in Venezuela and a looming war in Iraq causing an oil price shock.
+            </S>
+            <S SNO='4' PAR='3' RSNT='2'>
+                The Organization of the Petroleum Exporting Countries said oil ministers will meet on January 12 in Vienna after a 25 percent rise in prices in the past two months.
+            </S>
+            <S SNO='5' PAR='4' RSNT='1'>
+                Shippers and oil company sources said Riyadh already has lined up more crude sales to the United States, Venezuela s largest customer.
+            </S>
+        </TEXT>
+    </BODY>
+</DOCSENT>

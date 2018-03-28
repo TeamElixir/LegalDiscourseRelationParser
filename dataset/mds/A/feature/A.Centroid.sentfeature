@@ -1,0 +1,78 @@
+<?xml version='1.0'?>
+<SENT-FEATURE>
+	<S DID="A1" SNO="1" >
+		<FEATURE N="Centroid" V="0.939058331691213" />
+	</S>
+	<S DID="A1" SNO="2" >
+		<FEATURE N="Centroid" V="0.924287510437136" />
+	</S>
+	<S DID="A1" SNO="3" >
+		<FEATURE N="Centroid" V="0.342457936025398" />
+	</S>
+	<S DID="A1" SNO="4" >
+		<FEATURE N="Centroid" V="0.425512322605688" />
+	</S>
+	<S DID="A1" SNO="5" >
+		<FEATURE N="Centroid" V="0.123643305381562" />
+	</S>
+	<S DID="A1" SNO="6" >
+		<FEATURE N="Centroid" V="0.457915053100118" />
+	</S>
+	<S DID="A1" SNO="7" >
+		<FEATURE N="Centroid" V="0.405956000936508" />
+	</S>
+	<S DID="A1" SNO="8" >
+		<FEATURE N="Centroid" V="0.173832322866636" />
+	</S>
+	<S DID="A1" SNO="9" >
+		<FEATURE N="Centroid" V="0.481799546053281" />
+	</S>
+	<S DID="A1" SNO="10" >
+		<FEATURE N="Centroid" V="1.000000000000000" />
+	</S>
+	<S DID="A1" SNO="11" >
+		<FEATURE N="Centroid" V="0.125393537338088" />
+	</S>
+	<S DID="A1" SNO="12" >
+		<FEATURE N="Centroid" V="0.130925656132605" />
+	</S>
+	<S DID="A2" SNO="1" >
+		<FEATURE N="Centroid" V="0.962488506975950" />
+	</S>
+	<S DID="A2" SNO="2" >
+		<FEATURE N="Centroid" V="0.477058755411710" />
+	</S>
+	<S DID="A2" SNO="3" >
+		<FEATURE N="Centroid" V="0.762541060873596" />
+	</S>
+	<S DID="A2" SNO="4" >
+		<FEATURE N="Centroid" V="0.545765220336337" />
+	</S>
+	<S DID="A2" SNO="5" >
+		<FEATURE N="Centroid" V="0.884023050407688" />
+	</S>
+	<S DID="A2" SNO="6" >
+		<FEATURE N="Centroid" V="0.181008819396481" />
+	</S>
+	<S DID="A2" SNO="7" >
+		<FEATURE N="Centroid" V="0.188282625337539" />
+	</S>
+	<S DID="A2" SNO="8" >
+		<FEATURE N="Centroid" V="0.099978096377771" />
+	</S>
+	<S DID="A2" SNO="9" >
+		<FEATURE N="Centroid" V="0.382249760436522" />
+	</S>
+	<S DID="A2" SNO="10" >
+		<FEATURE N="Centroid" V="0.784451357121394" />
+	</S>
+	<S DID="A2" SNO="11" >
+		<FEATURE N="Centroid" V="0.511821009540118" />
+	</S>
+	<S DID="A2" SNO="12" >
+		<FEATURE N="Centroid" V="0.528062509290858" />
+	</S>
+	<S DID="A2" SNO="13" >
+		<FEATURE N="Centroid" V="0.416434016306394" />
+	</S>
+</SENT-FEATURE>

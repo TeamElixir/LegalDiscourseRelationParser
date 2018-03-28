@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE EXTRACT SYSTEM '/clair2/projects/nie/nie3/dtd/cluster.dtd'>
+<CLUSTER LANG='ENG'>
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2F2322275.stm.20021013004161' />
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2Fcountry_profiles%2F1023629.stm.20021013004161' />
+	<D DID='http:%2F%2Fstraitstimes.asia1.com.sg%2Fprimenews%2Fstory%2F0,1870,148770,00.html?.20021013004161' />
+	<D DID='http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F021012%2Fw101230.html.20021013004161' />
+	<D DID='http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,65500,00.html.20021013004161' />
+	<D DID='http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Ffinland.bomb.ap%2Findex.html.20021013004161' />
+	<D DID='http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F12%2Fhelsinki.explosion%2Findex.html.20021013004161' />
+	<D DID='http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=218912%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20021013004161' />
+	<D DID='http:%2F%2Fwww.msnbc.com%2Fnews%2F820467.asp?0si=-.20021013004161' />
+</CLUSTER>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE EXTRACT SYSTEM "/clair/tools/mead/dtd/extract.dtd">
+
+<EXTRACT QID="20030131004265" LANG="ENG" COMPRESSION="10" SYSTEM="9-1-0.5-1-novelty-0.9-10pct" RUN="Wed Nov 19 15:10:57 2003">
+<S ORDER="1" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fbusiness%2F2708311.stm.20030131004265" SNO="2" />
+<S ORDER="2" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2708961.stm.20030131004265" SNO="2" />
+<S ORDER="3" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2708961.stm.20030131004265" SNO="4" />
+<S ORDER="4" DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169329,00.html?.20030131004265" SNO="2" />
+<S ORDER="5" DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169329,00.html?.20030131004265" SNO="3" />
+<S ORDER="6" DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169329,00.html?.20030131004265" SNO="4" />
+<S ORDER="7" DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169329,00.html?.20030131004265" SNO="5" />
+<S ORDER="8" DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169329,00.html?.20030131004265" SNO="8" />
+<S ORDER="9" DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169329,00.html?.20030131004265" SNO="13" />
+<S ORDER="10" DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169380,00.html?.20030131004265" SNO="2" />
+</EXTRACT>

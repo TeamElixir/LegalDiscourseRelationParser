@@ -1,0 +1,999 @@
+<?xml version='1.0'?>
+<SENT-FEATURE>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="1" >
+		<FEATURE N="Length" V="5" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="2" >
+		<FEATURE N="Length" V="24" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="3" >
+		<FEATURE N="Length" V="25" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="4" >
+		<FEATURE N="Length" V="16" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="5" >
+		<FEATURE N="Length" V="13" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="6" >
+		<FEATURE N="Length" V="19" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="7" >
+		<FEATURE N="Length" V="15" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="8" >
+		<FEATURE N="Length" V="36" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="9" >
+		<FEATURE N="Length" V="34" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="10" >
+		<FEATURE N="Length" V="13" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="11" >
+		<FEATURE N="Length" V="32" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="12" >
+		<FEATURE N="Length" V="33" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="13" >
+		<FEATURE N="Length" V="23" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="14" >
+		<FEATURE N="Length" V="18" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="15" >
+		<FEATURE N="Length" V="24" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="16" >
+		<FEATURE N="Length" V="17" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="17" >
+		<FEATURE N="Length" V="21" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="18" >
+		<FEATURE N="Length" V="24" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="19" >
+		<FEATURE N="Length" V="17" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="20" >
+		<FEATURE N="Length" V="42" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="21" >
+		<FEATURE N="Length" V="19" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="22" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="23" >
+		<FEATURE N="Length" V="29" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="24" >
+		<FEATURE N="Length" V="16" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="25" >
+		<FEATURE N="Length" V="27" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="26" >
+		<FEATURE N="Length" V="20" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="27" >
+		<FEATURE N="Length" V="13" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="28" >
+		<FEATURE N="Length" V="16" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="29" >
+		<FEATURE N="Length" V="20" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="30" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="31" >
+		<FEATURE N="Length" V="7" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="32" >
+		<FEATURE N="Length" V="13" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="33" >
+		<FEATURE N="Length" V="27" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="34" >
+		<FEATURE N="Length" V="32" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="35" >
+		<FEATURE N="Length" V="21" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934" SNO="36" >
+		<FEATURE N="Length" V="20" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2973803.stm.20030425094934" SNO="1" >
+		<FEATURE N="Length" V="4" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2973803.stm.20030425094934" SNO="2" >
+		<FEATURE N="Length" V="26" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2973803.stm.20030425094934" SNO="3" >
+		<FEATURE N="Length" V="19" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2973803.stm.20030425094934" SNO="4" >
+		<FEATURE N="Length" V="13" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2973803.stm.20030425094934" SNO="5" >
+		<FEATURE N="Length" V="16" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2973803.stm.20030425094934" SNO="6" >
+		<FEATURE N="Length" V="19" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2973803.stm.20030425094934" SNO="7" >
+		<FEATURE N="Length" V="23" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2973803.stm.20030425094934" SNO="8" >
+		<FEATURE N="Length" V="28" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2973803.stm.20030425094934" SNO="9" >
+		<FEATURE N="Length" V="6" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2973803.stm.20030425094934" SNO="10" >
+		<FEATURE N="Length" V="5" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2973803.stm.20030425094934" SNO="11" >
+		<FEATURE N="Length" V="26" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2973803.stm.20030425094934" SNO="12" >
+		<FEATURE N="Length" V="27" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2973803.stm.20030425094934" SNO="13" >
+		<FEATURE N="Length" V="31" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2973803.stm.20030425094934" SNO="14" >
+		<FEATURE N="Length" V="13" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2973803.stm.20030425094934" SNO="15" >
+		<FEATURE N="Length" V="34" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2973803.stm.20030425094934" SNO="16" >
+		<FEATURE N="Length" V="32" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2973803.stm.20030425094934" SNO="17" >
+		<FEATURE N="Length" V="29" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2973803.stm.20030425094934" SNO="18" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2973803.stm.20030425094934" SNO="19" >
+		<FEATURE N="Length" V="20" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2973803.stm.20030425094934" SNO="20" >
+		<FEATURE N="Length" V="13" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2973803.stm.20030425094934" SNO="21" >
+		<FEATURE N="Length" V="21" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2973803.stm.20030425094934" SNO="22" >
+		<FEATURE N="Length" V="28" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2973803.stm.20030425094934" SNO="23" >
+		<FEATURE N="Length" V="22" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2973803.stm.20030425094934" SNO="24" >
+		<FEATURE N="Length" V="17" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2973803.stm.20030425094934" SNO="25" >
+		<FEATURE N="Length" V="23" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="31" >
+		<FEATURE N="Length" V="17" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="1" >
+		<FEATURE N="Length" V="6" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="2" >
+		<FEATURE N="Length" V="24" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="3" >
+		<FEATURE N="Length" V="22" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="4" >
+		<FEATURE N="Length" V="15" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="5" >
+		<FEATURE N="Length" V="22" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="6" >
+		<FEATURE N="Length" V="31" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="7" >
+		<FEATURE N="Length" V="40" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="8" >
+		<FEATURE N="Length" V="26" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="9" >
+		<FEATURE N="Length" V="22" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="10" >
+		<FEATURE N="Length" V="29" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="11" >
+		<FEATURE N="Length" V="23" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="12" >
+		<FEATURE N="Length" V="20" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="13" >
+		<FEATURE N="Length" V="27" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="14" >
+		<FEATURE N="Length" V="17" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="15" >
+		<FEATURE N="Length" V="33" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="16" >
+		<FEATURE N="Length" V="27" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="17" >
+		<FEATURE N="Length" V="28" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="18" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="19" >
+		<FEATURE N="Length" V="29" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="20" >
+		<FEATURE N="Length" V="24" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="21" >
+		<FEATURE N="Length" V="32" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="22" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="23" >
+		<FEATURE N="Length" V="29" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="24" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="25" >
+		<FEATURE N="Length" V="13" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="26" >
+		<FEATURE N="Length" V="37" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="27" >
+		<FEATURE N="Length" V="19" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="28" >
+		<FEATURE N="Length" V="24" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="29" >
+		<FEATURE N="Length" V="16" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="30" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934" SNO="31" >
+		<FEATURE N="Length" V="17" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2973415.stm.20030425094934" SNO="1" >
+		<FEATURE N="Length" V="3" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2973415.stm.20030425094934" SNO="2" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2973415.stm.20030425094934" SNO="3" >
+		<FEATURE N="Length" V="23" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2973415.stm.20030425094934" SNO="4" >
+		<FEATURE N="Length" V="15" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2973415.stm.20030425094934" SNO="5" >
+		<FEATURE N="Length" V="32" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2973415.stm.20030425094934" SNO="6" >
+		<FEATURE N="Length" V="15" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2973415.stm.20030425094934" SNO="7" >
+		<FEATURE N="Length" V="16" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2973415.stm.20030425094934" SNO="8" >
+		<FEATURE N="Length" V="9" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2973415.stm.20030425094934" SNO="9" >
+		<FEATURE N="Length" V="13" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2973415.stm.20030425094934" SNO="10" >
+		<FEATURE N="Length" V="16" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2973415.stm.20030425094934" SNO="11" >
+		<FEATURE N="Length" V="26" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2973415.stm.20030425094934" SNO="12" >
+		<FEATURE N="Length" V="6" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2973415.stm.20030425094934" SNO="13" >
+		<FEATURE N="Length" V="12" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2973415.stm.20030425094934" SNO="14" >
+		<FEATURE N="Length" V="6" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2973415.stm.20030425094934" SNO="15" >
+		<FEATURE N="Length" V="10" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2973415.stm.20030425094934" SNO="16" >
+		<FEATURE N="Length" V="20" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="29" >
+		<FEATURE N="Length" V="21" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="1" >
+		<FEATURE N="Length" V="3" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="2" >
+		<FEATURE N="Length" V="17" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="3" >
+		<FEATURE N="Length" V="12" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="4" >
+		<FEATURE N="Length" V="21" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="5" >
+		<FEATURE N="Length" V="17" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="6" >
+		<FEATURE N="Length" V="26" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="7" >
+		<FEATURE N="Length" V="16" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="8" >
+		<FEATURE N="Length" V="16" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="9" >
+		<FEATURE N="Length" V="32" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="10" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="11" >
+		<FEATURE N="Length" V="12" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="12" >
+		<FEATURE N="Length" V="4" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="13" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="14" >
+		<FEATURE N="Length" V="16" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="15" >
+		<FEATURE N="Length" V="23" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="16" >
+		<FEATURE N="Length" V="8" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="17" >
+		<FEATURE N="Length" V="27" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="18" >
+		<FEATURE N="Length" V="17" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="19" >
+		<FEATURE N="Length" V="16" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="20" >
+		<FEATURE N="Length" V="31" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="21" >
+		<FEATURE N="Length" V="17" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="22" >
+		<FEATURE N="Length" V="23" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="23" >
+		<FEATURE N="Length" V="22" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="24" >
+		<FEATURE N="Length" V="12" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="25" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="26" >
+		<FEATURE N="Length" V="13" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="27" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="28" >
+		<FEATURE N="Length" V="24" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="29" >
+		<FEATURE N="Length" V="33" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="30" >
+		<FEATURE N="Length" V="13" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="31" >
+		<FEATURE N="Length" V="34" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="32" >
+		<FEATURE N="Length" V="15" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="33" >
+		<FEATURE N="Length" V="15" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="34" >
+		<FEATURE N="Length" V="16" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="35" >
+		<FEATURE N="Length" V="20" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="36" >
+		<FEATURE N="Length" V="31" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="37" >
+		<FEATURE N="Length" V="12" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934" SNO="38" >
+		<FEATURE N="Length" V="10" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="1" >
+		<FEATURE N="Length" V="4" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="2" >
+		<FEATURE N="Length" V="25" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="3" >
+		<FEATURE N="Length" V="25" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="4" >
+		<FEATURE N="Length" V="30" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="5" >
+		<FEATURE N="Length" V="30" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="6" >
+		<FEATURE N="Length" V="22" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="7" >
+		<FEATURE N="Length" V="24" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="8" >
+		<FEATURE N="Length" V="27" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="9" >
+		<FEATURE N="Length" V="10" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="10" >
+		<FEATURE N="Length" V="28" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="11" >
+		<FEATURE N="Length" V="24" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="12" >
+		<FEATURE N="Length" V="10" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="13" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="14" >
+		<FEATURE N="Length" V="22" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="15" >
+		<FEATURE N="Length" V="27" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="16" >
+		<FEATURE N="Length" V="3" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="17" >
+		<FEATURE N="Length" V="5" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="18" >
+		<FEATURE N="Length" V="10" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="19" >
+		<FEATURE N="Length" V="17" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="20" >
+		<FEATURE N="Length" V="7" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="21" >
+		<FEATURE N="Length" V="12" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="22" >
+		<FEATURE N="Length" V="19" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="23" >
+		<FEATURE N="Length" V="19" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="24" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="25" >
+		<FEATURE N="Length" V="12" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="26" >
+		<FEATURE N="Length" V="28" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="27" >
+		<FEATURE N="Length" V="21" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="28" >
+		<FEATURE N="Length" V="35" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="29" >
+		<FEATURE N="Length" V="28" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="30" >
+		<FEATURE N="Length" V="38" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="31" >
+		<FEATURE N="Length" V="37" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="38" >
+		<FEATURE N="Length" V="20" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="1" >
+		<FEATURE N="Length" V="3" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="2" >
+		<FEATURE N="Length" V="32" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="3" >
+		<FEATURE N="Length" V="2" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="4" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="5" >
+		<FEATURE N="Length" V="9" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="6" >
+		<FEATURE N="Length" V="20" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="7" >
+		<FEATURE N="Length" V="24" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="8" >
+		<FEATURE N="Length" V="20" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="9" >
+		<FEATURE N="Length" V="7" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="10" >
+		<FEATURE N="Length" V="18" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="11" >
+		<FEATURE N="Length" V="2" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="12" >
+		<FEATURE N="Length" V="29" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="13" >
+		<FEATURE N="Length" V="19" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="14" >
+		<FEATURE N="Length" V="23" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="15" >
+		<FEATURE N="Length" V="1" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="16" >
+		<FEATURE N="Length" V="26" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="17" >
+		<FEATURE N="Length" V="20" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="18" >
+		<FEATURE N="Length" V="2" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="19" >
+		<FEATURE N="Length" V="16" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="20" >
+		<FEATURE N="Length" V="29" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="21" >
+		<FEATURE N="Length" V="27" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="22" >
+		<FEATURE N="Length" V="1" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="23" >
+		<FEATURE N="Length" V="1" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="24" >
+		<FEATURE N="Length" V="1" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="25" >
+		<FEATURE N="Length" V="2" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="26" >
+		<FEATURE N="Length" V="15" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="27" >
+		<FEATURE N="Length" V="30" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="28" >
+		<FEATURE N="Length" V="12" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="29" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="30" >
+		<FEATURE N="Length" V="12" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="31" >
+		<FEATURE N="Length" V="13" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="32" >
+		<FEATURE N="Length" V="15" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="33" >
+		<FEATURE N="Length" V="27" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="34" >
+		<FEATURE N="Length" V="21" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="35" >
+		<FEATURE N="Length" V="18" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="36" >
+		<FEATURE N="Length" V="20" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="37" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934" SNO="38" >
+		<FEATURE N="Length" V="20" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975601.stm.20030425094934" SNO="1" >
+		<FEATURE N="Length" V="6" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975601.stm.20030425094934" SNO="2" >
+		<FEATURE N="Length" V="24" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975601.stm.20030425094934" SNO="3" >
+		<FEATURE N="Length" V="16" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975601.stm.20030425094934" SNO="4" >
+		<FEATURE N="Length" V="20" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975601.stm.20030425094934" SNO="5" >
+		<FEATURE N="Length" V="18" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975601.stm.20030425094934" SNO="6" >
+		<FEATURE N="Length" V="25" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975601.stm.20030425094934" SNO="7" >
+		<FEATURE N="Length" V="22" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975601.stm.20030425094934" SNO="8" >
+		<FEATURE N="Length" V="38" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975601.stm.20030425094934" SNO="9" >
+		<FEATURE N="Length" V="13" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975601.stm.20030425094934" SNO="10" >
+		<FEATURE N="Length" V="18" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975601.stm.20030425094934" SNO="11" >
+		<FEATURE N="Length" V="15" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975601.stm.20030425094934" SNO="12" >
+		<FEATURE N="Length" V="17" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975601.stm.20030425094934" SNO="13" >
+		<FEATURE N="Length" V="9" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975601.stm.20030425094934" SNO="14" >
+		<FEATURE N="Length" V="25" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975601.stm.20030425094934" SNO="15" >
+		<FEATURE N="Length" V="18" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975601.stm.20030425094934" SNO="16" >
+		<FEATURE N="Length" V="23" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975601.stm.20030425094934" SNO="17" >
+		<FEATURE N="Length" V="9" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975601.stm.20030425094934" SNO="18" >
+		<FEATURE N="Length" V="16" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975601.stm.20030425094934" SNO="19" >
+		<FEATURE N="Length" V="11" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975601.stm.20030425094934" SNO="20" >
+		<FEATURE N="Length" V="27" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Length" V="0" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934" SNO="31" >
+		<FEATURE N="Length" V="37" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="1" >
+		<FEATURE N="Length" V="5" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="2" >
+		<FEATURE N="Length" V="37" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="3" >
+		<FEATURE N="Length" V="19" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="4" >
+		<FEATURE N="Length" V="20" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="5" >
+		<FEATURE N="Length" V="12" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="6" >
+		<FEATURE N="Length" V="25" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="7" >
+		<FEATURE N="Length" V="10" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="8" >
+		<FEATURE N="Length" V="25" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="9" >
+		<FEATURE N="Length" V="9" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="10" >
+		<FEATURE N="Length" V="18" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="11" >
+		<FEATURE N="Length" V="24" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="12" >
+		<FEATURE N="Length" V="19" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="13" >
+		<FEATURE N="Length" V="25" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="14" >
+		<FEATURE N="Length" V="20" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="15" >
+		<FEATURE N="Length" V="21" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="16" >
+		<FEATURE N="Length" V="24" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="17" >
+		<FEATURE N="Length" V="30" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="18" >
+		<FEATURE N="Length" V="15" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="19" >
+		<FEATURE N="Length" V="8" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="20" >
+		<FEATURE N="Length" V="20" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="21" >
+		<FEATURE N="Length" V="20" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="22" >
+		<FEATURE N="Length" V="7" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="23" >
+		<FEATURE N="Length" V="12" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="24" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="25" >
+		<FEATURE N="Length" V="14" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="26" >
+		<FEATURE N="Length" V="17" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="27" >
+		<FEATURE N="Length" V="36" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="28" >
+		<FEATURE N="Length" V="27" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934" SNO="29" >
+		<FEATURE N="Length" V="21" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="30" >
+		<FEATURE N="Length" V="9" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="1" >
+		<FEATURE N="Length" V="6" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="2" >
+		<FEATURE N="Length" V="26" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="3" >
+		<FEATURE N="Length" V="23" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="4" >
+		<FEATURE N="Length" V="27" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="5" >
+		<FEATURE N="Length" V="32" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="6" >
+		<FEATURE N="Length" V="19" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="7" >
+		<FEATURE N="Length" V="13" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="8" >
+		<FEATURE N="Length" V="28" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="9" >
+		<FEATURE N="Length" V="35" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="10" >
+		<FEATURE N="Length" V="18" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="11" >
+		<FEATURE N="Length" V="22" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="12" >
+		<FEATURE N="Length" V="21" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="13" >
+		<FEATURE N="Length" V="18" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="14" >
+		<FEATURE N="Length" V="10" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="15" >
+		<FEATURE N="Length" V="19" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="16" >
+		<FEATURE N="Length" V="17" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="17" >
+		<FEATURE N="Length" V="27" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="18" >
+		<FEATURE N="Length" V="7" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="19" >
+		<FEATURE N="Length" V="23" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="20" >
+		<FEATURE N="Length" V="25" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="21" >
+		<FEATURE N="Length" V="13" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="22" >
+		<FEATURE N="Length" V="27" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="23" >
+		<FEATURE N="Length" V="12" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="24" >
+		<FEATURE N="Length" V="10" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="25" >
+		<FEATURE N="Length" V="7" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="26" >
+		<FEATURE N="Length" V="5" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="27" >
+		<FEATURE N="Length" V="5" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="28" >
+		<FEATURE N="Length" V="16" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="29" >
+		<FEATURE N="Length" V="16" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934" SNO="30" >
+		<FEATURE N="Length" V="9" />
+	</S>
+</SENT-FEATURE>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE EXTRACT SYSTEM '/clair2/projects/nie/nie3/dtd/cluster.dtd'>
+<CLUSTER LANG='ENG'>
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fbusiness%2F2635975.stm.20030108124902' />
+	<D DID='http:%2F%2Fwww.msnbc.com%2Fnews%2F855890.asp.20030108124902' />
+	<D DID='http:%2F%2Fwww.msnbc.com%2Fnews%2F854008.asp?cp1=1.20030108124902' />
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fbusiness%2F2616715.stm.20030108124902' />
+	<D DID='http:%2F%2Fwww.msnbc.com%2Fnews%2F856466.asp.20030108124902' />
+</CLUSTER>

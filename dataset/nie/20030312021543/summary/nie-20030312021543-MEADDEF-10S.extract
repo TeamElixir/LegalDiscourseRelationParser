@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE EXTRACT SYSTEM "/clair/tools/mead/dtd/extract.dtd">
+
+<EXTRACT QID="20030312021543" LANG="ENG" COMPRESSION="10" SYSTEM="9-1-0.5-1-novelty-0.9-10pct" RUN="Wed Nov 19 15:19:20 2003">
+<S ORDER="1" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2842093.stm.20030312021543" SNO="2" />
+<S ORDER="2" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2842093.stm.20030312021543" SNO="3" />
+<S ORDER="3" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2842093.stm.20030312021543" SNO="4" />
+<S ORDER="4" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2842093.stm.20030312021543" SNO="5" />
+<S ORDER="5" DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=Politics%26storyId=674104.20030312021543" SNO="5" />
+<S ORDER="6" DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=Politics%26storyId=674104.20030312021543" SNO="6" />
+<S ORDER="7" DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F03%2F11%2Fattack%2Fmain543610.shtml.20030312021543" SNO="1" />
+<S ORDER="8" DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F03%2F11%2Fattack%2Fmain543610.shtml.20030312021543" SNO="3" />
+<S ORDER="9" DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,80823,00.html.20030312021543" SNO="2" />
+<S ORDER="10" DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,80823,00.html.20030312021543" SNO="4" />
+<S ORDER="11" DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,80823,00.html.20030312021543" SNO="6" />
+<S ORDER="12" DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,80823,00.html.20030312021543" SNO="14" />
+<S ORDER="13" DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,80823,00.html.20030312021543" SNO="17" />
+<S ORDER="14" DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F884030.asp?0cv=NB10.20030312021543" SNO="2" />
+<S ORDER="15" DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F884030.asp?0cv=NB10.20030312021543" SNO="19" />
+</EXTRACT>

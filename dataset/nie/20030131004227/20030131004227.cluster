@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE EXTRACT SYSTEM '/clair2/projects/nie/nie3/dtd/cluster.dtd'>
+<CLUSTER LANG='ENG'>
+	<D DID='http:%2F%2Fabcnews.go.com%2Fwire%2FUS%2Fap20030130_2245.html.20030131004227' />
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2707699.stm.20030131004227' />
+	<D DID='http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=Breaking%26storyId=637884.20030131004227' />
+	<D DID='http:%2F%2Fnypost.com%2Fnews%2Fnationalnews%2F67794.htm.20030131004227' />
+	<D DID='http:%2F%2Fstraitstimes.asia1.com.sg%2Fworld%2Fstory%2F0,4386,169364,00.html?.20030131004227' />
+	<D DID='http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fnation%2FBlast_at_plastics_factory_kills_3+.shtml.20030131004227' />
+	<D DID='http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F01%2F29%2Fnational%2Fmain538464.shtml.20030131004227' />
+	<D DID='http:%2F%2Fwww.cnn.com%2F2003%2FUS%2FSouth%2F01%2F30%2Fnc.explosion%2Findex.html.20030131004227' />
+	<D DID='http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,77089,00.html.20030131004227' />
+	<D DID='http:%2F%2Fwww.msnbc.com%2Fnews%2F865980.asp?0si=-.20030131004227' />
+</CLUSTER>

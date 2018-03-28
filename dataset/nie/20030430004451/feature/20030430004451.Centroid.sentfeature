@@ -1,0 +1,1380 @@
+<?xml version='1.0'?>
+<SENT-FEATURE>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FFranks_leads_field_to_become_Army_chief+.shtml.20030430004451" SNO="1" >
+		<FEATURE N="Centroid" V="0.017670547829260" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FFranks_leads_field_to_become_Army_chief+.shtml.20030430004451" SNO="2" >
+		<FEATURE N="Centroid" V="0.006435928745025" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FFranks_leads_field_to_become_Army_chief+.shtml.20030430004451" SNO="3" >
+		<FEATURE N="Centroid" V="0.431781471936399" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FFranks_leads_field_to_become_Army_chief+.shtml.20030430004451" SNO="4" >
+		<FEATURE N="Centroid" V="0.045810418866904" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FFranks_leads_field_to_become_Army_chief+.shtml.20030430004451" SNO="5" >
+		<FEATURE N="Centroid" V="0.066765610891370" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FFranks_leads_field_to_become_Army_chief+.shtml.20030430004451" SNO="6" >
+		<FEATURE N="Centroid" V="0.062722491302968" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FFranks_leads_field_to_become_Army_chief+.shtml.20030430004451" SNO="7" >
+		<FEATURE N="Centroid" V="0.022561593303028" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FFranks_leads_field_to_become_Army_chief+.shtml.20030430004451" SNO="8" >
+		<FEATURE N="Centroid" V="0.092187229097012" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FFranks_leads_field_to_become_Army_chief+.shtml.20030430004451" SNO="9" >
+		<FEATURE N="Centroid" V="0.085127491934337" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FFranks_leads_field_to_become_Army_chief+.shtml.20030430004451" SNO="10" >
+		<FEATURE N="Centroid" V="0.064348410321834" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FFranks_leads_field_to_become_Army_chief+.shtml.20030430004451" SNO="11" >
+		<FEATURE N="Centroid" V="0.024149663829762" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FFranks_leads_field_to_become_Army_chief+.shtml.20030430004451" SNO="12" >
+		<FEATURE N="Centroid" V="0.055501397218373" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FFranks_leads_field_to_become_Army_chief+.shtml.20030430004451" SNO="13" >
+		<FEATURE N="Centroid" V="0.026139970924549" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FFranks_leads_field_to_become_Army_chief+.shtml.20030430004451" SNO="14" >
+		<FEATURE N="Centroid" V="0.046330611826701" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FFranks_leads_field_to_become_Army_chief+.shtml.20030430004451" SNO="15" >
+		<FEATURE N="Centroid" V="0.033927610568055" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FFranks_leads_field_to_become_Army_chief+.shtml.20030430004451" SNO="16" >
+		<FEATURE N="Centroid" V="0.081886381930874" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FFranks_leads_field_to_become_Army_chief+.shtml.20030430004451" SNO="17" >
+		<FEATURE N="Centroid" V="0.024100201941560" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="1" >
+		<FEATURE N="Centroid" V="0.325152400274796" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="2" >
+		<FEATURE N="Centroid" V="0.417685816416353" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="3" >
+		<FEATURE N="Centroid" V="0.152403830668951" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="4" >
+		<FEATURE N="Centroid" V="0.274049869161382" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="5" >
+		<FEATURE N="Centroid" V="0.146279356080889" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="6" >
+		<FEATURE N="Centroid" V="0.173063617009045" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="7" >
+		<FEATURE N="Centroid" V="0.037447629386282" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="8" >
+		<FEATURE N="Centroid" V="0.006717160443853" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="9" >
+		<FEATURE N="Centroid" V="0.147982525706342" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="10" >
+		<FEATURE N="Centroid" V="0.192849747988293" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="11" >
+		<FEATURE N="Centroid" V="0.089919268769541" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="12" >
+		<FEATURE N="Centroid" V="0.126930434778003" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="13" >
+		<FEATURE N="Centroid" V="0.497154491324061" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="14" >
+		<FEATURE N="Centroid" V="0.524743577403711" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="15" >
+		<FEATURE N="Centroid" V="0.331708785983316" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="16" >
+		<FEATURE N="Centroid" V="0.053798350858393" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="17" >
+		<FEATURE N="Centroid" V="0.084891790899882" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="18" >
+		<FEATURE N="Centroid" V="0.167996997375797" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="19" >
+		<FEATURE N="Centroid" V="0.097501895115085" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="20" >
+		<FEATURE N="Centroid" V="0.107754904347275" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="21" >
+		<FEATURE N="Centroid" V="0.244660343315064" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="22" >
+		<FEATURE N="Centroid" V="0.038744340057142" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="23" >
+		<FEATURE N="Centroid" V="0.071661467330341" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="24" >
+		<FEATURE N="Centroid" V="0.160634325418930" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="25" >
+		<FEATURE N="Centroid" V="0.265247120203995" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="26" >
+		<FEATURE N="Centroid" V="0.096062964967718" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="27" >
+		<FEATURE N="Centroid" V="0.028061853466005" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="28" >
+		<FEATURE N="Centroid" V="0.007579762580379" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="29" >
+		<FEATURE N="Centroid" V="0.092929520967103" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="30" >
+		<FEATURE N="Centroid" V="0.442429975677018" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="31" >
+		<FEATURE N="Centroid" V="0.108064435299870" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="32" >
+		<FEATURE N="Centroid" V="0.102576734798523" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="33" >
+		<FEATURE N="Centroid" V="0.143158904428789" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="34" >
+		<FEATURE N="Centroid" V="0.163332343287926" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="35" >
+		<FEATURE N="Centroid" V="0.039717466663192" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="36" >
+		<FEATURE N="Centroid" V="0.192586751146977" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="37" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="38" >
+		<FEATURE N="Centroid" V="0.020491158733061" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="39" >
+		<FEATURE N="Centroid" V="0.014246495916434" />
+	</S>
+	<S DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="40" >
+		<FEATURE N="Centroid" V="0.013188144437414" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="1" >
+		<FEATURE N="Centroid" V="0.248255078773614" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="2" >
+		<FEATURE N="Centroid" V="0.321870454927596" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="3" >
+		<FEATURE N="Centroid" V="0.309572591805431" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="4" >
+		<FEATURE N="Centroid" V="0.014535807602261" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="5" >
+		<FEATURE N="Centroid" V="0.598185859331855" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="6" >
+		<FEATURE N="Centroid" V="0.052536066780168" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="7" >
+		<FEATURE N="Centroid" V="0.318933352201389" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="8" >
+		<FEATURE N="Centroid" V="0.157941658246209" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="9" >
+		<FEATURE N="Centroid" V="0.316458560218374" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="10" >
+		<FEATURE N="Centroid" V="0.150223911698739" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="11" >
+		<FEATURE N="Centroid" V="0.109929260024245" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="12" >
+		<FEATURE N="Centroid" V="0.006754279782584" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="13" >
+		<FEATURE N="Centroid" V="0.080708056803701" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="14" >
+		<FEATURE N="Centroid" V="0.270287490765733" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="15" >
+		<FEATURE N="Centroid" V="0.047290888087206" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="16" >
+		<FEATURE N="Centroid" V="0.404452385500614" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="17" >
+		<FEATURE N="Centroid" V="0.379641634220902" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="18" >
+		<FEATURE N="Centroid" V="0.027821292128540" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="19" >
+		<FEATURE N="Centroid" V="0.302653087321730" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="20" >
+		<FEATURE N="Centroid" V="0.426160211797207" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="21" >
+		<FEATURE N="Centroid" V="0.454975188176060" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="22" >
+		<FEATURE N="Centroid" V="0.305888666405758" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="23" >
+		<FEATURE N="Centroid" V="0.041819666519839" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="24" >
+		<FEATURE N="Centroid" V="0.230481384169357" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="25" >
+		<FEATURE N="Centroid" V="0.421813515645263" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="26" >
+		<FEATURE N="Centroid" V="0.140666031004853" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2978661.stm.20030430004451" SNO="1" >
+		<FEATURE N="Centroid" V="0.053297313442205" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2978661.stm.20030430004451" SNO="2" >
+		<FEATURE N="Centroid" V="0.049183577520684" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2978661.stm.20030430004451" SNO="3" >
+		<FEATURE N="Centroid" V="0.086355827565028" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2978661.stm.20030430004451" SNO="4" >
+		<FEATURE N="Centroid" V="0.167120182872357" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2978661.stm.20030430004451" SNO="5" >
+		<FEATURE N="Centroid" V="0.074710462642836" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2978661.stm.20030430004451" SNO="6" >
+		<FEATURE N="Centroid" V="0.084209412762569" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2978661.stm.20030430004451" SNO="7" >
+		<FEATURE N="Centroid" V="0.012209514480349" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2978661.stm.20030430004451" SNO="8" >
+		<FEATURE N="Centroid" V="0.008220032605567" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2978661.stm.20030430004451" SNO="9" >
+		<FEATURE N="Centroid" V="0.014624866761106" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2978661.stm.20030430004451" SNO="10" >
+		<FEATURE N="Centroid" V="0.024870938006852" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2978661.stm.20030430004451" SNO="11" >
+		<FEATURE N="Centroid" V="0.034280775969818" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2978661.stm.20030430004451" SNO="12" >
+		<FEATURE N="Centroid" V="0.059071139118943" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2978661.stm.20030430004451" SNO="13" >
+		<FEATURE N="Centroid" V="0.038883616900392" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2978661.stm.20030430004451" SNO="14" >
+		<FEATURE N="Centroid" V="0.021884622224860" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2978661.stm.20030430004451" SNO="15" >
+		<FEATURE N="Centroid" V="0.028176018729643" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2978661.stm.20030430004451" SNO="16" >
+		<FEATURE N="Centroid" V="0.007083387197239" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2978661.stm.20030430004451" SNO="17" >
+		<FEATURE N="Centroid" V="0.013643647790196" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2978661.stm.20030430004451" SNO="18" >
+		<FEATURE N="Centroid" V="0.019142557443031" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2978661.stm.20030430004451" SNO="19" >
+		<FEATURE N="Centroid" V="0.149222288724476" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2978661.stm.20030430004451" SNO="20" >
+		<FEATURE N="Centroid" V="0.085826270992559" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2978661.stm.20030430004451" SNO="21" >
+		<FEATURE N="Centroid" V="0.034169477763246" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2978661.stm.20030430004451" SNO="22" >
+		<FEATURE N="Centroid" V="0.026429664490563" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2978661.stm.20030430004451" SNO="23" >
+		<FEATURE N="Centroid" V="0.115203114965591" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="1" >
+		<FEATURE N="Centroid" V="0.378548421200382" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="2" >
+		<FEATURE N="Centroid" V="0.304031763176447" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="3" >
+		<FEATURE N="Centroid" V="0.284044940505709" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="4" >
+		<FEATURE N="Centroid" V="0.516365433704956" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="5" >
+		<FEATURE N="Centroid" V="0.517943202581424" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="6" >
+		<FEATURE N="Centroid" V="0.256273770322672" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="7" >
+		<FEATURE N="Centroid" V="0.702167071869257" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="8" >
+		<FEATURE N="Centroid" V="0.235115484652954" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="9" >
+		<FEATURE N="Centroid" V="0.306257797534102" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="10" >
+		<FEATURE N="Centroid" V="0.336232007760587" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="11" >
+		<FEATURE N="Centroid" V="0.030038650757967" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="12" >
+		<FEATURE N="Centroid" V="0.290321937694204" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="13" >
+		<FEATURE N="Centroid" V="0.045810418866904" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="14" >
+		<FEATURE N="Centroid" V="0.947778926783817" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="15" >
+		<FEATURE N="Centroid" V="0.315088689243991" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="16" >
+		<FEATURE N="Centroid" V="0.257064803061523" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="17" >
+		<FEATURE N="Centroid" V="1.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="18" >
+		<FEATURE N="Centroid" V="0.279316508743837" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="19" >
+		<FEATURE N="Centroid" V="0.360023194717819" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="20" >
+		<FEATURE N="Centroid" V="0.017819200831810" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="21" >
+		<FEATURE N="Centroid" V="0.265753856417717" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="22" >
+		<FEATURE N="Centroid" V="0.194717012792024" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="23" >
+		<FEATURE N="Centroid" V="0.224249326391925" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="24" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="25" >
+		<FEATURE N="Centroid" V="0.277583490824538" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="26" >
+		<FEATURE N="Centroid" V="0.111827067005366" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="27" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="28" >
+		<FEATURE N="Centroid" V="0.416580939225781" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="29" >
+		<FEATURE N="Centroid" V="0.222723294316903" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="30" >
+		<FEATURE N="Centroid" V="0.007144258664551" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="31" >
+		<FEATURE N="Centroid" V="0.418254918782838" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="32" >
+		<FEATURE N="Centroid" V="0.019819436819076" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="33" >
+		<FEATURE N="Centroid" V="0.230779816790941" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="34" >
+		<FEATURE N="Centroid" V="0.164524427346794" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="35" >
+		<FEATURE N="Centroid" V="0.056230363032298" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="36" >
+		<FEATURE N="Centroid" V="0.263472668954440" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="37" >
+		<FEATURE N="Centroid" V="0.117835608832023" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="38" >
+		<FEATURE N="Centroid" V="0.321685718504184" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="39" >
+		<FEATURE N="Centroid" V="0.013643647790196" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="40" >
+		<FEATURE N="Centroid" V="0.024643184943100" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="41" >
+		<FEATURE N="Centroid" V="0.547140388900646" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="42" >
+		<FEATURE N="Centroid" V="0.037362486171726" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="43" >
+		<FEATURE N="Centroid" V="0.006479709393386" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="44" >
+		<FEATURE N="Centroid" V="0.014873280931573" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="45" >
+		<FEATURE N="Centroid" V="0.731607285657421" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="46" >
+		<FEATURE N="Centroid" V="0.020491158733061" />
+	</S>
+	<S DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="47" >
+		<FEATURE N="Centroid" V="0.304031763176447" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="1" >
+		<FEATURE N="Centroid" V="0.418734841915315" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="2" >
+		<FEATURE N="Centroid" V="0.235910159092177" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="3" >
+		<FEATURE N="Centroid" V="0.418734841915315" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="4" >
+		<FEATURE N="Centroid" V="0.440638669614472" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="5" >
+		<FEATURE N="Centroid" V="0.522718058494048" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="6" >
+		<FEATURE N="Centroid" V="0.515504823951746" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="7" >
+		<FEATURE N="Centroid" V="0.045810418866904" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="8" >
+		<FEATURE N="Centroid" V="0.547195668490746" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="9" >
+		<FEATURE N="Centroid" V="0.272577521406767" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="10" >
+		<FEATURE N="Centroid" V="0.460123029743829" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="11" >
+		<FEATURE N="Centroid" V="0.564517559343045" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="12" >
+		<FEATURE N="Centroid" V="0.012770692290579" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="13" >
+		<FEATURE N="Centroid" V="0.197514221599801" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="14" >
+		<FEATURE N="Centroid" V="0.642201895562343" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="15" >
+		<FEATURE N="Centroid" V="0.298140974087405" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="16" >
+		<FEATURE N="Centroid" V="0.479205760418832" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="17" >
+		<FEATURE N="Centroid" V="0.243974068671284" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="18" >
+		<FEATURE N="Centroid" V="0.257382716958003" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="19" >
+		<FEATURE N="Centroid" V="0.326360986142955" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="20" >
+		<FEATURE N="Centroid" V="0.555880758161215" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="21" >
+		<FEATURE N="Centroid" V="0.178603427403259" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="22" >
+		<FEATURE N="Centroid" V="0.313315162150740" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="23" >
+		<FEATURE N="Centroid" V="0.006036674534369" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="24" >
+		<FEATURE N="Centroid" V="0.208471732525824" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="25" >
+		<FEATURE N="Centroid" V="0.587524405091152" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="26" >
+		<FEATURE N="Centroid" V="0.342079538669586" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="27" >
+		<FEATURE N="Centroid" V="0.046638056385598" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="28" >
+		<FEATURE N="Centroid" V="0.196718598258978" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="29" >
+		<FEATURE N="Centroid" V="0.036424122632527" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="30" >
+		<FEATURE N="Centroid" V="0.012501745650504" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="31" >
+		<FEATURE N="Centroid" V="0.142236508339385" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="32" >
+		<FEATURE N="Centroid" V="0.209167112077930" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="33" >
+		<FEATURE N="Centroid" V="0.349435171057321" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="34" >
+		<FEATURE N="Centroid" V="0.163373015982368" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="35" >
+		<FEATURE N="Centroid" V="0.353284144039869" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="36" >
+		<FEATURE N="Centroid" V="0.151818315993571" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="37" >
+		<FEATURE N="Centroid" V="0.215544472778472" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="38" >
+		<FEATURE N="Centroid" V="0.197124514340316" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="39" >
+		<FEATURE N="Centroid" V="0.157310050390243" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="40" >
+		<FEATURE N="Centroid" V="0.046486655574525" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="41" >
+		<FEATURE N="Centroid" V="0.529245862031817" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="42" >
+		<FEATURE N="Centroid" V="0.686517210865206" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="43" >
+		<FEATURE N="Centroid" V="0.023494985923717" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="44" >
+		<FEATURE N="Centroid" V="0.020491158733061" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="45" >
+		<FEATURE N="Centroid" V="0.014055966840023" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="46" >
+		<FEATURE N="Centroid" V="0.209528282481775" />
+	</S>
+	<S DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="47" >
+		<FEATURE N="Centroid" V="0.024620587945845" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="1" >
+		<FEATURE N="Centroid" V="0.018941553681608" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="2" >
+		<FEATURE N="Centroid" V="0.156614756092062" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="3" >
+		<FEATURE N="Centroid" V="0.051569606887002" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="4" >
+		<FEATURE N="Centroid" V="0.065171055884104" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="5" >
+		<FEATURE N="Centroid" V="0.077458273379983" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="6" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="7" >
+		<FEATURE N="Centroid" V="0.117214537286455" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="8" >
+		<FEATURE N="Centroid" V="0.104474908369212" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="9" >
+		<FEATURE N="Centroid" V="0.023841237088929" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="10" >
+		<FEATURE N="Centroid" V="0.073632883088400" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="11" >
+		<FEATURE N="Centroid" V="0.049111351061010" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="12" >
+		<FEATURE N="Centroid" V="0.006104757240175" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="13" >
+		<FEATURE N="Centroid" V="0.230950021428834" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="14" >
+		<FEATURE N="Centroid" V="0.245563671673959" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="15" >
+		<FEATURE N="Centroid" V="0.267931396796661" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="16" >
+		<FEATURE N="Centroid" V="0.254660478604568" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="17" >
+		<FEATURE N="Centroid" V="0.135178143754321" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="18" >
+		<FEATURE N="Centroid" V="0.035437975424236" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="19" >
+		<FEATURE N="Centroid" V="0.136827741804838" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="20" >
+		<FEATURE N="Centroid" V="0.058624015565784" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="21" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="22" >
+		<FEATURE N="Centroid" V="0.130735868302203" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="23" >
+		<FEATURE N="Centroid" V="0.045106661268439" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="24" >
+		<FEATURE N="Centroid" V="0.051470265034949" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="25" >
+		<FEATURE N="Centroid" V="0.276042265241337" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="26" >
+		<FEATURE N="Centroid" V="0.267931396796661" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="27" >
+		<FEATURE N="Centroid" V="0.048401633938875" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="28" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="29" >
+		<FEATURE N="Centroid" V="0.029622884254414" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="30" >
+		<FEATURE N="Centroid" V="0.181241901828455" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="31" >
+		<FEATURE N="Centroid" V="0.065065115200234" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="32" >
+		<FEATURE N="Centroid" V="0.049715926645053" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="33" >
+		<FEATURE N="Centroid" V="0.158874767693115" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="34" >
+		<FEATURE N="Centroid" V="0.279578635016008" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="35" >
+		<FEATURE N="Centroid" V="0.138633829809614" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="36" >
+		<FEATURE N="Centroid" V="0.015670953458512" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="37" >
+		<FEATURE N="Centroid" V="0.024218915559269" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="38" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="39" >
+		<FEATURE N="Centroid" V="0.095323636367521" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="40" >
+		<FEATURE N="Centroid" V="0.008532737575308" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="41" >
+		<FEATURE N="Centroid" V="0.131934321283175" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="42" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="43" >
+		<FEATURE N="Centroid" V="0.038829927524445" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="44" >
+		<FEATURE N="Centroid" V="0.019888373842837" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="45" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="46" >
+		<FEATURE N="Centroid" V="0.071697941976396" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="47" >
+		<FEATURE N="Centroid" V="0.020491158733061" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="48" >
+		<FEATURE N="Centroid" V="0.014055966840023" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="49" >
+		<FEATURE N="Centroid" V="0.028510078834981" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="50" >
+		<FEATURE N="Centroid" V="0.020491158733061" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="51" >
+		<FEATURE N="Centroid" V="0.006705931644791" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="52" >
+		<FEATURE N="Centroid" V="0.209528282481775" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="53" >
+		<FEATURE N="Centroid" V="0.680528301567955" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="1" >
+		<FEATURE N="Centroid" V="0.218149987473918" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="2" >
+		<FEATURE N="Centroid" V="0.209528282481775" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="3" >
+		<FEATURE N="Centroid" V="0.423000841413479" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="4" >
+		<FEATURE N="Centroid" V="0.022229745839741" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="5" >
+		<FEATURE N="Centroid" V="0.141818575748210" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="6" >
+		<FEATURE N="Centroid" V="0.216968605410569" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="7" >
+		<FEATURE N="Centroid" V="0.076791481829538" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="8" >
+		<FEATURE N="Centroid" V="0.405947014687677" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="9" >
+		<FEATURE N="Centroid" V="0.014200709373837" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="10" >
+		<FEATURE N="Centroid" V="0.321876589671023" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="11" >
+		<FEATURE N="Centroid" V="0.013224233295064" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="12" >
+		<FEATURE N="Centroid" V="0.381109353601042" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="13" >
+		<FEATURE N="Centroid" V="0.039333829975167" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="14" >
+		<FEATURE N="Centroid" V="0.263640357038701" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="15" >
+		<FEATURE N="Centroid" V="0.007579762580379" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="16" >
+		<FEATURE N="Centroid" V="0.496816542440470" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="17" >
+		<FEATURE N="Centroid" V="0.015880830188068" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="18" >
+		<FEATURE N="Centroid" V="0.316376508874837" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="19" >
+		<FEATURE N="Centroid" V="0.521579736294153" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="20" >
+		<FEATURE N="Centroid" V="0.160132847468734" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="21" >
+		<FEATURE N="Centroid" V="0.487008364420798" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="22" >
+		<FEATURE N="Centroid" V="0.030368369010273" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="23" >
+		<FEATURE N="Centroid" V="0.590853628444690" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="24" >
+		<FEATURE N="Centroid" V="0.045810418866904" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="25" >
+		<FEATURE N="Centroid" V="0.558347871838517" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="26" >
+		<FEATURE N="Centroid" V="0.209528282481775" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="27" >
+		<FEATURE N="Centroid" V="0.171079193189378" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="28" >
+		<FEATURE N="Centroid" V="0.260998547516724" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="29" >
+		<FEATURE N="Centroid" V="0.034870398319398" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="30" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="31" >
+		<FEATURE N="Centroid" V="0.007144258664551" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="32" >
+		<FEATURE N="Centroid" V="0.129319243893113" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="33" >
+		<FEATURE N="Centroid" V="0.028330022873898" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="34" >
+		<FEATURE N="Centroid" V="0.021421738947059" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="35" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="36" >
+		<FEATURE N="Centroid" V="0.012058710791487" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="37" >
+		<FEATURE N="Centroid" V="0.230486724690022" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="38" >
+		<FEATURE N="Centroid" V="0.258705754656495" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="39" >
+		<FEATURE N="Centroid" V="0.024542253980814" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="40" >
+		<FEATURE N="Centroid" V="0.044988374140566" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="41" >
+		<FEATURE N="Centroid" V="0.044204476420733" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="42" >
+		<FEATURE N="Centroid" V="0.052281998565408" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="43" >
+		<FEATURE N="Centroid" V="0.022746695580120" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="44" >
+		<FEATURE N="Centroid" V="0.021421738947059" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="45" >
+		<FEATURE N="Centroid" V="0.061956531754676" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="46" >
+		<FEATURE N="Centroid" V="0.232381219567006" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="47" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="48" >
+		<FEATURE N="Centroid" V="0.245852055784481" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="49" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="50" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="51" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="52" >
+		<FEATURE N="Centroid" V="0.055236616437018" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="53" >
+		<FEATURE N="Centroid" V="0.072439365247179" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="54" >
+		<FEATURE N="Centroid" V="0.025963429996036" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="55" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="56" >
+		<FEATURE N="Centroid" V="0.006705931644791" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="57" >
+		<FEATURE N="Centroid" V="0.014055966840023" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="58" >
+		<FEATURE N="Centroid" V="0.014873280931573" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="59" >
+		<FEATURE N="Centroid" V="0.209528282481775" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="60" >
+		<FEATURE N="Centroid" V="0.209528282481775" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="61" >
+		<FEATURE N="Centroid" V="0.216968605410569" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="62" >
+		<FEATURE N="Centroid" V="0.076791481829538" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="63" >
+		<FEATURE N="Centroid" V="0.074516658023935" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="64" >
+		<FEATURE N="Centroid" V="0.006705931644791" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="65" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="66" >
+		<FEATURE N="Centroid" V="0.015880830188068" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="67" >
+		<FEATURE N="Centroid" V="0.071744193176393" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="68" >
+		<FEATURE N="Centroid" V="0.446591215716702" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="69" >
+		<FEATURE N="Centroid" V="0.313928948190161" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="70" >
+		<FEATURE N="Centroid" V="0.480220097387273" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="71" >
+		<FEATURE N="Centroid" V="0.326950411360791" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="72" >
+		<FEATURE N="Centroid" V="0.251932513842960" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="73" >
+		<FEATURE N="Centroid" V="0.029158692270235" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="74" >
+		<FEATURE N="Centroid" V="0.244979348824492" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="75" >
+		<FEATURE N="Centroid" V="0.186312501636825" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="76" >
+		<FEATURE N="Centroid" V="0.209528282481775" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="77" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="1" >
+		<FEATURE N="Centroid" V="0.101223924426835" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="2" >
+		<FEATURE N="Centroid" V="0.377602262020895" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="3" >
+		<FEATURE N="Centroid" V="0.353396909921841" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="4" >
+		<FEATURE N="Centroid" V="0.045810418866904" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="5" >
+		<FEATURE N="Centroid" V="0.047683769050909" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="6" >
+		<FEATURE N="Centroid" V="0.138105630739979" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="7" >
+		<FEATURE N="Centroid" V="0.057029098122291" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="8" >
+		<FEATURE N="Centroid" V="0.203000382878452" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="9" >
+		<FEATURE N="Centroid" V="0.353030013873072" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="10" >
+		<FEATURE N="Centroid" V="0.566479804918379" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="11" >
+		<FEATURE N="Centroid" V="0.026980087871254" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="12" >
+		<FEATURE N="Centroid" V="0.053572229466107" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="13" >
+		<FEATURE N="Centroid" V="0.045677542983077" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="14" >
+		<FEATURE N="Centroid" V="0.259520421520559" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="15" >
+		<FEATURE N="Centroid" V="0.122555146276681" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="16" >
+		<FEATURE N="Centroid" V="0.011647238219347" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="17" >
+		<FEATURE N="Centroid" V="0.089599262154770" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="18" >
+		<FEATURE N="Centroid" V="0.142205297597451" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="19" >
+		<FEATURE N="Centroid" V="0.166257996484107" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="20" >
+		<FEATURE N="Centroid" V="0.615964763800242" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="21" >
+		<FEATURE N="Centroid" V="0.394871777263885" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="22" >
+		<FEATURE N="Centroid" V="0.225897953093577" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="23" >
+		<FEATURE N="Centroid" V="0.155047325436615" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="24" >
+		<FEATURE N="Centroid" V="0.051585523394502" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="25" >
+		<FEATURE N="Centroid" V="0.356478023409026" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="26" >
+		<FEATURE N="Centroid" V="0.682321364022240" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="27" >
+		<FEATURE N="Centroid" V="0.299267873876527" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="28" >
+		<FEATURE N="Centroid" V="0.024100201941560" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="1" >
+		<FEATURE N="Centroid" V="0.018941553681608" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="2" >
+		<FEATURE N="Centroid" V="0.209528282481775" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="3" >
+		<FEATURE N="Centroid" V="0.305438793751999" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="4" >
+		<FEATURE N="Centroid" V="0.522718058494048" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="5" >
+		<FEATURE N="Centroid" V="0.515504823951746" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="6" >
+		<FEATURE N="Centroid" V="0.016651726596668" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="7" >
+		<FEATURE N="Centroid" V="0.547195668490746" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="8" >
+		<FEATURE N="Centroid" V="0.272577521406767" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="9" >
+		<FEATURE N="Centroid" V="0.460123029743829" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="10" >
+		<FEATURE N="Centroid" V="0.564517559343045" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="11" >
+		<FEATURE N="Centroid" V="0.012770692290579" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="12" >
+		<FEATURE N="Centroid" V="0.197514221599801" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="13" >
+		<FEATURE N="Centroid" V="0.642201895562343" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="14" >
+		<FEATURE N="Centroid" V="0.298140974087405" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="15" >
+		<FEATURE N="Centroid" V="0.479205760418832" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="16" >
+		<FEATURE N="Centroid" V="0.243974068671284" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="17" >
+		<FEATURE N="Centroid" V="0.257382716958003" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="18" >
+		<FEATURE N="Centroid" V="0.326360986142955" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="19" >
+		<FEATURE N="Centroid" V="0.555880758161215" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="20" >
+		<FEATURE N="Centroid" V="0.178603427403259" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="21" >
+		<FEATURE N="Centroid" V="0.313315162150740" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="22" >
+		<FEATURE N="Centroid" V="0.006036674534369" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="23" >
+		<FEATURE N="Centroid" V="0.208471732525824" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="24" >
+		<FEATURE N="Centroid" V="0.587524405091152" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="25" >
+		<FEATURE N="Centroid" V="0.342079538669586" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="26" >
+		<FEATURE N="Centroid" V="0.046638056385598" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="27" >
+		<FEATURE N="Centroid" V="0.196718598258978" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="28" >
+		<FEATURE N="Centroid" V="0.036424122632527" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="29" >
+		<FEATURE N="Centroid" V="0.012501745650504" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="30" >
+		<FEATURE N="Centroid" V="0.142236508339385" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="31" >
+		<FEATURE N="Centroid" V="0.209167112077930" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="32" >
+		<FEATURE N="Centroid" V="0.349435171057321" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="33" >
+		<FEATURE N="Centroid" V="0.163373015982368" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="34" >
+		<FEATURE N="Centroid" V="0.353284144039869" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="35" >
+		<FEATURE N="Centroid" V="0.151818315993571" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="36" >
+		<FEATURE N="Centroid" V="0.215544472778472" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="37" >
+		<FEATURE N="Centroid" V="0.197124514340316" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="38" >
+		<FEATURE N="Centroid" V="0.157310050390243" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="39" >
+		<FEATURE N="Centroid" V="0.046486655574525" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="40" >
+		<FEATURE N="Centroid" V="0.038829927524445" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="41" >
+		<FEATURE N="Centroid" V="0.019888373842837" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="42" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="43" >
+		<FEATURE N="Centroid" V="0.071697941976396" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="44" >
+		<FEATURE N="Centroid" V="0.020491158733061" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="45" >
+		<FEATURE N="Centroid" V="0.014055966840023" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="46" >
+		<FEATURE N="Centroid" V="0.028510078834981" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="47" >
+		<FEATURE N="Centroid" V="0.020491158733061" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="48" >
+		<FEATURE N="Centroid" V="0.006705931644791" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="49" >
+		<FEATURE N="Centroid" V="0.209528282481775" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="50" >
+		<FEATURE N="Centroid" V="0.225527165435476" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="51" >
+		<FEATURE N="Centroid" V="0.025254597040473" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="52" >
+		<FEATURE N="Centroid" V="0.209528282481775" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="53" >
+		<FEATURE N="Centroid" V="0.209528282481775" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="54" >
+		<FEATURE N="Centroid" V="0.010078166438244" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="55" >
+		<FEATURE N="Centroid" V="0.017819200831810" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="56" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="57" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="58" >
+		<FEATURE N="Centroid" V="0.017819200831810" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="59" >
+		<FEATURE N="Centroid" V="0.006265576881417" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="60" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="61" >
+		<FEATURE N="Centroid" V="0.017819200831810" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="62" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="63" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="64" >
+		<FEATURE N="Centroid" V="0.017819200831810" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="65" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="66" >
+		<FEATURE N="Centroid" V="0.017819200831810" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="67" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="68" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="69" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="70" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="71" >
+		<FEATURE N="Centroid" V="0.017819200831810" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="72" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="73" >
+		<FEATURE N="Centroid" V="0.209528282481775" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="74" >
+		<FEATURE N="Centroid" V="0.216352266593064" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="75" >
+		<FEATURE N="Centroid" V="0.218666092735727" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="76" >
+		<FEATURE N="Centroid" V="0.238686974752010" />
+	</S>
+	<S DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="77" >
+		<FEATURE N="Centroid" V="0.010078166438244" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2986961.stm.20030430004451" SNO="1" >
+		<FEATURE N="Centroid" V="0.059602225586904" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2986961.stm.20030430004451" SNO="2" >
+		<FEATURE N="Centroid" V="0.346809466698894" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2986961.stm.20030430004451" SNO="3" >
+		<FEATURE N="Centroid" V="0.190636952165030" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2986961.stm.20030430004451" SNO="4" >
+		<FEATURE N="Centroid" V="0.081388677018943" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2986961.stm.20030430004451" SNO="5" >
+		<FEATURE N="Centroid" V="0.045285434327425" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2986961.stm.20030430004451" SNO="6" >
+		<FEATURE N="Centroid" V="0.031067972693535" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2986961.stm.20030430004451" SNO="7" >
+		<FEATURE N="Centroid" V="0.292183649082774" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2986961.stm.20030430004451" SNO="8" >
+		<FEATURE N="Centroid" V="0.014909286017366" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2986961.stm.20030430004451" SNO="9" >
+		<FEATURE N="Centroid" V="0.033829403026127" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2986961.stm.20030430004451" SNO="10" >
+		<FEATURE N="Centroid" V="0.027750494887005" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2986961.stm.20030430004451" SNO="11" >
+		<FEATURE N="Centroid" V="0.089941967889381" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2986961.stm.20030430004451" SNO="12" >
+		<FEATURE N="Centroid" V="0.025972420340795" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2986961.stm.20030430004451" SNO="13" >
+		<FEATURE N="Centroid" V="0.277709897872261" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2986961.stm.20030430004451" SNO="14" >
+		<FEATURE N="Centroid" V="0.111791089131750" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2986961.stm.20030430004451" SNO="15" >
+		<FEATURE N="Centroid" V="0.248162526259198" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2986961.stm.20030430004451" SNO="16" >
+		<FEATURE N="Centroid" V="0.194570040397723" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2986961.stm.20030430004451" SNO="17" >
+		<FEATURE N="Centroid" V="0.029951834150558" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2986961.stm.20030430004451" SNO="18" >
+		<FEATURE N="Centroid" V="0.060777012587261" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2986961.stm.20030430004451" SNO="19" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2986961.stm.20030430004451" SNO="20" >
+		<FEATURE N="Centroid" V="0.038541891454817" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2986961.stm.20030430004451" SNO="21" >
+		<FEATURE N="Centroid" V="0.036373816587362" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2986961.stm.20030430004451" SNO="22" >
+		<FEATURE N="Centroid" V="0.006871881929492" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2986961.stm.20030430004451" SNO="23" >
+		<FEATURE N="Centroid" V="0.029312902740294" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2986961.stm.20030430004451" SNO="24" >
+		<FEATURE N="Centroid" V="0.198151633815173" />
+	</S>
+</SENT-FEATURE>

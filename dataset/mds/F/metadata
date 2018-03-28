@@ -1,0 +1,9 @@
+cluster: F
+family: mds
+topic: Toxic spill in Spain
+
+article		date		source
+
+F1		05/01/98	AP
+F2		05/01/98	NYT
+F3		05/02/98	AP

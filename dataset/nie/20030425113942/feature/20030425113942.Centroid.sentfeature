@@ -1,0 +1,486 @@
+<?xml version='1.0'?>
+<SENT-FEATURE>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="1" >
+		<FEATURE N="Centroid" V="0.088493219223032" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="2" >
+		<FEATURE N="Centroid" V="0.343779686476696" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="3" >
+		<FEATURE N="Centroid" V="0.366095502916939" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="4" >
+		<FEATURE N="Centroid" V="0.211265231119297" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="5" >
+		<FEATURE N="Centroid" V="0.116023167153376" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="6" >
+		<FEATURE N="Centroid" V="0.299645546230274" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="7" >
+		<FEATURE N="Centroid" V="0.522355252437476" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="8" >
+		<FEATURE N="Centroid" V="0.274683161763968" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="9" >
+		<FEATURE N="Centroid" V="0.621459375284622" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="10" >
+		<FEATURE N="Centroid" V="0.063549146934484" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="11" >
+		<FEATURE N="Centroid" V="0.326891904152365" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="12" >
+		<FEATURE N="Centroid" V="0.063549146934484" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="13" >
+		<FEATURE N="Centroid" V="0.386862156596787" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="14" >
+		<FEATURE N="Centroid" V="0.380997345133943" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="15" >
+		<FEATURE N="Centroid" V="0.208681152122930" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="16" >
+		<FEATURE N="Centroid" V="0.460521086006340" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="17" >
+		<FEATURE N="Centroid" V="0.186587629187326" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="18" >
+		<FEATURE N="Centroid" V="0.255548677268669" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="19" >
+		<FEATURE N="Centroid" V="0.102991732069515" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="20" >
+		<FEATURE N="Centroid" V="0.063549146934484" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="21" >
+		<FEATURE N="Centroid" V="0.114333820886933" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="22" >
+		<FEATURE N="Centroid" V="0.446473816315383" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="23" >
+		<FEATURE N="Centroid" V="0.247181414056658" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="24" >
+		<FEATURE N="Centroid" V="0.397007933140492" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="25" >
+		<FEATURE N="Centroid" V="0.225975704421838" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="26" >
+		<FEATURE N="Centroid" V="0.352461327355817" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="27" >
+		<FEATURE N="Centroid" V="0.258095059472982" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="28" >
+		<FEATURE N="Centroid" V="0.300352399810199" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="29" >
+		<FEATURE N="Centroid" V="0.624050033390032" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="30" >
+		<FEATURE N="Centroid" V="0.134061483978101" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="31" >
+		<FEATURE N="Centroid" V="0.210062521729699" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="32" >
+		<FEATURE N="Centroid" V="0.142865465461143" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="33" >
+		<FEATURE N="Centroid" V="0.371192019255105" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="34" >
+		<FEATURE N="Centroid" V="0.200483685356150" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="35" >
+		<FEATURE N="Centroid" V="0.785926549450843" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="36" >
+		<FEATURE N="Centroid" V="0.724643756487283" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="37" >
+		<FEATURE N="Centroid" V="0.737979043158092" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="38" >
+		<FEATURE N="Centroid" V="0.648434202809534" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="39" >
+		<FEATURE N="Centroid" V="0.803875453225103" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="40" >
+		<FEATURE N="Centroid" V="0.616938915488821" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="1" >
+		<FEATURE N="Centroid" V="0.379994062294588" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="2" >
+		<FEATURE N="Centroid" V="0.710369899861990" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="3" >
+		<FEATURE N="Centroid" V="0.513543938926664" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="4" >
+		<FEATURE N="Centroid" V="0.400166439882953" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="5" >
+		<FEATURE N="Centroid" V="1.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="6" >
+		<FEATURE N="Centroid" V="0.649141520347569" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="7" >
+		<FEATURE N="Centroid" V="0.563421350068653" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="8" >
+		<FEATURE N="Centroid" V="0.191476617295251" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="9" >
+		<FEATURE N="Centroid" V="0.996162277185604" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="10" >
+		<FEATURE N="Centroid" V="0.367577994914308" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="11" >
+		<FEATURE N="Centroid" V="0.269126747534609" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="12" >
+		<FEATURE N="Centroid" V="0.355222518838421" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="13" >
+		<FEATURE N="Centroid" V="0.104513729962923" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="14" >
+		<FEATURE N="Centroid" V="0.193524875501269" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="15" >
+		<FEATURE N="Centroid" V="0.673038901588111" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="16" >
+		<FEATURE N="Centroid" V="0.110426666993202" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="17" >
+		<FEATURE N="Centroid" V="0.672171696268471" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="18" >
+		<FEATURE N="Centroid" V="0.233777123131579" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="19" >
+		<FEATURE N="Centroid" V="0.210715244555878" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="20" >
+		<FEATURE N="Centroid" V="0.575881950398444" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="21" >
+		<FEATURE N="Centroid" V="0.585877839471603" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="22" >
+		<FEATURE N="Centroid" V="0.690587048272994" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="23" >
+		<FEATURE N="Centroid" V="0.339710131515470" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="24" >
+		<FEATURE N="Centroid" V="0.927560782381167" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="25" >
+		<FEATURE N="Centroid" V="0.384949070202651" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="26" >
+		<FEATURE N="Centroid" V="0.333114328564954" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="27" >
+		<FEATURE N="Centroid" V="0.539356105647644" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="28" >
+		<FEATURE N="Centroid" V="0.387505593535806" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="29" >
+		<FEATURE N="Centroid" V="0.357210991295660" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fnot_in_website%2Fsyndication%2Fmonitoring%2Fmedia_reports%2F2266978.stm.20030425113942" SNO="1" >
+		<FEATURE N="Centroid" V="0.233480687499373" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fnot_in_website%2Fsyndication%2Fmonitoring%2Fmedia_reports%2F2266978.stm.20030425113942" SNO="2" >
+		<FEATURE N="Centroid" V="0.292749565133696" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fnot_in_website%2Fsyndication%2Fmonitoring%2Fmedia_reports%2F2266978.stm.20030425113942" SNO="3" >
+		<FEATURE N="Centroid" V="0.150303877580777" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fnot_in_website%2Fsyndication%2Fmonitoring%2Fmedia_reports%2F2266978.stm.20030425113942" SNO="4" >
+		<FEATURE N="Centroid" V="0.378514612094477" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fnot_in_website%2Fsyndication%2Fmonitoring%2Fmedia_reports%2F2266978.stm.20030425113942" SNO="5" >
+		<FEATURE N="Centroid" V="0.270072382675264" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fnot_in_website%2Fsyndication%2Fmonitoring%2Fmedia_reports%2F2266978.stm.20030425113942" SNO="6" >
+		<FEATURE N="Centroid" V="0.226763008625361" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fnot_in_website%2Fsyndication%2Fmonitoring%2Fmedia_reports%2F2266978.stm.20030425113942" SNO="7" >
+		<FEATURE N="Centroid" V="0.611766971919072" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fnot_in_website%2Fsyndication%2Fmonitoring%2Fmedia_reports%2F2266978.stm.20030425113942" SNO="8" >
+		<FEATURE N="Centroid" V="0.174682327858545" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fnot_in_website%2Fsyndication%2Fmonitoring%2Fmedia_reports%2F2266978.stm.20030425113942" SNO="9" >
+		<FEATURE N="Centroid" V="0.335897971072291" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fnot_in_website%2Fsyndication%2Fmonitoring%2Fmedia_reports%2F2266978.stm.20030425113942" SNO="10" >
+		<FEATURE N="Centroid" V="0.225688114347276" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fnot_in_website%2Fsyndication%2Fmonitoring%2Fmedia_reports%2F2266978.stm.20030425113942" SNO="11" >
+		<FEATURE N="Centroid" V="0.434434456264128" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fnot_in_website%2Fsyndication%2Fmonitoring%2Fmedia_reports%2F2266978.stm.20030425113942" SNO="12" >
+		<FEATURE N="Centroid" V="0.335897971072291" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fnot_in_website%2Fsyndication%2Fmonitoring%2Fmedia_reports%2F2266978.stm.20030425113942" SNO="13" >
+		<FEATURE N="Centroid" V="0.143383637287262" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fnot_in_website%2Fsyndication%2Fmonitoring%2Fmedia_reports%2F2266978.stm.20030425113942" SNO="14" >
+		<FEATURE N="Centroid" V="0.732632765610843" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fnot_in_website%2Fsyndication%2Fmonitoring%2Fmedia_reports%2F2266978.stm.20030425113942" SNO="15" >
+		<FEATURE N="Centroid" V="0.616751796931164" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fnot_in_website%2Fsyndication%2Fmonitoring%2Fmedia_reports%2F2266978.stm.20030425113942" SNO="16" >
+		<FEATURE N="Centroid" V="0.260484305110401" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fnot_in_website%2Fsyndication%2Fmonitoring%2Fmedia_reports%2F2266978.stm.20030425113942" SNO="17" >
+		<FEATURE N="Centroid" V="0.587189778816124" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fnot_in_website%2Fsyndication%2Fmonitoring%2Fmedia_reports%2F2266978.stm.20030425113942" SNO="18" >
+		<FEATURE N="Centroid" V="0.322062496052968" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fnot_in_website%2Fsyndication%2Fmonitoring%2Fmedia_reports%2F2266978.stm.20030425113942" SNO="19" >
+		<FEATURE N="Centroid" V="0.089514967862307" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fnot_in_website%2Fsyndication%2Fmonitoring%2Fmedia_reports%2F2266978.stm.20030425113942" SNO="20" >
+		<FEATURE N="Centroid" V="0.179751831783802" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fnot_in_website%2Fsyndication%2Fmonitoring%2Fmedia_reports%2F2266978.stm.20030425113942" SNO="21" >
+		<FEATURE N="Centroid" V="0.508982723179752" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2939125.stm.20030425113942" SNO="40" >
+		<FEATURE N="Centroid" V="0.616938915488821" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2975333.stm.20030425113942" SNO="1" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2975333.stm.20030425113942" SNO="2" >
+		<FEATURE N="Centroid" V="0.121147013230809" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2975333.stm.20030425113942" SNO="3" >
+		<FEATURE N="Centroid" V="0.538847364447487" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2975333.stm.20030425113942" SNO="4" >
+		<FEATURE N="Centroid" V="0.146545253647245" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2975333.stm.20030425113942" SNO="5" >
+		<FEATURE N="Centroid" V="0.171821971679474" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2975333.stm.20030425113942" SNO="6" >
+		<FEATURE N="Centroid" V="0.403196146951229" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2975333.stm.20030425113942" SNO="7" >
+		<FEATURE N="Centroid" V="0.219230860658993" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2975333.stm.20030425113942" SNO="8" >
+		<FEATURE N="Centroid" V="0.223065949237333" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2975333.stm.20030425113942" SNO="9" >
+		<FEATURE N="Centroid" V="0.261245439307976" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2975333.stm.20030425113942" SNO="10" >
+		<FEATURE N="Centroid" V="0.371141201013033" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2975333.stm.20030425113942" SNO="11" >
+		<FEATURE N="Centroid" V="0.041202474264595" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2975333.stm.20030425113942" SNO="12" >
+		<FEATURE N="Centroid" V="0.210458561212188" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2975333.stm.20030425113942" SNO="13" >
+		<FEATURE N="Centroid" V="0.137174059060252" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2975333.stm.20030425113942" SNO="14" >
+		<FEATURE N="Centroid" V="0.418836664931116" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2975333.stm.20030425113942" SNO="15" >
+		<FEATURE N="Centroid" V="0.446985186793773" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2975333.stm.20030425113942" SNO="16" >
+		<FEATURE N="Centroid" V="0.513107537397831" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2975333.stm.20030425113942" SNO="17" >
+		<FEATURE N="Centroid" V="0.029412706972076" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fmiddle_east%2F2976241.stm.20030425113942" SNO="29" >
+		<FEATURE N="Centroid" V="0.357210991295660" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975537.stm.20030425113942" SNO="1" >
+		<FEATURE N="Centroid" V="0.111142246915423" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975537.stm.20030425113942" SNO="2" >
+		<FEATURE N="Centroid" V="0.203364236836300" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975537.stm.20030425113942" SNO="3" >
+		<FEATURE N="Centroid" V="0.400473260011520" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975537.stm.20030425113942" SNO="4" >
+		<FEATURE N="Centroid" V="0.675264749580538" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975537.stm.20030425113942" SNO="5" >
+		<FEATURE N="Centroid" V="0.224622624436004" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975537.stm.20030425113942" SNO="6" >
+		<FEATURE N="Centroid" V="0.240579094045686" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975537.stm.20030425113942" SNO="7" >
+		<FEATURE N="Centroid" V="0.029823747545925" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975537.stm.20030425113942" SNO="8" >
+		<FEATURE N="Centroid" V="0.165927035688707" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975537.stm.20030425113942" SNO="9" >
+		<FEATURE N="Centroid" V="0.605790206370097" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975537.stm.20030425113942" SNO="10" >
+		<FEATURE N="Centroid" V="0.059129619839995" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975537.stm.20030425113942" SNO="11" >
+		<FEATURE N="Centroid" V="0.262609025287139" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975537.stm.20030425113942" SNO="12" >
+		<FEATURE N="Centroid" V="0.210970683549778" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975537.stm.20030425113942" SNO="13" >
+		<FEATURE N="Centroid" V="0.639494723308167" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975537.stm.20030425113942" SNO="14" >
+		<FEATURE N="Centroid" V="0.281850796712299" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975537.stm.20030425113942" SNO="15" >
+		<FEATURE N="Centroid" V="0.136581731906807" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975537.stm.20030425113942" SNO="16" >
+		<FEATURE N="Centroid" V="0.234344665097295" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975537.stm.20030425113942" SNO="17" >
+		<FEATURE N="Centroid" V="0.402505013065525" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975537.stm.20030425113942" SNO="18" >
+		<FEATURE N="Centroid" V="0.194911573930286" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975537.stm.20030425113942" SNO="19" >
+		<FEATURE N="Centroid" V="0.201697939878763" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975537.stm.20030425113942" SNO="20" >
+		<FEATURE N="Centroid" V="0.145310544591305" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975537.stm.20030425113942" SNO="21" >
+		<FEATURE N="Centroid" V="0.671006419616306" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975537.stm.20030425113942" SNO="22" >
+		<FEATURE N="Centroid" V="0.110737242303510" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975537.stm.20030425113942" SNO="23" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+</SENT-FEATURE>

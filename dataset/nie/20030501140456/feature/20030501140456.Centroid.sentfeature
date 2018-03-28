@@ -1,0 +1,348 @@
+<?xml version='1.0'?>
+<SENT-FEATURE>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2993107.stm.20030501140456" SNO="1" >
+		<FEATURE N="Centroid" V="0.359798699729797" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2993107.stm.20030501140456" SNO="2" >
+		<FEATURE N="Centroid" V="0.538103072975360" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2993107.stm.20030501140456" SNO="3" >
+		<FEATURE N="Centroid" V="0.160139151286923" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2993107.stm.20030501140456" SNO="4" >
+		<FEATURE N="Centroid" V="0.227039353219087" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2993107.stm.20030501140456" SNO="5" >
+		<FEATURE N="Centroid" V="0.359474834489074" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2993107.stm.20030501140456" SNO="6" >
+		<FEATURE N="Centroid" V="0.217328371238614" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2993107.stm.20030501140456" SNO="7" >
+		<FEATURE N="Centroid" V="0.383766466984379" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2993107.stm.20030501140456" SNO="8" >
+		<FEATURE N="Centroid" V="0.264879023557570" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2993107.stm.20030501140456" SNO="9" >
+		<FEATURE N="Centroid" V="0.084876928131330" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2993107.stm.20030501140456" SNO="10" >
+		<FEATURE N="Centroid" V="0.304977782401331" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2993107.stm.20030501140456" SNO="11" >
+		<FEATURE N="Centroid" V="1.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2993107.stm.20030501140456" SNO="12" >
+		<FEATURE N="Centroid" V="0.396066749064954" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2993107.stm.20030501140456" SNO="13" >
+		<FEATURE N="Centroid" V="0.273176196280062" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2993107.stm.20030501140456" SNO="14" >
+		<FEATURE N="Centroid" V="0.199232085416969" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2993107.stm.20030501140456" SNO="15" >
+		<FEATURE N="Centroid" V="0.061373047786028" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="" SNO="" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2992693.stm.20030501140456" SNO="21" >
+		<FEATURE N="Centroid" V="0.163705049060296" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="1" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="2" >
+		<FEATURE N="Centroid" V="0.325807756283371" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="3" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="4" >
+		<FEATURE N="Centroid" V="0.279978565929861" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="5" >
+		<FEATURE N="Centroid" V="0.123872296689780" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="6" >
+		<FEATURE N="Centroid" V="0.118264483248426" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="7" >
+		<FEATURE N="Centroid" V="0.364000578789793" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="8" >
+		<FEATURE N="Centroid" V="0.123872296689780" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="9" >
+		<FEATURE N="Centroid" V="0.276564432568865" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="10" >
+		<FEATURE N="Centroid" V="0.169934663767886" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="11" >
+		<FEATURE N="Centroid" V="0.295152483476329" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="12" >
+		<FEATURE N="Centroid" V="0.269757437345277" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="13" >
+		<FEATURE N="Centroid" V="0.174371719073801" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="14" >
+		<FEATURE N="Centroid" V="0.125120453409231" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="15" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="16" >
+		<FEATURE N="Centroid" V="0.419655826177039" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="17" >
+		<FEATURE N="Centroid" V="0.075468852770220" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="18" >
+		<FEATURE N="Centroid" V="0.385206996356000" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="19" >
+		<FEATURE N="Centroid" V="0.448333877314223" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="20" >
+		<FEATURE N="Centroid" V="0.115060075038403" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="21" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="22" >
+		<FEATURE N="Centroid" V="0.134071427816366" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="23" >
+		<FEATURE N="Centroid" V="0.137569004179903" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="24" >
+		<FEATURE N="Centroid" V="0.405781102829423" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="25" >
+		<FEATURE N="Centroid" V="0.510888222738096" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="26" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="27" >
+		<FEATURE N="Centroid" V="0.510107893646377" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="28" >
+		<FEATURE N="Centroid" V="0.180883581011096" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="29" >
+		<FEATURE N="Centroid" V="0.616667518165566" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="30" >
+		<FEATURE N="Centroid" V="0.114152485705764" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="31" >
+		<FEATURE N="Centroid" V="0.071812726765953" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="32" >
+		<FEATURE N="Centroid" V="0.089630850805804" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="33" >
+		<FEATURE N="Centroid" V="0.263720351953967" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="34" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="35" >
+		<FEATURE N="Centroid" V="0.499420626188795" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="36" >
+		<FEATURE N="Centroid" V="0.236849235487402" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="37" >
+		<FEATURE N="Centroid" V="0.334781592313972" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="38" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="39" >
+		<FEATURE N="Centroid" V="0.332040754874235" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="40" >
+		<FEATURE N="Centroid" V="0.052194733472110" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="41" >
+		<FEATURE N="Centroid" V="0.074461237173126" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="42" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="43" >
+		<FEATURE N="Centroid" V="0.354697681272601" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="44" >
+		<FEATURE N="Centroid" V="0.394503449630655" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="45" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="46" >
+		<FEATURE N="Centroid" V="0.393174639999867" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="47" >
+		<FEATURE N="Centroid" V="0.206298574175989" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="48" >
+		<FEATURE N="Centroid" V="0.454618366246077" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="49" >
+		<FEATURE N="Centroid" V="0.089407897828107" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="50" >
+		<FEATURE N="Centroid" V="0.398742432367094" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="51" >
+		<FEATURE N="Centroid" V="0.401473396726136" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="52" >
+		<FEATURE N="Centroid" V="0.069570699885584" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="53" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="54" >
+		<FEATURE N="Centroid" V="0.205888009279703" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="55" >
+		<FEATURE N="Centroid" V="0.456405522507247" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="56" >
+		<FEATURE N="Centroid" V="0.779127468985038" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="57" >
+		<FEATURE N="Centroid" V="0.128710571389717" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="58" >
+		<FEATURE N="Centroid" V="0.400828939665861" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="59" >
+		<FEATURE N="Centroid" V="0.149375762644105" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="60" >
+		<FEATURE N="Centroid" V="0.475586092358908" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="61" >
+		<FEATURE N="Centroid" V="0.429429205223935" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="62" >
+		<FEATURE N="Centroid" V="0.337340504310847" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="63" >
+		<FEATURE N="Centroid" V="0.438316835733531" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="64" >
+		<FEATURE N="Centroid" V="0.427639462932491" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="65" >
+		<FEATURE N="Centroid" V="0.436036361491304" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="66" >
+		<FEATURE N="Centroid" V="0.304303534770555" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="67" >
+		<FEATURE N="Centroid" V="0.070897603926295" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="68" >
+		<FEATURE N="Centroid" V="0.120904306780884" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="69" >
+		<FEATURE N="Centroid" V="0.136105113203252" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="70" >
+		<FEATURE N="Centroid" V="0.113634990972747" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="71" >
+		<FEATURE N="Centroid" V="0.108829554365878" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="72" >
+		<FEATURE N="Centroid" V="0.441026844612331" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030501140456" SNO="73" >
+		<FEATURE N="Centroid" V="0.454840547834098" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2992693.stm.20030501140456" SNO="1" >
+		<FEATURE N="Centroid" V="0.305694612685072" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2992693.stm.20030501140456" SNO="2" >
+		<FEATURE N="Centroid" V="0.233741021250870" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2992693.stm.20030501140456" SNO="3" >
+		<FEATURE N="Centroid" V="0.088855343887378" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2992693.stm.20030501140456" SNO="4" >
+		<FEATURE N="Centroid" V="0.453148269414385" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2992693.stm.20030501140456" SNO="5" >
+		<FEATURE N="Centroid" V="0.317144028345856" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2992693.stm.20030501140456" SNO="6" >
+		<FEATURE N="Centroid" V="0.350551686764177" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2992693.stm.20030501140456" SNO="7" >
+		<FEATURE N="Centroid" V="0.305234544684156" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2992693.stm.20030501140456" SNO="8" >
+		<FEATURE N="Centroid" V="0.465157769713194" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2992693.stm.20030501140456" SNO="9" >
+		<FEATURE N="Centroid" V="0.408259498777580" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2992693.stm.20030501140456" SNO="10" >
+		<FEATURE N="Centroid" V="0.206167644810163" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2992693.stm.20030501140456" SNO="11" >
+		<FEATURE N="Centroid" V="0.210789769002194" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2992693.stm.20030501140456" SNO="12" >
+		<FEATURE N="Centroid" V="0.064765613121424" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2992693.stm.20030501140456" SNO="13" >
+		<FEATURE N="Centroid" V="0.213126982625573" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2992693.stm.20030501140456" SNO="14" >
+		<FEATURE N="Centroid" V="0.188637909811204" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2992693.stm.20030501140456" SNO="15" >
+		<FEATURE N="Centroid" V="0.134277631540815" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2992693.stm.20030501140456" SNO="16" >
+		<FEATURE N="Centroid" V="0.036366314688146" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2992693.stm.20030501140456" SNO="17" >
+		<FEATURE N="Centroid" V="0.014412911355450" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2992693.stm.20030501140456" SNO="18" >
+		<FEATURE N="Centroid" V="0.283388628908814" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2992693.stm.20030501140456" SNO="19" >
+		<FEATURE N="Centroid" V="0.441862374447829" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2992693.stm.20030501140456" SNO="20" >
+		<FEATURE N="Centroid" V="0.016937016700966" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2992693.stm.20030501140456" SNO="21" >
+		<FEATURE N="Centroid" V="0.163705049060296" />
+	</S>
+</SENT-FEATURE>

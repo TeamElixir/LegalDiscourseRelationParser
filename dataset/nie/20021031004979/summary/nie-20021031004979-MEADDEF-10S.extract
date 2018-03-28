@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE EXTRACT SYSTEM "/clair/tools/mead/dtd/extract.dtd">
+
+<EXTRACT QID="20021031004979" LANG="ENG" COMPRESSION="10" SYSTEM="9-1-0.5-1-novelty-0.9-10pct" RUN="Wed Nov 19 15:14:19 2003">
+<S ORDER="1" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2374773.stm.20021031004979" SNO="1" />
+<S ORDER="2" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2374773.stm.20021031004979" SNO="2" />
+<S ORDER="3" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2374773.stm.20021031004979" SNO="8" />
+<S ORDER="4" DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="1" />
+<S ORDER="5" DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="2" />
+<S ORDER="6" DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="1" />
+<S ORDER="7" DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="2" />
+<S ORDER="8" DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="3" />
+<S ORDER="9" DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="12" />
+<S ORDER="10" DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news07.html.20021031004979" SNO="1" />
+<S ORDER="11" DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news07.html.20021031004979" SNO="2" />
+<S ORDER="12" DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="1" />
+<S ORDER="13" DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="2" />
+</EXTRACT>

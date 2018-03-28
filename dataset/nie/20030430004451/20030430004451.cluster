@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE EXTRACT SYSTEM '/clair2/projects/nie/nie3/dtd/cluster.dtd'>
+<CLUSTER LANG='ENG'>
+	<D DID='http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451' />
+	<D DID='http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451' />
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2978661.stm.20030430004451' />
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451' />
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2986961.stm.20030430004451' />
+	<D DID='http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FFranks_leads_field_to_become_Army_chief+.shtml.20030430004451' />
+	<D DID='http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451' />
+	<D DID='http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451' />
+	<D DID='http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451' />
+	<D DID='http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451' />
+	<D DID='http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451' />
+</CLUSTER>

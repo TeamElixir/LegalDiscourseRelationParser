@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE EXTRACT SYSTEM '/clair2/projects/nie/nie3/dtd/cluster.dtd'>
+<CLUSTER LANG='ENG'>
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fengland%2F2675223.stm.20030120125124' />
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fuk%2F2675857.stm.20030120125124' />
+	<D DID='http:%2F%2Fwww.msnbc.com%2Fnews%2F860684.asp.20030120125124' />
+</CLUSTER>

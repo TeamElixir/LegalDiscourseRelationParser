@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<!DOCTYPE DOCSENT SYSTEM '/clair2/projects/nie/nie3/dtd/docsent.dtd'>
+<DOCSENT DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2242675.stm.20030501140338'>
+    <HEAD>
+        <PDATE>1031409612</PDATE>
+    </HEAD>
+    <BODY>
+        <HEADLINE>
+            <S SNO='1' PAR='1' RSNT='1'>
+                 West Nile virus 'is spreading'
+            </S>
+        </HEADLINE>
+        <TEXT>
+            <S SNO='2' PAR='2' RSNT='1'>
+                A woman in California is being treated for suspected infection with West Nile fever, in the first sign that the virus has spread to the west coast of the United States.
+            </S>
+            <S SNO='3' PAR='3' RSNT='1'>
+                Preliminary results showed it was "highly probable" the woman had the disease but conclusive results will not be known until next week, US health officials said late on Friday.
+            </S>
+            <S SNO='4' PAR='4' RSNT='1'>
+                The news came hours after the first case of the disease was confirmed in Canada, in the Toronto area.
+            </S>
+            <S SNO='5' PAR='4' RSNT='2'>
+                Four other possible cases are being investigated.
+            </S>
+            <S SNO='6' PAR='5' RSNT='1'>
+                Around 854 cases of the disease have been discovered in the east and mid-west of the United States this year, including 43 deaths, making it the worst outbreak since the virus was first detected in 1999.
+            </S>
+            <S SNO='7' PAR='6' RSNT='1'>
+                Health officials in Los Angeles County described the latest suspected case as a "probable case of locally-acquired West Nile virus infection".
+            </S>
+            <S SNO='8' PAR='6' RSNT='2'>
+                The woman has not travelled outside the region recently.
+            </S>
+            <S SNO='9' PAR='7' RSNT='1'>
+                The woman fell ill with meningitis in August but has since fully recovered.
+            </S>
+            <S SNO='10' PAR='8' RSNT='1'>
+                California's State Health Director Diana Bonta told the AFP news agency that health experts had been expecting the virus to spread and were closely monitoring its possible arrival.
+            </S>
+            <S SNO='11' PAR='9' RSNT='1'>
+                West Nile virus is usually spread by mosquitoes which have been in contact with birds hosting the disease, but the US authorities are also investigating several possible cases of infection by blood transfusion.
+            </S>
+            <S SNO='12' PAR='10' RSNT='1'>
+                The disease generally takes the form of a mild flu-like illness, but some people with weak immune systems can develop a life-threatening brain condition.
+            </S>
+            <S SNO='13' PAR='11' RSNT='1'>
+                Up until now this year it has affected 28 American states, all east of the Rocky Mountains, and the District of Columbia.
+            </S>
+        </TEXT>
+    </BODY>
+</DOCSENT>

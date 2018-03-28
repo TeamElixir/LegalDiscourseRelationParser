@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<!DOCTYPE DOCSENT SYSTEM '/clair2/projects/nie/nie3/dtd/docsent.dtd'>
+<DOCSENT DID='http:%2F%2Fwww.msnbc.com%2Fnews%2F855890.asp.20030108124902'>
+    <HEAD>
+        <PDATE>1041915600</PDATE>
+    </HEAD>
+    <BODY>
+        <HEADLINE>
+            <S SNO='1' PAR='1' RSNT='1'>
+                Oil falls as OPEC plans output boost 
+            </S>
+        </HEADLINE>
+        <TEXT>
+            <S SNO='2' PAR='2' RSNT='1'>
+                Oil falls as OPEC plans output boost Cartel may hold emergency meeting on Jan. 12
+            </S>
+            <S SNO='3' PAR='3' RSNT='1'>
+                LONDON, Jan. 7    Oil prices fell heavily Tuesday as leading OPEC power Saudi Arabia pushed the cartel for a nine-percent increase, about two million barrels a day, to fill a gap left by a five-week-old strike in Venezuela.
+            </S>
+            <S SNO='4' PAR='4' RSNT='1'>
+                But two million sounds like a lot.
+            </S>
+            <S SNO='5' PAR='4' RSNT='2'>
+                An increase of a million or so looks more realistic because the Venezuelan strike is temporary and eventually Venezuela will come back.
+            </S>
+            <S SNO='6' PAR='5' RSNT='1'>
+                Saudi oil buyers said they were already in contact about higher February supplies and shippers said Riyadh had ordered tankers to lift extra crude for the United States from the end of this month.
+            </S>
+            <S SNO='7' PAR='6' RSNT='1'>
+                Oil has retreated from a two-year peak of $33.65 a barrel for U.S. crude since the end of December when it was first learned that OPEC was discussing a substantial output increase.
+            </S>
+            <S SNO='8' PAR='6' RSNT='2'>
+                The group wants to plug the loss from Venezuela, its third largest member, and restrain prices in its favored $22-$28 a barrel range.
+            </S>
+            <S SNO='9' PAR='7' RSNT='1'>
+                It is also aware that the growing threat of a U.S. assault against oil producer Iraq could cause a price shock harmful to world economic growth.
+            </S>
+            <S SNO='10' PAR='8' RSNT='1'>
+                I think in this case we should give OPEC credit,  said Peter Gignoux, head of the energy desk at Schroder Salomon Smith Barney.
+            </S>
+            <S SNO='11' PAR='9' RSNT='1'>
+                It is being a good world citizen.
+            </S>
+            <S SNO='12' PAR='9' RSNT='2'>
+                It recognizes the economic turnaround potential in consuming countries and doesn t want an oil shock to damage that.
+            </S>
+        </TEXT>
+    </BODY>
+</DOCSENT>

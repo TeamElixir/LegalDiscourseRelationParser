@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE EXTRACT SYSTEM "/clair/tools/mead/dtd/extract.dtd">
+
+<EXTRACT QID="20030624194663" LANG="ENG" COMPRESSION="10" SYSTEM="9-1-0.5-1-novelty-0.9-10pct" RUN="Wed Nov 19 15:17:21 2003">
+<S ORDER="1" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F3010598.stm.20030624194663" SNO="1" />
+<S ORDER="2" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F3013850.stm.20030624194663" SNO="1" />
+<S ORDER="3" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F3013920.stm.20030624194663" SNO="1" />
+<S ORDER="4" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F3013920.stm.20030624194663" SNO="2" />
+<S ORDER="5" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F3014066.stm.20030624194663" SNO="1" />
+<S ORDER="6" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F3014066.stm.20030624194663" SNO="2" />
+<S ORDER="7" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F3016650.stm.20030624194663" SNO="1" />
+<S ORDER="8" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F3016650.stm.20030624194663" SNO="10" />
+<S ORDER="9" DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030624%2Fw062441.html.20030624194663" SNO="2" />
+<S ORDER="10" DID="http:%2F%2Fwww.cnn.com%2F2003%2FWORLD%2Fasiapcf%2Fcentral%2F06%2F24%2Fpakistan.afghan%2Findex.html.20030624194663" SNO="2" />
+<S ORDER="11" DID="http:%2F%2Fwww.cnn.com%2F2003%2FWORLD%2Fasiapcf%2Fcentral%2F06%2F24%2Fpakistan.afghan%2Findex.html.20030624194663" SNO="3" />
+<S ORDER="12" DID="http:%2F%2Fwww.cnn.com%2F2003%2FWORLD%2Fasiapcf%2Fcentral%2F06%2F24%2Fpakistan.afghan%2Findex.html.20030624194663" SNO="10" />
+<S ORDER="13" DID="http:%2F%2Fwww.cnn.com%2F2003%2FWORLD%2Fasiapcf%2Fcentral%2F06%2F24%2Fpakistan.afghan%2Findex.html.20030624194663" SNO="12" />
+<S ORDER="14" DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F930618.asp?0cv=NB10.20030624194663" SNO="2" />
+<S ORDER="15" DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F930618.asp?0cv=NB10.20030624194663" SNO="3" />
+<S ORDER="16" DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F930618.asp?0cv=NB10.20030624194663" SNO="4" />
+<S ORDER="17" DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F930618.asp?0cv=NB10.20030624194663" SNO="6" />
+</EXTRACT>

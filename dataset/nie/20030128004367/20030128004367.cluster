@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE EXTRACT SYSTEM '/clair2/projects/nie/nie3/dtd/cluster.dtd'>
+<CLUSTER LANG='ENG'>
+	<D DID='http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F280103%2F030127180350.fn7tludf.html.20030128004367' />
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Ftalking_point%2F2687349.stm.20030128004367' />
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fafrica%2F1709488.stm.20030128004367' />
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fafrica%2F2690721.stm.20030128004367' />
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fafrica%2F2692343.stm.20030128004367' />
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2F2696693.stm.20030128004367' />
+	<D DID='http:%2F%2Fwww.cnn.com%2F2003%2FWORLD%2Feurope%2F01%2F27%2Feu.mugabe%2Findex.html.20030128004367' />
+</CLUSTER>

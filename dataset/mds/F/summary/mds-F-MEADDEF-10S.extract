@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE EXTRACT SYSTEM "/clair/tools/mead/dtd/extract.dtd">
+
+<EXTRACT QID="F" LANG="ENG" COMPRESSION="10" SYSTEM="9-1-0.5-1-novelty-0.9-10pct" RUN="Wed Nov 19 15:08:27 2003">
+<S ORDER="1" DID="F1" SNO="1" />
+<S ORDER="2" DID="F1" SNO="3" />
+<S ORDER="3" DID="F2" SNO="1" />
+<S ORDER="4" DID="F3" SNO="1" />
+<S ORDER="5" DID="F3" SNO="2" />
+<S ORDER="6" DID="F3" SNO="3" />
+</EXTRACT>

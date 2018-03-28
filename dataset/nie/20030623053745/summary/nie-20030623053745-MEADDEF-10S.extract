@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE EXTRACT SYSTEM "/clair/tools/mead/dtd/extract.dtd">
+
+<EXTRACT QID="20030623053745" LANG="ENG" COMPRESSION="10" SYSTEM="9-1-0.5-1-novelty-0.9-10pct" RUN="Wed Nov 19 15:12:52 2003">
+<S ORDER="1" DID="http:%2F%2Fabcnews.go.com%2Fwire%2FEntertainment%2Fap20030623_115.html.20030623053745" SNO="2" />
+<S ORDER="2" DID="http:%2F%2Fabcnews.go.com%2Fwire%2FEntertainment%2Fap20030623_115.html.20030623053745" SNO="3" />
+<S ORDER="3" DID="http:%2F%2Fabcnews.go.com%2Fwire%2FEntertainment%2Fap20030623_115.html.20030623053745" SNO="4" />
+<S ORDER="4" DID="http:%2F%2Fabcnews.go.com%2Fwire%2FEntertainment%2Fap20030623_115.html.20030623053745" SNO="10" />
+<S ORDER="5" DID="http:%2F%2Fwww.cbc.ca%2FartsCanada%2Fstories%2Fpotter200603.20030623053745" SNO="1" />
+<S ORDER="6" DID="http:%2F%2Fwww.cbc.ca%2FartsCanada%2Fstories%2Fpotter200603.20030623053745" SNO="2" />
+<S ORDER="7" DID="http:%2F%2Fwww.cbc.ca%2FartsCanada%2Fstories%2Fpotter200603.20030623053745" SNO="3" />
+<S ORDER="8" DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F06%2F18%2Fentertainment%2Fmain559306.shtml.20030623053745" SNO="1" />
+<S ORDER="9" DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F06%2F18%2Fentertainment%2Fmain559306.shtml.20030623053745" SNO="3" />
+<S ORDER="10" DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F06%2F18%2Fentertainment%2Fmain559306.shtml.20030623053745" SNO="8" />
+<S ORDER="11" DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F06%2F18%2Fentertainment%2Fmain559306.shtml.20030623053745" SNO="87" />
+<S ORDER="12" DID="http:%2F%2Fwww.cnn.com%2F2003%2FSHOWBIZ%2Fbooks%2F06%2F21%2Fsprj.cas03.potter%2Findex.html.20030623053745" SNO="2" />
+<S ORDER="13" DID="http:%2F%2Fwww.cnn.com%2F2003%2FSHOWBIZ%2Fbooks%2F06%2F21%2Fsprj.cas03.potter%2Findex.html.20030623053745" SNO="3" />
+<S ORDER="14" DID="http:%2F%2Fwww.cnn.com%2F2003%2FSHOWBIZ%2Fbooks%2F06%2F21%2Fsprj.cas03.potter%2Findex.html.20030623053745" SNO="4" />
+<S ORDER="15" DID="http:%2F%2Fwww.cnn.com%2F2003%2FSHOWBIZ%2Fbooks%2F06%2F21%2Fsprj.cas03.potter%2Findex.html.20030623053745" SNO="6" />
+<S ORDER="16" DID="http:%2F%2Fwww.cnn.com%2F2003%2FSHOWBIZ%2Fbooks%2F06%2F21%2Fsprj.cas03.potter%2Findex.html.20030623053745" SNO="7" />
+<S ORDER="17" DID="http:%2F%2Fwww.cnn.com%2F2003%2FSHOWBIZ%2Fbooks%2F06%2F21%2Fsprj.cas03.potter%2Findex.html.20030623053745" SNO="11" />
+<S ORDER="18" DID="http:%2F%2Fwww.cnn.com%2F2003%2FSHOWBIZ%2Fbooks%2F06%2F21%2Fsprj.cas03.potter%2Findex.html.20030623053745" SNO="27" />
+<S ORDER="19" DID="http:%2F%2Fwww.cnn.com%2F2003%2FSHOWBIZ%2Fbooks%2F06%2F21%2Fsprj.cas03.potter%2Findex.html.20030623053745" SNO="29" />
+<S ORDER="20" DID="http:%2F%2Fwww.edinburghnews.com%2Findex.cfm?id=682722003.20030623053745" SNO="1" />
+<S ORDER="21" DID="http:%2F%2Fwww.edinburghnews.com%2Findex.cfm?id=682722003.20030623053745" SNO="2" />
+<S ORDER="22" DID="http:%2F%2Fwww.edinburghnews.com%2Findex.cfm?id=682722003.20030623053745" SNO="3" />
+<S ORDER="23" DID="http:%2F%2Fwww.edinburghnews.com%2Findex.cfm?id=682722003.20030623053745" SNO="4" />
+<S ORDER="24" DID="http:%2F%2Fwww.edinburghnews.com%2Findex.cfm?id=682722003.20030623053745" SNO="7" />
+<S ORDER="25" DID="http:%2F%2Fwww.edinburghnews.com%2Findex.cfm?id=682722003.20030623053745" SNO="16" />
+<S ORDER="26" DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F929995.asp?0cv=BB10.20030623053745" SNO="2" />
+<S ORDER="27" DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F929995.asp?0cv=BB10.20030623053745" SNO="3" />
+<S ORDER="28" DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F929995.asp?0cv=BB10.20030623053745" SNO="16" />
+<S ORDER="29" DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F929995.asp?0cv=BB10.20030623053745" SNO="22" />
+<S ORDER="30" DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F929995.asp?0si=-.20030623053745" SNO="4" />
+<S ORDER="31" DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F929995.asp?0si=-.20030623053745" SNO="5" />
+</EXTRACT>

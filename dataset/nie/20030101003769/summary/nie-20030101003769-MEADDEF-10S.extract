@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE EXTRACT SYSTEM "/clair/tools/mead/dtd/extract.dtd">
+
+<EXTRACT QID="20030101003769" LANG="ENG" COMPRESSION="10" SYSTEM="9-1-0.5-1-novelty-0.9-10pct" RUN="Wed Nov 19 15:19:31 2003">
+<S ORDER="1" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2182975.stm.20030101003769" SNO="2" />
+<S ORDER="2" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2182975.stm.20030101003769" SNO="3" />
+<S ORDER="3" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2182975.stm.20030101003769" SNO="5" />
+<S ORDER="4" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2616339.stm.20030101003769" SNO="2" />
+<S ORDER="5" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2616339.stm.20030101003769" SNO="3" />
+<S ORDER="6" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2616339.stm.20030101003769" SNO="18" />
+<S ORDER="7" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2F1129295.stm.20030101003769" SNO="2" />
+<S ORDER="8" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2F1129295.stm.20030101003769" SNO="3" />
+<S ORDER="9" DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=World%26storyId=614470.20030101003769" SNO="3" />
+<S ORDER="10" DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=World%26storyId=614470.20030101003769" SNO="4" />
+<S ORDER="11" DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=World%26storyId=614470.20030101003769" SNO="5" />
+<S ORDER="12" DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=World%26storyId=614470.20030101003769" SNO="11" />
+<S ORDER="13" DID="http:%2F%2Fnews.xinhuanet.com%2Fenglish%2F2002-12%2F30%2Fcontent_674899.htm.20030101003769" SNO="5" />
+<S ORDER="14" DID="http:%2F%2Fnews.xinhuanet.com%2Fenglish%2F2002-12%2F30%2Fcontent_674899.htm.20030101003769" SNO="6" />
+<S ORDER="15" DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Ftopstories%2Fstory%2F0,4386,163712,00.html?.20030101003769" SNO="2" />
+<S ORDER="16" DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Ftopstories%2Fstory%2F0,4386,163712,00.html?.20030101003769" SNO="3" />
+<S ORDER="17" DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Ftopstories%2Fstory%2F0,4386,163712,00.html?.20030101003769" SNO="4" />
+<S ORDER="18" DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Ftopstories%2Fstory%2F0,4386,163717,00.html?.20030101003769" SNO="2" />
+<S ORDER="19" DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Ftopstories%2Fstory%2F0,4386,163717,00.html?.20030101003769" SNO="3" />
+<S ORDER="20" DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Ftopstories%2Fstory%2F0,4386,163717,00.html?.20030101003769" SNO="6" />
+<S ORDER="21" DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Ftopstories%2Fstory%2F0,4386,163717,00.html?.20030101003769" SNO="23" />
+</EXTRACT>

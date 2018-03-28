@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE EXTRACT SYSTEM '/clair2/projects/nie/nie3/dtd/cluster.dtd'>
+<CLUSTER LANG='ENG'>
+	<D DID='http:%2F%2Fabcnews.go.com%2Fwire%2FUS%2Fap20020821_956.html.20020822010395' />
+	<D DID='http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F020821%2Fw082194.html.20020822010395' />
+	<D DID='http:%2F%2Fwww.cbsnews.com%2Fstories%2F2002%2F08%2F21%2Fnational%2Fmain519385.shtml.20020822010395' />
+	<D DID='http:%2F%2Fwww.cnn.com%2F2002%2FUS%2F08%2F21%2Fmiami.airport.evac%2Findex.html.20020822010395' />
+	<D DID='http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,60964,00.html.20020822010395' />
+	<D DID='http:%2F%2Fwww.washingtonpost.com%2Fwp-dyn%2Farticles%2FA44817-2002Aug21.html.20020822010395' />
+</CLUSTER>

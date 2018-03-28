@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE EXTRACT SYSTEM '/clair2/projects/nie/nie3/dtd/cluster.dtd'>
+<CLUSTER LANG='ENG'>
+	<D DID='http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20021030_2012.html.20021031004955' />
+	<D DID='http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F311002%2F021024034132.4jd64tqg.html.20021031004955' />
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Feurope%2F2377563.stm.20021031004955' />
+	<D DID='http:%2F%2Fnews.xinhuanet.com%2Fenglish%2F2002-10%2F31%2Fcontent_613667.htm.20021031004955' />
+	<D DID='http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152058,00.html?.20021031004955' />
+	<D DID='http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F303%2Fnation%2FUS_faults_Russia_on_gas_secrecy+.shtml.20021031004955' />
+	<D DID='http:%2F%2Fwww.cnn.com%2F2002%2FWORLD%2Feurope%2F10%2F30%2Fdenmark.chechnya%2Findex.html.20021031004955' />
+	<D DID='http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,67043,00.html.20021031004955' />
+	<D DID='http:%2F%2Fwww.msnbc.com%2Fnews%2F824951.asp?0si=-.20021031004955' />
+</CLUSTER>

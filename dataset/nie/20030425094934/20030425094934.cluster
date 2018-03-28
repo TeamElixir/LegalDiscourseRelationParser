@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE EXTRACT SYSTEM '/clair2/projects/nie/nie3/dtd/cluster.dtd'>
+<CLUSTER LANG='ENG'>
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2969247.stm.20030425094934' />
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2974739.stm.20030425094934' />
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2975601.stm.20030425094934' />
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2974803.stm.20030425094934' />
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2975277.stm.20030425094934' />
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2973415.stm.20030425094934' />
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F2%2Fhi%2Fasia-pacific%2F2972531.stm.20030425094934' />
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2973803.stm.20030425094934' />
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2972927.stm.20030425094934' />
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2856735.stm.20030425094934' />
+</CLUSTER>

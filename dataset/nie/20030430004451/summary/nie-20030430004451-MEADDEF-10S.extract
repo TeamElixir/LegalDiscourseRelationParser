@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE EXTRACT SYSTEM "/clair/tools/mead/dtd/extract.dtd">
+
+<EXTRACT QID="20030430004451" LANG="ENG" COMPRESSION="10" SYSTEM="9-1-0.5-1-novelty-0.9-10pct" RUN="Wed Nov 19 15:17:31 2003">
+<S ORDER="1" DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="2" />
+<S ORDER="2" DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="4" />
+<S ORDER="3" DID="http:%2F%2Fabcnews.go.com%2Fwire%2FWorld%2Fap20030429_1998.html.20030430004451" SNO="42" />
+<S ORDER="4" DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="1" />
+<S ORDER="5" DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="2" />
+<S ORDER="6" DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="4" />
+<S ORDER="7" DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="13" />
+<S ORDER="8" DID="http:%2F%2Fmatrix.bangkokpost.co.th%2Fafp_news%2F300403%2F030430000437.15xarswg.html.20030430004451" SNO="14" />
+<S ORDER="9" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2978661.stm.20030430004451" SNO="2" />
+<S ORDER="10" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="2" />
+<S ORDER="11" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="3" />
+<S ORDER="12" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2984547.stm.20030430004451" SNO="5" />
+<S ORDER="13" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2986961.stm.20030430004451" SNO="2" />
+<S ORDER="14" DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2986961.stm.20030430004451" SNO="3" />
+<S ORDER="15" DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FFranks_leads_field_to_become_Army_chief+.shtml.20030430004451" SNO="3" />
+<S ORDER="16" DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="1" />
+<S ORDER="17" DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="2" />
+<S ORDER="18" DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="3" />
+<S ORDER="19" DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="10" />
+<S ORDER="20" DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="20" />
+<S ORDER="21" DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FUS_to_lessen_deployment_in_Gulf_region_officials_say+.shtml.20030430004451" SNO="26" />
+<S ORDER="22" DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="1" />
+<S ORDER="23" DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="3" />
+<S ORDER="24" DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="8" />
+<S ORDER="25" DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="16" />
+<S ORDER="26" DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="19" />
+<S ORDER="27" DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="23" />
+<S ORDER="28" DID="http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F02%2F24%2Firaq%2Fmain541815.shtml.20030430004451" SNO="25" />
+<S ORDER="29" DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="2" />
+<S ORDER="30" DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85003,00.html.20030430004451" SNO="53" />
+<S ORDER="31" DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="3" />
+<S ORDER="32" DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="4" />
+<S ORDER="33" DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="5" />
+<S ORDER="34" DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="7" />
+<S ORDER="35" DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="9" />
+<S ORDER="36" DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="10" />
+<S ORDER="37" DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="13" />
+<S ORDER="38" DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="15" />
+<S ORDER="39" DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="19" />
+<S ORDER="40" DID="http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,85446,00.html.20030430004451" SNO="24" />
+<S ORDER="41" DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="4" />
+<S ORDER="42" DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="5" />
+<S ORDER="43" DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="7" />
+<S ORDER="44" DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="14" />
+<S ORDER="45" DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="17" />
+<S ORDER="46" DID="http:%2F%2Fwww.msnbc.com%2Fnews%2F905925.asp?0si=-.20030430004451" SNO="45" />
+</EXTRACT>

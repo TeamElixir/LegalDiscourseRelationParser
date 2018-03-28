@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<!DOCTYPE DOCSENT SYSTEM '/clair2/projects/nie/nie3/dtd/docsent.dtd'>
+<DOCSENT DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2992693.stm.20030501140456'>
+    <HEAD>
+        <PDATE>1051822900</PDATE>
+    </HEAD>
+    <BODY>
+        <HEADLINE>
+            <S SNO='1' PAR='1' RSNT='1'>
+                 Sars gene code confirmed 
+            </S>
+        </HEADLINE>
+        <TEXT>
+            <S SNO='2' PAR='2' RSNT='1'>
+                The gene code or genome was originally published in April but has now been authenticated by other experts.
+            </S>
+            <S SNO='3' PAR='3' RSNT='1'>
+                The confirmation is expected to boost efforts to find drugs or a vaccine to fight the disease.
+            </S>
+            <S SNO='4' PAR='4' RSNT='1'>
+                The news comes as doctors in Hong Kong warned that people who survive Sars may suffer permanent lung damage and may suffer a relapse.
+            </S>
+            <S SNO='5' PAR='5' RSNT='1'>
+                They have also reported that some hospitals there may have been discharging patients with the virus too early.
+            </S>
+            <S SNO='6' PAR='6' RSNT='1'>
+                Tests have found traces of the virus in the stool and urine of patients thought to be free of the virus.
+            </S>
+            <S SNO='7' PAR='7' RSNT='1'>
+                Officials are now working to see if any of these patients may have spread the disease to other people.
+            </S>
+            <S SNO='8' PAR='8' RSNT='1'>
+                Sars has so far claimed the lives of more than 350 people and has infected thousands more in 26 countries across the world.
+            </S>
+            <S SNO='9' PAR='9' RSNT='1'>
+                Scientists in Canada were the first to sequence a strain of Sars - one found in a patient in Toronto.
+            </S>
+            <S SNO='10' PAR='10' RSNT='1'>
+                They were followed by a team in the United States, who sequenced the so-called Urbani strain of the virus.
+            </S>
+            <S SNO='11' PAR='11' RSNT='1'>
+                This strain has been identified in patients in Hong Kong and has claimed lives.
+            </S>
+            <S SNO='12' PAR='12' RSNT='1'>
+                Both teams detailed their findings in papers submitted to the journal Science.
+            </S>
+            <S SNO='13' PAR='13' RSNT='1'>
+                The journal said both papers have now been reviewed and authenticated by leading experts.
+            </S>
+            <S SNO='14' PAR='14' RSNT='1'>
+                The journal fast-tracked the publication of the papers in a bid to help those trying to beat the virus.
+            </S>
+            <S SNO='15' PAR='15' RSNT='1'>
+                Scientists who have looked at both genomes say their genetic sequences are "very similar".
+            </S>
+            <S SNO='16' PAR='16' RSNT='1'>
+                "There are only a few differences between the two viruses," said Mark Pallansch from the US Centers for Disease Control and Prevention.
+            </S>
+            <S SNO='17' PAR='17' RSNT='1'>
+                "But they are extremely different from other coronaviruses."
+            </S>
+            <S SNO='18' PAR='18' RSNT='1'>
+                The scientists also confirmed that Sars is a form of the coronavirus, which is responsible for the common cold.
+            </S>
+            <S SNO='19' PAR='19' RSNT='1'>
+                Dr Pallansch said the confirmation of the Sars genome would help in the development of drugs to combat the virus.
+            </S>
+            <S SNO='20' PAR='20' RSNT='1'>
+                "It is a very important development in the ongoing efforts to control this epidemic the ultimate purpose of which is to support activities which could event lead to improved methods of control, treatment or prevention.
+            </S>
+            <S SNO='21' PAR='21' RSNT='1'>
+                "This provides a tool in these efforts but we will have to wait to see how this tool can be used."
+            </S>
+        </TEXT>
+    </BODY>
+</DOCSENT>

@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<!DOCTYPE DOCSENT SYSTEM '/clair2/projects/nie/nie3/dtd/docsent.dtd'>
+<DOCSENT DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2973415.stm.20030425094934'>
+    <HEAD>
+        <PDATE>1051277589</PDATE>
+    </HEAD>
+    <BODY>
+        <HEADLINE>
+            <S SNO='1' PAR='1' RSNT='1'>
+                 Timeline: Sars virus
+            </S>
+        </HEADLINE>
+        <TEXT>
+            <S SNO='2' PAR='2' RSNT='1'>
+                First known case of Sars is discovered in Guangdong province, China.
+            </S>
+            <S SNO='3' PAR='3' RSNT='1'>
+                The Chinese Ministry of Health reports that there have been 300 cases including five deaths in Guangdong province from an "acute respiratory syndrome".
+            </S>
+            <S SNO='4' PAR='4' RSNT='1'>
+                Hong Kong health officials report an outbreak of an "acute respiratory syndrome" among hospital workers.
+            </S>
+            <S SNO='5' PAR='5' RSNT='1'>
+                The World Health Organisation (WHO) confirms that Severe Acute Respiratory syndrome (Sars) is a "worldwide health threat" and that possible cases have been identified in Canada, Indonesia, Philippines, Singapore, Thailand and Vietnam.
+            </S>
+            <S SNO='6' PAR='5' RSNT='2'>
+                The WHO issues guidelines warning travellers to South East Asia about the dangers of Sars.
+            </S>
+            <S SNO='7' PAR='6' RSNT='1'>
+                Sars spreads to the US and Europe with the UK, Spain, Germany and Slovenia reporting cases.
+            </S>
+            <S SNO='8' PAR='7' RSNT='1'>
+                WHO recommends screening departing travellers from worst affected areas.
+            </S>
+            <S SNO='9' PAR='8' RSNT='1'>
+                Carlo Urbani, the WHO official who first identified Sars, dies of the disease.
+            </S>
+            <S SNO='10' PAR='9' RSNT='1'>
+                WHO recommends postponement of all non-essential travel to Hong Kong and Guangdong province of China.
+            </S>
+            <S SNO='11' PAR='10' RSNT='1'>
+                China apologises for its slow response to the Sars outbreak amid allegations that officials have covered up the true extent of the spread of the disease.
+            </S>
+            <S SNO='12' PAR='11' RSNT='1'>
+                First Sars case reported in Africa.
+            </S>
+            <S SNO='13' PAR='12' RSNT='1'>
+                Canadian scientists confirm they have sequenced the genome of the Sars virus.
+            </S>
+            <S SNO='14' PAR='13' RSNT='1'>
+                India confirms its first Sars case.
+            </S>
+            <S SNO='15' PAR='14' RSNT='1'>
+                WHO recommends postponement of non-essential travel to Toronto, Canada.
+            </S>
+            <S SNO='16' PAR='14' RSNT='2'>
+                All schools in Beijing are shut for two weeks in an attempt to halt the spread of the disease.
+            </S>
+        </TEXT>
+    </BODY>
+</DOCSENT>

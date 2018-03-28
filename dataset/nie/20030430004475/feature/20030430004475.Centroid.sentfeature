@@ -1,0 +1,267 @@
+<?xml version='1.0'?>
+<SENT-FEATURE>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2985453.stm.20030430004475" SNO="1" >
+		<FEATURE N="Centroid" V="0.181721211436197" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2985453.stm.20030430004475" SNO="2" >
+		<FEATURE N="Centroid" V="0.524924937109000" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2985453.stm.20030430004475" SNO="3" >
+		<FEATURE N="Centroid" V="0.991738568772287" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2985453.stm.20030430004475" SNO="4" >
+		<FEATURE N="Centroid" V="0.288184006494304" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2985453.stm.20030430004475" SNO="5" >
+		<FEATURE N="Centroid" V="0.159280566468079" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2985453.stm.20030430004475" SNO="6" >
+		<FEATURE N="Centroid" V="0.318642102089268" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2985453.stm.20030430004475" SNO="7" >
+		<FEATURE N="Centroid" V="0.115917723691193" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2985453.stm.20030430004475" SNO="8" >
+		<FEATURE N="Centroid" V="0.511914253971227" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2985453.stm.20030430004475" SNO="9" >
+		<FEATURE N="Centroid" V="0.601351053422445" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2985453.stm.20030430004475" SNO="10" >
+		<FEATURE N="Centroid" V="0.381717678386226" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2985453.stm.20030430004475" SNO="11" >
+		<FEATURE N="Centroid" V="0.574312929889822" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2985453.stm.20030430004475" SNO="12" >
+		<FEATURE N="Centroid" V="0.181566589129524" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2985453.stm.20030430004475" SNO="13" >
+		<FEATURE N="Centroid" V="0.527033937255355" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2985453.stm.20030430004475" SNO="14" >
+		<FEATURE N="Centroid" V="0.510561240779241" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2985453.stm.20030430004475" SNO="15" >
+		<FEATURE N="Centroid" V="0.281430661685935" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2985453.stm.20030430004475" SNO="16" >
+		<FEATURE N="Centroid" V="0.025722685022503" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2985453.stm.20030430004475" SNO="17" >
+		<FEATURE N="Centroid" V="0.054155561567964" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2985453.stm.20030430004475" SNO="18" >
+		<FEATURE N="Centroid" V="0.670373460018294" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2985453.stm.20030430004475" SNO="19" >
+		<FEATURE N="Centroid" V="0.069379247508848" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2985453.stm.20030430004475" SNO="20" >
+		<FEATURE N="Centroid" V="0.186708126281061" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="1" >
+		<FEATURE N="Centroid" V="0.242115734757346" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="2" >
+		<FEATURE N="Centroid" V="0.448017505227280" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="3" >
+		<FEATURE N="Centroid" V="0.852311781010421" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="4" >
+		<FEATURE N="Centroid" V="0.653317491940215" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="5" >
+		<FEATURE N="Centroid" V="0.550617628280392" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="6" >
+		<FEATURE N="Centroid" V="0.328117811160654" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="7" >
+		<FEATURE N="Centroid" V="0.074304316545524" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="8" >
+		<FEATURE N="Centroid" V="0.101550120294293" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="9" >
+		<FEATURE N="Centroid" V="0.230461601983051" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="10" >
+		<FEATURE N="Centroid" V="0.198184914479837" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="11" >
+		<FEATURE N="Centroid" V="0.103893125875602" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="12" >
+		<FEATURE N="Centroid" V="0.066009384721773" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="13" >
+		<FEATURE N="Centroid" V="0.153019301186311" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="14" >
+		<FEATURE N="Centroid" V="0.202390771558496" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="15" >
+		<FEATURE N="Centroid" V="0.160311625747836" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="16" >
+		<FEATURE N="Centroid" V="0.063702001379028" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="17" >
+		<FEATURE N="Centroid" V="0.207503949973165" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="18" >
+		<FEATURE N="Centroid" V="0.316642597045701" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="19" >
+		<FEATURE N="Centroid" V="0.159822213461988" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="20" >
+		<FEATURE N="Centroid" V="0.222702431780379" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="21" >
+		<FEATURE N="Centroid" V="0.170107231737538" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="22" >
+		<FEATURE N="Centroid" V="0.136559809120376" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="23" >
+		<FEATURE N="Centroid" V="0.384431060102308" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="24" >
+		<FEATURE N="Centroid" V="0.476938126225240" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="25" >
+		<FEATURE N="Centroid" V="0.068262084256472" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="26" >
+		<FEATURE N="Centroid" V="0.037110937247306" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="27" >
+		<FEATURE N="Centroid" V="0.110982572034130" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="28" >
+		<FEATURE N="Centroid" V="0.123234139173991" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475" SNO="29" >
+		<FEATURE N="Centroid" V="0.059737601430619" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F74522.htm.20030430004475" SNO="1" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F74522.htm.20030430004475" SNO="2" >
+		<FEATURE N="Centroid" V="0.628230392040650" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F74522.htm.20030430004475" SNO="3" >
+		<FEATURE N="Centroid" V="0.718644132078908" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F74522.htm.20030430004475" SNO="4" >
+		<FEATURE N="Centroid" V="0.796463871649827" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F74522.htm.20030430004475" SNO="5" >
+		<FEATURE N="Centroid" V="0.383160716722224" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F74522.htm.20030430004475" SNO="6" >
+		<FEATURE N="Centroid" V="0.151614382265982" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F74522.htm.20030430004475" SNO="7" >
+		<FEATURE N="Centroid" V="0.702411539752480" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F74522.htm.20030430004475" SNO="8" >
+		<FEATURE N="Centroid" V="0.229250377511751" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F74522.htm.20030430004475" SNO="9" >
+		<FEATURE N="Centroid" V="0.547229935711294" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F74522.htm.20030430004475" SNO="10" >
+		<FEATURE N="Centroid" V="0.228612732975155" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F74522.htm.20030430004475" SNO="11" >
+		<FEATURE N="Centroid" V="0.661836369487768" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F74522.htm.20030430004475" SNO="12" >
+		<FEATURE N="Centroid" V="0.396796333201632" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F74522.htm.20030430004475" SNO="13" >
+		<FEATURE N="Centroid" V="0.034080266389564" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F74522.htm.20030430004475" SNO="14" >
+		<FEATURE N="Centroid" V="0.180474836020557" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F74522.htm.20030430004475" SNO="15" >
+		<FEATURE N="Centroid" V="0.150056251474899" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F74522.htm.20030430004475" SNO="16" >
+		<FEATURE N="Centroid" V="0.059123770951500" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F74522.htm.20030430004475" SNO="17" >
+		<FEATURE N="Centroid" V="0.043949975192754" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F74522.htm.20030430004475" SNO="18" >
+		<FEATURE N="Centroid" V="0.068470430995310" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F74522.htm.20030430004475" SNO="19" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=World%26storyId=713477.20030430004475" SNO="1" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=World%26storyId=713477.20030430004475" SNO="2" >
+		<FEATURE N="Centroid" V="0.024520455802556" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=World%26storyId=713477.20030430004475" SNO="3" >
+		<FEATURE N="Centroid" V="0.416951439002438" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=World%26storyId=713477.20030430004475" SNO="4" >
+		<FEATURE N="Centroid" V="0.520790745420013" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=World%26storyId=713477.20030430004475" SNO="5" >
+		<FEATURE N="Centroid" V="0.501485983435716" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=World%26storyId=713477.20030430004475" SNO="6" >
+		<FEATURE N="Centroid" V="1.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=World%26storyId=713477.20030430004475" SNO="7" >
+		<FEATURE N="Centroid" V="0.549857789834611" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=World%26storyId=713477.20030430004475" SNO="8" >
+		<FEATURE N="Centroid" V="0.173788247419716" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=World%26storyId=713477.20030430004475" SNO="9" >
+		<FEATURE N="Centroid" V="0.561633760062632" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=World%26storyId=713477.20030430004475" SNO="10" >
+		<FEATURE N="Centroid" V="0.405883829354714" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=World%26storyId=713477.20030430004475" SNO="11" >
+		<FEATURE N="Centroid" V="0.043864783835765" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=World%26storyId=713477.20030430004475" SNO="12" >
+		<FEATURE N="Centroid" V="0.012583381486046" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=World%26storyId=713477.20030430004475" SNO="13" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=World%26storyId=713477.20030430004475" SNO="14" >
+		<FEATURE N="Centroid" V="0.170316986909912" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=World%26storyId=713477.20030430004475" SNO="15" >
+		<FEATURE N="Centroid" V="0.118562277134292" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=World%26storyId=713477.20030430004475" SNO="16" >
+		<FEATURE N="Centroid" V="0.121684777928563" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=World%26storyId=713477.20030430004475" SNO="17" >
+		<FEATURE N="Centroid" V="0.233459803316291" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=World%26storyId=713477.20030430004475" SNO="18" >
+		<FEATURE N="Centroid" V="0.245481264685572" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=World%26storyId=713477.20030430004475" SNO="19" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=World%26storyId=713477.20030430004475" SNO="20" >
+		<FEATURE N="Centroid" V="0.015173795758746" />
+	</S>
+</SENT-FEATURE>

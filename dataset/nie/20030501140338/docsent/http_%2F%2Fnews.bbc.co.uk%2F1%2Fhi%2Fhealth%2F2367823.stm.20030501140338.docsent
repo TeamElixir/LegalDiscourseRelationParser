@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<!DOCTYPE DOCSENT SYSTEM '/clair2/projects/nie/nie3/dtd/docsent.dtd'>
+<DOCSENT DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fhealth%2F2367823.stm.20030501140338'>
+    <HEAD>
+        <PDATE>1035822462</PDATE>
+    </HEAD>
+    <BODY>
+        <HEADLINE>
+            <S SNO='1' PAR='1' RSNT='1'>
+                 Killer virus 'may have reached UK'
+            </S>
+        </HEADLINE>
+        <TEXT>
+            <S SNO='2' PAR='2' RSNT='1'>
+                The West Nile virus, which has killed more than 188 people in the US so far this year, may be present in UK birds, say scientists.
+            </S>
+            <S SNO='3' PAR='3' RSNT='1'>
+                However, so far, there have been no cases of the disease caught in Britain, say experts.
+            </S>
+            <S SNO='4' PAR='4' RSNT='1'>
+                Oxford University researchers have found antibodies in non-migratory birds in the UK which suggest the presence of the virus.
+            </S>
+            <S SNO='5' PAR='5' RSNT='1'>
+                West Nile virus is normally transmitted by mosquitoes which suck the blood of infected birds then feed on humans.
+            </S>
+            <S SNO='6' PAR='6' RSNT='1'>
+                The risk of human-to-human transmission is thought to be low.
+            </S>
+            <S SNO='7' PAR='7' RSNT='1'>
+                It is uncertain whether the limited mosquito population even in warmer areas of the UK could support a widespread West Nile outbreak.
+            </S>
+            <S SNO='8' PAR='8' RSNT='1'>
+                Doctors have been warned to report cases in which patients display suspicious symptoms.
+            </S>
+            <S SNO='9' PAR='9' RSNT='1'>
+                Previous cases of the illness have occurred only in people travelling back from areas in which the disease is widespread.
+            </S>
+            <S SNO='10' PAR='10' RSNT='1'>
+                The spread of the virus through bird populations in the US has caused widespread public concern in recent years.
+            </S>
+            <S SNO='11' PAR='11' RSNT='1'>
+                At the present time, since its arrival in New York in 1999, 38 states have experienced cases.
+            </S>
+            <S SNO='12' PAR='12' RSNT='1'>
+                So far this year, hundreds of cases have been identified, and 188 people have died.
+            </S>
+            <S SNO='13' PAR='13' RSNT='1'>
+                Most vulnerable are people who are over the age of 50 or already suffering a serious illness.
+            </S>
+            <S SNO='14' PAR='14' RSNT='1'>
+                The findings from the Oxford-based Centre for Ecology and Hydrology are due to be published in a scientific journal shortly.
+            </S>
+            <S SNO='15' PAR='15' RSNT='1'>
+                A spokesman for the Department of Health said it would study the report at that point.
+            </S>
+            <S SNO='16' PAR='16' RSNT='1'>
+                The Public Health Laboratory Service, which monitors the rates of infectious disease in the UK, is already asking doctors to send reports of any patients with encephalitis or viral meningitis.
+            </S>
+            <S SNO='17' PAR='17' RSNT='1'>
+                The symptoms of both of these appear similar to West Nile virus.
+            </S>
+            <S SNO='18' PAR='18' RSNT='1'>
+                So far, it says, no blood samples from these patients have proved positive for West Nile virus.
+            </S>
+            <S SNO='19' PAR='19' RSNT='1'>
+                A spokesman told the BBC: "We have been warning doctors about this for some time.
+            </S>
+            <S SNO='20' PAR='20' RSNT='1'>
+                "It is more a traveller's illness in people coming back from the US."
+            </S>
+        </TEXT>
+    </BODY>
+</DOCSENT>

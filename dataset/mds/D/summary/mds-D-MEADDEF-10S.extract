@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE EXTRACT SYSTEM "/clair/tools/mead/dtd/extract.dtd">
+
+<EXTRACT QID="D" LANG="ENG" COMPRESSION="10" SYSTEM="9-1-0.5-1-novelty-0.9-10pct" RUN="Wed Nov 19 15:08:11 2003">
+<S ORDER="1" DID="D1" SNO="1" />
+<S ORDER="2" DID="D1" SNO="6" />
+<S ORDER="3" DID="D2" SNO="1" />
+<S ORDER="4" DID="D2" SNO="2" />
+<S ORDER="5" DID="D3" SNO="1" />
+<S ORDER="6" DID="D3" SNO="4" />
+<S ORDER="7" DID="D3" SNO="18" />
+<S ORDER="8" DID="D4" SNO="1" />
+<S ORDER="9" DID="D4" SNO="2" />
+<S ORDER="10" DID="D4" SNO="11" />
+<S ORDER="11" DID="D5" SNO="1" />
+<S ORDER="12" DID="D5" SNO="2" />
+<S ORDER="13" DID="D5" SNO="7" />
+<S ORDER="14" DID="D6" SNO="1" />
+<S ORDER="15" DID="D6" SNO="2" />
+<S ORDER="16" DID="D7" SNO="1" />
+<S ORDER="17" DID="D7" SNO="2" />
+<S ORDER="18" DID="D7" SNO="3" />
+<S ORDER="19" DID="D7" SNO="10" />
+</EXTRACT>

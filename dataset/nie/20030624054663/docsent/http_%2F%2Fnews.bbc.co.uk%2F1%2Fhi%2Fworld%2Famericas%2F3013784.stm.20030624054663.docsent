@@ -1,0 +1,26 @@
+<?xml version='1.0'?>
+<!DOCTYPE DOCSENT SYSTEM '/clair2/projects/nie/nie3/dtd/docsent.dtd'>
+<DOCSENT DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F3013784.stm.20030624054663'>
+  <BODY>
+    <HEADLINE>
+      <S SNO='1' PAR='1' RSNT='1'>BBC NEWS   World   Americas   Mixed ruling on US affirmative action</S>
+    </HEADLINE>
+    <TEXT>
+      <S SNO='2' PAR='2' RSNT='1'>The US Supreme Court has upheld the right of a university law school to take race into account when deciding whether or not to allocate a student place.</S>
+      <S SNO='3' PAR='3' RSNT='1'>The court backed by five votes to four the University of Michigan graduate law school's policy of affirmative action which favours ethnic minority candidates.</S>
+      <S SNO='4' PAR='4' RSNT='1'>However, by a majority of six to three, the judges also ruled that the university's policy of awarding applicants from ethnic minorities extra points when deciding undergraduate places was unconstitutional.</S>
+      <S SNO='5' PAR='5' RSNT='1'>The BBC's Steve Schifferes says the court's decision has been hailed as an important victory by civil rights groups.</S>
+      <S SNO='6' PAR='6' RSNT='1'>The rulings centred on a case brought by three white students whose applications for places at the university - one of them in the graduate law school - were turned down.</S>
+      <S SNO='7' PAR='7' RSNT='1'>The students - who were backed by US President George W Bush - said the decisions to reject them amounted to illegal discrimination, and that if they had been members of a minority group they would have been accepted.</S>
+      <S SNO='8' PAR='8' RSNT='1'>In the first case, Supreme Court Justice Sandra Day O'Connor sided with the court's more liberal justices to decide in favour of the graduate law school's version of affirmative action.</S>
+      <S SNO='9' PAR='9' RSNT='1'>She said the US constitution "does not prohibit the law school's narrowly tailored use of race in admissions decisions to further a compelling interest in obtaining the educational benefits that flow from a diverse student body".</S>
+      <S SNO='10' PAR='10' RSNT='1'>In ruling against the university's points system for undergraduates, the judges decided that it was, in effect, a racial quota system under which a certain number of places were set aside by the university for minority candidates, and was therefore unconstitutional.</S>
+      <S SNO='11' PAR='11' RSNT='1'>The US Government's chief law officer, Solicitor General Ted Olson, had appeared in court to support the students' case and condemn the Michigan admissions plan as unconstitutional.</S>
+      <S SNO='12' PAR='12' RSNT='1'>President Bush has described affirmative action as resembling "quota systems that... exclude people from higher education... are divisive, unfair and impossible to square with the constitution".</S>
+      <S SNO='13' PAR='13' RSNT='1'>Support for the university came from several civil liberties organisations and lawyers, including the American Bar Association.</S>
+      <S SNO='14' PAR='14' RSNT='1'>The case was the most recent examination of US race relations since the court's decision in the Bakke versus Board of Regents case in 1978.</S>
+      <S SNO='15' PAR='15' RSNT='1'>That case was brought by a white student, Allen Bakke, who argued that he had been passed over by the University of California at Davis medical school in favour of minority candidates.</S>
+      <S SNO='16' PAR='16' RSNT='1'>In that instance, racial quotas were struck down, but universities were still permitted to consider race as a factor in admissions.</S>
+    </TEXT>
+  </BODY>
+</DOCSENT>

@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<!DOCTYPE DOCSENT SYSTEM '/clair2/projects/nie/nie3/dtd/docsent.dtd'>
+<DOCSENT DID='http:%2F%2Fwww.msnbc.com%2Fnews%2F854008.asp?cp1=1.20030108124902'>
+    <HEAD>
+        <PDATE>1041570000</PDATE>
+    </HEAD>
+    <BODY>
+        <HEADLINE>
+            <S SNO='1' PAR='1' RSNT='1'>
+                Oil rises on fears of U.S. squeeze 
+            </S>
+        </HEADLINE>
+        <TEXT>
+            <S SNO='2' PAR='2' RSNT='1'>
+                Oil rises on fears of U.S. squeeze Report says production may be cut if Venezeula strike lingers
+            </S>
+            <S SNO='3' PAR='3' RSNT='1'>
+                NEW YORK, Jan. 3    Oil prices jumped another dollar Friday on fears that a strike in exporter Venezuela would spark a supply crisis in the United States, where stockpiles are dwindling just as winter fuel needs reach their peak.
+            </S>
+            <S SNO='4' PAR='4' RSNT='1'>
+                MARKETS IN NEW YORK and London rose within 50 cents of two-year highs as the possible supply crunch compounded traders  anxiety about a U.S.-led war on Iraq, which could deepen shortages if exports are halted there too.
+            </S>
+            <S SNO='5' PAR='5' RSNT='1'>
+                U.S. crude futures gained $1.35, or 4.2 percent, to $33.20 a barrel while international benchmark Brent crude oil jumped $1.35 to $30.78 a barrel.
+            </S>
+            <S SNO='6' PAR='6' RSNT='1'>
+                Both markers have soared by 30 percent since mid-November.
+            </S>
+            <S SNO='7' PAR='7' RSNT='1'>
+                The latest rise in world oil prices came after a U.S. government energy agency warned refiners will be forced to significantly reduce their production of gasoline, heating oil and other petroleum products if Venezuela s oil workers strike drops American crude inventories another 8 million barrels.
+            </S>
+            <S SNO='8' PAR='7' RSNT='2'>
+                U.S. oil inventories fell 9.1 million barrels last week to 278.3 million barrels, close to a 26-year low, as striking workers in Venezuela slashed oil shipments to the U.S. market and cut into crude inventories.
+            </S>
+            <S SNO='9' PAR='8' RSNT='1'>
+                The Energy Information Administration, which is the Energy Department s independent analytical agency, said U.S. oil inventories are close to what is considers  the lower operational  level of 270 million barrels for refineries.
+            </S>
+            <S SNO='10' PAR='9' RSNT='1'>
+                The world oil system will have extremely low inventory cover as it enters what is perhaps the most geopolitically uncertain period for some twenty years,  said Paul Horsnell at investment bank J.P.Morgan.
+            </S>
+            <S SNO='11' PAR='10' RSNT='1'>
+                Current crude oil prices, already high enough to damage economic growth in the industrialized world, have yet to reflect the true scale of the supply problem, Horsnell said.
+            </S>
+            <S SNO='12' PAR='11' RSNT='1'>
+                Venezuela was the world s fifth-largest oil exporter and usually supplies about 13 percent of U.S. imports.
+            </S>
+            <S SNO='13' PAR='12' RSNT='1'>
+                Exports have virtually ground to a halt since early December due to the strike aimed at ousting President Hugo Chavez, and no resolution is in sight.
+            </S>
+            <S SNO='14' PAR='13' RSNT='1'>
+                The main concern is that the deficits are not just large, they are growing,  Horsnell said.
+            </S>
+            <S SNO='15' PAR='14' RSNT='1'>
+                While supply tightens, consumption in the world s largest consumer   already up five percent on last year in December   is set to jump over the next few weeks.
+            </S>
+        </TEXT>
+    </BODY>
+</DOCSENT>

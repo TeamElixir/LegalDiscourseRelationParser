@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE EXTRACT SYSTEM '/clair2/projects/nie/nie3/dtd/cluster.dtd'>
+<CLUSTER LANG='ENG'>
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2673455.stm.20030121010145' />
+	<D DID='http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=Politics%26storyId=629146.20030121010145' />
+	<D DID='http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F66979.htm.20030121010145' />
+	<D DID='http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145' />
+	<D DID='http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145' />
+	<D DID='http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254164%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145' />
+	<D DID='http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254174%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145' />
+	<D DID='http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254175%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145' />
+</CLUSTER>

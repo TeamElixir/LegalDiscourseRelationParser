@@ -1,0 +1,393 @@
+<?xml version='1.0'?>
+<SENT-FEATURE>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news07.html.20021031004979" SNO="1" >
+		<FEATURE N="Centroid" V="0.116981325198837" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news07.html.20021031004979" SNO="2" >
+		<FEATURE N="Centroid" V="0.435461707126997" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news07.html.20021031004979" SNO="3" >
+		<FEATURE N="Centroid" V="0.306132020775092" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news07.html.20021031004979" SNO="4" >
+		<FEATURE N="Centroid" V="0.234966489935240" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news07.html.20021031004979" SNO="5" >
+		<FEATURE N="Centroid" V="0.132690543945472" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news07.html.20021031004979" SNO="6" >
+		<FEATURE N="Centroid" V="0.195836666590410" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news07.html.20021031004979" SNO="7" >
+		<FEATURE N="Centroid" V="0.205651858151119" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news07.html.20021031004979" SNO="8" >
+		<FEATURE N="Centroid" V="0.181547196333791" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news07.html.20021031004979" SNO="9" >
+		<FEATURE N="Centroid" V="0.252593369175771" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news07.html.20021031004979" SNO="10" >
+		<FEATURE N="Centroid" V="0.122016360647174" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news07.html.20021031004979" SNO="11" >
+		<FEATURE N="Centroid" V="0.075219931927737" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news07.html.20021031004979" SNO="12" >
+		<FEATURE N="Centroid" V="0.243148614175696" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news07.html.20021031004979" SNO="13" >
+		<FEATURE N="Centroid" V="0.135070402559812" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news07.html.20021031004979" SNO="14" >
+		<FEATURE N="Centroid" V="0.090110358820826" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="1" >
+		<FEATURE N="Centroid" V="0.155486147260861" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="2" >
+		<FEATURE N="Centroid" V="0.657791352429871" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="3" >
+		<FEATURE N="Centroid" V="0.533884397981100" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="4" >
+		<FEATURE N="Centroid" V="0.133212627586991" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="5" >
+		<FEATURE N="Centroid" V="0.128679499057696" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="6" >
+		<FEATURE N="Centroid" V="0.183381564342424" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="7" >
+		<FEATURE N="Centroid" V="0.097272154829566" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="8" >
+		<FEATURE N="Centroid" V="0.356444709496302" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="9" >
+		<FEATURE N="Centroid" V="0.269564792597429" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="10" >
+		<FEATURE N="Centroid" V="0.100399468038464" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="11" >
+		<FEATURE N="Centroid" V="0.556294819463014" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="12" >
+		<FEATURE N="Centroid" V="1.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="13" >
+		<FEATURE N="Centroid" V="0.439888644759909" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="14" >
+		<FEATURE N="Centroid" V="0.318562488047021" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="15" >
+		<FEATURE N="Centroid" V="0.215315768370125" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="16" >
+		<FEATURE N="Centroid" V="0.537092717588155" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="17" >
+		<FEATURE N="Centroid" V="0.433484309958885" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="18" >
+		<FEATURE N="Centroid" V="0.515928445058389" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="19" >
+		<FEATURE N="Centroid" V="0.112274182432056" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="20" >
+		<FEATURE N="Centroid" V="0.017374673144033" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="21" >
+		<FEATURE N="Centroid" V="0.314530588010482" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="22" >
+		<FEATURE N="Centroid" V="0.415386167360027" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="23" >
+		<FEATURE N="Centroid" V="0.200742894983620" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="24" >
+		<FEATURE N="Centroid" V="0.088196384130361" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="25" >
+		<FEATURE N="Centroid" V="0.534710233119238" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="26" >
+		<FEATURE N="Centroid" V="0.093951625459787" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="27" >
+		<FEATURE N="Centroid" V="0.275696082805646" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="28" >
+		<FEATURE N="Centroid" V="0.115403862876434" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news04.html.20021031004979" SNO="29" >
+		<FEATURE N="Centroid" V="0.048577355362901" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="1" >
+		<FEATURE N="Centroid" V="0.194343592810371" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="2" >
+		<FEATURE N="Centroid" V="0.761207496050815" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="3" >
+		<FEATURE N="Centroid" V="0.402238121463151" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="4" >
+		<FEATURE N="Centroid" V="0.469099235845529" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="5" >
+		<FEATURE N="Centroid" V="0.618527265577561" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="6" >
+		<FEATURE N="Centroid" V="0.354179377459640" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="7" >
+		<FEATURE N="Centroid" V="0.248563319354706" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="8" >
+		<FEATURE N="Centroid" V="0.148318726676412" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="9" >
+		<FEATURE N="Centroid" V="0.066275141104287" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="10" >
+		<FEATURE N="Centroid" V="0.486335367534719" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="11" >
+		<FEATURE N="Centroid" V="0.369648884099131" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="12" >
+		<FEATURE N="Centroid" V="0.233208046138649" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="13" >
+		<FEATURE N="Centroid" V="0.081017141774683" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="14" >
+		<FEATURE N="Centroid" V="0.102795426102211" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="15" >
+		<FEATURE N="Centroid" V="0.310971981241702" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="16" >
+		<FEATURE N="Centroid" V="0.182372349490850" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="17" >
+		<FEATURE N="Centroid" V="0.375250383621802" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="18" >
+		<FEATURE N="Centroid" V="0.487903890249257" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="19" >
+		<FEATURE N="Centroid" V="0.547397019106062" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="20" >
+		<FEATURE N="Centroid" V="0.298997534683645" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="21" >
+		<FEATURE N="Centroid" V="0.071718358909998" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="22" >
+		<FEATURE N="Centroid" V="0.565553377573869" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="23" >
+		<FEATURE N="Centroid" V="0.040324771742367" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="24" >
+		<FEATURE N="Centroid" V="0.096590917654077" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="25" >
+		<FEATURE N="Centroid" V="0.107497414174181" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="26" >
+		<FEATURE N="Centroid" V="0.071417673143798" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="27" >
+		<FEATURE N="Centroid" V="0.056758869981400" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="28" >
+		<FEATURE N="Centroid" V="0.019449647245234" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="29" >
+		<FEATURE N="Centroid" V="0.135189840098491" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="30" >
+		<FEATURE N="Centroid" V="0.020929058111754" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="31" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,152007,00.html?.20021031004979" SNO="32" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2374773.stm.20021031004979" SNO="1" >
+		<FEATURE N="Centroid" V="0.285187150777343" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2374773.stm.20021031004979" SNO="2" >
+		<FEATURE N="Centroid" V="0.948117776675144" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2374773.stm.20021031004979" SNO="3" >
+		<FEATURE N="Centroid" V="0.062914638258168" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2374773.stm.20021031004979" SNO="4" >
+		<FEATURE N="Centroid" V="0.345584665400933" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2374773.stm.20021031004979" SNO="5" >
+		<FEATURE N="Centroid" V="0.181756941674691" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2374773.stm.20021031004979" SNO="6" >
+		<FEATURE N="Centroid" V="0.370144452757988" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2374773.stm.20021031004979" SNO="7" >
+		<FEATURE N="Centroid" V="0.076184214439699" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2374773.stm.20021031004979" SNO="8" >
+		<FEATURE N="Centroid" V="0.808381335527829" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2374773.stm.20021031004979" SNO="9" >
+		<FEATURE N="Centroid" V="0.291517107203512" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2374773.stm.20021031004979" SNO="10" >
+		<FEATURE N="Centroid" V="0.381922672581845" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2374773.stm.20021031004979" SNO="11" >
+		<FEATURE N="Centroid" V="0.093292904226020" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2374773.stm.20021031004979" SNO="12" >
+		<FEATURE N="Centroid" V="0.499140259646467" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2374773.stm.20021031004979" SNO="13" >
+		<FEATURE N="Centroid" V="0.599450178216304" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2374773.stm.20021031004979" SNO="14" >
+		<FEATURE N="Centroid" V="0.293190296157434" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2374773.stm.20021031004979" SNO="15" >
+		<FEATURE N="Centroid" V="0.420024812766634" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2374773.stm.20021031004979" SNO="16" >
+		<FEATURE N="Centroid" V="0.200333998829762" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2374773.stm.20021031004979" SNO="17" >
+		<FEATURE N="Centroid" V="0.081692335854619" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2374773.stm.20021031004979" SNO="18" >
+		<FEATURE N="Centroid" V="0.180191633815133" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2374773.stm.20021031004979" SNO="19" >
+		<FEATURE N="Centroid" V="0.140694925930067" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2374773.stm.20021031004979" SNO="20" >
+		<FEATURE N="Centroid" V="0.186271087723697" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2374773.stm.20021031004979" SNO="21" >
+		<FEATURE N="Centroid" V="0.262816557152210" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2374773.stm.20021031004979" SNO="22" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="1" >
+		<FEATURE N="Centroid" V="0.089120617397187" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="2" >
+		<FEATURE N="Centroid" V="0.581253183886278" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="3" >
+		<FEATURE N="Centroid" V="0.035290840516886" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="4" >
+		<FEATURE N="Centroid" V="0.384353439826335" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="5" >
+		<FEATURE N="Centroid" V="0.371415509148829" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="6" >
+		<FEATURE N="Centroid" V="0.139615261588596" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="7" >
+		<FEATURE N="Centroid" V="0.328959453209863" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="8" >
+		<FEATURE N="Centroid" V="0.408855124979990" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="9" >
+		<FEATURE N="Centroid" V="0.503582070495600" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="10" >
+		<FEATURE N="Centroid" V="0.363446971657480" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="11" >
+		<FEATURE N="Centroid" V="0.311020387668631" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="12" >
+		<FEATURE N="Centroid" V="0.115541699828657" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="13" >
+		<FEATURE N="Centroid" V="0.264603020092513" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="14" >
+		<FEATURE N="Centroid" V="0.488161287113227" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="15" >
+		<FEATURE N="Centroid" V="0.334593732056995" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="16" >
+		<FEATURE N="Centroid" V="0.122380871951994" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="17" >
+		<FEATURE N="Centroid" V="0.041305543503158" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="18" >
+		<FEATURE N="Centroid" V="0.295415093299874" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="19" >
+		<FEATURE N="Centroid" V="0.102795426102211" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="20" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="21" >
+		<FEATURE N="Centroid" V="0.158941159792802" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="22" >
+		<FEATURE N="Centroid" V="0.142706053660289" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="23" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="24" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="25" >
+		<FEATURE N="Centroid" V="0.271624014830819" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="26" >
+		<FEATURE N="Centroid" V="0.023616337193545" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="27" >
+		<FEATURE N="Centroid" V="0.209690964718100" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="28" >
+		<FEATURE N="Centroid" V="0.054454366134135" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="29" >
+		<FEATURE N="Centroid" V="0.338711217204227" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="30" >
+		<FEATURE N="Centroid" V="0.230817694471266" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="31" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="32" >
+		<FEATURE N="Centroid" V="0.159283110335708" />
+	</S>
+	<S DID="http:%2F%2Fwww.bangkokpost.com%2FNews%2F31Oct2002_news29.html.20021031004979" SNO="33" >
+		<FEATURE N="Centroid" V="0.109626566000925" />
+	</S>
+</SENT-FEATURE>

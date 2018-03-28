@@ -1,0 +1,489 @@
+<?xml version='1.0'?>
+<SENT-FEATURE>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254164%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="1" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254164%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="2" >
+		<FEATURE N="Centroid" V="0.077361683160599" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254164%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="3" >
+		<FEATURE N="Centroid" V="0.596696291092826" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254164%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="4" >
+		<FEATURE N="Centroid" V="0.303927242187320" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254164%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="5" >
+		<FEATURE N="Centroid" V="0.218147780696645" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254164%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="6" >
+		<FEATURE N="Centroid" V="0.531620710547370" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254164%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="7" >
+		<FEATURE N="Centroid" V="0.049648878951836" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254164%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="8" >
+		<FEATURE N="Centroid" V="0.288354228448961" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254164%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="9" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F66979.htm.20030121010145" SNO="1" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F66979.htm.20030121010145" SNO="2" >
+		<FEATURE N="Centroid" V="0.337582798834469" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F66979.htm.20030121010145" SNO="3" >
+		<FEATURE N="Centroid" V="0.053598768179328" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F66979.htm.20030121010145" SNO="4" >
+		<FEATURE N="Centroid" V="0.351792362182953" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F66979.htm.20030121010145" SNO="5" >
+		<FEATURE N="Centroid" V="0.289380375570880" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F66979.htm.20030121010145" SNO="6" >
+		<FEATURE N="Centroid" V="0.055310846861585" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F66979.htm.20030121010145" SNO="7" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F66979.htm.20030121010145" SNO="8" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F66979.htm.20030121010145" SNO="9" >
+		<FEATURE N="Centroid" V="0.034740663358908" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F66979.htm.20030121010145" SNO="10" >
+		<FEATURE N="Centroid" V="0.034740663358908" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F66979.htm.20030121010145" SNO="11" >
+		<FEATURE N="Centroid" V="0.065436475342668" />
+	</S>
+	<S DID="http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F66979.htm.20030121010145" SNO="12" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="1" >
+		<FEATURE N="Centroid" V="0.318200719281581" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="2" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="3" >
+		<FEATURE N="Centroid" V="1.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="4" >
+		<FEATURE N="Centroid" V="0.795682959866288" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="5" >
+		<FEATURE N="Centroid" V="0.107996014562421" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="6" >
+		<FEATURE N="Centroid" V="0.071891853793116" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="7" >
+		<FEATURE N="Centroid" V="0.133697462993347" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="8" >
+		<FEATURE N="Centroid" V="0.625025412547814" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="9" >
+		<FEATURE N="Centroid" V="0.619438862471585" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="10" >
+		<FEATURE N="Centroid" V="0.376065808982502" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="11" >
+		<FEATURE N="Centroid" V="0.343048906975213" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="12" >
+		<FEATURE N="Centroid" V="0.273257671517678" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="13" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="14" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="15" >
+		<FEATURE N="Centroid" V="0.153564607182512" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="16" >
+		<FEATURE N="Centroid" V="0.106326716113545" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="17" >
+		<FEATURE N="Centroid" V="0.098067893442845" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="18" >
+		<FEATURE N="Centroid" V="0.070792386436542" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="19" >
+		<FEATURE N="Centroid" V="0.294466718282691" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="20" >
+		<FEATURE N="Centroid" V="0.684908927623684" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="21" >
+		<FEATURE N="Centroid" V="0.186383166435645" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="22" >
+		<FEATURE N="Centroid" V="0.398820440074517" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="23" >
+		<FEATURE N="Centroid" V="0.392475094884612" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="24" >
+		<FEATURE N="Centroid" V="0.162882187254758" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="25" >
+		<FEATURE N="Centroid" V="0.229592907629853" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="26" >
+		<FEATURE N="Centroid" V="0.704927016460434" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="27" >
+		<FEATURE N="Centroid" V="0.343048906975213" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="28" >
+		<FEATURE N="Centroid" V="0.180343383018551" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="29" >
+		<FEATURE N="Centroid" V="0.331493348563333" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="30" >
+		<FEATURE N="Centroid" V="0.260007367575434" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="31" >
+		<FEATURE N="Centroid" V="0.415900709742646" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="32" >
+		<FEATURE N="Centroid" V="0.257514791926860" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="33" >
+		<FEATURE N="Centroid" V="0.053287281607378" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="34" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="35" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F020%2Fnation%2FSharon_calls_European_effort_a_waste_of_time+.shtml.20030121010145" SNO="36" >
+		<FEATURE N="Centroid" V="0.096825427773223" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254174%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="1" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254174%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="2" >
+		<FEATURE N="Centroid" V="0.414431815556108" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254174%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="3" >
+		<FEATURE N="Centroid" V="0.333994511867802" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254174%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="4" >
+		<FEATURE N="Centroid" V="0.425998449599855" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254174%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="5" >
+		<FEATURE N="Centroid" V="0.096784494552355" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254174%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="6" >
+		<FEATURE N="Centroid" V="0.061730414456565" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254174%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="7" >
+		<FEATURE N="Centroid" V="0.211909815270330" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254174%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="8" >
+		<FEATURE N="Centroid" V="0.533004545924554" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254174%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="9" >
+		<FEATURE N="Centroid" V="0.531870517726168" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254174%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="10" >
+		<FEATURE N="Centroid" V="0.268824598752393" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254174%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="11" >
+		<FEATURE N="Centroid" V="0.118138082315579" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254174%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="12" >
+		<FEATURE N="Centroid" V="0.674726043924494" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254174%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="13" >
+		<FEATURE N="Centroid" V="0.250374900771794" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254174%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="14" >
+		<FEATURE N="Centroid" V="0.602588530198140" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254174%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="15" >
+		<FEATURE N="Centroid" V="0.165257130460825" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254174%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="16" >
+		<FEATURE N="Centroid" V="0.193195895927188" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254174%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="17" >
+		<FEATURE N="Centroid" V="0.138565537383775" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254174%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="18" >
+		<FEATURE N="Centroid" V="0.789261582768388" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254174%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="19" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="1" >
+		<FEATURE N="Centroid" V="0.208282947258872" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="2" >
+		<FEATURE N="Centroid" V="0.282453282663861" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="3" >
+		<FEATURE N="Centroid" V="0.245329304339954" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="4" >
+		<FEATURE N="Centroid" V="0.628776519292330" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="5" >
+		<FEATURE N="Centroid" V="0.438497245762820" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="6" >
+		<FEATURE N="Centroid" V="0.799515136470636" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="7" >
+		<FEATURE N="Centroid" V="0.357544703507771" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="8" >
+		<FEATURE N="Centroid" V="0.207966567378519" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="9" >
+		<FEATURE N="Centroid" V="0.575222935480633" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="10" >
+		<FEATURE N="Centroid" V="0.184622463088107" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="11" >
+		<FEATURE N="Centroid" V="0.154263102383347" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="12" >
+		<FEATURE N="Centroid" V="0.151895308733636" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="13" >
+		<FEATURE N="Centroid" V="0.617949596945028" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="14" >
+		<FEATURE N="Centroid" V="0.231488880485166" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="15" >
+		<FEATURE N="Centroid" V="0.158549540985274" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="16" >
+		<FEATURE N="Centroid" V="0.079776387098005" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="17" >
+		<FEATURE N="Centroid" V="0.079062406391803" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="18" >
+		<FEATURE N="Centroid" V="0.106326716113545" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="19" >
+		<FEATURE N="Centroid" V="0.062331729669187" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="20" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="21" >
+		<FEATURE N="Centroid" V="0.278225793756395" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="22" >
+		<FEATURE N="Centroid" V="0.109421767096563" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="23" >
+		<FEATURE N="Centroid" V="0.113882079466293" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="24" >
+		<FEATURE N="Centroid" V="0.244398733349003" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="25" >
+		<FEATURE N="Centroid" V="0.316900992706748" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="26" >
+		<FEATURE N="Centroid" V="0.179096008624110" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="27" >
+		<FEATURE N="Centroid" V="0.124856584667569" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="28" >
+		<FEATURE N="Centroid" V="0.132171227172400" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="29" >
+		<FEATURE N="Centroid" V="0.060588463446343" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="30" >
+		<FEATURE N="Centroid" V="0.176693856732003" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="31" >
+		<FEATURE N="Centroid" V="0.113342830958708" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="32" >
+		<FEATURE N="Centroid" V="0.379718746722200" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="33" >
+		<FEATURE N="Centroid" V="0.089520882172886" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="34" >
+		<FEATURE N="Centroid" V="0.273963156211863" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="35" >
+		<FEATURE N="Centroid" V="0.037973827183409" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="36" >
+		<FEATURE N="Centroid" V="0.300894402995313" />
+	</S>
+	<S DID="http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030120%2Fw012054.html.20030121010145" SNO="37" >
+		<FEATURE N="Centroid" V="0.591413013259794" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254175%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="1" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254175%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="2" >
+		<FEATURE N="Centroid" V="0.225050025530368" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254175%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="3" >
+		<FEATURE N="Centroid" V="0.223185152724329" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254175%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="4" >
+		<FEATURE N="Centroid" V="0.226879413114907" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254175%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="5" >
+		<FEATURE N="Centroid" V="0.256059799463507" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254175%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="6" >
+		<FEATURE N="Centroid" V="0.301962033906463" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254175%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="7" >
+		<FEATURE N="Centroid" V="0.121257829131548" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254175%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="8" >
+		<FEATURE N="Centroid" V="0.462400955405409" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254175%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="9" >
+		<FEATURE N="Centroid" V="0.288412895592266" />
+	</S>
+	<S DID="http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=254175%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030121010145" SNO="10" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=Politics%26storyId=629146.20030121010145" SNO="1" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=Politics%26storyId=629146.20030121010145" SNO="2" >
+		<FEATURE N="Centroid" V="0.127010562112435" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=Politics%26storyId=629146.20030121010145" SNO="3" >
+		<FEATURE N="Centroid" V="0.030695811983760" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=Politics%26storyId=629146.20030121010145" SNO="4" >
+		<FEATURE N="Centroid" V="0.284659389741105" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=Politics%26storyId=629146.20030121010145" SNO="5" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=Politics%26storyId=629146.20030121010145" SNO="6" >
+		<FEATURE N="Centroid" V="0.162460827314478" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=Politics%26storyId=629146.20030121010145" SNO="7" >
+		<FEATURE N="Centroid" V="0.220464292104748" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=Politics%26storyId=629146.20030121010145" SNO="8" >
+		<FEATURE N="Centroid" V="0.374070289465427" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=Politics%26storyId=629146.20030121010145" SNO="9" >
+		<FEATURE N="Centroid" V="0.314603569059819" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=Politics%26storyId=629146.20030121010145" SNO="10" >
+		<FEATURE N="Centroid" V="0.057708169776310" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=Politics%26storyId=629146.20030121010145" SNO="11" >
+		<FEATURE N="Centroid" V="0.290119460203991" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=Politics%26storyId=629146.20030121010145" SNO="12" >
+		<FEATURE N="Centroid" V="0.711384492101607" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=Politics%26storyId=629146.20030121010145" SNO="13" >
+		<FEATURE N="Centroid" V="0.531601986279291" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=Politics%26storyId=629146.20030121010145" SNO="14" >
+		<FEATURE N="Centroid" V="0.167876770272233" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=Politics%26storyId=629146.20030121010145" SNO="15" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=Politics%26storyId=629146.20030121010145" SNO="16" >
+		<FEATURE N="Centroid" V="0.107996014562421" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=Politics%26storyId=629146.20030121010145" SNO="17" >
+		<FEATURE N="Centroid" V="0.176773458539660" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=Politics%26storyId=629146.20030121010145" SNO="18" >
+		<FEATURE N="Centroid" V="0.077361683160599" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=Politics%26storyId=629146.20030121010145" SNO="19" >
+		<FEATURE N="Centroid" V="0.139909793770422" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=Politics%26storyId=629146.20030121010145" SNO="20" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=Politics%26storyId=629146.20030121010145" SNO="21" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2673455.stm.20030121010145" SNO="1" >
+		<FEATURE N="Centroid" V="0.406562103104219" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2673455.stm.20030121010145" SNO="2" >
+		<FEATURE N="Centroid" V="0.712353198597597" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2673455.stm.20030121010145" SNO="3" >
+		<FEATURE N="Centroid" V="0.596551606589430" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2673455.stm.20030121010145" SNO="4" >
+		<FEATURE N="Centroid" V="0.567711959097997" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2673455.stm.20030121010145" SNO="5" >
+		<FEATURE N="Centroid" V="0.465441557501638" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2673455.stm.20030121010145" SNO="6" >
+		<FEATURE N="Centroid" V="0.431006270298221" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2673455.stm.20030121010145" SNO="7" >
+		<FEATURE N="Centroid" V="0.338431102028807" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2673455.stm.20030121010145" SNO="8" >
+		<FEATURE N="Centroid" V="0.274605949198819" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2673455.stm.20030121010145" SNO="9" >
+		<FEATURE N="Centroid" V="0.387706684150177" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2673455.stm.20030121010145" SNO="10" >
+		<FEATURE N="Centroid" V="0.051547054989477" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2673455.stm.20030121010145" SNO="11" >
+		<FEATURE N="Centroid" V="0.246061744964026" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2673455.stm.20030121010145" SNO="12" >
+		<FEATURE N="Centroid" V="0.579505396130767" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2673455.stm.20030121010145" SNO="13" >
+		<FEATURE N="Centroid" V="0.233315794026576" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2673455.stm.20030121010145" SNO="14" >
+		<FEATURE N="Centroid" V="0.101400894783211" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2673455.stm.20030121010145" SNO="15" >
+		<FEATURE N="Centroid" V="0.131672593812139" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2673455.stm.20030121010145" SNO="16" >
+		<FEATURE N="Centroid" V="0.356058760101773" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2673455.stm.20030121010145" SNO="17" >
+		<FEATURE N="Centroid" V="0.273130232694518" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2673455.stm.20030121010145" SNO="18" >
+		<FEATURE N="Centroid" V="0.030607293461144" />
+	</S>
+</SENT-FEATURE>

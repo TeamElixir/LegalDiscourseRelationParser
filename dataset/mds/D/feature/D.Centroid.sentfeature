@@ -1,0 +1,570 @@
+<?xml version='1.0'?>
+<SENT-FEATURE>
+	<S DID="D5" SNO="1" >
+		<FEATURE N="Centroid" V="0.450819608394427" />
+	</S>
+	<S DID="D5" SNO="2" >
+		<FEATURE N="Centroid" V="0.373445316182685" />
+	</S>
+	<S DID="D5" SNO="3" >
+		<FEATURE N="Centroid" V="0.020051878325727" />
+	</S>
+	<S DID="D5" SNO="4" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="D5" SNO="5" >
+		<FEATURE N="Centroid" V="0.111301987499999" />
+	</S>
+	<S DID="D5" SNO="6" >
+		<FEATURE N="Centroid" V="0.156797446686739" />
+	</S>
+	<S DID="D5" SNO="7" >
+		<FEATURE N="Centroid" V="0.478397869161910" />
+	</S>
+	<S DID="D5" SNO="8" >
+		<FEATURE N="Centroid" V="0.246449063201042" />
+	</S>
+	<S DID="D5" SNO="9" >
+		<FEATURE N="Centroid" V="0.300252934723456" />
+	</S>
+	<S DID="D5" SNO="10" >
+		<FEATURE N="Centroid" V="0.024629694398400" />
+	</S>
+	<S DID="D5" SNO="11" >
+		<FEATURE N="Centroid" V="0.233428176522208" />
+	</S>
+	<S DID="D5" SNO="12" >
+		<FEATURE N="Centroid" V="0.202477512908863" />
+	</S>
+	<S DID="D5" SNO="13" >
+		<FEATURE N="Centroid" V="0.096894692753019" />
+	</S>
+	<S DID="D5" SNO="14" >
+		<FEATURE N="Centroid" V="0.414859567303575" />
+	</S>
+	<S DID="D5" SNO="15" >
+		<FEATURE N="Centroid" V="0.188232948863690" />
+	</S>
+	<S DID="D5" SNO="16" >
+		<FEATURE N="Centroid" V="0.250326784972442" />
+	</S>
+	<S DID="D5" SNO="17" >
+		<FEATURE N="Centroid" V="0.055230457541764" />
+	</S>
+	<S DID="D5" SNO="18" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="D5" SNO="19" >
+		<FEATURE N="Centroid" V="0.365712754849970" />
+	</S>
+	<S DID="D5" SNO="20" >
+		<FEATURE N="Centroid" V="0.435820331059209" />
+	</S>
+	<S DID="D5" SNO="21" >
+		<FEATURE N="Centroid" V="0.151964476952764" />
+	</S>
+	<S DID="D5" SNO="22" >
+		<FEATURE N="Centroid" V="0.118790545643282" />
+	</S>
+	<S DID="D5" SNO="23" >
+		<FEATURE N="Centroid" V="0.062425573150955" />
+	</S>
+	<S DID="D5" SNO="24" >
+		<FEATURE N="Centroid" V="0.145420640539162" />
+	</S>
+	<S DID="D5" SNO="25" >
+		<FEATURE N="Centroid" V="0.460625393441475" />
+	</S>
+	<S DID="D5" SNO="26" >
+		<FEATURE N="Centroid" V="0.062947290247298" />
+	</S>
+	<S DID="D5" SNO="27" >
+		<FEATURE N="Centroid" V="0.332198813356380" />
+	</S>
+	<S DID="D5" SNO="28" >
+		<FEATURE N="Centroid" V="0.177573722585755" />
+	</S>
+	<S DID="D5" SNO="29" >
+		<FEATURE N="Centroid" V="0.327661929461829" />
+	</S>
+	<S DID="D5" SNO="30" >
+		<FEATURE N="Centroid" V="0.010043048320456" />
+	</S>
+	<S DID="D5" SNO="31" >
+		<FEATURE N="Centroid" V="0.052068775653529" />
+	</S>
+	<S DID="D5" SNO="32" >
+		<FEATURE N="Centroid" V="0.172079290844097" />
+	</S>
+	<S DID="D5" SNO="33" >
+		<FEATURE N="Centroid" V="0.073850821463662" />
+	</S>
+	<S DID="D5" SNO="34" >
+		<FEATURE N="Centroid" V="0.183618206084064" />
+	</S>
+	<S DID="D5" SNO="35" >
+		<FEATURE N="Centroid" V="0.086633519624665" />
+	</S>
+	<S DID="D5" SNO="36" >
+		<FEATURE N="Centroid" V="0.078644690125068" />
+	</S>
+	<S DID="D5" SNO="37" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="D5" SNO="38" >
+		<FEATURE N="Centroid" V="0.143710586187976" />
+	</S>
+	<S DID="D5" SNO="39" >
+		<FEATURE N="Centroid" V="0.203176446582401" />
+	</S>
+	<S DID="D5" SNO="40" >
+		<FEATURE N="Centroid" V="0.070607986623190" />
+	</S>
+	<S DID="D5" SNO="41" >
+		<FEATURE N="Centroid" V="0.092161778960146" />
+	</S>
+	<S DID="D5" SNO="42" >
+		<FEATURE N="Centroid" V="0.061103542372595" />
+	</S>
+	<S DID="D6" SNO="1" >
+		<FEATURE N="Centroid" V="0.435290246616731" />
+	</S>
+	<S DID="D6" SNO="2" >
+		<FEATURE N="Centroid" V="0.213936253361973" />
+	</S>
+	<S DID="D6" SNO="3" >
+		<FEATURE N="Centroid" V="0.076483249771568" />
+	</S>
+	<S DID="D6" SNO="4" >
+		<FEATURE N="Centroid" V="0.030876338528154" />
+	</S>
+	<S DID="D6" SNO="5" >
+		<FEATURE N="Centroid" V="0.197869414803219" />
+	</S>
+	<S DID="D7" SNO="1" >
+		<FEATURE N="Centroid" V="0.330034235714074" />
+	</S>
+	<S DID="D7" SNO="2" >
+		<FEATURE N="Centroid" V="0.245251442845712" />
+	</S>
+	<S DID="D7" SNO="3" >
+		<FEATURE N="Centroid" V="0.325698956500940" />
+	</S>
+	<S DID="D7" SNO="4" >
+		<FEATURE N="Centroid" V="0.257225258994189" />
+	</S>
+	<S DID="D7" SNO="5" >
+		<FEATURE N="Centroid" V="0.088024865080212" />
+	</S>
+	<S DID="D7" SNO="6" >
+		<FEATURE N="Centroid" V="0.151191793346860" />
+	</S>
+	<S DID="D7" SNO="7" >
+		<FEATURE N="Centroid" V="0.250362382361271" />
+	</S>
+	<S DID="D7" SNO="8" >
+		<FEATURE N="Centroid" V="0.349430387636638" />
+	</S>
+	<S DID="D7" SNO="9" >
+		<FEATURE N="Centroid" V="0.131087171923011" />
+	</S>
+	<S DID="D7" SNO="10" >
+		<FEATURE N="Centroid" V="0.541395562108734" />
+	</S>
+	<S DID="D7" SNO="11" >
+		<FEATURE N="Centroid" V="0.009091475794347" />
+	</S>
+	<S DID="D7" SNO="12" >
+		<FEATURE N="Centroid" V="0.214802521295965" />
+	</S>
+	<S DID="D7" SNO="13" >
+		<FEATURE N="Centroid" V="0.046964103934055" />
+	</S>
+	<S DID="D7" SNO="14" >
+		<FEATURE N="Centroid" V="0.217623041155510" />
+	</S>
+	<S DID="D7" SNO="15" >
+		<FEATURE N="Centroid" V="0.063509639207596" />
+	</S>
+	<S DID="D7" SNO="16" >
+		<FEATURE N="Centroid" V="0.330037115552278" />
+	</S>
+	<S DID="D7" SNO="17" >
+		<FEATURE N="Centroid" V="0.522906229211316" />
+	</S>
+	<S DID="D7" SNO="18" >
+		<FEATURE N="Centroid" V="0.185669976084699" />
+	</S>
+	<S DID="D7" SNO="19" >
+		<FEATURE N="Centroid" V="0.160497231971268" />
+	</S>
+	<S DID="D7" SNO="20" >
+		<FEATURE N="Centroid" V="0.350072299336295" />
+	</S>
+	<S DID="D1" SNO="1" >
+		<FEATURE N="Centroid" V="0.874817797180571" />
+	</S>
+	<S DID="D1" SNO="2" >
+		<FEATURE N="Centroid" V="0.063517115219752" />
+	</S>
+	<S DID="D1" SNO="3" >
+		<FEATURE N="Centroid" V="0.097011871550803" />
+	</S>
+	<S DID="D1" SNO="4" >
+		<FEATURE N="Centroid" V="0.158726122737698" />
+	</S>
+	<S DID="D1" SNO="5" >
+		<FEATURE N="Centroid" V="0.113727596258638" />
+	</S>
+	<S DID="D1" SNO="6" >
+		<FEATURE N="Centroid" V="0.477734601983015" />
+	</S>
+	<S DID="D1" SNO="7" >
+		<FEATURE N="Centroid" V="0.363796677266931" />
+	</S>
+	<S DID="D1" SNO="8" >
+		<FEATURE N="Centroid" V="0.139145102471884" />
+	</S>
+	<S DID="D1" SNO="9" >
+		<FEATURE N="Centroid" V="0.421628867427964" />
+	</S>
+	<S DID="D1" SNO="10" >
+		<FEATURE N="Centroid" V="0.385648580170191" />
+	</S>
+	<S DID="D1" SNO="11" >
+		<FEATURE N="Centroid" V="0.253465839099857" />
+	</S>
+	<S DID="D1" SNO="12" >
+		<FEATURE N="Centroid" V="0.225875298102824" />
+	</S>
+	<S DID="D1" SNO="13" >
+		<FEATURE N="Centroid" V="0.551910927135032" />
+	</S>
+	<S DID="D1" SNO="14" >
+		<FEATURE N="Centroid" V="0.202176409175725" />
+	</S>
+	<S DID="D1" SNO="15" >
+		<FEATURE N="Centroid" V="0.233640935411291" />
+	</S>
+	<S DID="D1" SNO="16" >
+		<FEATURE N="Centroid" V="0.263788068362834" />
+	</S>
+	<S DID="D1" SNO="17" >
+		<FEATURE N="Centroid" V="0.203432909504784" />
+	</S>
+	<S DID="D1" SNO="18" >
+		<FEATURE N="Centroid" V="0.498791112572833" />
+	</S>
+	<S DID="D1" SNO="19" >
+		<FEATURE N="Centroid" V="0.300757248938226" />
+	</S>
+	<S DID="D1" SNO="20" >
+		<FEATURE N="Centroid" V="0.297864923272482" />
+	</S>
+	<S DID="D1" SNO="21" >
+		<FEATURE N="Centroid" V="0.351129859027357" />
+	</S>
+	<S DID="D1" SNO="22" >
+		<FEATURE N="Centroid" V="0.531248721254130" />
+	</S>
+	<S DID="D1" SNO="23" >
+		<FEATURE N="Centroid" V="0.390081309026477" />
+	</S>
+	<S DID="D1" SNO="24" >
+		<FEATURE N="Centroid" V="0.516061780507228" />
+	</S>
+	<S DID="D1" SNO="25" >
+		<FEATURE N="Centroid" V="0.174050407284785" />
+	</S>
+	<S DID="D1" SNO="26" >
+		<FEATURE N="Centroid" V="0.117109137883624" />
+	</S>
+	<S DID="D1" SNO="27" >
+		<FEATURE N="Centroid" V="0.236957515427936" />
+	</S>
+	<S DID="D1" SNO="28" >
+		<FEATURE N="Centroid" V="0.498752817924504" />
+	</S>
+	<S DID="D2" SNO="1" >
+		<FEATURE N="Centroid" V="0.408039865443642" />
+	</S>
+	<S DID="D2" SNO="2" >
+		<FEATURE N="Centroid" V="0.739055746507842" />
+	</S>
+	<S DID="D2" SNO="3" >
+		<FEATURE N="Centroid" V="0.078210151139132" />
+	</S>
+	<S DID="D2" SNO="4" >
+		<FEATURE N="Centroid" V="0.060142234031783" />
+	</S>
+	<S DID="D2" SNO="5" >
+		<FEATURE N="Centroid" V="0.024050263038141" />
+	</S>
+	<S DID="D2" SNO="6" >
+		<FEATURE N="Centroid" V="0.177754260078688" />
+	</S>
+	<S DID="D2" SNO="7" >
+		<FEATURE N="Centroid" V="0.158726122737698" />
+	</S>
+	<S DID="D2" SNO="8" >
+		<FEATURE N="Centroid" V="0.124340907670345" />
+	</S>
+	<S DID="D2" SNO="9" >
+		<FEATURE N="Centroid" V="0.122230629133633" />
+	</S>
+	<S DID="D2" SNO="10" >
+		<FEATURE N="Centroid" V="0.196271235824341" />
+	</S>
+	<S DID="D2" SNO="11" >
+		<FEATURE N="Centroid" V="0.294797943494516" />
+	</S>
+	<S DID="D2" SNO="12" >
+		<FEATURE N="Centroid" V="0.746904776725949" />
+	</S>
+	<S DID="D2" SNO="13" >
+		<FEATURE N="Centroid" V="0.205717459973028" />
+	</S>
+	<S DID="D2" SNO="14" >
+		<FEATURE N="Centroid" V="0.325316214741417" />
+	</S>
+	<S DID="D2" SNO="15" >
+		<FEATURE N="Centroid" V="0.418528433733247" />
+	</S>
+	<S DID="D2" SNO="16" >
+		<FEATURE N="Centroid" V="0.138909447147386" />
+	</S>
+	<S DID="D2" SNO="17" >
+		<FEATURE N="Centroid" V="0.477734601983015" />
+	</S>
+	<S DID="D2" SNO="18" >
+		<FEATURE N="Centroid" V="0.363796677266931" />
+	</S>
+	<S DID="D2" SNO="19" >
+		<FEATURE N="Centroid" V="0.139145102471884" />
+	</S>
+	<S DID="D2" SNO="20" >
+		<FEATURE N="Centroid" V="0.318671941868265" />
+	</S>
+	<S DID="D2" SNO="21" >
+		<FEATURE N="Centroid" V="0.385648580170191" />
+	</S>
+	<S DID="D2" SNO="22" >
+		<FEATURE N="Centroid" V="0.253465839099857" />
+	</S>
+	<S DID="D2" SNO="23" >
+		<FEATURE N="Centroid" V="0.225875298102824" />
+	</S>
+	<S DID="D2" SNO="24" >
+		<FEATURE N="Centroid" V="0.267259943879482" />
+	</S>
+	<S DID="D2" SNO="25" >
+		<FEATURE N="Centroid" V="0.198773735979130" />
+	</S>
+	<S DID="D2" SNO="26" >
+		<FEATURE N="Centroid" V="0.452989381108405" />
+	</S>
+	<S DID="D2" SNO="27" >
+		<FEATURE N="Centroid" V="0.098898911169445" />
+	</S>
+	<S DID="D2" SNO="28" >
+		<FEATURE N="Centroid" V="0.022588643792754" />
+	</S>
+	<S DID="D2" SNO="29" >
+		<FEATURE N="Centroid" V="0.540554398867634" />
+	</S>
+	<S DID="D2" SNO="30" >
+		<FEATURE N="Centroid" V="0.191628820492283" />
+	</S>
+	<S DID="D2" SNO="31" >
+		<FEATURE N="Centroid" V="0.233640935411291" />
+	</S>
+	<S DID="D2" SNO="32" >
+		<FEATURE N="Centroid" V="0.263788068362834" />
+	</S>
+	<S DID="D2" SNO="33" >
+		<FEATURE N="Centroid" V="0.203432909504784" />
+	</S>
+	<S DID="D2" SNO="34" >
+		<FEATURE N="Centroid" V="0.443302230172225" />
+	</S>
+	<S DID="D2" SNO="35" >
+		<FEATURE N="Centroid" V="0.292530294830213" />
+	</S>
+	<S DID="D2" SNO="36" >
+		<FEATURE N="Centroid" V="0.175529298745552" />
+	</S>
+	<S DID="D2" SNO="37" >
+		<FEATURE N="Centroid" V="0.172078899205458" />
+	</S>
+	<S DID="D2" SNO="38" >
+		<FEATURE N="Centroid" V="0.392673247185798" />
+	</S>
+	<S DID="D2" SNO="39" >
+		<FEATURE N="Centroid" V="0.297864923272482" />
+	</S>
+	<S DID="D2" SNO="40" >
+		<FEATURE N="Centroid" V="0.351129859027357" />
+	</S>
+	<S DID="D2" SNO="41" >
+		<FEATURE N="Centroid" V="0.531248721254130" />
+	</S>
+	<S DID="D2" SNO="42" >
+		<FEATURE N="Centroid" V="0.390081309026477" />
+	</S>
+	<S DID="D2" SNO="43" >
+		<FEATURE N="Centroid" V="0.524863827862186" />
+	</S>
+	<S DID="D2" SNO="44" >
+		<FEATURE N="Centroid" V="0.174050407284785" />
+	</S>
+	<S DID="D2" SNO="45" >
+		<FEATURE N="Centroid" V="0.117109137883624" />
+	</S>
+	<S DID="D2" SNO="46" >
+		<FEATURE N="Centroid" V="0.236957515427936" />
+	</S>
+	<S DID="D2" SNO="47" >
+		<FEATURE N="Centroid" V="0.498752817924504" />
+	</S>
+	<S DID="D3" SNO="1" >
+		<FEATURE N="Centroid" V="0.586419217700838" />
+	</S>
+	<S DID="D3" SNO="2" >
+		<FEATURE N="Centroid" V="0.081018112048817" />
+	</S>
+	<S DID="D3" SNO="3" >
+		<FEATURE N="Centroid" V="0.275797337952397" />
+	</S>
+	<S DID="D3" SNO="4" >
+		<FEATURE N="Centroid" V="0.476578028624490" />
+	</S>
+	<S DID="D3" SNO="5" >
+		<FEATURE N="Centroid" V="0.010043048320456" />
+	</S>
+	<S DID="D3" SNO="6" >
+		<FEATURE N="Centroid" V="0.300990403724879" />
+	</S>
+	<S DID="D3" SNO="7" >
+		<FEATURE N="Centroid" V="0.137234677142697" />
+	</S>
+	<S DID="D3" SNO="8" >
+		<FEATURE N="Centroid" V="0.247813152203676" />
+	</S>
+	<S DID="D3" SNO="9" >
+		<FEATURE N="Centroid" V="0.061910511923002" />
+	</S>
+	<S DID="D3" SNO="10" >
+		<FEATURE N="Centroid" V="0.273184053186112" />
+	</S>
+	<S DID="D3" SNO="11" >
+		<FEATURE N="Centroid" V="0.157404825580689" />
+	</S>
+	<S DID="D3" SNO="12" >
+		<FEATURE N="Centroid" V="0.294747987796339" />
+	</S>
+	<S DID="D3" SNO="13" >
+		<FEATURE N="Centroid" V="0.328668135069877" />
+	</S>
+	<S DID="D3" SNO="14" >
+		<FEATURE N="Centroid" V="0.089875937346980" />
+	</S>
+	<S DID="D3" SNO="15" >
+		<FEATURE N="Centroid" V="0.066888185764047" />
+	</S>
+	<S DID="D3" SNO="16" >
+		<FEATURE N="Centroid" V="0.232198471490410" />
+	</S>
+	<S DID="D3" SNO="17" >
+		<FEATURE N="Centroid" V="0.284475546517669" />
+	</S>
+	<S DID="D3" SNO="18" >
+		<FEATURE N="Centroid" V="1.000000000000000" />
+	</S>
+	<S DID="D3" SNO="19" >
+		<FEATURE N="Centroid" V="0.146308914440462" />
+	</S>
+	<S DID="D3" SNO="20" >
+		<FEATURE N="Centroid" V="0.174095564799183" />
+	</S>
+	<S DID="D3" SNO="21" >
+		<FEATURE N="Centroid" V="0.342586601689416" />
+	</S>
+	<S DID="D3" SNO="22" >
+		<FEATURE N="Centroid" V="0.203137801632696" />
+	</S>
+	<S DID="D3" SNO="23" >
+		<FEATURE N="Centroid" V="0.324870692548076" />
+	</S>
+	<S DID="D3" SNO="24" >
+		<FEATURE N="Centroid" V="0.274745508285876" />
+	</S>
+	<S DID="D3" SNO="25" >
+		<FEATURE N="Centroid" V="0.210070058823636" />
+	</S>
+	<S DID="D3" SNO="26" >
+		<FEATURE N="Centroid" V="0.215757587687151" />
+	</S>
+	<S DID="D3" SNO="27" >
+		<FEATURE N="Centroid" V="0.135767250858370" />
+	</S>
+	<S DID="D3" SNO="28" >
+		<FEATURE N="Centroid" V="0.067509719555498" />
+	</S>
+	<S DID="D3" SNO="29" >
+		<FEATURE N="Centroid" V="0.334549107793806" />
+	</S>
+	<S DID="D4" SNO="1" >
+		<FEATURE N="Centroid" V="0.450219959583808" />
+	</S>
+	<S DID="D4" SNO="2" >
+		<FEATURE N="Centroid" V="0.194302021648760" />
+	</S>
+	<S DID="D4" SNO="3" >
+		<FEATURE N="Centroid" V="0.147455236716664" />
+	</S>
+	<S DID="D4" SNO="4" >
+		<FEATURE N="Centroid" V="0.186997438720868" />
+	</S>
+	<S DID="D4" SNO="5" >
+		<FEATURE N="Centroid" V="0.158726122737698" />
+	</S>
+	<S DID="D4" SNO="6" >
+		<FEATURE N="Centroid" V="0.387200947827507" />
+	</S>
+	<S DID="D4" SNO="7" >
+		<FEATURE N="Centroid" V="0.402179858440737" />
+	</S>
+	<S DID="D4" SNO="8" >
+		<FEATURE N="Centroid" V="0.241156224573015" />
+	</S>
+	<S DID="D4" SNO="9" >
+		<FEATURE N="Centroid" V="0.144302733953793" />
+	</S>
+	<S DID="D4" SNO="10" >
+		<FEATURE N="Centroid" V="0.379158527711089" />
+	</S>
+	<S DID="D4" SNO="11" >
+		<FEATURE N="Centroid" V="0.768478490669036" />
+	</S>
+	<S DID="D4" SNO="12" >
+		<FEATURE N="Centroid" V="0.194360931705630" />
+	</S>
+	<S DID="D4" SNO="13" >
+		<FEATURE N="Centroid" V="0.344488163781798" />
+	</S>
+	<S DID="D4" SNO="14" >
+		<FEATURE N="Centroid" V="0.429076022416690" />
+	</S>
+	<S DID="D4" SNO="15" >
+		<FEATURE N="Centroid" V="0.138909447147386" />
+	</S>
+	<S DID="D4" SNO="16" >
+		<FEATURE N="Centroid" V="0.477734601983015" />
+	</S>
+	<S DID="D4" SNO="17" >
+		<FEATURE N="Centroid" V="0.363796677266931" />
+	</S>
+	<S DID="D4" SNO="18" >
+		<FEATURE N="Centroid" V="0.498752817924504" />
+	</S>
+</SENT-FEATURE>

@@ -1,0 +1,282 @@
+<?xml version='1.0'?>
+<SENT-FEATURE>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169329,00.html?.20030131004265" SNO="1" >
+		<FEATURE N="Centroid" V="0.218464874037303" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169329,00.html?.20030131004265" SNO="2" >
+		<FEATURE N="Centroid" V="0.443636605723644" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169329,00.html?.20030131004265" SNO="3" >
+		<FEATURE N="Centroid" V="0.601715643469630" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169329,00.html?.20030131004265" SNO="4" >
+		<FEATURE N="Centroid" V="0.376932817756800" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169329,00.html?.20030131004265" SNO="5" >
+		<FEATURE N="Centroid" V="0.377830836696271" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169329,00.html?.20030131004265" SNO="6" >
+		<FEATURE N="Centroid" V="0.308373479275207" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169329,00.html?.20030131004265" SNO="7" >
+		<FEATURE N="Centroid" V="0.163081643609480" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169329,00.html?.20030131004265" SNO="8" >
+		<FEATURE N="Centroid" V="0.528513503677924" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169329,00.html?.20030131004265" SNO="9" >
+		<FEATURE N="Centroid" V="0.419048987694978" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169329,00.html?.20030131004265" SNO="10" >
+		<FEATURE N="Centroid" V="0.385360602620075" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169329,00.html?.20030131004265" SNO="11" >
+		<FEATURE N="Centroid" V="0.491665903662830" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169329,00.html?.20030131004265" SNO="12" >
+		<FEATURE N="Centroid" V="0.200985080706189" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169329,00.html?.20030131004265" SNO="13" >
+		<FEATURE N="Centroid" V="1.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169329,00.html?.20030131004265" SNO="14" >
+		<FEATURE N="Centroid" V="0.385360602620075" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169329,00.html?.20030131004265" SNO="15" >
+		<FEATURE N="Centroid" V="0.341523015171978" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169329,00.html?.20030131004265" SNO="16" >
+		<FEATURE N="Centroid" V="0.039551104894839" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169329,00.html?.20030131004265" SNO="17" >
+		<FEATURE N="Centroid" V="0.030566896039927" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2708961.stm.20030131004265" SNO="1" >
+		<FEATURE N="Centroid" V="0.316014291144846" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2708961.stm.20030131004265" SNO="2" >
+		<FEATURE N="Centroid" V="0.492162579027931" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2708961.stm.20030131004265" SNO="3" >
+		<FEATURE N="Centroid" V="0.167358317890592" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2708961.stm.20030131004265" SNO="4" >
+		<FEATURE N="Centroid" V="0.473340518935355" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2708961.stm.20030131004265" SNO="5" >
+		<FEATURE N="Centroid" V="0.120297210645008" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2708961.stm.20030131004265" SNO="6" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2708961.stm.20030131004265" SNO="7" >
+		<FEATURE N="Centroid" V="0.114952160951240" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2708961.stm.20030131004265" SNO="8" >
+		<FEATURE N="Centroid" V="0.119337658354829" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2708961.stm.20030131004265" SNO="9" >
+		<FEATURE N="Centroid" V="0.145135692959366" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2708961.stm.20030131004265" SNO="10" >
+		<FEATURE N="Centroid" V="0.042351528782216" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2708961.stm.20030131004265" SNO="11" >
+		<FEATURE N="Centroid" V="0.030566896039927" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2708961.stm.20030131004265" SNO="12" >
+		<FEATURE N="Centroid" V="0.110616358710006" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2708961.stm.20030131004265" SNO="13" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2708961.stm.20030131004265" SNO="14" >
+		<FEATURE N="Centroid" V="0.194640623520322" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2708961.stm.20030131004265" SNO="15" >
+		<FEATURE N="Centroid" V="0.030933447318431" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2708961.stm.20030131004265" SNO="16" >
+		<FEATURE N="Centroid" V="0.249314980600704" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2708961.stm.20030131004265" SNO="17" >
+		<FEATURE N="Centroid" V="0.530011593516724" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2708961.stm.20030131004265" SNO="18" >
+		<FEATURE N="Centroid" V="0.031702453082528" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169380,00.html?.20030131004265" SNO="1" >
+		<FEATURE N="Centroid" V="0.114952160951240" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169380,00.html?.20030131004265" SNO="2" >
+		<FEATURE N="Centroid" V="0.494719653237664" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169380,00.html?.20030131004265" SNO="3" >
+		<FEATURE N="Centroid" V="0.235905031612285" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169380,00.html?.20030131004265" SNO="4" >
+		<FEATURE N="Centroid" V="0.225278007441595" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169380,00.html?.20030131004265" SNO="5" >
+		<FEATURE N="Centroid" V="0.103922360021920" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169380,00.html?.20030131004265" SNO="6" >
+		<FEATURE N="Centroid" V="0.160175413816335" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169380,00.html?.20030131004265" SNO="7" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169380,00.html?.20030131004265" SNO="8" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169380,00.html?.20030131004265" SNO="9" >
+		<FEATURE N="Centroid" V="0.153268047382218" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169380,00.html?.20030131004265" SNO="10" >
+		<FEATURE N="Centroid" V="0.149615493066992" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169380,00.html?.20030131004265" SNO="11" >
+		<FEATURE N="Centroid" V="0.236768297986233" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169380,00.html?.20030131004265" SNO="12" >
+		<FEATURE N="Centroid" V="0.242830809479571" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169380,00.html?.20030131004265" SNO="13" >
+		<FEATURE N="Centroid" V="0.094114096201404" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169380,00.html?.20030131004265" SNO="14" >
+		<FEATURE N="Centroid" V="0.252787005295896" />
+	</S>
+	<S DID="http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169380,00.html?.20030131004265" SNO="15" >
+		<FEATURE N="Centroid" V="0.030566896039927" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fbusiness%2F2708311.stm.20030131004265" SNO="1" >
+		<FEATURE N="Centroid" V="0.107749022926777" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fbusiness%2F2708311.stm.20030131004265" SNO="2" >
+		<FEATURE N="Centroid" V="0.150370268047218" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fbusiness%2F2708311.stm.20030131004265" SNO="3" >
+		<FEATURE N="Centroid" V="0.079309475418275" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fbusiness%2F2708311.stm.20030131004265" SNO="4" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fbusiness%2F2708311.stm.20030131004265" SNO="5" >
+		<FEATURE N="Centroid" V="0.076419400943731" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fbusiness%2F2708311.stm.20030131004265" SNO="6" >
+		<FEATURE N="Centroid" V="0.295020277796150" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fbusiness%2F2708311.stm.20030131004265" SNO="7" >
+		<FEATURE N="Centroid" V="0.169932864805999" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fbusiness%2F2708311.stm.20030131004265" SNO="8" >
+		<FEATURE N="Centroid" V="0.042621245120441" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fbusiness%2F2708311.stm.20030131004265" SNO="9" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fbusiness%2F2708311.stm.20030131004265" SNO="10" >
+		<FEATURE N="Centroid" V="0.038012726844191" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fbusiness%2F2708311.stm.20030131004265" SNO="11" >
+		<FEATURE N="Centroid" V="0.302518870546944" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fbusiness%2F2708311.stm.20030131004265" SNO="12" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fbusiness%2F2708311.stm.20030131004265" SNO="13" >
+		<FEATURE N="Centroid" V="0.042621245120441" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fbusiness%2F2708311.stm.20030131004265" SNO="14" >
+		<FEATURE N="Centroid" V="0.095261807880532" />
+	</S>
+	<S DID="http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fbusiness%2F2708311.stm.20030131004265" SNO="15" >
+		<FEATURE N="Centroid" V="0.031702453082528" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="1" >
+		<FEATURE N="Centroid" V="0.049344689457115" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="2" >
+		<FEATURE N="Centroid" V="0.114952160951240" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="3" >
+		<FEATURE N="Centroid" V="0.109778710219584" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="4" >
+		<FEATURE N="Centroid" V="0.239693434959181" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="5" >
+		<FEATURE N="Centroid" V="0.036688230297834" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="6" >
+		<FEATURE N="Centroid" V="0.064923557656479" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="7" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="8" >
+		<FEATURE N="Centroid" V="0.068142279176954" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="9" >
+		<FEATURE N="Centroid" V="0.171974743092666" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="10" >
+		<FEATURE N="Centroid" V="0.365341658108966" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="11" >
+		<FEATURE N="Centroid" V="0.036688230297834" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="12" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="13" >
+		<FEATURE N="Centroid" V="0.251161989729927" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="14" >
+		<FEATURE N="Centroid" V="0.114753642292851" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="15" >
+		<FEATURE N="Centroid" V="0.152964887795431" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="16" >
+		<FEATURE N="Centroid" V="0.222931133876856" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="17" >
+		<FEATURE N="Centroid" V="0.295108996907208" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="18" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="19" >
+		<FEATURE N="Centroid" V="0.107978972925616" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="20" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="21" >
+		<FEATURE N="Centroid" V="0.036688230297834" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="22" >
+		<FEATURE N="Centroid" V="0.030252103083600" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="23" >
+		<FEATURE N="Centroid" V="0.038012726844191" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="24" >
+		<FEATURE N="Centroid" V="0.114952160951240" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="25" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="26" >
+		<FEATURE N="Centroid" V="0.000000000000000" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="27" >
+		<FEATURE N="Centroid" V="0.147309691159265" />
+	</S>
+	<S DID="http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265" SNO="28" >
+		<FEATURE N="Centroid" V="0.145478778552167" />
+	</S>
+</SENT-FEATURE>

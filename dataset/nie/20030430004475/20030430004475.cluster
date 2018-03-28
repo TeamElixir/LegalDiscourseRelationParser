@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE EXTRACT SYSTEM '/clair2/projects/nie/nie3/dtd/cluster.dtd'>
+<CLUSTER LANG='ENG'>
+	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Famericas%2F2985453.stm.20030430004475' />
+	<D DID='http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=World%26storyId=713477.20030430004475' />
+	<D DID='http:%2F%2Fnypost.com%2Fnews%2Fworldnews%2F74522.htm.20030430004475' />
+	<D DID='http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F119%2Fnation%2FAnthrax_may_have_killed_Egyptian_sailor_in_Brazil+.shtml.20030430004475' />
+</CLUSTER>
