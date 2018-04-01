@@ -6,10 +6,10 @@ import java.util.LinkedList;
 
 public class SentenceWords {
 
-    String [] word_seq_sentence1 ;
-    String [] word_seq_sentence2 ;
-    Hashtable<String, WordFrequency> word_freq_vector = new Hashtable<String,WordFrequency>();
-    LinkedList<String> distinct_words = new LinkedList<String>();
+    private String [] word_seq_sentence1 ;
+    private String [] word_seq_sentence2 ;
+    private Hashtable<String, WordFrequency> word_freq_vector = new Hashtable<String,WordFrequency>();
+    private LinkedList<String> distinct_words = new LinkedList<String>();
 
     public SentenceWords(String sentence1, String sentence2){
         word_seq_sentence1=sentence1.split("");
@@ -53,4 +53,35 @@ public class SentenceWords {
         }
     }
 
+    public String[] getWord_seq_sentence1() {
+        return word_seq_sentence1;
+    }
+
+    public void setWord_seq_sentence1(String[] word_seq_sentence1) {
+        this.word_seq_sentence1 = word_seq_sentence1;
+    }
+
+    public String[] getWord_seq_sentence2() {
+        return word_seq_sentence2;
+    }
+
+    public void setWord_seq_sentence2(String[] word_seq_sentence2) {
+        this.word_seq_sentence2 = word_seq_sentence2;
+    }
+
+    public Hashtable<String, WordFrequency> getWord_freq_vector() {
+        return word_freq_vector;
+    }
+
+    public void setWord_freq_vector(Hashtable<String, WordFrequency> word_freq_vector) {
+        this.word_freq_vector = word_freq_vector;
+    }
+
+    public LinkedList<String> getDistinct_words() {
+        return distinct_words;
+    }
+
+    public void setDistinct_words(LinkedList<String> distinct_words) {
+        this.distinct_words = distinct_words;
+    }
 }
