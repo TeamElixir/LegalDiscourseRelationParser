@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE EXTRACT SYSTEM '/clair2/projects/nie/nie3/dtd/cluster.dtd'>
-<CLUSTER LANG='ENG'>
-	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2802509.stm.20030228004083' />
-	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2802591.stm.20030228004083' />
-	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fsouth_asia%2F2806205.stm.20030228004083' />
-	<D DID='http:%2F%2Fwww.hinduonnet.com%2Fthehindu%2Fstories%2F2003022802521100.htm.20030228004083' />
-	<D DID='http:%2F%2Fwww.hinduonnet.com%2Fthehindu%2Fstories%2F2003022804320100.htm.20030228004083' />
-</CLUSTER>

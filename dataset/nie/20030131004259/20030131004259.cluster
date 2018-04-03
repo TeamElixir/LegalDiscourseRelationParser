@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE EXTRACT SYSTEM '/clair2/projects/nie/nie3/dtd/cluster.dtd'>
-<CLUSTER LANG='ENG'>
-	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fafrica%2F2710181.stm.20030131004259' />
-	<D DID='http:%2F%2Fnews.lycos.com%2Fnews%2Fstory.asp?section=Politics%26storyId=638153.20030131004259' />
-	<D DID='http:%2F%2Fwww.cbsnews.com%2Fstories%2F2003%2F01%2F30%2Firaq%2Fmain538607.shtml.20030131004259' />
-	<D DID='http:%2F%2Fwww.cnn.com%2F2003%2FWORLD%2Fmeast%2F01%2F30%2Fsprj.irq.mandela%2Findex.html.20030131004259' />
-	<D DID='http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,77085,00.html.20030131004259' />
-</CLUSTER>

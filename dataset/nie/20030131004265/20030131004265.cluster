@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE EXTRACT SYSTEM '/clair2/projects/nie/nie3/dtd/cluster.dtd'>
-<CLUSTER LANG='ENG'>
-	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fbusiness%2F2708311.stm.20030131004265' />
-	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fasia-pacific%2F2708961.stm.20030131004265' />
-	<D DID='http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169329,00.html?.20030131004265' />
-	<D DID='http:%2F%2Fstraitstimes.asia1.com.sg%2Fasia%2Fstory%2F0,4386,169380,00.html?.20030131004265' />
-	<D DID='http:%2F%2Fwww.boston.com%2Fdailyglobe2%2F030%2Fmetro%2FCouncilor_to_skip_some_meals_for_peace+.shtml.20030131004265' />
-</CLUSTER>

@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE EXTRACT SYSTEM '/clair2/projects/nie/nie3/dtd/cluster.dtd'>
-<CLUSTER LANG='ENG'>
-	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fin_depth%2Fmiddle_east%2F2001%2Fisrael_and_the_palestinians%2Fissues%2F1683017.stm.20030131004247' />
-	<D DID='http:%2F%2Fnews.bbc.co.uk%2F1%2Fhi%2Fworld%2Fmiddle_east%2F2709889.stm.20030131004247' />
-	<D DID='http:%2F%2Fwww.cbc.ca%2Fcp%2Fworld%2F030130%2Fw013028.html.20030131004247' />
-	<D DID='http:%2F%2Fwww.foxnews.com%2Fstory%2F0,2933,77061,00.html.20030131004247' />
-	<D DID='http:%2F%2Fwww.haaretzdaily.com%2Fhasen%2Fpages%2FShArt.jhtml?itemNo=258092%26contrassID=2%26subContrassID=1%26sbSubContrassID=0%26listSrc=Y.20030131004247' />
-</CLUSTER>

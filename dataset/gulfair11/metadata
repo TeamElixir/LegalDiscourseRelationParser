@@ -1,0 +1,14 @@
+doc#	source		date		time	#sent
+22	ABCNews		08/23/00	14:47	29
+30	BBC		08/24/00	00:37	30
+41	FoxNews		08/24/00	10:30	27
+47	ABCNews		08/24/00	09:32	32
+63	MSNBC		08/23/00	08:30	58
+7	CNN		08/23/00	13:09	18
+70	Washington Post	08/25/00	06:05	25
+81	USAToday	08/24/00	16:22	47
+87	ABCNews		08/25/00	07:30	25
+92	BBC		07/20/00	08:06	31
+97	FoxNews		08/25/00	18:30	33			
+
+ave doc length = 27 sentences
