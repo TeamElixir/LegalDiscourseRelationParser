@@ -11,6 +11,9 @@ import java.util.List;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlRootElement(name = "R")
 public class RelationshipEntry {
+
+	private String source;
+
 	@XmlAttribute(name = "SDID")
 	private String sdId;
 
@@ -46,11 +49,31 @@ public class RelationshipEntry {
 		return relations;
 	}
 
+	public String getSource() {
+		return source;
+	}
+
+	public void setSource(String source) {
+		this.source = source;
+	}
+
+	@XmlAccessorType(XmlAccessType.FIELD)
+	@XmlRootElement(name = "TABLE")
+	public static class Table {
+
+		@XmlElement(name = "R")
+		private ArrayList<RelationshipEntry> relationshipEntries;
+
+		public ArrayList<RelationshipEntry> getRelationshipEntries() {
+			return relationshipEntries;
+		}
+	}
+
 }
 
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlRootElement(name = "RELATION")
-class Relation{
+class Relation {
 
 	@XmlAttribute(name = "TYPE")
 	private int type;
@@ -64,17 +87,5 @@ class Relation{
 
 	public String getJudge() {
 		return judge;
-	}
-}
-
-@XmlAccessorType(XmlAccessType.FIELD)
-@XmlRootElement(name = "TABLE")
-class Table{
-
-	@XmlElement(name = "R")
-	private ArrayList<RelationshipEntry> relationshipEntries;
-
-	public ArrayList<RelationshipEntry> getRelationshipEntries() {
-		return relationshipEntries;
 	}
 }

@@ -5,6 +5,7 @@ public class SentenceEntry {
 	private String sentence;
 	private int sentenceNo;
 	private String documentId;
+	private String source;
 
 	public String getSentence() {
 		return sentence;
@@ -34,5 +35,13 @@ public class SentenceEntry {
 
 	public void setDocumentId(String documentId) {
 		this.documentId = documentId;
+	}
+
+	public String getSource() {
+		return source;
+	}
+
+	public void setSource(String source) {
+		this.source = source;
 	}
 }
