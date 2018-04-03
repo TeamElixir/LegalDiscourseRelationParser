@@ -53,9 +53,7 @@ public class SQLiteUtils {
 		"(ID        INT PRIMARY KEY NOT NULL," +
 		" SSENT     INT     NOT NULL, " +
 		" TSENT     TEXT    NOT NULL, " +
-		" TYPE      CHAR(2) NOT NULL, )";
+		" TYPE      INT     NOT NULL, )";
 	*/
-
-
 
 }

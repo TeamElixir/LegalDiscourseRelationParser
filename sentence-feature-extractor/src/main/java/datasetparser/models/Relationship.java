@@ -1,6 +1,8 @@
 package datasetparser.models;
 
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 import datasetparser.utils.SQLiteUtils;
 
@@ -67,5 +69,29 @@ public class Relationship {
 				type + ");";
 		System.out.println(sql);
 		sqLiteUtils.executeUpdate(sql);
+	}
+
+	public ArrayList<Relationship> getAll() throws SQLException {
+		String sql = "SELECT * FROM RELATIONSHIP;";
+		ResultSet resultSet = sqLiteUtils.executeQuery(sql);
+
+		if(resultSet.isClosed()){
+			return null;
+		}
+
+		ArrayList<Relationship> relationships = new ArrayList<Relationship>();
+		Relationship entry;
+		while (resultSet.next()){
+			entry = new Relationship();
+			entry.id = resultSet.getInt("ID");
+			entry.sourceSent = resultSet.getString("SSENT");
+			entry.targetSent = resultSet.getString("TSENT");
+			entry.type = resultSet.getInt("TYPE");
+
+
+			relationships.add(entry);
+		}
+
+		return relationships;
 	}
 }
