@@ -48,6 +48,14 @@ public class SQLiteUtils {
 				" SENT      TEXT        NOT NULL, " +
 				" DID       CHAR(2)     NOT NULL, " +
 				" SOURCE    CHAR(20)    NOT NULL )";
+
+	String sql = "CREATE TABLE RELATIONSHIP " +
+		"(ID        INT PRIMARY KEY NOT NULL," +
+		" SSENT     INT     NOT NULL, " +
+		" TSENT     TEXT    NOT NULL, " +
+		" TYPE      CHAR(2) NOT NULL, )";
 	*/
+
+
 
 }

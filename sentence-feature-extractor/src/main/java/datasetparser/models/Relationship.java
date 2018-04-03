@@ -1,11 +1,26 @@
 package datasetparser.models;
 
+import java.sql.SQLException;
+
+import datasetparser.utils.SQLiteUtils;
+
 public class Relationship {
 
 	private int id;
 	private String sourceSent;
 	private String targetSent;
-	private int relation;
+	private int type;
+
+	private static SQLiteUtils sqLiteUtils;
+
+	static {
+		try {
+			sqLiteUtils = new SQLiteUtils();
+		}
+		catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
 
 	public int getId() {
 		return id;
@@ -32,14 +47,25 @@ public class Relationship {
 	}
 
 	public int getRelation() {
-		return relation;
+		return type;
 	}
 
-	public void setRelation(int relation) {
-		this.relation = relation;
+	public void setType(int type) {
+		this.type = type;
 	}
 
-	public void save(){
+	public int getType() {
+		return type;
+	}
 
+	public void save() throws SQLException {
+		String sql = "INSERT INTO RELATIONSHIP (ID,SSENT,TSENT,TYPE) " +
+				"VALUES ("
+				+ id + ", " +
+				"\"" + sourceSent + "\"" + ", " +
+				"\"" + targetSent + "\"" + ", " +
+				type + ");";
+		System.out.println(sql);
+		sqLiteUtils.executeUpdate(sql);
 	}
 }

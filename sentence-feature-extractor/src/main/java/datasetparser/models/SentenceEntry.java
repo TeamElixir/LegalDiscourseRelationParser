@@ -11,6 +11,7 @@ public class SentenceEntry {
 	private int sentenceNo;
 	private String documentId;
 	private String source;
+	private int dbId;
 
 	private static SQLiteUtils sqLiteUtils;
 
@@ -62,6 +63,10 @@ public class SentenceEntry {
 		this.source = source;
 	}
 
+	public int getDbId() {
+		return dbId;
+	}
+
 	public void save() throws SQLException {
 		String sql = "INSERT INTO SENTENCE_ENTRY (SNO,SENT,DID,SOURCE) " +
 				"VALUES ("
@@ -77,7 +82,17 @@ public class SentenceEntry {
 		String sql = "SELECT * FROM SENTENCE_ENTRY WHERE SNO=" + sentenceNo + " AND " + "DID='" + documentId + "';";
 		ResultSet resultSet = sqLiteUtils.executeQuery(sql);
 
-		System.out.println();
-		return null;
+		SentenceEntry sentenceEntry = null;
+
+		if(!resultSet.isClosed()){
+			sentenceEntry = new SentenceEntry();
+			sentenceEntry.dbId = resultSet.getInt("ID");
+			sentenceEntry.documentId = resultSet.getString("DID");
+			sentenceEntry.sentenceNo = resultSet.getInt("SNO");
+			sentenceEntry.sentence = resultSet.getString("SENT");
+			sentenceEntry.source = resultSet.getString("SOURCE");
+		}
+
+		return sentenceEntry;
 	}
 }

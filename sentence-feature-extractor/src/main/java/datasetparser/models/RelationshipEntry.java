@@ -5,6 +5,7 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
@@ -16,6 +17,9 @@ import datasetparser.utils.SQLiteUtils;
 public class RelationshipEntry {
 
 	private String source;
+	private int dbId;
+	private int type;
+	private String judge;
 
 	@XmlAttribute(name = "SDID")
 	private String sdId;
@@ -48,16 +52,24 @@ public class RelationshipEntry {
 		return tSent;
 	}
 
-	public List<Relation> getRelations() {
-		return relations;
-	}
-
 	public String getSource() {
 		return source;
 	}
 
 	public void setSource(String source) {
 		this.source = source;
+	}
+
+	public int getDbId() {
+		return dbId;
+	}
+
+	public int getType() {
+		return type;
+	}
+
+	public String getJudge() {
+		return judge;
 	}
 
 	@XmlAccessorType(XmlAccessType.FIELD)
@@ -89,9 +101,60 @@ public class RelationshipEntry {
 		}
 	}
 
-	public void getAll() throws SQLException {
+	public static ArrayList<RelationshipEntry> getAll() throws SQLException {
 		SQLiteUtils sqLiteUtils = new SQLiteUtils();
+		String sql = "SELECT * FROM RELATIONSHIP_ENTRY;";
+		ResultSet resultSet = sqLiteUtils.executeQuery(sql);
 
+		if(resultSet.isClosed()){
+			return null;
+		}
+
+		ArrayList<RelationshipEntry> relationshipEntries = new ArrayList<RelationshipEntry>();
+		RelationshipEntry entry;
+		while (resultSet.next()){
+			entry = new RelationshipEntry();
+			entry.dbId = resultSet.getInt("ID");
+			entry.sdId = resultSet.getString("SDID");
+			entry.sSent = resultSet.getInt("SSENT");
+			entry.tdId = resultSet.getString("TDID");
+			entry.tSent = resultSet.getInt("TSENT");
+			entry.type = resultSet.getInt("TYPE");
+			entry.judge = resultSet.getString("JUDGE");
+			entry.source = resultSet.getString("SOURCE");
+
+			relationshipEntries.add(entry);
+		}
+
+		return relationshipEntries;
+	}
+
+	public static ArrayList<RelationshipEntry> getAllUnique() throws SQLException {
+		SQLiteUtils sqLiteUtils = new SQLiteUtils();
+		String sql = "SELECT * FROM RELATIONSHIP_ENTRY GROUP BY SDID,SSENT,TDID,TSENT,TYPE,SOURCE;";
+		ResultSet resultSet = sqLiteUtils.executeQuery(sql);
+
+		if(resultSet.isClosed()){
+			return null;
+		}
+
+		ArrayList<RelationshipEntry> relationshipEntries = new ArrayList<RelationshipEntry>();
+		RelationshipEntry entry;
+		while (resultSet.next()){
+			entry = new RelationshipEntry();
+			entry.dbId = resultSet.getInt("ID");
+			entry.sdId = resultSet.getString("SDID");
+			entry.sSent = resultSet.getInt("SSENT");
+			entry.tdId = resultSet.getString("TDID");
+			entry.tSent = resultSet.getInt("TSENT");
+			entry.type = resultSet.getInt("TYPE");
+			entry.judge = resultSet.getString("JUDGE");
+			entry.source = resultSet.getString("SOURCE");
+
+			relationshipEntries.add(entry);
+		}
+
+		return relationshipEntries;
 	}
 
 }
