@@ -10,6 +10,13 @@ import datasetparser.models.RelationshipEntry;
 
 public class JudgedataParser {
 
+	/**
+	 * Parses all files in the given folder and returns all relationship entries
+	 *
+	 * @param folderName
+	 * @return arraylist of relationship entries
+	 * @throws JAXBException
+	 */
 	public ArrayList<RelationshipEntry> parseFolder(String folderName) throws JAXBException {
 
 		String folderPath = new File("").getAbsolutePath();

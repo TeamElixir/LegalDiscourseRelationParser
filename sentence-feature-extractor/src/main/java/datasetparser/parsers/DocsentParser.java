@@ -23,6 +23,17 @@ public class DocsentParser {
 	private final String sentenceXPath = "/DOCSENT/BODY/TEXT/S | /DOCSENT/BODY/HEADLINE/S";
 	private final String dIDXPath = "/DOCSENT";
 
+	/**
+	 * Parses all the files in the given folder returns all sentence entries
+	 * including the HEADLINE sentence
+	 *
+	 * @param folderName
+	 * @return arraylist of sentence entries
+	 * @throws ParserConfigurationException
+	 * @throws IOException
+	 * @throws SAXException
+	 * @throws XPathExpressionException
+	 */
 	public ArrayList<SentenceEntry> parseFolder(String folderName)
 			throws ParserConfigurationException, IOException, SAXException, XPathExpressionException {
 

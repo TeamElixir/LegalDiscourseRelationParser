@@ -5,8 +5,11 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+
+import datasetparser.utils.SQLiteUtils;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlRootElement(name = "R")
@@ -67,6 +70,28 @@ public class RelationshipEntry {
 		public ArrayList<RelationshipEntry> getRelationshipEntries() {
 			return relationshipEntries;
 		}
+	}
+
+	public void save() throws SQLException {
+		SQLiteUtils sqLiteUtils = new SQLiteUtils();
+		for (Relation relation : relations) {
+			String sql = "INSERT INTO RELATIONSHIP_ENTRY (SDID,SSENT,TDID,TSENT,TYPE,JUDGE,SOURCE) " +
+					"VALUES ("
+					+ "'" + sdId + "'" + ", " +
+					sSent + ", " +
+					"'" + tdId + "'" + ", " +
+					tSent + ", " +
+					relation.getType() + ", " +
+					"'" + relation.getJudge() + "'" + ", " +
+					"'" + source + "'" + ");";
+			System.out.println(sql);
+			sqLiteUtils.executeUpdate(sql);
+		}
+	}
+
+	public void getAll() throws SQLException {
+		SQLiteUtils sqLiteUtils = new SQLiteUtils();
+
 	}
 
 }
