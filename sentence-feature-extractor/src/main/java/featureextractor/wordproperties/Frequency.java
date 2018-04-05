@@ -1,10 +1,10 @@
 package featureextractor.wordproperties;
 
-public class WordFrequency {
+public class Frequency {
 	private int sentence1;
 	private int sentence2;
 
-	public WordFrequency(int f1, int f2)
+	public Frequency(int f1, int f2)
 	{
 		this.sentence1 =f1;
 		this.sentence2 =f2;

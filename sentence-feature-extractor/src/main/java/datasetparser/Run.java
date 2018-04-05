@@ -1,14 +1,5 @@
 package datasetparser;
 
-import java.util.ArrayList;
-
-import datasetparser.models.Relationship;
-import datasetparser.models.RelationshipEntry;
-import datasetparser.models.SentenceEntry;
-import datasetparser.parsers.DocsentParser;
-import datasetparser.parsers.JudgedataParser;
-import datasetparser.utils.SQLiteUtils;
-
 public class Run {
 
 	public static void main(String[] args) throws Exception {

@@ -4,7 +4,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import datasetparser.utils.SQLiteUtils;
+import utils.SQLiteUtils;
 
 public class Relationship {
 
