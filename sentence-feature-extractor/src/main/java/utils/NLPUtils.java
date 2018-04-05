@@ -32,8 +32,9 @@ public class NLPUtils {
 				String word = token.get(CoreAnnotations.TextAnnotation.class);
 				String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
 
-				// proper nouns are not considered
-				if("NN".equals(pos) || "NNS".equals(pos)){
+				// proper nouns are considered
+				if("NN".equals(pos) || "NNS".equals(pos) ||
+						"NNP".equals(pos) || "NNPS".equals(pos)){
 					nouns.add(word);
 				}
 			}
