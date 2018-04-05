@@ -4,7 +4,17 @@ import java.util.ArrayList;
 
 public class LongestCommonSubstring {
 
-    public static ArrayList<String> longestSubstring(String sentence1, String sentence2) {
+    private String sentence1;
+    private String sentence2;
+    private int longestCSLength=0;
+
+    public LongestCommonSubstring(String stc1, String stc2){
+        sentence1 = stc1;
+        sentence2 = stc2;
+    }
+
+
+    public ArrayList<String> longestSubstring() {
 
         ArrayList<String> longestCommonSubstrings = new ArrayList<String>();
         StringBuilder longestSubString = new StringBuilder();
@@ -66,6 +76,14 @@ public class LongestCommonSubstring {
                 }
             }}
 
+        longestCSLength = longestCommonSubstrings.get(0).length();
         return longestCommonSubstrings;
+    }
+
+    public double lcsValueSentence1(){
+
+        double lcsValue = (double) longestCSLength/(double)sentence1.length();
+        return lcsValue;
+
     }
 }
