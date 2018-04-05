@@ -26,7 +26,7 @@ public class SentenceWords extends SentenceProps{
 			String word = m1.group();
 			seq_sentence1.add(word);
 			if(!distinct_words_sentence1.contains(word)){
-				distinct_words_sentence1.add(word)
+				distinct_words_sentence1.add(word);
 			}
 		}
 
@@ -34,9 +34,20 @@ public class SentenceWords extends SentenceProps{
 		{
 			String word = m2.group();
 			seq_sentence2.add(word);
+			if(!distinct_words_sentence2.contains(word)){
+				distinct_words_sentence2.add(word);
+				if(distinct_words_sentence1.contains(word)){
+					common_words.add(word);
+				}
+			}
+
+
 		}
 		System.out.println("st1 :"+seq_sentence1);
 		System.out.println("st2 :"+seq_sentence2);
+		System.out.println("dt1 :"+distinct_words_sentence1);
+		System.out.println("dt2 :"+distinct_words_sentence2);
+		System.out.println("cw :"+common_words);
 	}
 }
 

@@ -85,4 +85,15 @@ public abstract class SentenceProps {
 		this.distincts = distincts;
 	}
 
+	public ArrayList<String> getDistinct_words_sentence1() {
+		return distinct_words_sentence1;
+	}
+
+	public ArrayList<String> getDistinct_words_sentence2() {
+		return distinct_words_sentence2;
+	}
+
+	public ArrayList<String> getCommon_words() {
+		return common_words;
+	}
 }
