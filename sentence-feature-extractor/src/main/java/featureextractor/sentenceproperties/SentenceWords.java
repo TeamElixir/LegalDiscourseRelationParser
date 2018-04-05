@@ -12,8 +12,8 @@ public class SentenceWords {
 	private LinkedList<String> distinct_words = new LinkedList<String>();
 
 	public SentenceWords(String sentence1, String sentence2){
-		word_seq_sentence1=sentence1.split("");
-		word_seq_sentence2=sentence2.split("");
+		word_seq_sentence1=sentence1.split(" ");
+		word_seq_sentence2=sentence2.split(" ");
 	}
 
 	public void initializeFrequencies() {
