@@ -10,10 +10,8 @@ public abstract class Similarity {
 
 	protected SentenceProps sentenceProps;
 
-	public double similarityScore(String sentence1, String sentence2) {
+	public double similarityScore() {
 		double similarity_score = 0.0000000;
-		String sentenceOne = sentence1;
-		String sentenceTwo = sentence2;
 
 		sentenceProps.initializeFrequencies();
 
