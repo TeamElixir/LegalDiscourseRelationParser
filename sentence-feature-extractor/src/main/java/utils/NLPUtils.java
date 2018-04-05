@@ -72,8 +72,11 @@ public class NLPUtils {
 
 		ArrayList<String> allVerbs = getVerbs(text);
 
-		ArrayList<String> present =new ArrayList<String>(Arrays.asList("be", "is", "are", "am", "being"));
-		ArrayList<String> past =new ArrayList<String>(Arrays.asList("was", "were", "been"));
+		// TODO: 4/5/18 change variable location
+		ArrayList<String> present =new ArrayList<String>(Arrays.asList(
+				"be", "is", "are", "am", "being","has","have","do","does"));
+		ArrayList<String> past =new ArrayList<String>(Arrays.asList(
+				"was", "were", "been","would","should","did"));
 		ArrayList<String> future =new ArrayList<String>(Arrays.asList("will", "shall"));
 
 		for(String verb:allVerbs){
