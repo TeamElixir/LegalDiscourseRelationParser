@@ -1,5 +1,8 @@
 package featureextractor;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 import utils.NLPUtils;
 
 public class Run {
@@ -8,8 +11,14 @@ public class Run {
 
 		NLPUtils nlpUtils = new NLPUtils("tokenize,ssplit,pos");
 
-		nlpUtils.getNouns("My brown dog also likes eating sausage.");
+		ArrayList<String> nouns = nlpUtils.getNouns("My brown dog also likes eating sausage.");
+		System.out.println("Nouns : " + nouns.toString());
 
+		ArrayList<String> verbs = nlpUtils.getVerbs("My brown dog is beautiful.");
+		System.out.println("Verbs : " + verbs.toString());
+
+		ArrayList<String> adjectives = nlpUtils.getAdjectives("My brown dog is beautiful.");
+		System.out.println("Adjectives : " + adjectives.toString());
 	}
 
 

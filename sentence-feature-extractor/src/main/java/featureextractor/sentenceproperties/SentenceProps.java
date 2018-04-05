@@ -1,5 +1,6 @@
 package featureextractor.sentenceproperties;
 
+import java.util.ArrayList;
 import java.util.Hashtable;
 import java.util.LinkedList;
 
@@ -7,14 +8,14 @@ import featureextractor.wordproperties.Frequency;
 
 public abstract class SentenceProps {
 
-	protected String [] seq_sentence1;
-	protected String [] seq_sentence2;
+	protected ArrayList<String> seq_sentence1;
+	protected ArrayList<String> seq_sentence2;
 	private Hashtable<String, Frequency> freq_vector = new Hashtable<String,Frequency>();
 	private LinkedList<String> distincts = new LinkedList<String>();
 
 	public void initializeFrequencies() {
-		for (int i = 0; i < seq_sentence1.length; i++) {
-			String tmp_wd = seq_sentence1[i].trim();
+		for (int i = 0; i < seq_sentence1.size(); i++) {
+			String tmp_wd = seq_sentence1.get(i).trim();
 			if (tmp_wd.length() > 0) {
 				if (freq_vector.containsKey(tmp_wd)) {
 					Frequency vals1 = freq_vector.get(tmp_wd);
@@ -31,8 +32,8 @@ public abstract class SentenceProps {
 		}
 
 		//prepare word frequency vector by using Text2
-		for (int i = 0; i < seq_sentence2.length; i++) {
-			String tmp_wd = seq_sentence2[i].trim();
+		for (int i = 0; i < seq_sentence2.size(); i++) {
+			String tmp_wd = seq_sentence2.get(i).trim();
 			if (tmp_wd.length() > 0) {
 				if (freq_vector.containsKey(tmp_wd)) {
 					Frequency vals1 = freq_vector.get(tmp_wd);
@@ -49,19 +50,19 @@ public abstract class SentenceProps {
 		}
 	}
 
-	public String[] getSeq_sentence1() {
+	public ArrayList<String> getSeq_sentence1() {
 		return seq_sentence1;
 	}
 
-	public void setSeq_sentence1(String[] seq_sentence1) {
+	public void setSeq_sentence1(ArrayList<String> seq_sentence1) {
 		this.seq_sentence1 = seq_sentence1;
 	}
 
-	public String[] getSeq_sentence2() {
+	public ArrayList<String> getSeq_sentence2() {
 		return seq_sentence2;
 	}
 
-	public void setSeq_sentence2(String[] seq_sentence2) {
+	public void setSeq_sentence2(ArrayList<String> seq_sentence2) {
 		this.seq_sentence2 = seq_sentence2;
 	}
 
