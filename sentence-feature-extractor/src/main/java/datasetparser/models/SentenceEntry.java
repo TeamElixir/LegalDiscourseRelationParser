@@ -3,7 +3,7 @@ package datasetparser.models;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import datasetparser.utils.SQLiteUtils;
+import utils.SQLiteUtils;
 
 public class SentenceEntry {
 
