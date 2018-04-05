@@ -10,6 +10,9 @@ public abstract class SentenceProps {
 
 	protected ArrayList<String> seq_sentence1;
 	protected ArrayList<String> seq_sentence2;
+	protected ArrayList<String> distinct_words_sentence1;
+	protected ArrayList<String> distinct_words_sentence2;
+	protected ArrayList<String> common_words;
 	private Hashtable<String, Frequency> freq_vector = new Hashtable<String,Frequency>();
 	private LinkedList<String> distincts = new LinkedList<String>();
 
