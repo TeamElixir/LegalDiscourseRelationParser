@@ -15,7 +15,9 @@ public class Run {
 		System.out.println("Nouns : " + nouns.toString());
 
 		ArrayList<String> verbs = nlpUtils.getVerbs("My brown dog is beautiful.");
+		ArrayList<String> verbsWithOutBe = nlpUtils.getVerbsWithOutBe("My brown dog is beautiful.");
 		System.out.println("Verbs : " + verbs.toString());
+		System.out.println("VerbsWithOutBe : " + verbsWithOutBe.toString());
 
 		ArrayList<String> adjectives = nlpUtils.getAdjectives("My brown dog is beautiful.");
 		System.out.println("Adjectives : " + adjectives.toString());

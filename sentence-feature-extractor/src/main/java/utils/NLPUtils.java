@@ -1,6 +1,7 @@
 package utils;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Properties;
 
@@ -64,6 +65,26 @@ public class NLPUtils {
 		}
 
 		return verbs;
+	}
+
+	public ArrayList<String> getVerbsWithOutBe(String text){
+		ArrayList<String> verbsWithOutBe = new ArrayList<String>();
+
+		ArrayList<String> allVerbs = getVerbs(text);
+
+		ArrayList<String> present =new ArrayList<String>(Arrays.asList("be", "is", "are", "am", "being"));
+		ArrayList<String> past =new ArrayList<String>(Arrays.asList("was", "were", "been"));
+		ArrayList<String> future =new ArrayList<String>(Arrays.asList("will", "shall"));
+
+		for(String verb:allVerbs){
+			if(present.contains(verb) || past.contains(verb) || future.contains(verb)){
+				continue;
+			}else {
+				verbsWithOutBe.add(verb);
+			}
+		}
+
+		return verbsWithOutBe;
 	}
 
 	public ArrayList<String> getAdjectives(String text){
