@@ -1,6 +1,7 @@
 package utils;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Properties;
 
@@ -32,8 +33,9 @@ public class NLPUtils {
 				String word = token.get(CoreAnnotations.TextAnnotation.class);
 				String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
 
-				// proper nouns are not considered
-				if("NN".equals(pos) || "NNS".equals(pos)){
+				// proper nouns are considered
+				if("NN".equals(pos) || "NNS".equals(pos) ||
+						"NNP".equals(pos) || "NNPS".equals(pos)){
 					nouns.add(word);
 				}
 			}
@@ -63,6 +65,29 @@ public class NLPUtils {
 		}
 
 		return verbs;
+	}
+
+	public ArrayList<String> getVerbsWithOutBe(String text){
+		ArrayList<String> verbsWithOutBe = new ArrayList<String>();
+
+		ArrayList<String> allVerbs = getVerbs(text);
+
+		// TODO: 4/5/18 change variable location
+		ArrayList<String> present =new ArrayList<String>(Arrays.asList(
+				"be", "is", "are", "am", "being","has","have","do","does"));
+		ArrayList<String> past =new ArrayList<String>(Arrays.asList(
+				"was", "were", "been","would","should","did"));
+		ArrayList<String> future =new ArrayList<String>(Arrays.asList("will", "shall"));
+
+		for(String verb:allVerbs){
+			if(present.contains(verb) || past.contains(verb) || future.contains(verb)){
+				continue;
+			}else {
+				verbsWithOutBe.add(verb);
+			}
+		}
+
+		return verbsWithOutBe;
 	}
 
 	public ArrayList<String> getAdjectives(String text){
