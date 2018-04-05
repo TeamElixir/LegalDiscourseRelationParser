@@ -30,7 +30,7 @@ public class NLPUtils {
 				String word = token.get(CoreAnnotations.TextAnnotation.class);
 				// this is the POS tag of the token
 				String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
-				System.out.println(word + "/" + pos);
+				System.out.print(word + "/" + pos);
 			}
 		}
 

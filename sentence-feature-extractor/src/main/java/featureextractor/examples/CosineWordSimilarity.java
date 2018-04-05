@@ -9,10 +9,7 @@ public class CosineWordSimilarity {
         Similarity similarity = new WordSimilarity(
                 "Julie loves me more than Linda loves me",
                 "Jane likes me more than Julie loves me") ;
-        double scoreWordsSimilarity = similarity.similarityScore(
-                "Julie loves me more than Linda loves me",
-                "Jane likes me more than Julie loves me"
-                );
+        double scoreWordsSimilarity = similarity.similarityScore();
 
         System.out.println( "wordSimilarityScore: "+ scoreWordsSimilarity);
     }
