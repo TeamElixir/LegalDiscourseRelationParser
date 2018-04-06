@@ -24,20 +24,22 @@ public class SentenceWords extends SentenceProps{
 		while (m1.find())
 		{
 			String word = m1.group();
-			seq_sentence1.add(word);
-			if(!distinct_words_sentence1.contains(word)){
-				distinct_words_sentence1.add(word);
+			String wordLowerCase = word.toLowerCase();
+			seq_sentence1.add(wordLowerCase);
+			if(!distinct_words_sentence1.contains(wordLowerCase)){
+				distinct_words_sentence1.add(wordLowerCase);
 			}
 		}
 
 		while (m2.find())
 		{
 			String word = m2.group();
+			String wordLowerCase = word.toLowerCase();
 			seq_sentence2.add(word);
-			if(!distinct_words_sentence2.contains(word)){
-				distinct_words_sentence2.add(word);
-				if(distinct_words_sentence1.contains(word)){
-					common_words.add(word);
+			if(!distinct_words_sentence2.contains(wordLowerCase)){
+				distinct_words_sentence2.add(wordLowerCase);
+				if(distinct_words_sentence1.contains(wordLowerCase)){
+					common_words.add(wordLowerCase);
 				}
 			}
 
