@@ -33,10 +33,10 @@ public class NLPUtils {
 				String word = token.get(CoreAnnotations.TextAnnotation.class);
 				String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
 
-				// proper nouns are considered
-				if("NN".equals(pos) || "NNS".equals(pos) ||
-						"NNP".equals(pos) || "NNPS".equals(pos)){
-					nouns.add(word);
+				// proper nouns and pronouns are considered
+				if("NN".equals(pos) || "NNS".equals(pos) || "NNP".equals(pos) ||
+						"NNPS".equals(pos) || "PRP".equals(pos) || "PRP$".equals(pos)){
+					nouns.add(word.toLowerCase());
 				}
 			}
 		}
@@ -59,7 +59,7 @@ public class NLPUtils {
 				// "be" verbs are considered
 				if("VB".equals(pos) || "VBD".equals(pos) || "VBG".equals(pos) ||
 						"VBN".equals(pos) || "VBP".equals(pos) || "VBZ".equals(pos)){
-					verbs.add(word);
+					verbs.add(word.toLowerCase());
 				}
 			}
 		}
@@ -80,10 +80,11 @@ public class NLPUtils {
 		ArrayList<String> future =new ArrayList<String>(Arrays.asList("will", "shall"));
 
 		for(String verb:allVerbs){
-			if(present.contains(verb) || past.contains(verb) || future.contains(verb)){
+			String verbLowerCase = verb.toLowerCase();
+			if(present.contains(verbLowerCase) || past.contains(verbLowerCase) || future.contains(verbLowerCase)){
 				continue;
 			}else {
-				verbsWithOutBe.add(verb);
+				verbsWithOutBe.add(verbLowerCase);
 			}
 		}
 
@@ -104,7 +105,7 @@ public class NLPUtils {
 				String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
 
 				if("JJ".equals(pos) || "JJR".equals(pos) || "JJS".equals(pos)){
-					adjectives.add(word);
+					adjectives.add(word.toLowerCase());
 				}
 			}
 		}
