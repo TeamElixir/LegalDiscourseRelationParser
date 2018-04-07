@@ -14,9 +14,6 @@ public class SentenceWords extends SentenceProps{
 
 		seq_sentence1= new ArrayList<String>();
 		seq_sentence2= new ArrayList<String>();
-		distincts_sentence1 =new ArrayList<String>();
-		distincts_sentence2 =new ArrayList<String>();
-		common_words=new ArrayList<String>();
 
 		while (m1.find())
 		{

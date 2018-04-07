@@ -12,10 +12,10 @@ public abstract class SentenceProps {
 	protected ArrayList<String> seq_sentence1;
 	protected ArrayList<String> seq_sentence2;
 
-	// for Overlap Ratios
+	// for all Overlap Ratios; both lexical and grammatical
 	protected ArrayList<String> distincts_sentence1;
 	protected ArrayList<String> distincts_sentence2;
-	protected ArrayList<String> common_words;
+	protected ArrayList<String> commons;
 
 	// for Cosine Similarities
 	private Hashtable<String, Frequency> freq_vector = new Hashtable<String,Frequency>();
@@ -65,6 +65,10 @@ public abstract class SentenceProps {
 	 * Used for Overlap Ratios
 	 */
 	public void initializeDistinctsCommons(){
+		distincts_sentence1 =new ArrayList<String>();
+		distincts_sentence2 =new ArrayList<String>();
+		commons =new ArrayList<String>();
+
 		for(String element:seq_sentence1){
 			if(!distincts_sentence1.contains(element)){
 				distincts_sentence1.add(element);
@@ -75,14 +79,14 @@ public abstract class SentenceProps {
 			if(!distincts_sentence2.contains(element)){
 				distincts_sentence2.add(element);
 				if(distincts_sentence1.contains(element)){
-					common_words.add(element);
+					commons.add(element);
 				}
 			}
 		}
 
 		System.out.println("dt1 :"+ distincts_sentence1);
 		System.out.println("dt2 :"+ distincts_sentence2);
-		System.out.println("cw :"+common_words);
+		System.out.println("cw :"+ commons);
 	}
 
 	public ArrayList<String> getSeq_sentence1() {
@@ -125,7 +129,7 @@ public abstract class SentenceProps {
 		return distincts_sentence2;
 	}
 
-	public ArrayList<String> getCommon_words() {
-		return common_words;
+	public ArrayList<String> getCommons() {
+		return commons;
 	}
 }
