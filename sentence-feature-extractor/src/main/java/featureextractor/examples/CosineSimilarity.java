@@ -7,7 +7,7 @@ import featureextractor.cosinesimilarity.VerbSimilarity;
 import featureextractor.cosinesimilarity.WordSimilarity;
 import utils.NLPUtils;
 
-public class CosineWordSimilarity {
+public class CosineSimilarity {
 
     public static void main(String[] args) {
         Similarity wordSimilarity = new WordSimilarity(
