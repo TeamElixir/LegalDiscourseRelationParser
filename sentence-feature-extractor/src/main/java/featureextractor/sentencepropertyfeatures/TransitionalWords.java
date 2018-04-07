@@ -33,7 +33,7 @@ public class TransitionalWords {
 
     }
 
-    public boolean checkEllaborationWords(){
+    private boolean checkEllaborationWords(){
 
         if(wordFound){
             if(PropertyUtils.getEllaborationWords().contains(firstWord)){
@@ -45,7 +45,7 @@ public class TransitionalWords {
 
     }
 
-    public boolean checkEllaborationPhrase(){
+    private boolean checkEllaborationPhrase(){
 
         if (wordFound){
             ArrayList<String> transitionPhrases=PropertyUtils.getEllaborationPhrases();
@@ -62,7 +62,7 @@ public class TransitionalWords {
 
     }
 
-    public boolean checkChangePhrase(){
+    private boolean checkChangePhrase(){
 
         if (wordFound){
             ArrayList<String> changePhrases=PropertyUtils.getChangeOfTopicsWords();
