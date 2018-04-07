@@ -25,6 +25,15 @@ public class NLPUtils {
 		this.pipeline = new StanfordCoreNLP(props);
 	}
 
+	public Annotation annotate(String text){
+		Annotation annotation = new Annotation(text);
+		pipeline.annotate(annotation);
+
+		return annotation;
+	}
+
+	// TODO: 4/7/18 same text annotated again and again when calling getNouns,getVerbs etc
+
 	public ArrayList<String> getNouns(String text){
 		Annotation annotation = new Annotation(text);
 		pipeline.annotate(annotation);
