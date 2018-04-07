@@ -8,14 +8,22 @@ import featureextractor.wordproperties.Frequency;
 
 public abstract class SentenceProps {
 
+	// holds : words,verbs,nouns,adjectives,subjects,objects
 	protected ArrayList<String> seq_sentence1;
 	protected ArrayList<String> seq_sentence2;
-	protected ArrayList<String> distinct_words_sentence1;
-	protected ArrayList<String> distinct_words_sentence2;
+
+	// for Overlap Ratios
+	protected ArrayList<String> distincts_sentence1;
+	protected ArrayList<String> distincts_sentence2;
 	protected ArrayList<String> common_words;
+
+	// for Cosine Similarities
 	private Hashtable<String, Frequency> freq_vector = new Hashtable<String,Frequency>();
 	private LinkedList<String> distincts = new LinkedList<String>();
 
+	/**
+	 * Used for Cosine Similarities
+	 */
 	public void initializeFrequencies() {
 		for (int i = 0; i < seq_sentence1.size(); i++) {
 			String tmp_wd = seq_sentence1.get(i).trim();
@@ -53,6 +61,30 @@ public abstract class SentenceProps {
 		}
 	}
 
+	/**
+	 * Used for Overlap Ratios
+	 */
+	public void initializeDistinctsCommons(){
+		for(String element:seq_sentence1){
+			if(!distincts_sentence1.contains(element)){
+				distincts_sentence1.add(element);
+			}
+		}
+
+		for(String element:seq_sentence2){
+			if(!distincts_sentence2.contains(element)){
+				distincts_sentence2.add(element);
+				if(distincts_sentence1.contains(element)){
+					common_words.add(element);
+				}
+			}
+		}
+
+		System.out.println("dt1 :"+ distincts_sentence1);
+		System.out.println("dt2 :"+ distincts_sentence2);
+		System.out.println("cw :"+common_words);
+	}
+
 	public ArrayList<String> getSeq_sentence1() {
 		return seq_sentence1;
 	}
@@ -85,12 +117,12 @@ public abstract class SentenceProps {
 		this.distincts = distincts;
 	}
 
-	public ArrayList<String> getDistinct_words_sentence1() {
-		return distinct_words_sentence1;
+	public ArrayList<String> getDistincts_sentence1() {
+		return distincts_sentence1;
 	}
 
-	public ArrayList<String> getDistinct_words_sentence2() {
-		return distinct_words_sentence2;
+	public ArrayList<String> getDistincts_sentence2() {
+		return distincts_sentence2;
 	}
 
 	public ArrayList<String> getCommon_words() {

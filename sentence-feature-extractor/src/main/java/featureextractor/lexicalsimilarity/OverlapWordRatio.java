@@ -15,13 +15,15 @@ public class OverlapWordRatio {
                     "Julie loves me more than Linda loves me",
                     "Jane likes me more than Julie loves me");
 
+            wordProps.initializeDistinctsCommons();
+
             double sentence1Ratio = 2 *
                     ((double) wordProps.getCommon_words().size()/
-                    (double) wordProps.getDistinct_words_sentence1().size());
+                    (double) wordProps.getDistincts_sentence1().size());
 
             double sentence2Ratio = 2 *
                     ((double) wordProps.getCommon_words().size()/
-                            (double) wordProps.getDistinct_words_sentence2().size());
+                            (double) wordProps.getDistincts_sentence2().size());
 
             overlapScores.add(sentence1Ratio);
             overlapScores.add(sentence2Ratio);

@@ -7,8 +7,12 @@ import java.util.Properties;
 
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
+import edu.stanford.nlp.ling.IndexedWord;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
+import edu.stanford.nlp.semgraph.SemanticGraph;
+import edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations;
+import edu.stanford.nlp.semgraph.SemanticGraphEdge;
 import edu.stanford.nlp.util.CoreMap;
 
 public class NLPUtils {
@@ -113,4 +117,55 @@ public class NLPUtils {
 		return adjectives;
 	}
 
+	public ArrayList<String> getSubjects(String text){
+		Annotation annotation = new Annotation(text);
+		pipeline.annotate(annotation);
+
+		ArrayList<String> subjects = new ArrayList<String>();
+
+		List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
+		for(CoreMap sentence:sentences){
+			SemanticGraph dependencies = sentence.get(SemanticGraphCoreAnnotations.EnhancedPlusPlusDependenciesAnnotation.class);
+//			IndexedWord root = dependencies.getFirstRoot();
+//			System.out.printf("root(ROOT-0, %s-%d)%n", root.word(), root.index());
+			for(SemanticGraphEdge edge:dependencies.edgeIterable()){
+//				System.out.printf ("%s(%s-%d, %s-%d)%n", edge.getRelation().toString(), edge.getGovernor().word(), edge.getGovernor().index(), edge.getDependent().word(), edge.getDependent().index());
+				String relation = edge.getRelation().toString();
+				// nominal subject, passive nominal subject, controlling subject considered
+				// clausal subjects not considered
+				if("nsubj".equals(relation) || "nsubjpass".equals(relation) ||
+						"nsubj:xsubj".equals(relation) || "nsubjpass:xsubj".equals(relation)){
+					subjects.add(edge.getDependent().word().toLowerCase());
+				}
+			}
+		}
+
+		return subjects;
+	}
+
+	public ArrayList<String> getObjects(String text){
+		Annotation annotation = new Annotation(text);
+		pipeline.annotate(annotation);
+
+		ArrayList<String> objects = new ArrayList<String>();
+
+		List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
+		for(CoreMap sentence:sentences){
+			SemanticGraph dependencies = sentence.get(SemanticGraphCoreAnnotations.EnhancedPlusPlusDependenciesAnnotation.class);
+			for(SemanticGraphEdge edge:dependencies.edgeIterable()){
+				String relation = edge.getRelation().toString();
+				// direct object, indirect object considered
+				// prepositional object not considered
+				if("dobj".equals(relation) || "iobj".equals(relation)){
+					objects.add(edge.getDependent().word().toLowerCase());
+				}
+			}
+		}
+
+		return objects;
+	}
+
+	public StanfordCoreNLP getPipeline() {
+		return pipeline;
+	}
 }
