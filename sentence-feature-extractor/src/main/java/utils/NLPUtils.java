@@ -139,10 +139,12 @@ public class NLPUtils {
 			for(SemanticGraphEdge edge:dependencies.edgeIterable()){
 //				System.out.printf ("%s(%s-%d, %s-%d)%n", edge.getRelation().toString(), edge.getGovernor().word(), edge.getGovernor().index(), edge.getDependent().word(), edge.getDependent().index());
 				String relation = edge.getRelation().toString();
-				// nominal subject, passive nominal subject, controlling subject considered
-				// clausal subjects not considered
+				// nominal subject, passive nominal subject, clausal subject, clausal passive subject
+				// controlling subjects all considered
 				if("nsubj".equals(relation) || "nsubjpass".equals(relation) ||
-						"nsubj:xsubj".equals(relation) || "nsubjpass:xsubj".equals(relation)){
+						"nsubj:xsubj".equals(relation) || "nsubjpass:xsubj".equals(relation) ||
+						"csubj".equals(relation) || "csubjpass".equals(relation) ||
+						"csubj:xsubj".equals(relation) || "csubjpass:xsubj".equals(relation)){
 					subjects.add(edge.getDependent().word().toLowerCase());
 				}
 			}
