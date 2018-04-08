@@ -7,7 +7,6 @@ import java.util.Properties;
 
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
-import edu.stanford.nlp.ling.IndexedWord;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.semgraph.SemanticGraph;
@@ -172,6 +171,29 @@ public class NLPUtils {
 		}
 
 		return objects;
+	}
+
+	public ArrayList<String> getEntities(String text){
+		Annotation annotation = new Annotation(text);
+		pipeline.annotate(annotation);
+
+		ArrayList<String> entities = new ArrayList<String>();
+
+		List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
+		for (CoreMap sentence : sentences) {
+			for (CoreLabel token: sentence.get(CoreAnnotations.TokensAnnotation.class)) {
+				String word = token.get(CoreAnnotations.TextAnnotation.class);
+				// this is the NER tag of the token
+				String ne = token.get(CoreAnnotations.NamedEntityTagAnnotation.class);
+				if("PERSON".equals(ne) || "ORGANIZATION".equals(ne) || "LOCATION".equals(ne) ||
+						"MONEY".equals(ne) || "PERCENT".equals(ne) || "DATE".equals(ne) ||
+						"TIME".equals(ne)){
+					entities.add(word.toLowerCase());
+				}
+			}
+		}
+
+		return entities;
 	}
 
 	public StanfordCoreNLP getPipeline() {
