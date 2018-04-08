@@ -16,7 +16,7 @@ public class SentenceLengths {
         double targetSentenceLength = (double) sentenceWords.getSeq_sentence2().size();
         double score;
         double difference = sourceSentenceLength - targetSentenceLength;
-        double differenceValue = (difference/sourceSentenceLength*2);
+        double differenceValue = (difference/(sourceSentenceLength*2));
 
         if(differenceValue>=0){
             score = 0.50 + differenceValue;
