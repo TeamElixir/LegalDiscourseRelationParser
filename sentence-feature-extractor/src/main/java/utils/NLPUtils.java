@@ -5,6 +5,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Properties;
 
+import edu.stanford.nlp.coref.CorefCoreAnnotations;
+import edu.stanford.nlp.coref.data.CorefChain;
+import edu.stanford.nlp.coref.data.Mention;
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.Annotation;
@@ -24,6 +27,10 @@ public class NLPUtils {
 		this.pipeline = new StanfordCoreNLP(props);
 	}
 
+	public NLPUtils(Properties properties){
+		this.pipeline = new StanfordCoreNLP(properties);
+	}
+
 	public Annotation annotate(String text){
 		Annotation annotation = new Annotation(text);
 		pipeline.annotate(annotation);
@@ -37,7 +44,7 @@ public class NLPUtils {
 		Annotation annotation = new Annotation(text);
 		pipeline.annotate(annotation);
 
-		ArrayList<String> nouns = new ArrayList<String>();
+		ArrayList<String> nouns = new ArrayList<>();
 
 		List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
 		for (CoreMap sentence : sentences) {
@@ -60,7 +67,7 @@ public class NLPUtils {
 		Annotation annotation = new Annotation(text);
 		pipeline.annotate(annotation);
 
-		ArrayList<String> verbs = new ArrayList<String>();
+		ArrayList<String> verbs = new ArrayList<>();
 
 		List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
 		for (CoreMap sentence : sentences) {
@@ -80,16 +87,16 @@ public class NLPUtils {
 	}
 
 	public ArrayList<String> getVerbsWithOutBe(String text){
-		ArrayList<String> verbsWithOutBe = new ArrayList<String>();
+		ArrayList<String> verbsWithOutBe = new ArrayList<>();
 
 		ArrayList<String> allVerbs = getVerbs(text);
 
 		// TODO: 4/5/18 change variable location
-		ArrayList<String> present =new ArrayList<String>(Arrays.asList(
+		ArrayList<String> present =new ArrayList<>(Arrays.asList(
 				"be", "is", "are", "am", "being","has","have","do","does"));
-		ArrayList<String> past =new ArrayList<String>(Arrays.asList(
+		ArrayList<String> past =new ArrayList<>(Arrays.asList(
 				"was", "were", "been","would","should","did"));
-		ArrayList<String> future =new ArrayList<String>(Arrays.asList("will", "shall"));
+		ArrayList<String> future =new ArrayList<>(Arrays.asList("will", "shall"));
 
 		for(String verb:allVerbs){
 			String verbLowerCase = verb.toLowerCase();
@@ -107,7 +114,7 @@ public class NLPUtils {
 		Annotation annotation = new Annotation(text);
 		pipeline.annotate(annotation);
 
-		ArrayList<String> adjectives = new ArrayList<String>();
+		ArrayList<String> adjectives = new ArrayList<>();
 
 		List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
 		for (CoreMap sentence : sentences) {
@@ -129,7 +136,7 @@ public class NLPUtils {
 		Annotation annotation = new Annotation(text);
 		pipeline.annotate(annotation);
 
-		ArrayList<String> subjects = new ArrayList<String>();
+		ArrayList<String> subjects = new ArrayList<>();
 
 		List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
 		for(CoreMap sentence:sentences){
@@ -157,7 +164,7 @@ public class NLPUtils {
 		Annotation annotation = new Annotation(text);
 		pipeline.annotate(annotation);
 
-		ArrayList<String> objects = new ArrayList<String>();
+		ArrayList<String> objects = new ArrayList<>();
 
 		List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
 		for(CoreMap sentence:sentences){
@@ -179,7 +186,7 @@ public class NLPUtils {
 		Annotation annotation = new Annotation(text);
 		pipeline.annotate(annotation);
 
-		ArrayList<String> entities = new ArrayList<String>();
+		ArrayList<String> entities = new ArrayList<>();
 
 		List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
 		for (CoreMap sentence : sentences) {
@@ -196,6 +203,24 @@ public class NLPUtils {
 		}
 
 		return entities;
+	}
+
+	/**
+	 *
+	 */
+	public void replaceCoreferences(Annotation annotation){
+		System.out.println("---");
+		System.out.println("coref chains");
+		for (CorefChain cc : annotation.get(CorefCoreAnnotations.CorefChainAnnotation.class).values()) {
+			System.out.println("\t" + cc);
+		}
+		for (CoreMap sentence : annotation.get(CoreAnnotations.SentencesAnnotation.class)) {
+			System.out.println("---");
+			System.out.println("mentions");
+			for (Mention m : sentence.get(CorefCoreAnnotations.CorefMentionsAnnotation.class)) {
+				System.out.println("\t" + m);
+			}
+		}
 	}
 
 	public StanfordCoreNLP getPipeline() {
