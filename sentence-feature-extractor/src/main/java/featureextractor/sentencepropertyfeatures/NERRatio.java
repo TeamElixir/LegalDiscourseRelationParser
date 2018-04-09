@@ -14,10 +14,15 @@ public class NERRatio {
 		this.nlpUtils = nlpUtils;
 	}
 
-	public double getRatio(){
+	public double getRatio() {
 		int entitiesNoSource = nlpUtils.getEntities(sourceSentence).size();
 		int entitiesNoTarget = nlpUtils.getEntities(targetSentence).size();
 
-		return (double)entitiesNoSource / Math.max(entitiesNoSource,entitiesNoTarget);
+		int maxNoEntities = Math.max(entitiesNoSource, entitiesNoTarget);
+
+		if (maxNoEntities == 0) {
+			return 0;
+		}
+		return (double) entitiesNoSource / (double) maxNoEntities;
 	}
 }
