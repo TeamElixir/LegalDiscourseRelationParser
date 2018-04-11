@@ -38,12 +38,7 @@ public class NLPUtils {
 		return annotation;
 	}
 
-	// TODO: 4/7/18 same text annotated again and again when calling getNouns,getVerbs etc
-
-	public ArrayList<String> getNouns(String text){
-		Annotation annotation = new Annotation(text);
-		pipeline.annotate(annotation);
-
+	public ArrayList<String> getNouns(Annotation annotation){
 		ArrayList<String> nouns = new ArrayList<>();
 
 		List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
@@ -63,10 +58,7 @@ public class NLPUtils {
 		return nouns;
 	}
 
-	public ArrayList<String> getVerbs(String text){
-		Annotation annotation = new Annotation(text);
-		pipeline.annotate(annotation);
-
+	public ArrayList<String> getVerbs(Annotation annotation){
 		ArrayList<String> verbs = new ArrayList<>();
 
 		List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
@@ -86,10 +78,10 @@ public class NLPUtils {
 		return verbs;
 	}
 
-	public ArrayList<String> getVerbsWithOutBe(String text){
+	public ArrayList<String> getVerbsWithOutBe(Annotation annotation){
 		ArrayList<String> verbsWithOutBe = new ArrayList<>();
 
-		ArrayList<String> allVerbs = getVerbs(text);
+		ArrayList<String> allVerbs = getVerbs(annotation);
 
 		// TODO: 4/5/18 change variable location
 		ArrayList<String> present =new ArrayList<>(Arrays.asList(
@@ -110,10 +102,7 @@ public class NLPUtils {
 		return verbsWithOutBe;
 	}
 
-	public ArrayList<String> getAdjectives(String text){
-		Annotation annotation = new Annotation(text);
-		pipeline.annotate(annotation);
-
+	public ArrayList<String> getAdjectives(Annotation annotation){
 		ArrayList<String> adjectives = new ArrayList<>();
 
 		List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
@@ -132,10 +121,7 @@ public class NLPUtils {
 		return adjectives;
 	}
 
-	public ArrayList<String> getSubjects(String text){
-		Annotation annotation = new Annotation(text);
-		pipeline.annotate(annotation);
-
+	public ArrayList<String> getSubjects(Annotation annotation){
 		ArrayList<String> subjects = new ArrayList<>();
 
 		List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
@@ -160,10 +146,7 @@ public class NLPUtils {
 		return subjects;
 	}
 
-	public ArrayList<String> getObjects(String text){
-		Annotation annotation = new Annotation(text);
-		pipeline.annotate(annotation);
-
+	public ArrayList<String> getObjects(Annotation annotation){
 		ArrayList<String> objects = new ArrayList<>();
 
 		List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
@@ -182,10 +165,7 @@ public class NLPUtils {
 		return objects;
 	}
 
-	public ArrayList<String> getEntities(String text){
-		Annotation annotation = new Annotation(text);
-		pipeline.annotate(annotation);
-
+	public ArrayList<String> getEntities(Annotation annotation){
 		ArrayList<String> entities = new ArrayList<>();
 
 		List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
@@ -221,6 +201,21 @@ public class NLPUtils {
 				System.out.println("\t" + m);
 			}
 		}
+//		Map<Integer, CorefChain> graph = annotation.get(CorefCoreAnnotations.CorefChainAnnotation.class);
+
+
+//		for(Map.Entry<Integer, CorefChain> entry : graph) {
+//			CorefChain c =   entry.getValue();
+//			println "ClusterId: " + entry.getKey();
+//			CorefMention cm = c.getRepresentativeMention();
+//			println "Representative Mention: " + aText.subSequence(cm.startIndex, cm.endIndex);
+//
+//			List<CorefMention> cms = c.getCorefMentions();
+//			println  "Mentions:  ";
+//			cms.each { it ->
+//					print aText.subSequence(it.startIndex, it.endIndex) + "|";
+//			}
+//		}
 	}
 
 	public StanfordCoreNLP getPipeline() {

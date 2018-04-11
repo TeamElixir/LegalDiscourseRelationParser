@@ -1,10 +1,10 @@
 package featureextractor.grammaticalrelationships;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
+import edu.stanford.nlp.pipeline.Annotation;
 import featureextractor.sentenceproperties.SentenceObjects;
 import featureextractor.sentenceproperties.SentenceProps;
 import featureextractor.sentenceproperties.SentenceSubjects;
@@ -12,18 +12,18 @@ import utils.NLPUtils;
 
 public class GrammarOverlapRatio {
 
-	private String sentence1;
-	private String sentence2;
+	private Annotation sourceAnnotation;
+	private Annotation targetAnnotation;
 	private NLPUtils nlpUtils;
 
-	public GrammarOverlapRatio(String sentence1, String sentence2, NLPUtils nlpUtils) {
-		this.sentence1 = sentence1;
-		this.sentence2 = sentence2;
+	public GrammarOverlapRatio(Annotation sourceAnnotation,Annotation targetAnnotation, NLPUtils nlpUtils) {
+		this.sourceAnnotation = sourceAnnotation;
+		this.targetAnnotation = targetAnnotation;
 		this.nlpUtils = nlpUtils;
 	}
 
 	public double getSubjectOverlap() {
-		SentenceProps sentenceProps = new SentenceSubjects(sentence1, sentence2, nlpUtils);
+		SentenceProps sentenceProps = new SentenceSubjects(sourceAnnotation, targetAnnotation, nlpUtils);
 
 		sentenceProps.initializeDistinctsCommons();
 
@@ -32,7 +32,7 @@ public class GrammarOverlapRatio {
 	}
 
 	public double getObjectOverlap() {
-		SentenceProps sentenceProps = new SentenceObjects(sentence1, sentence2, nlpUtils);
+		SentenceProps sentenceProps = new SentenceObjects(sourceAnnotation, targetAnnotation, nlpUtils);
 
 		sentenceProps.initializeDistinctsCommons();
 
@@ -41,8 +41,8 @@ public class GrammarOverlapRatio {
 	}
 
 	public double getSubjectNounOverlap() {
-		ArrayList<String> subjectsSent1 = nlpUtils.getSubjects(sentence1);
-		ArrayList<String> nounsSent2 = nlpUtils.getNouns(sentence2);
+		ArrayList<String> subjectsSent1 = nlpUtils.getSubjects(sourceAnnotation);
+		ArrayList<String> nounsSent2 = nlpUtils.getNouns(targetAnnotation);
 
 		// distinct subjects
 		Set<String> set = new HashSet<String>(subjectsSent1);

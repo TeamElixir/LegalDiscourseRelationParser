@@ -1,12 +1,13 @@
 package featureextractor.cosinesimilarity;
 
+import edu.stanford.nlp.pipeline.Annotation;
 import featureextractor.sentenceproperties.SentenceVerbs;
 import utils.NLPUtils;
 
 public class VerbSimilarity extends Similarity{
 
-	public VerbSimilarity(String sentence1, String sentence2, NLPUtils nlpUtils){
-		sentenceProps = new SentenceVerbs(sentence1, sentence2, nlpUtils);
+	public VerbSimilarity(Annotation sourceAnnotation,Annotation targetAnnotation, NLPUtils nlpUtils){
+		sentenceProps = new SentenceVerbs(sourceAnnotation, targetAnnotation, nlpUtils);
 	}
 
 }
