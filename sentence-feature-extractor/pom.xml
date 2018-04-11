@@ -99,13 +99,6 @@
             <version>3.9.1</version>
             <classifier>models-english-kbp</classifier>
         </dependency>
-        
-        <!-- https://mvnrepository.com/artifact/de.sciss/ws4j -->
-        <dependency>
-            <groupId>de.sciss</groupId>
-            <artifactId>ws4j</artifactId>
-            <version>0.1.0</version>
-        </dependency>
 
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -117,6 +110,28 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
             <version>1.7.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.0</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>edu.cmu.lti</groupId>
+            <artifactId>jawjaw</artifactId>
+            <version>1.0.2</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/jawjaw-1.0.2.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>edu.cmu.lti</groupId>
+            <artifactId>ws4j</artifactId>
+            <version>1.0.1</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/ws4j-1.0.1.jar</systemPath>
         </dependency>
 
     </dependencies>
