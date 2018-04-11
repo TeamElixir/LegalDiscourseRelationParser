@@ -3,6 +3,7 @@ package featureextractor;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Properties;
 
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.IndexedWord;
@@ -36,12 +37,15 @@ public class FeatureRun {
 		System.out.println("Adjectives : " + adjectives.toString());
 		*/
 
-		NLPUtils nlpUtils = new NLPUtils("tokenize,ssplit,pos,lemma,ner,depparse,coref");
+		Properties props = new Properties();
+		props.setProperty("annotators","tokenize,ssplit,pos,lemma,ner,depparse,coref");
+		props.setProperty("coref.algorithm", "statistical");
+		NLPUtils nlpUtils = new NLPUtils(props);
 
-		String sentence1 = "Julie likes her brown dog.";
-		String sentence2 = "She is a good girl.";
+		String sourceSentence = "Julie likes her brown dog.";
+		String targetSentence = "She is a good girl.";
 
-		String text = sentence1 + " " +sentence2;
+		String text = sourceSentence + " " + targetSentence;
 
 		Annotation annotation = nlpUtils.annotate(text);
 		nlpUtils.replaceCoreferences(annotation);

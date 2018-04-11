@@ -1,22 +1,23 @@
 package featureextractor.sentencepropertyfeatures;
 
+import edu.stanford.nlp.pipeline.Annotation;
 import utils.NLPUtils;
 
 public class NERRatio {
 
-	private String sourceSentence;
-	private String targetSentence;
+	private Annotation sourceAnnotation;
+	private Annotation targetAnnotation;
 	private NLPUtils nlpUtils;
 
-	public NERRatio(String sourceSentence, String targetSentence, NLPUtils nlpUtils) {
-		this.sourceSentence = sourceSentence;
-		this.targetSentence = targetSentence;
+	public NERRatio(Annotation sourceAnnotation, Annotation targetAnnotation, NLPUtils nlpUtils) {
+		this.sourceAnnotation = sourceAnnotation;
+		this.targetAnnotation = targetAnnotation;
 		this.nlpUtils = nlpUtils;
 	}
 
 	public double getRatio() {
-		int entitiesNoSource = nlpUtils.getEntities(sourceSentence).size();
-		int entitiesNoTarget = nlpUtils.getEntities(targetSentence).size();
+		int entitiesNoSource = nlpUtils.getEntities(sourceAnnotation).size();
+		int entitiesNoTarget = nlpUtils.getEntities(targetAnnotation).size();
 
 		int maxNoEntities = Math.max(entitiesNoSource, entitiesNoTarget);
 
