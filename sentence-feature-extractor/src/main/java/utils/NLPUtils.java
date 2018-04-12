@@ -187,38 +187,57 @@ public class NLPUtils {
 
 	/**
 	 *
+	 * @param annotation annotated string - targetSentence + " " + sourceSentence
+	 * @param sourceSentence
+	 * @param targetSentence
+	 * @return arraylist containing two changed sentences sourceSentence-0 , targetSentence-1
 	 */
-	public void replaceCoreferences(Annotation annotation){
-		System.out.println("---");
-		System.out.println("coref chains");
-		for (CorefChain cc : annotation.get(CorefCoreAnnotations.CorefChainAnnotation.class).values()) {
-			System.out.println("\t" + cc);
-		}
-		for (CoreMap sentence : annotation.get(CoreAnnotations.SentencesAnnotation.class)) {
-			System.out.println("---");
-			System.out.println("mentions");
-			for (Mention m : sentence.get(CorefCoreAnnotations.CorefMentionsAnnotation.class)) {
-				System.out.println("\t" + m);
+	public ArrayList<String> replaceCoreferences(Annotation annotation, String sourceSentence, String targetSentence){
+
+		for (CorefChain chain : annotation.get(CorefCoreAnnotations.CorefChainAnnotation.class).values()) {
+			String represent = chain.getRepresentativeMention().mentionSpan;
+			for(CorefChain.CorefMention mention: chain.getMentionsInTextualOrder()){
+				int sentNo = mention.sentNum;
+				int startIndex = mention.startIndex;
+				int endIndex = mention.endIndex;
+				String word = mention.mentionSpan;
+				if(sentNo==1){
+					targetSentence = targetSentence.replaceAll(word,represent);
+				}else if(sentNo==2){
+					sourceSentence = sourceSentence.replaceAll(word,represent);
+				}
 			}
 		}
-//		Map<Integer, CorefChain> graph = annotation.get(CorefCoreAnnotations.CorefChainAnnotation.class);
 
-
-//		for(Map.Entry<Integer, CorefChain> entry : graph) {
-//			CorefChain c =   entry.getValue();
-//			println "ClusterId: " + entry.getKey();
-//			CorefMention cm = c.getRepresentativeMention();
-//			println "Representative Mention: " + aText.subSequence(cm.startIndex, cm.endIndex);
-//
-//			List<CorefMention> cms = c.getCorefMentions();
-//			println  "Mentions:  ";
-//			cms.each { it ->
-//					print aText.subSequence(it.startIndex, it.endIndex) + "|";
-//			}
-//		}
+		return new ArrayList<>(Arrays.asList(sourceSentence,targetSentence));
 	}
 
 	public StanfordCoreNLP getPipeline() {
 		return pipeline;
 	}
+
+	/* coreference access
+	for (CoreMap sentence : annotation.get(CoreAnnotations.SentencesAnnotation.class)) {
+		System.out.println("---");
+		System.out.println("mentions");
+		for (Mention m : sentence.get(CorefCoreAnnotations.CorefMentionsAnnotation.class)) {
+			System.out.println("\t" + m);
+		}
+	}
+	Map<Integer, CorefChain> graph = annotation.get(CorefCoreAnnotations.CorefChainAnnotation.class);
+
+
+	for(Map.Entry<Integer, CorefChain> entry : graph) {
+		CorefChain c =   entry.getValue();
+		println "ClusterId: " + entry.getKey();
+		CorefMention cm = c.getRepresentativeMention();
+		println "Representative Mention: " + aText.subSequence(cm.startIndex, cm.endIndex);
+
+		List<CorefMention> cms = c.getCorefMentions();
+		println  "Mentions:  ";
+		cms.each { it ->
+				print aText.subSequence(it.startIndex, it.endIndex) + "|";
+		}
+	}
+	*/
 }

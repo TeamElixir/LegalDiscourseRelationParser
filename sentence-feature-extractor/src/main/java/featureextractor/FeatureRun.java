@@ -42,13 +42,14 @@ public class FeatureRun {
 		props.setProperty("coref.algorithm", "statistical");
 		NLPUtils nlpUtils = new NLPUtils(props);
 
-		String sourceSentence = "Julie likes her brown dog.";
-		String targetSentence = "She is a good girl.";
+		String sourceSentence= "She is a good girl.";
+		String targetSentence = "Julie likes her brown dog.";
 
-		String text = sourceSentence + " " + targetSentence;
+		String text = targetSentence + " " + sourceSentence;
 
 		Annotation annotation = nlpUtils.annotate(text);
-		nlpUtils.replaceCoreferences(annotation);
+		ArrayList<String> sents = nlpUtils.replaceCoreferences(annotation, sourceSentence, targetSentence);
+		System.out.println(sents.toString());
 
 
 	}
