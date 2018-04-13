@@ -6,8 +6,8 @@ import utils.NLPUtils;
 public class SentenceObjects extends SentenceProps{
 
 	public SentenceObjects(Annotation sourceAnnotation,Annotation targetAnnotation, NLPUtils nlpUtils) {
-		seq_sentence1 = nlpUtils.getNouns(sourceAnnotation);
-		seq_sentence2 = nlpUtils.getNouns(targetAnnotation);
+		seq_sentence1 = nlpUtils.getObjects(sourceAnnotation);
+		seq_sentence2 = nlpUtils.getObjects(targetAnnotation);
 	}
 
 }

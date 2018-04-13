@@ -37,6 +37,7 @@ public class FeatureRun {
 		System.out.println("Adjectives : " + adjectives.toString());
 		*/
 
+		/* coreference example
 		Properties props = new Properties();
 		props.setProperty("annotators","tokenize,ssplit,pos,lemma,ner,depparse,coref");
 		props.setProperty("coref.algorithm", "statistical");
@@ -50,6 +51,13 @@ public class FeatureRun {
 		Annotation annotation = nlpUtils.annotate(text);
 		ArrayList<String> sents = nlpUtils.replaceCoreferences(annotation, sourceSentence, targetSentence);
 		System.out.println(sents.toString());
+		*/
+
+		Properties props = new Properties();
+		props.setProperty("annotators","tokenize,ssplit,pos,depparse");
+		NLPUtils nlpUtils = new NLPUtils(props);
+
+		System.out.println(nlpUtils.getSubjects(nlpUtils.annotate("What she said is not true")));
 
 
 	}

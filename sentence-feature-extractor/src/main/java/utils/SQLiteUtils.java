@@ -50,8 +50,9 @@ public class SQLiteUtils {
 				" SOURCE    CHAR(20)    NOT NULL )";
 
 	String sql = "CREATE TABLE RELATIONSHIP " +
-		"(ID        INT PRIMARY KEY NOT NULL," +
-		" SSENT     INT     NOT NULL, " +
+		"(ID INTEGER PRIMARY KEY AUTOINCREMENT," +
+		" ENTRYID   INT     NOT NULL," +
+		" SSENT     TEXT     NOT NULL, " +
 		" TSENT     TEXT    NOT NULL, " +
 		" TYPE      INT     NOT NULL, )";
 	*/

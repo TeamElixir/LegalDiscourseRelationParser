@@ -8,7 +8,8 @@ import utils.SQLiteUtils;
 
 public class Relationship {
 
-	private int id;
+	private int dbId;
+	private int entryId;
 	private String sourceSent;
 	private String targetSent;
 	private int type;
@@ -24,12 +25,16 @@ public class Relationship {
 		}
 	}
 
-	public int getId() {
-		return id;
+	public int getDbId() {
+		return dbId;
 	}
 
-	public void setId(int id) {
-		this.id = id;
+	public int getEntryId() {
+		return entryId;
+	}
+
+	public void setEntryId(int entryId) {
+		this.entryId = entryId;
 	}
 
 	public String getSourceSent() {
@@ -61,9 +66,9 @@ public class Relationship {
 	}
 
 	public void save() throws SQLException {
-		String sql = "INSERT INTO RELATIONSHIP (ID,SSENT,TSENT,TYPE) " +
+		String sql = "INSERT INTO RELATIONSHIP (ENTRYID,SSENT,TSENT,TYPE) " +
 				"VALUES ("
-				+ id + ", " +
+				+ entryId + ", " +
 				"\"" + sourceSent + "\"" + ", " +
 				"\"" + targetSent + "\"" + ", " +
 				type + ");";
@@ -83,11 +88,11 @@ public class Relationship {
 		Relationship entry;
 		while (resultSet.next()){
 			entry = new Relationship();
-			entry.id = resultSet.getInt("ID");
+			entry.dbId = resultSet.getInt("ID");
+			entry.entryId = resultSet.getInt("ENTRYID");
 			entry.sourceSent = resultSet.getString("SSENT");
 			entry.targetSent = resultSet.getString("TSENT");
 			entry.type = resultSet.getInt("TYPE");
-
 
 			relationships.add(entry);
 		}
