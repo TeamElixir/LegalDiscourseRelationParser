@@ -17,7 +17,7 @@ import featureextractor.grammaticalrelationships.GrammarOverlapRatio;
 import featureextractor.sentencepropertyfeatures.NERRatio;
 import utils.NLPUtils;
 
-public class FeatureRun {
+public class FeatureTest {
 
 	public static void main(String[] args) {
 

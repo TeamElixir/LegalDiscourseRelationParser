@@ -76,7 +76,7 @@ public class Relationship {
 		sqLiteUtils.executeUpdate(sql);
 	}
 
-	public ArrayList<Relationship> getAll() throws SQLException {
+	public static ArrayList<Relationship> getAll() throws SQLException {
 		String sql = "SELECT * FROM RELATIONSHIP;";
 		ResultSet resultSet = sqLiteUtils.executeQuery(sql);
 
