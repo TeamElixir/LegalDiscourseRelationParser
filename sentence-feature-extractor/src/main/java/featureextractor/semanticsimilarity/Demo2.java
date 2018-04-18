@@ -36,6 +36,8 @@ public class Demo2 {
                     }
                 }
             }
+            System.out.println("s1 : "+synsets1.toString());
+            System.out.println("s2 : "+synsets2.toString());
             System.out.println("Similarity score of " + word1 + " & " + word2 + " : " + maxScore);
         } catch (Exception e) {
             System.out.println(("Exception : "+ e));
@@ -45,7 +47,7 @@ public class Demo2 {
 
     public static void main(String[] args) {
         String txt1 = "dog";
-        String txt2 = "dog";
+        String txt2 = "table";
         wordSimilarity(txt1,POS.n,txt2,POS.n);
 
     }
