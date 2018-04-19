@@ -10,7 +10,9 @@ import edu.stanford.nlp.coref.data.CorefChain;
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.Annotation;
+import edu.stanford.nlp.pipeline.AnnotationPipeline;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
+import edu.stanford.nlp.pipeline.StanfordCoreNLPClient;
 import edu.stanford.nlp.semgraph.SemanticGraph;
 import edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations;
 import edu.stanford.nlp.semgraph.SemanticGraphEdge;
@@ -18,7 +20,11 @@ import edu.stanford.nlp.util.CoreMap;
 
 public class NLPUtils {
 
-	private StanfordCoreNLP pipeline;
+	private AnnotationPipeline pipeline;
+
+	public NLPUtils(){
+
+	}
 
 	public NLPUtils(String annotatorList){
 		Properties props = new Properties();
@@ -28,6 +34,10 @@ public class NLPUtils {
 
 	public NLPUtils(Properties properties){
 		this.pipeline = new StanfordCoreNLP(properties);
+	}
+
+	public NLPUtils(Properties properties, String host, int port, int threads){
+		this.pipeline = new StanfordCoreNLPClient(properties,host,port,threads);
 	}
 
 	public Annotation annotate(String text){
@@ -211,7 +221,7 @@ public class NLPUtils {
 		return new ArrayList<>(Arrays.asList(sourceSentence,targetSentence));
 	}
 
-	public StanfordCoreNLP getPipeline() {
+	public AnnotationPipeline getPipeline() {
 		return pipeline;
 	}
 
