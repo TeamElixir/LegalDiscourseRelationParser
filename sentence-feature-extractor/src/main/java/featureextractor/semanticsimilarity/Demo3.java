@@ -2,6 +2,8 @@ package featureextractor.semanticsimilarity;
 
 import edu.cmu.lti.lexical_db.ILexicalDatabase;
 import edu.cmu.lti.lexical_db.NictWordNet;
+import edu.cmu.lti.ws4j.impl.WuPalmer;
+import edu.cmu.lti.ws4j.util.WS4JConfiguration;
 import edu.cmu.lti.ws4j.RelatednessCalculator;
 import edu.cmu.lti.ws4j.impl.HirstStOnge;
 import edu.cmu.lti.ws4j.impl.JiangConrath;
@@ -10,8 +12,6 @@ import edu.cmu.lti.ws4j.impl.Lesk;
 import edu.cmu.lti.ws4j.impl.Lin;
 import edu.cmu.lti.ws4j.impl.Path;
 import edu.cmu.lti.ws4j.impl.Resnik;
-import edu.cmu.lti.ws4j.impl.WuPalmer;
-import edu.cmu.lti.ws4j.util.WS4JConfiguration;
 
 public class Demo3 {
 
