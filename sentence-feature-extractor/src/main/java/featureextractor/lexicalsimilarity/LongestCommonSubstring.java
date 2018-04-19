@@ -81,6 +81,7 @@ public class LongestCommonSubstring {
     }
 
     public double lcsValueSentence1(){
+        longestSubstring();
         double lcsValue = (double) longestCSLength/(double) sourceSentence.length();
         return lcsValue;
     }
