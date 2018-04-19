@@ -18,12 +18,8 @@ public class SentenceLengths {
         double difference = sourceSentenceLength - targetSentenceLength;
         double differenceValue = (difference/(sourceSentenceLength*2));
 
-        if(differenceValue>=0){
-            score = 0.50 + differenceValue;
+        score = 0.50 + differenceValue;
 
-        }else{
-            score = 0.00 +differenceValue;
-        }
 
         return score;
     };
