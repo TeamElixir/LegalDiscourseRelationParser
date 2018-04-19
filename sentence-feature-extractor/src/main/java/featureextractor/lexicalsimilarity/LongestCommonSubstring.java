@@ -2,6 +2,8 @@ package featureextractor.lexicalsimilarity;
 
 import java.util.ArrayList;
 
+import static jdk.nashorn.internal.objects.NativeMath.max;
+
 public class LongestCommonSubstring {
 
     private String sentence1;
@@ -82,7 +84,7 @@ public class LongestCommonSubstring {
 
     public double lcsValueSentence1(){
 
-        double lcsValue = (double) longestCSLength/(double)sentence1.length();
+        double lcsValue = (double) longestCSLength/(double)(sentence1.length());
         return lcsValue;
 
     }
