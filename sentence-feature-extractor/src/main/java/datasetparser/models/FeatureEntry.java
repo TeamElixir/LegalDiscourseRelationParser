@@ -10,20 +10,41 @@ public class FeatureEntry {
 	private double wordOverlapSSent;
 	private double wordOverlapTSent;
 
+	private double ellaborationTransitionScore;
+	private double changeTransitionScore;
+
 	private double lcs;
 
 	private double subjectOverlap;
 	private double objectOverlap;
 	private double subjectNounOverlap;
 
+
+
 	private double nerRatio;
 	private double lengthRatio;
 	private int tosScore;
 
-	// TODO: 4/19/18 add transitional score
+
+
+	public double getEllaborationTransitionScore() {
+		return ellaborationTransitionScore;
+	}
+
+	public double getChangeTransitionScore() {
+		return changeTransitionScore;
+	}
 
 	public double getAdjectiveSimilarity() {
 		return adjectiveSimilarity;
+	}
+
+	public void setEllaborationTransitionScore(double ellaborationTransitionScore) {
+		this.ellaborationTransitionScore = ellaborationTransitionScore;
+	}
+
+	public void setChangeTransitionScore(double changeTransitionScore) {
+		this.changeTransitionScore = changeTransitionScore;
 	}
 
 	public void setAdjectiveSimilarity(double adjectiveSimilarity) {

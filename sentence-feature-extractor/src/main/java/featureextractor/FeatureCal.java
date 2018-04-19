@@ -13,6 +13,7 @@ import featureextractor.cosinesimilarity.WordSimilarity;
 import featureextractor.lexicalsimilarity.LongestCommonSubstring;
 import featureextractor.lexicalsimilarity.OverlapWordRatio;
 import featureextractor.sentencepropertyfeatures.SentenceLengths;
+import featureextractor.sentencepropertyfeatures.TransitionalWords;
 import featureextractor.sentencepropertyfeatures.TypeOfSpeech;
 import org.slf4j.Logger;
 import utils.NLPUtils;
@@ -69,6 +70,13 @@ public class FeatureCal {
 			// type of speech
 			TypeOfSpeech typeOfSpeech = new TypeOfSpeech(sourceSentence, targetSentence);
 			featureEntry.setTosScore(typeOfSpeech.getTOSScore());
+
+			// transitional word
+			TransitionalWords trWords = new TransitionalWords(sourceSentence);
+			//check words that ellaborate
+			featureEntry.setEllaborationTransitionScore(trWords.ellaborationScore());
+			//check words that change the topic
+			featureEntry.setChangeTransitionScore(trWords.changeScore());
 
 			String corefText = targetSentence + " " + sourceSentence;
 //
