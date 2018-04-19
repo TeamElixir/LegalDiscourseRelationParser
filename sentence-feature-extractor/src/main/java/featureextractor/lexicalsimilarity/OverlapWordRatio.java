@@ -7,11 +7,11 @@ import java.util.ArrayList;
 
 public class OverlapWordRatio {
 
-	public ArrayList<Double> getOverlapScore(String sentence1, String sentence2) {
+	public ArrayList<Double> getOverlapScore(String sourceSentence, String targetSentence) {
 
 		ArrayList<Double> overlapScores = new ArrayList<Double>();
 
-		SentenceProps wordProps = new SentenceWords(sentence1, sentence2);
+		SentenceProps wordProps = new SentenceWords(sourceSentence, targetSentence);
 
 		// remember to initialize distinct words and common words
 		wordProps.initializeDistinctsCommons();

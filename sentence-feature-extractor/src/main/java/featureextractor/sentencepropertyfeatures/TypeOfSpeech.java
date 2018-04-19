@@ -12,11 +12,9 @@ public class TypeOfSpeech {
     ArrayList<String> regexMatchesSource = new ArrayList<String>();
     ArrayList<String> regexMatchesTarget = new ArrayList<String>();
 
-    public TypeOfSpeech(String sourceSentence1,String targetSentence1){
-
-        sourceSentence = sourceSentence1;
-        targetSentence = targetSentence1;
-
+    public TypeOfSpeech(String sourceSentence,String targetSentence){
+        this.sourceSentence = sourceSentence;
+        this.targetSentence = targetSentence;
     }
 
     private boolean checkRelativeToSource(){

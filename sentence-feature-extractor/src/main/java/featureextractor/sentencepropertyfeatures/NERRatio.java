@@ -21,6 +21,7 @@ public class NERRatio {
 
 		int maxNoEntities = Math.max(entitiesNoSource, entitiesNoTarget);
 
+		// TODO: 4/19/18 max=0 or entitiesNoSource=0 then return will be 0
 		if (maxNoEntities == 0) {
 			return 0;
 		}
