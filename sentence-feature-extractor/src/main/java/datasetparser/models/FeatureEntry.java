@@ -2,10 +2,10 @@ package datasetparser.models;
 
 public class FeatureEntry {
 
-	private double adjectiveSimilariy;
-	private double nounSimilariy;
-	private double verbSimilariy;
-	private double wordSimilariy;
+	private double adjectiveSimilarity;
+	private double nounSimilarity;
+	private double verbSimilarity;
+	private double wordSimilarity;
 
 	private double wordOverlapSSent;
 	private double wordOverlapTSent;
@@ -22,36 +22,36 @@ public class FeatureEntry {
 
 	// TODO: 4/19/18 add transitional score
 
-	public double getAdjectiveSimilariy() {
-		return adjectiveSimilariy;
+	public double getAdjectiveSimilarity() {
+		return adjectiveSimilarity;
 	}
 
-	public void setAdjectiveSimilariy(double adjectiveSimilariy) {
-		this.adjectiveSimilariy = adjectiveSimilariy;
+	public void setAdjectiveSimilarity(double adjectiveSimilarity) {
+		this.adjectiveSimilarity = adjectiveSimilarity;
 	}
 
-	public double getNounSimilariy() {
-		return nounSimilariy;
+	public double getNounSimilarity() {
+		return nounSimilarity;
 	}
 
-	public void setNounSimilariy(double nounSimilariy) {
-		this.nounSimilariy = nounSimilariy;
+	public void setNounSimilarity(double nounSimilarity) {
+		this.nounSimilarity = nounSimilarity;
 	}
 
-	public double getVerbSimilariy() {
-		return verbSimilariy;
+	public double getVerbSimilarity() {
+		return verbSimilarity;
 	}
 
-	public void setVerbSimilariy(double verbSimilariy) {
-		this.verbSimilariy = verbSimilariy;
+	public void setVerbSimilarity(double verbSimilarity) {
+		this.verbSimilarity = verbSimilarity;
 	}
 
-	public double getWordSimilariy() {
-		return wordSimilariy;
+	public double getWordSimilarity() {
+		return wordSimilarity;
 	}
 
-	public void setWordSimilariy(double wordSimilariy) {
-		this.wordSimilariy = wordSimilariy;
+	public void setWordSimilarity(double wordSimilarity) {
+		this.wordSimilarity = wordSimilarity;
 	}
 
 	public double getWordOverlapSSent() {
