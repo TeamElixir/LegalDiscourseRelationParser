@@ -17,7 +17,6 @@ public class SemanticStcSimilarity {
 
         SemanticSentenceSimilarity semanticSentenceSimilarity = new SemanticSentenceSimilarity(annotation1,
                 annotation2,nlpUtils);
-        semanticSentenceSimilarity.checkSimilarity();
         double finalScore = semanticSentenceSimilarity.getAverageScore();
         System.out.println("finalScore : "+finalScore);
     }
