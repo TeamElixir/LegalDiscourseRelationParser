@@ -16,11 +16,11 @@ public class OverlapWordRatio {
 		// remember to initialize distinct words and common words
 		wordProps.initializeDistinctsCommons();
 
-		double sentence1Ratio = 2 *
+		double sentence1Ratio =
 				((double) wordProps.getCommons().size() /
 						(double) wordProps.getDistincts_sentence1().size());
 
-		double sentence2Ratio = 2 *
+		double sentence2Ratio =
 				((double) wordProps.getCommons().size() /
 						(double) wordProps.getDistincts_sentence2().size());
 
