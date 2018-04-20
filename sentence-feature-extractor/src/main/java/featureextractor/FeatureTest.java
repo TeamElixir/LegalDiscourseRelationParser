@@ -66,8 +66,8 @@ public class FeatureTest {
 
 		ArrayList<Relationship> relationships = Relationship.getAll();
 
-		String sourceSentence = relationships.get(0).getSourceSent();
-		String targetSentence = relationships.get(1).getTargetSent();
+		String sourceSentence = relationships.get(984).getSourceSent();
+		String targetSentence = relationships.get(984).getTargetSent();
 
 		Annotation sourceAnnotation = nlpUtils.annotate(sourceSentence);
 		Annotation targetAnnotation = nlpUtils.annotate(targetSentence);

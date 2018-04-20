@@ -118,7 +118,7 @@ public class SemanticSentenceSimilarity {
                     if (verbs.get(i).equals(verbs.get(j))) {
                         distance = 1;
                     } else {
-                        distance = wordSimilarity(nouns.get(i), POS.v, nouns.get(j), POS.v);
+                        distance = wordSimilarity(verbs.get(i), POS.v, verbs.get(j), POS.v);
 
                         //compute(verbs.get(i), verbs.get(j));
                     }
