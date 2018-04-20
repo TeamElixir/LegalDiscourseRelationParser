@@ -24,21 +24,21 @@ public class FeatureCal {
 
 	public static void main(String[] args) throws Exception {
 
+		// takes all relationships consisting of sourcesent, targetsent and judgement
 		ArrayList<Relationship> relationships = Relationship.getAll();
 
 		logger.info(relationships.size() + " relationships fetch from the database.");
-
-		Properties props = new Properties();
-		props.setProperty("annotators","tokenize,ssplit,pos,lemma,ner,depparse,coref");
-		props.setProperty("coref.algorithm", "statistical");
-		NLPUtils nlpUtils = new NLPUtils(props, "http://corenlp.run", 80, 8);
-//		NLPUtils nlpUtils = new NLPUtils(props);
 
 		String sourceSentence;
 		String targetSentence;
 
 		FeatureEntry featureEntry;
+		ArrayList<FeatureEntry> featureEntries = new ArrayList<>();
 
+		/**
+		 *  This loop iterates through all the relationships and calculate all the
+		 *  features based on WORDS
+		 */
 		// iterating through all the relationships
 		for (Relationship relationship : relationships) {
 
@@ -48,6 +48,9 @@ public class FeatureCal {
 
 			// creates a FeatureEntry to hold all feature values
 			featureEntry = new FeatureEntry();
+
+			// sets relationshipId (for the table reference)
+			featureEntry.setRelationshipId(relationship.getDbId());
 
 			// word cosine similarity
 			WordSimilarity wordSimilarity = new WordSimilarity(sourceSentence, targetSentence) ;
@@ -78,8 +81,29 @@ public class FeatureCal {
 			//check words that change the topic
 			featureEntry.setChangeTransitionScore(trWords.changeScore());
 
+			// at the end
+			featureEntries.add(featureEntry);
+		}
+
+		logger.info("Features based on words calculated.");
+
+		Properties props = new Properties();
+		props.setProperty("annotators","tokenize,ssplit,pos,lemma,ner,depparse,coref");
+		props.setProperty("coref.algorithm", "statistical");
+//		NLPUtils nlpUtils = new NLPUtils(props, "http://corenlp.run", 80, 8);
+		NLPUtils nlpUtils = new NLPUtils(props);
+
+		/**
+		 * This loop iterates through all the relationships and calculate
+		 */
+		// iterating through all the relationships
+		for (Relationship relationship: relationships){
+			// takes two sentences from the relationship
+			sourceSentence = relationship.getSourceSent();
+			targetSentence = relationship.getTargetSent();
+
 			String corefText = targetSentence + " " + sourceSentence;
-//
+
 			Annotation annotation = nlpUtils.annotate(corefText);
 			ArrayList<String> sents = nlpUtils.replaceCoreferences(annotation, sourceSentence, targetSentence);
 			System.out.println(sents.toString());

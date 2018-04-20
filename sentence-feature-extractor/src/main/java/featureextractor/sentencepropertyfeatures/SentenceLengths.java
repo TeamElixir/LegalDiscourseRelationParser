@@ -20,8 +20,7 @@ public class SentenceLengths {
 
         score = 0.50 + differenceValue;
 
-
         return score;
-    };
+    }
 
 }

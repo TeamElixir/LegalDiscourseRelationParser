@@ -2,6 +2,8 @@ package datasetparser.models;
 
 public class FeatureEntry {
 
+	private int relationshipId;
+
 	private double adjectiveSimilarity;
 	private double nounSimilarity;
 	private double verbSimilarity;
@@ -19,13 +21,9 @@ public class FeatureEntry {
 	private double objectOverlap;
 	private double subjectNounOverlap;
 
-
-
 	private double nerRatio;
 	private double lengthRatio;
 	private int tosScore;
-
-
 
 	public double getEllaborationTransitionScore() {
 		return ellaborationTransitionScore;
@@ -33,6 +31,14 @@ public class FeatureEntry {
 
 	public double getChangeTransitionScore() {
 		return changeTransitionScore;
+	}
+
+	public int getRelationshipId() {
+		return relationshipId;
+	}
+
+	public void setRelationshipId(int relationshipId) {
+		this.relationshipId = relationshipId;
 	}
 
 	public double getAdjectiveSimilarity() {
