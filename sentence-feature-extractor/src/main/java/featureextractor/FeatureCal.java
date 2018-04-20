@@ -3,6 +3,11 @@ package featureextractor;
 import static org.slf4j.LoggerFactory.getILoggerFactory;
 import static org.slf4j.LoggerFactory.getLogger;
 
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 import java.util.Properties;
 
@@ -23,6 +28,10 @@ public class FeatureCal {
 	private static final Logger logger = getLogger(FeatureCal.class);
 
 	public static void main(String[] args) throws Exception {
+
+		ArrayList<FeatureEntry> read = readFeatureEntryList();
+
+		logger.info("Read serialized array list");
 
 		// takes all relationships consisting of sourcesent, targetsent and judgement
 		ArrayList<Relationship> relationships = Relationship.getAll();
@@ -86,6 +95,8 @@ public class FeatureCal {
 
 		logger.info("Features based on words calculated.");
 
+		writeFeatureEntryList(featureEntries);
+
 		Properties props = new Properties();
 		props.setProperty("annotators","tokenize,ssplit,pos,lemma,ner,depparse,coref");
 		props.setProperty("coref.algorithm", "statistical");
@@ -117,6 +128,26 @@ public class FeatureCal {
 
 		}
 
+	}
+
+	private static void writeFeatureEntryList(ArrayList<FeatureEntry> arrayList) throws Exception{
+		FileOutputStream fos= new FileOutputStream("featurearrayfile");
+		ObjectOutputStream oos= new ObjectOutputStream(fos);
+		oos.writeObject(arrayList);
+		oos.close();
+		fos.close();
+	}
+
+	private static ArrayList<FeatureEntry> readFeatureEntryList() throws Exception{
+		ArrayList<FeatureEntry> arraylist = new ArrayList<>();
+
+		FileInputStream fis = new FileInputStream("featurearrayfile");
+		ObjectInputStream ois = new ObjectInputStream(fis);
+		arraylist = (ArrayList) ois.readObject();
+		ois.close();
+		fis.close();
+
+		return arraylist;
 	}
 
 }
