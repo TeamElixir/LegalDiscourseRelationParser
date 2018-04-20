@@ -26,6 +26,8 @@ public class FeatureEntry {
 	private double lengthRatio;
 	private int tosScore;
 
+	private double semanticSimilarityScore;
+
 	public double getEllaborationTransitionScore() {
 		return ellaborationTransitionScore;
 	}
@@ -162,4 +164,11 @@ public class FeatureEntry {
 		this.tosScore = tosScore;
 	}
 
+	public double getSemanticSimilarityScore() {
+		return semanticSimilarityScore;
+	}
+
+	public void setSemanticSimilarityScore(double semanticSimilarityScore) {
+		this.semanticSimilarityScore = semanticSimilarityScore;
+	}
 }

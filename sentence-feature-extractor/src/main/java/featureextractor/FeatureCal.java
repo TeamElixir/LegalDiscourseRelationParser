@@ -19,6 +19,7 @@ import featureextractor.cosinesimilarity.WordSimilarity;
 import featureextractor.grammaticalrelationships.GrammarOverlapRatio;
 import featureextractor.lexicalsimilarity.LongestCommonSubstring;
 import featureextractor.lexicalsimilarity.OverlapWordRatio;
+import featureextractor.semanticsimilarity.SemanticSentenceSimilarity;
 import featureextractor.sentencepropertyfeatures.NERRatio;
 import featureextractor.sentencepropertyfeatures.SentenceLengths;
 import featureextractor.sentencepropertyfeatures.TransitionalWords;
@@ -133,6 +134,10 @@ public class FeatureCal {
 			// NER ratio
 			NERRatio nerRatio = new NERRatio(sourceAnnotation, targetAnnotation, nlpUtils);
 			featureEntry.setNerRatio(nerRatio.getRatio());
+
+			// Semantic Similarity Score
+			SemanticSentenceSimilarity semanticSentenceSimilarity = new SemanticSentenceSimilarity(sourceAnnotation, targetAnnotation, nlpUtils);
+			featureEntry.setSemanticSimilarityScore(semanticSentenceSimilarity.getAverageScore());
 
 			// at the end
 			featureEntries.add(featureEntry);
