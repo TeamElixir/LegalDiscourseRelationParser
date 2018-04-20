@@ -35,6 +35,12 @@ public class FeatureCal {
 		FeatureEntry featureEntry;
 		ArrayList<FeatureEntry> featureEntries = new ArrayList<>();
 
+		Properties props = new Properties();
+		props.setProperty("annotators","tokenize,ssplit,pos,lemma,ner,depparse,coref");
+		props.setProperty("coref.algorithm", "statistical");
+		//		NLPUtils nlpUtils = new NLPUtils(props, "http://corenlp.run", 80, 8);
+		NLPUtils nlpUtils = new NLPUtils(props);
+
 		/**
 		 *  This loop iterates through all the relationships and calculate all the
 		 *  features based on WORDS.
@@ -80,28 +86,6 @@ public class FeatureCal {
 			//check words that change the topic
 			featureEntry.setChangeTransitionScore(trWords.changeScore());
 
-			// at the end
-			featureEntries.add(featureEntry);
-		}
-
-		logger.info("Features based on words calculated.");
-
-		Properties props = new Properties();
-		props.setProperty("annotators","tokenize,ssplit,pos,lemma,ner,depparse,coref");
-		props.setProperty("coref.algorithm", "statistical");
-//		NLPUtils nlpUtils = new NLPUtils(props, "http://corenlp.run", 80, 8);
-		NLPUtils nlpUtils = new NLPUtils(props);
-
-		/**
-		 * This loop iterates through all the relationships, resolves coreferences
-		 * and calculates all the other features.
-		 */
-		// iterating through all the relationships
-		for (Relationship relationship: relationships){
-			// takes two sentences from the relationship
-			sourceSentence = relationship.getSourceSent();
-			targetSentence = relationship.getTargetSent();
-
 			// text to resolve coreferences
 			String corefText = targetSentence + " " + sourceSentence;
 
@@ -115,7 +99,12 @@ public class FeatureCal {
 			Annotation targetAnnotation = nlpUtils.annotate(targetSentence);
 
 
+
+			// at the end
+			featureEntries.add(featureEntry);
 		}
+
+		logger.info("Features based on words calculated.");
 
 	}
 

@@ -28,7 +28,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>featureextractor.FeatureTest</mainClass>
+                            <mainClass>featureextractor.FeatureCal</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
