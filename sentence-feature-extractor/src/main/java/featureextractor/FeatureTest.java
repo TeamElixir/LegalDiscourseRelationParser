@@ -16,6 +16,7 @@ import edu.stanford.nlp.semgraph.SemanticGraph;
 import edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations;
 import edu.stanford.nlp.semgraph.SemanticGraphEdge;
 import edu.stanford.nlp.util.CoreMap;
+import featureextractor.cosinesimilarity.AdjectiveSimilarity;
 import featureextractor.grammaticalrelationships.GrammarOverlapRatio;
 import featureextractor.semanticsimilarity.SemanticSentenceSimilarity;
 import featureextractor.sentencepropertyfeatures.NERRatio;
@@ -75,9 +76,8 @@ public class FeatureTest {
 
 		System.out.println(semantic.getAverageScore());
 
-
-
-
+		AdjectiveSimilarity adjectiveSimilarity = new AdjectiveSimilarity(sourceAnnotation,targetAnnotation,nlpUtils);
+		System.out.println(adjectiveSimilarity.similarityScore());
 	}
 
 }

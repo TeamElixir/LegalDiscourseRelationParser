@@ -27,8 +27,14 @@ public class GrammarOverlapRatio {
 
 		sentenceProps.initializeDistinctsCommons();
 
+		int distinctsSize = sentenceProps.getDistincts_sentence1().size();
+
+		if(distinctsSize==0){
+			return 0;
+		}
+
 		return ((double) sentenceProps.getCommons().size() /
-				(double) sentenceProps.getDistincts_sentence1().size());
+				(double) distinctsSize);
 	}
 
 	public double getObjectOverlap() {
@@ -36,8 +42,14 @@ public class GrammarOverlapRatio {
 
 		sentenceProps.initializeDistinctsCommons();
 
+		int distinctsSize = sentenceProps.getDistincts_sentence1().size();
+
+		if(distinctsSize==0){
+			return 0;
+		}
+
 		return ((double) sentenceProps.getCommons().size() /
-				(double) sentenceProps.getDistincts_sentence1().size());
+				(double) distinctsSize);
 	}
 
 	public double getSubjectNounOverlap() {
@@ -48,6 +60,10 @@ public class GrammarOverlapRatio {
 		Set<String> set = new HashSet<String>(subjectsSent1);
 		// number of distinct subjects
 		int noSubjects = set.size();
+
+		if(noSubjects==0){
+			return 0;
+		}
 
 		// common elements from subjects and nouns
 		set.retainAll(nounsSent2);
