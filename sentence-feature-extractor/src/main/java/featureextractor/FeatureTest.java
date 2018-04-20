@@ -42,42 +42,42 @@ public class FeatureTest {
 		System.out.println("Adjectives : " + adjectives.toString());
 		*/
 
-		/* coreference example
+//		coreference example
 		Properties props = new Properties();
 		props.setProperty("annotators","tokenize,ssplit,pos,lemma,ner,depparse,coref");
 		props.setProperty("coref.algorithm", "statistical");
 		NLPUtils nlpUtils = new NLPUtils(props);
 
-		String sourceSentence= "She is a good girl.";
-		String targetSentence = "Julie likes her brown dog.";
+		String targetSentence= "As ambulance crews worked, a man with his shirt splattered with blood and his hand covering a gash on his head was rushed from the scene.";
+		String sourceSentence = "Smoke poured from the opening as police and ambulances rushed to the area.";
 
 		String text = targetSentence + " " + sourceSentence;
 
 		Annotation annotation = nlpUtils.annotate(text);
 		ArrayList<String> sents = nlpUtils.replaceCoreferences(annotation, sourceSentence, targetSentence);
 		System.out.println(sents.toString());
-		*/
 
-		Properties propsLocal = new Properties();
-		propsLocal.setProperty("annotators","tokenize,ssplit,pos");
-		NLPUtils nlpUtils = new NLPUtils(propsLocal);
 
-//		NLPUtils nlpUtils1 = new NLPUtils(props, "http://corenlp.run", 80, 8);
-
-		ArrayList<Relationship> relationships = Relationship.getAll();
-
-		String sourceSentence = relationships.get(984).getSourceSent();
-		String targetSentence = relationships.get(984).getTargetSent();
-
-		Annotation sourceAnnotation = nlpUtils.annotate(sourceSentence);
-		Annotation targetAnnotation = nlpUtils.annotate(targetSentence);
-
-		SemanticSentenceSimilarity semantic = new SemanticSentenceSimilarity(sourceAnnotation,targetAnnotation,nlpUtils);
-
-		System.out.println(semantic.getAverageScore());
-
-		AdjectiveSimilarity adjectiveSimilarity = new AdjectiveSimilarity(sourceAnnotation,targetAnnotation,nlpUtils);
-		System.out.println(adjectiveSimilarity.similarityScore());
+//		Properties propsLocal = new Properties();
+//		propsLocal.setProperty("annotators","tokenize,ssplit,pos");
+//		NLPUtils nlpUtils = new NLPUtils(propsLocal);
+//
+////		NLPUtils nlpUtils1 = new NLPUtils(props, "http://corenlp.run", 80, 8);
+//
+//		ArrayList<Relationship> relationships = Relationship.getAll();
+//
+//		String sourceSentence = relationships.get(651).getSourceSent();
+//		String targetSentence = relationships.get(651).getTargetSent();
+//
+//		Annotation sourceAnnotation = nlpUtils.annotate(sourceSentence);
+//		Annotation targetAnnotation = nlpUtils.annotate(targetSentence);
+//
+//		SemanticSentenceSimilarity semantic = new SemanticSentenceSimilarity(sourceAnnotation,targetAnnotation,nlpUtils);
+//
+//		System.out.println(semantic.getAverageScore());
+//
+//		AdjectiveSimilarity adjectiveSimilarity = new AdjectiveSimilarity(sourceAnnotation,targetAnnotation,nlpUtils);
+//		System.out.println(adjectiveSimilarity.similarityScore());
 	}
 
 }
