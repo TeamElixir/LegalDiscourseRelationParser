@@ -37,11 +37,10 @@ public class FeatureCal {
 
 		/**
 		 *  This loop iterates through all the relationships and calculate all the
-		 *  features based on WORDS
+		 *  features based on WORDS.
 		 */
 		// iterating through all the relationships
 		for (Relationship relationship : relationships) {
-
 			// takes two sentences from the relationship
 			sourceSentence = relationship.getSourceSent();
 			targetSentence = relationship.getTargetSent();
@@ -94,7 +93,8 @@ public class FeatureCal {
 		NLPUtils nlpUtils = new NLPUtils(props);
 
 		/**
-		 * This loop iterates through all the relationships and calculate
+		 * This loop iterates through all the relationships, resolves coreferences
+		 * and calculates all the other features.
 		 */
 		// iterating through all the relationships
 		for (Relationship relationship: relationships){
@@ -102,11 +102,19 @@ public class FeatureCal {
 			sourceSentence = relationship.getSourceSent();
 			targetSentence = relationship.getTargetSent();
 
+			// text to resolve coreferences
 			String corefText = targetSentence + " " + sourceSentence;
 
 			Annotation annotation = nlpUtils.annotate(corefText);
-			ArrayList<String> sents = nlpUtils.replaceCoreferences(annotation, sourceSentence, targetSentence);
-			System.out.println(sents.toString());
+			ArrayList<String> resolvedSents = nlpUtils.replaceCoreferences(annotation, sourceSentence, targetSentence);
+
+			sourceSentence = resolvedSents.get(0);
+			targetSentence = resolvedSents.get(1);
+
+			Annotation sourceAnnotation = nlpUtils.annotate(sourceSentence);
+			Annotation targetAnnotation = nlpUtils.annotate(targetSentence);
+
+
 		}
 
 	}
