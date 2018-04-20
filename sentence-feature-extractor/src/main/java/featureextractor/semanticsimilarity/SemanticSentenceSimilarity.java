@@ -76,7 +76,10 @@ public class SemanticSentenceSimilarity {
 
     public double getAverageScore(){
         checkSimilarity();
-        double score = (aggregateNounDistance+aggregateVerbDistance)/(double)(nounCount+verbCount);
+        if(nounCount==0 && verbCount==0) {
+            return 0.0;
+        }
+        double score = (aggregateNounDistance + aggregateVerbDistance) / (double) (nounCount + verbCount);
         return score;
     }
 
