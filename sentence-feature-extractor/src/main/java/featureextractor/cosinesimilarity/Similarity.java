@@ -38,7 +38,12 @@ public abstract class Similarity {
 		}
 
 		System.out.println("VectS1S2 " + vectS1S2 + " VectS1_Sq " + vectS1_Sq + " VectS2_Sq " + vectS2_Sq);
-		similarity_score = ((vectS1S2) / (Math.sqrt(vectS1_Sq) * Math.sqrt(vectS2_Sq)));
+
+		if(vectS1_Sq==0 || vectS2_Sq==0){
+			similarity_score = 0;
+		}else {
+			similarity_score = ((vectS1S2) / (Math.sqrt(vectS1_Sq) * Math.sqrt(vectS2_Sq)));
+		}
 
 		return similarity_score;
 	}
