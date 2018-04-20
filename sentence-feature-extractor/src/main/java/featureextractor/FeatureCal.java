@@ -3,15 +3,23 @@ package featureextractor;
 import static org.slf4j.LoggerFactory.getILoggerFactory;
 import static org.slf4j.LoggerFactory.getLogger;
 
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 import java.util.Properties;
 
 import datasetparser.models.FeatureEntry;
 import datasetparser.models.Relationship;
 import edu.stanford.nlp.pipeline.Annotation;
+import featureextractor.cosinesimilarity.AdjectiveSimilarity;
+import featureextractor.cosinesimilarity.NounSimilarity;
+import featureextractor.cosinesimilarity.VerbSimilarity;
 import featureextractor.cosinesimilarity.WordSimilarity;
+import featureextractor.grammaticalrelationships.GrammarOverlapRatio;
 import featureextractor.lexicalsimilarity.LongestCommonSubstring;
 import featureextractor.lexicalsimilarity.OverlapWordRatio;
+import featureextractor.sentencepropertyfeatures.NERRatio;
 import featureextractor.sentencepropertyfeatures.SentenceLengths;
 import featureextractor.sentencepropertyfeatures.TransitionalWords;
 import featureextractor.sentencepropertyfeatures.TypeOfSpeech;
@@ -57,6 +65,9 @@ public class FeatureCal {
 			// sets relationshipId (for the table reference)
 			featureEntry.setRelationshipId(relationship.getDbId());
 
+			// sets relationship type
+			featureEntry.setType(relationship.getType());
+
 			// word cosine similarity
 			WordSimilarity wordSimilarity = new WordSimilarity(sourceSentence, targetSentence) ;
 			featureEntry.setWordSimilarity(wordSimilarity.similarityScore());
@@ -89,22 +100,55 @@ public class FeatureCal {
 			// text to resolve coreferences
 			String corefText = targetSentence + " " + sourceSentence;
 
+			// annotate both sentences in order to resolve coreferences
 			Annotation annotation = nlpUtils.annotate(corefText);
 			ArrayList<String> resolvedSents = nlpUtils.replaceCoreferences(annotation, sourceSentence, targetSentence);
 
+			// coreferences replaced new sentences
 			sourceSentence = resolvedSents.get(0);
 			targetSentence = resolvedSents.get(1);
 
+			// annotated each for other features
 			Annotation sourceAnnotation = nlpUtils.annotate(sourceSentence);
 			Annotation targetAnnotation = nlpUtils.annotate(targetSentence);
 
+			// noun cosine similarity
+			NounSimilarity nounSimilarity = new NounSimilarity(sourceAnnotation, targetAnnotation,nlpUtils);
+			featureEntry.setNounSimilarity(nounSimilarity.similarityScore());
 
+			// verb cosine similarity
+			VerbSimilarity verbSimilarity = new VerbSimilarity(sourceAnnotation, targetAnnotation,nlpUtils);
+			featureEntry.setVerbSimilarity(verbSimilarity.similarityScore());
+
+			// adjective cosine similarity
+			AdjectiveSimilarity adjectiveSimilarity = new AdjectiveSimilarity(sourceAnnotation, targetAnnotation,nlpUtils);
+			featureEntry.setAdjectiveSimilarity(adjectiveSimilarity.similarityScore());
+
+			// ratio overlap of grammatical relationships
+			GrammarOverlapRatio grammarOverlapRatio = new GrammarOverlapRatio(sourceAnnotation, targetAnnotation, nlpUtils);
+			featureEntry.setSubjectOverlap(grammarOverlapRatio.getSubjectOverlap());
+			featureEntry.setObjectOverlap(grammarOverlapRatio.getObjectOverlap());
+			featureEntry.setSubjectNounOverlap(grammarOverlapRatio.getSubjectNounOverlap());
+
+			// NER ratio
+			NERRatio nerRatio = new NERRatio(sourceAnnotation, targetAnnotation, nlpUtils);
+			featureEntry.setNerRatio(nerRatio.getRatio());
 
 			// at the end
 			featureEntries.add(featureEntry);
 		}
 
-		logger.info("Features based on words calculated.");
+		try{
+			FileOutputStream fos= new FileOutputStream("featurearrayfile");
+			ObjectOutputStream oos= new ObjectOutputStream(fos);
+			oos.writeObject(featureEntries);
+			oos.close();
+			fos.close();
+		}catch(IOException ioe){
+			ioe.printStackTrace();
+		}
+
+		logger.info("All features calculated.");
 
 	}
 

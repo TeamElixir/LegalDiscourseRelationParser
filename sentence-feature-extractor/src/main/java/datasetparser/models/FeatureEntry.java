@@ -3,6 +3,7 @@ package datasetparser.models;
 public class FeatureEntry {
 
 	private int relationshipId;
+	private int type;
 
 	private double adjectiveSimilarity;
 	private double nounSimilarity;
@@ -39,6 +40,14 @@ public class FeatureEntry {
 
 	public void setRelationshipId(int relationshipId) {
 		this.relationshipId = relationshipId;
+	}
+
+	public int getType() {
+		return type;
+	}
+
+	public void setType(int type) {
+		this.type = type;
 	}
 
 	public double getAdjectiveSimilarity() {
