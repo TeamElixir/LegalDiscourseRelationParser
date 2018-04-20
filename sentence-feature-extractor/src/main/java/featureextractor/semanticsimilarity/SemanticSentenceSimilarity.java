@@ -56,6 +56,7 @@ public class SemanticSentenceSimilarity {
                 for (Concept synset2 : synsets2) {
                     Relatedness relatedness = rc.calcRelatednessOfSynset(synset1, synset2);
                     double score = relatedness.getScore();
+
                     if (score > maxScore) {
                         maxScore = score;
                     }
@@ -66,6 +67,9 @@ public class SemanticSentenceSimilarity {
             System.out.println("Similarity score of " + word1 + " & " + word2 + " : " + maxScore);*/
         } catch (Exception e) {
             System.out.println(("Exception : "+ e));
+        }
+        if(maxScore>=1){
+            return 1;
         }
         return maxScore;
     }
