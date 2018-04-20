@@ -1,6 +1,5 @@
 package featureextractor;
 
-import static org.slf4j.LoggerFactory.getILoggerFactory;
 import static org.slf4j.LoggerFactory.getLogger;
 
 import java.io.FileOutputStream;

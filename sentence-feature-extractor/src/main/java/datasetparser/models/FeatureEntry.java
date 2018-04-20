@@ -1,6 +1,8 @@
 package datasetparser.models;
 
-public class FeatureEntry {
+import java.io.Serializable;
+
+public class FeatureEntry implements Serializable {
 
 	private int relationshipId;
 	private int type;
