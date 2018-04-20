@@ -6,8 +6,8 @@ import utils.NLPUtils;
 
 public class SemanticStcSimilarity {
     static NLPUtils nlpUtils = new NLPUtils("tokenize,ssplit,pos");
-    static String sentence1 = "Gathika and John play cricket";
-    static String sentence2 = "Sharukh is dancing with Kajol";
+    static String sentence1 = "Plane and John play cricket";
+    static String sentence2 = "Plane is driving in sky";
 
     public static void main(String[] args) {
 

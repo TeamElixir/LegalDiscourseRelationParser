@@ -1,12 +1,9 @@
 package featureextractor;
 
-import static org.slf4j.LoggerFactory.getILoggerFactory;
 import static org.slf4j.LoggerFactory.getLogger;
 
-import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 import java.util.Properties;
@@ -14,9 +11,15 @@ import java.util.Properties;
 import datasetparser.models.FeatureEntry;
 import datasetparser.models.Relationship;
 import edu.stanford.nlp.pipeline.Annotation;
+import featureextractor.cosinesimilarity.AdjectiveSimilarity;
+import featureextractor.cosinesimilarity.NounSimilarity;
+import featureextractor.cosinesimilarity.VerbSimilarity;
 import featureextractor.cosinesimilarity.WordSimilarity;
+import featureextractor.grammaticalrelationships.GrammarOverlapRatio;
 import featureextractor.lexicalsimilarity.LongestCommonSubstring;
 import featureextractor.lexicalsimilarity.OverlapWordRatio;
+import featureextractor.semanticsimilarity.SemanticSentenceSimilarity;
+import featureextractor.sentencepropertyfeatures.NERRatio;
 import featureextractor.sentencepropertyfeatures.SentenceLengths;
 import featureextractor.sentencepropertyfeatures.TransitionalWords;
 import featureextractor.sentencepropertyfeatures.TypeOfSpeech;
@@ -29,10 +32,6 @@ public class FeatureCal {
 
 	public static void main(String[] args) throws Exception {
 
-		ArrayList<FeatureEntry> read = readFeatureEntryList();
-
-		logger.info("Read serialized array list");
-
 		// takes all relationships consisting of sourcesent, targetsent and judgement
 		ArrayList<Relationship> relationships = Relationship.getAll();
 
@@ -43,6 +42,12 @@ public class FeatureCal {
 
 		FeatureEntry featureEntry;
 		ArrayList<FeatureEntry> featureEntries = new ArrayList<>();
+
+		Properties props = new Properties();
+		props.setProperty("annotators","tokenize,ssplit,pos,lemma,ner,depparse,coref");
+		props.setProperty("coref.algorithm", "statistical");
+		//		NLPUtils nlpUtils = new NLPUtils(props, "http://corenlp.run", 80, 8);
+		NLPUtils nlpUtils = new NLPUtils(props);
 
 		/**
 		 *  This loop iterates through all the relationships and calculate all the
@@ -59,6 +64,9 @@ public class FeatureCal {
 
 			// sets relationshipId (for the table reference)
 			featureEntry.setRelationshipId(relationship.getDbId());
+
+			// sets relationship type
+			featureEntry.setType(relationship.getType());
 
 			// word cosine similarity
 			WordSimilarity wordSimilarity = new WordSimilarity(sourceSentence, targetSentence) ;
@@ -89,65 +97,63 @@ public class FeatureCal {
 			//check words that change the topic
 			featureEntry.setChangeTransitionScore(trWords.changeScore());
 
+			// text to resolve coreferences
+			String corefText = targetSentence + " " + sourceSentence;
+
+			// annotate both sentences in order to resolve coreferences
+			Annotation annotation = nlpUtils.annotate(corefText);
+			ArrayList<String> resolvedSents = nlpUtils.replaceCoreferences(annotation, sourceSentence, targetSentence);
+
+			// coreferences replaced new sentences
+			sourceSentence = resolvedSents.get(0);
+			targetSentence = resolvedSents.get(1);
+
+			// annotated each for other features
+			Annotation sourceAnnotation = nlpUtils.annotate(sourceSentence);
+			Annotation targetAnnotation = nlpUtils.annotate(targetSentence);
+
+			// noun cosine similarity
+			NounSimilarity nounSimilarity = new NounSimilarity(sourceAnnotation, targetAnnotation,nlpUtils);
+			featureEntry.setNounSimilarity(nounSimilarity.similarityScore());
+
+			// verb cosine similarity
+			VerbSimilarity verbSimilarity = new VerbSimilarity(sourceAnnotation, targetAnnotation,nlpUtils);
+			featureEntry.setVerbSimilarity(verbSimilarity.similarityScore());
+
+			// adjective cosine similarity
+			AdjectiveSimilarity adjectiveSimilarity = new AdjectiveSimilarity(sourceAnnotation, targetAnnotation,nlpUtils);
+			featureEntry.setAdjectiveSimilarity(adjectiveSimilarity.similarityScore());
+
+			// ratio overlap of grammatical relationships
+			GrammarOverlapRatio grammarOverlapRatio = new GrammarOverlapRatio(sourceAnnotation, targetAnnotation, nlpUtils);
+			featureEntry.setSubjectOverlap(grammarOverlapRatio.getSubjectOverlap());
+			featureEntry.setObjectOverlap(grammarOverlapRatio.getObjectOverlap());
+			featureEntry.setSubjectNounOverlap(grammarOverlapRatio.getSubjectNounOverlap());
+
+			// NER ratio
+			NERRatio nerRatio = new NERRatio(sourceAnnotation, targetAnnotation, nlpUtils);
+			featureEntry.setNerRatio(nerRatio.getRatio());
+
+			// Semantic Similarity Score
+			SemanticSentenceSimilarity semanticSentenceSimilarity = new SemanticSentenceSimilarity(sourceAnnotation, targetAnnotation, nlpUtils);
+			featureEntry.setSemanticSimilarityScore(semanticSentenceSimilarity.getAverageScore());
+
 			// at the end
 			featureEntries.add(featureEntry);
 		}
 
-		logger.info("Features based on words calculated.");
-
-		writeFeatureEntryList(featureEntries);
-
-		Properties props = new Properties();
-		props.setProperty("annotators","tokenize,ssplit,pos,lemma,ner,depparse,coref");
-		props.setProperty("coref.algorithm", "statistical");
-//		NLPUtils nlpUtils = new NLPUtils(props, "http://corenlp.run", 80, 8);
-		NLPUtils nlpUtils = new NLPUtils(props);
-
-		/**
-		 * This loop iterates through all the relationships, resolves coreferences
-		 * and calculates all the other features.
-		 */
-		// iterating through all the relationships
-		for (Relationship relationship: relationships){
-			// takes two sentences from the relationship
-			sourceSentence = relationship.getSourceSent();
-			targetSentence = relationship.getTargetSent();
-
-			// text to resolve coreferences
-			String corefText = targetSentence + " " + sourceSentence;
-
-			Annotation annotation = nlpUtils.annotate(corefText);
-			ArrayList<String> resolvedSents = nlpUtils.replaceCoreferences(annotation, sourceSentence, targetSentence);
-
-			sourceSentence = resolvedSents.get(0);
-			targetSentence = resolvedSents.get(1);
-
-			Annotation sourceAnnotation = nlpUtils.annotate(sourceSentence);
-			Annotation targetAnnotation = nlpUtils.annotate(targetSentence);
-
-
+		try{
+			FileOutputStream fos= new FileOutputStream("featurearrayfile");
+			ObjectOutputStream oos= new ObjectOutputStream(fos);
+			oos.writeObject(featureEntries);
+			oos.close();
+			fos.close();
+		}catch(IOException ioe){
+			ioe.printStackTrace();
 		}
 
-	}
+		logger.info("All features calculated.");
 
-	private static void writeFeatureEntryList(ArrayList<FeatureEntry> arrayList) throws Exception{
-		FileOutputStream fos= new FileOutputStream("featurearrayfile");
-		ObjectOutputStream oos= new ObjectOutputStream(fos);
-		oos.writeObject(arrayList);
-		oos.close();
-		fos.close();
-	}
-
-	private static ArrayList<FeatureEntry> readFeatureEntryList() throws Exception{
-		ArrayList<FeatureEntry> arraylist = new ArrayList<>();
-
-		FileInputStream fis = new FileInputStream("featurearrayfile");
-		ObjectInputStream ois = new ObjectInputStream(fis);
-		arraylist = (ArrayList) ois.readObject();
-		ois.close();
-		fis.close();
-
-		return arraylist;
 	}
 
 }
