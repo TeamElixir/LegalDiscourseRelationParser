@@ -25,7 +25,7 @@ public class aa {
           }
           //svm_model svmModel = svmTrain();
           try {
-               double vv = evaluate(featureTest1,svm.svm_load_model("model.txt"));
+               double vv = evaluate(featureTest3,svm.svm_load_model("model.txt"));
           } catch (IOException e) {
                e.printStackTrace();
           }
