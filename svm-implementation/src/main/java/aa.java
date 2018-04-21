@@ -1,5 +1,7 @@
 import libsvm.*;
 
+import java.io.IOException;
+
 public class aa {
      static double[][] train = new double[1000][];
      static double[][] test = new double[3][];
@@ -9,7 +11,7 @@ public class aa {
           test[0] = featureTest1;
           double[] featureTest2 = {1,0,700};
           test[1] = featureTest2;
-          double[] featureTest3 = {0,0,-800};
+          double[] featureTest3 = {0,0,-200};
           test[2] = featureTest3;
 
           for (int i = 0; i < train.length; i++){
@@ -21,8 +23,17 @@ public class aa {
                     train[i] = vals;
                }
           }
-          svm_model svmModel = svmTrain();
-          double vv = evaluate(featureTest1,svmModel);
+          //svm_model svmModel = svmTrain();
+          try {
+               double vv = evaluate(featureTest1,svm.svm_load_model("model.txt"));
+          } catch (IOException e) {
+               e.printStackTrace();
+          }
+         /* try {
+               svm.svm_save_model("model.txt",svmModel);
+          } catch (IOException e) {
+               e.printStackTrace();
+          }*/
 
      }
 
@@ -46,12 +57,12 @@ public class aa {
           }
 
           svm_parameter param = new svm_parameter();
-          param.probability = 1;
-          param.gamma = 0.5;
+          param.probability = 0;
+          param.gamma = 0.5; //1/number of features
           param.nu = 0.5;
           param.C = 1;
           param.svm_type = svm_parameter.C_SVC;
-          param.kernel_type = svm_parameter.LINEAR;
+          param.kernel_type = svm_parameter.RBF;
           param.cache_size = 20000;
           param.eps = 0.001;
 
