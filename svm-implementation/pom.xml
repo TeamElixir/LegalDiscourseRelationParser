@@ -16,14 +16,16 @@
     </repositories>
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/nz.ac.waikato.cms.weka/LibSVM -->
-        <!--<dependency>
-            <groupId>nz.ac.waikato.cms.weka</groupId>
-            <artifactId>LibSVM</artifactId>
-            <version>1.0.10</version>
-        </dependency>-->
-
-
+        <dependency>
+            <groupId>edu.ntu.csie</groupId>
+            <artifactId>libsvm</artifactId>
+            <version>3.22</version>
+        </dependency>
+        <dependency>
+            <groupId>org.xerial</groupId>
+            <artifactId>sqlite-jdbc</artifactId>
+            <version>3.21.0.1</version>
+        </dependency>
     </dependencies>
 
 
