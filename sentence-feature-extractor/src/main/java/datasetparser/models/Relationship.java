@@ -99,4 +99,26 @@ public class Relationship {
 
 		return relationships;
 	}
+
+	public static ArrayList<Relationship> getAllLegal() throws SQLException {
+		String sql = "SELECT * FROM LEGAL_TEXTS;";
+		ResultSet resultSet = sqLiteUtils.executeQuery(sql);
+
+		if(resultSet.isClosed()){
+			return null;
+		}
+
+		ArrayList<Relationship> relationships = new ArrayList<Relationship>();
+		Relationship entry;
+		while (resultSet.next()){
+			entry = new Relationship();
+			entry.dbId = resultSet.getInt("ID");
+			entry.sourceSent = resultSet.getString("SSENT");
+			entry.targetSent = resultSet.getString("TSENT");
+
+			relationships.add(entry);
+		}
+
+		return relationships;
+	}
 }
