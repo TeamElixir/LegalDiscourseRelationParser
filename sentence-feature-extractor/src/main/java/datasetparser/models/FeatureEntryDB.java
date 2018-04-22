@@ -274,4 +274,82 @@ public class FeatureEntryDB {
 
 		return featureEntries;
 	}
+
+	public void saveLegal() throws SQLException {
+		String sql = "INSERT INTO FEATURE_ENTRY_LEGAL "
+				+ "(RELATIONSHIP_ID,"
+				+ "ADJECTIVE_SIMI,"
+				+ "NOUN_SIMI,"
+				+ "VERB_SIMI,"
+				+ "WORD_SIMI,"
+				+ "WOVERLAP_S,"
+				+ "WOVERLAP_T,"
+				+ "ETRANSITION,"
+				+ "CTRANSITION,"
+				+ "LCS,"
+				+ "SOVERLAP,"
+				+ "OOVERLAP,"
+				+ "SNOVERLAP,"
+				+ "NER_RATIO,"
+				+ "LENGTH_RATIO,"
+				+ "TOS_SCORE,"
+				+ "SEMANTIC_SCORE) " +
+				"VALUES ("
+				+ relationshipId + ", " +
+				+ adjectiveSimilarity + ", " +
+				+ nounSimilarity + ", " +
+				+ verbSimilarity + ", " +
+				+ wordSimilarity + ", " +
+				+ wordOverlapSSent + ", " +
+				+ wordOverlapTSent + ", " +
+				+ ellaborationTransitionScore + ", " +
+				+ changeTransitionScore + ", " +
+				+ lcs + ", " +
+				+ subjectOverlap + ", " +
+				+ objectOverlap + ", " +
+				+ subjectNounOverlap + ", " +
+				+ nerRatio + ", " +
+				+ lengthRatio + ", " +
+				+ tosScore + ", " +
+				semanticSimilarityScore + ");";
+		System.out.println(sql);
+		sqLiteUtils.executeUpdate(sql);
+	}
+
+	public static ArrayList<FeatureEntryDB> getAllLegal() throws SQLException {
+		String sql = "SELECT * FROM FEATURE_ENTRY_LEGAL;";
+		ResultSet resultSet = sqLiteUtils.executeQuery(sql);
+
+		if(resultSet.isClosed()){
+			return null;
+		}
+
+		ArrayList<FeatureEntryDB> featureEntries = new ArrayList<>();
+		FeatureEntryDB entry;
+		while (resultSet.next()){
+			entry = new FeatureEntryDB();
+			entry.dbId = resultSet.getInt("ID");
+			entry.relationshipId = resultSet.getInt("RELATIONSHIP_ID");
+			entry.adjectiveSimilarity = resultSet.getDouble("ADJECTIVE_SIMI");
+			entry.nounSimilarity = resultSet.getDouble("NOUN_SIMI");
+			entry.verbSimilarity = resultSet.getDouble("VERB_SIMI");
+			entry.wordSimilarity = resultSet.getDouble("WORD_SIMI");
+			entry.wordOverlapSSent = resultSet.getDouble("WOVERLAP_S");
+			entry.wordOverlapTSent = resultSet.getDouble("WOVERLAP_T");
+			entry.ellaborationTransitionScore = resultSet.getDouble("ETRANSITION");
+			entry.changeTransitionScore = resultSet.getDouble("CTRANSITION");
+			entry.lcs = resultSet.getDouble("LCS");
+			entry.subjectOverlap = resultSet.getDouble("SOVERLAP");
+			entry.objectOverlap = resultSet.getDouble("OOVERLAP");
+			entry.subjectNounOverlap = resultSet.getDouble("SNOVERLAP");
+			entry.nerRatio = resultSet.getDouble("NER_RATIO");
+			entry.lengthRatio = resultSet.getDouble("LENGTH_RATIO");
+			entry.tosScore = resultSet.getInt("TOS_SCORE");
+			entry.semanticSimilarityScore = resultSet.getDouble("SEMANTIC_SCORE");
+
+			featureEntries.add(entry);
+		}
+
+		return featureEntries;
+	}
 }

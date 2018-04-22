@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.Properties;
 
 import datasetparser.models.FeatureEntry;
+import datasetparser.models.FeatureEntryDB;
 import datasetparser.models.Relationship;
 import edu.stanford.nlp.pipeline.Annotation;
 import featureextractor.cosinesimilarity.AdjectiveSimilarity;
@@ -33,15 +34,15 @@ public class FeatureCal {
 	public static void main(String[] args) throws Exception {
 
 		// takes all relationships consisting of sourcesent, targetsent and judgement
-		ArrayList<Relationship> relationships = Relationship.getAll();
+		ArrayList<Relationship> relationships = Relationship.getAllLegal();
 
 		logger.info(relationships.size() + " relationships fetch from the database.");
 
 		String sourceSentence;
 		String targetSentence;
 
-		FeatureEntry featureEntry;
-		ArrayList<FeatureEntry> featureEntries = new ArrayList<>();
+		FeatureEntryDB featureEntry;
+		ArrayList<FeatureEntryDB> featureEntries = new ArrayList<>();
 
 		Properties props = new Properties();
 		props.setProperty("annotators","tokenize,ssplit,pos,lemma,ner,depparse,coref");
@@ -60,13 +61,13 @@ public class FeatureCal {
 			targetSentence = relationship.getTargetSent();
 
 			// creates a FeatureEntry to hold all feature values
-			featureEntry = new FeatureEntry();
+			featureEntry = new FeatureEntryDB();
 
 			// sets relationshipId (for the table reference)
 			featureEntry.setRelationshipId(relationship.getDbId());
 
 			// sets relationship type
-			featureEntry.setType(relationship.getType());
+//			featureEntry.setType(relationship.getType());
 
 			// word cosine similarity
 			WordSimilarity wordSimilarity = new WordSimilarity(sourceSentence, targetSentence) ;
@@ -142,17 +143,23 @@ public class FeatureCal {
 			featureEntries.add(featureEntry);
 		}
 
-		try{
-			FileOutputStream fos= new FileOutputStream("featurearrayfile");
-			ObjectOutputStream oos= new ObjectOutputStream(fos);
-			oos.writeObject(featureEntries);
-			oos.close();
-			fos.close();
-		}catch(IOException ioe){
-			ioe.printStackTrace();
-		}
+//		try{
+//			FileOutputStream fos= new FileOutputStream("featurearrayfile");
+//			ObjectOutputStream oos= new ObjectOutputStream(fos);
+//			oos.writeObject(featureEntries);
+//			oos.close();
+//			fos.close();
+//		}catch(IOException ioe){
+//			ioe.printStackTrace();
+//		}
 
 		logger.info("All features calculated.");
+
+		for(FeatureEntryDB entry:featureEntries){
+			entry.saveLegal();
+		}
+
+		logger.info("All features entries saved");
 
 	}
 
