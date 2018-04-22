@@ -2,6 +2,7 @@ package featureextractor;
 
 import java.io.FileInputStream;
 import java.io.ObjectInputStream;
+import java.sql.SQLException;
 import java.util.ArrayList;
 
 import datasetparser.models.FeatureEntry;
@@ -15,9 +16,11 @@ public class FeatureRead {
 
 		System.out.println("read features array");
 
-		ArrayList<FeatureEntryDB> featureEntryDBS = FeatureEntryDB.getAll();
+		/*ArrayList<FeatureEntryDB> featureEntryDBS = FeatureEntryDB.getAll();
 
-		System.out.println("read features from db");
+		System.out.println("read features from db");*/
+
+		//assignValuesToList();
 
 		// read the serialized array and seed db
 		/*
@@ -63,5 +66,23 @@ public class FeatureRead {
 
 		return arraylist;
 	}
+
+	/*public static void assignValuesToList(){
+		try {
+			ArrayList<FeatureEntryDB> featureEntryDBS = FeatureEntryDB.getAll();
+			FeatureValues featureValues = new FeatureValues();
+			ArrayList<Double> wordSimilarity = featureValues.getWordSimilarity();
+			ArrayList<Double> semanticSimilarity = featureValues.getSemanticSimilarityScore();
+			for(FeatureEntryDB featureEntryDB:featureEntryDBS){
+				wordSimilarity.add(featureEntryDB.getWordSimilarity());
+				semanticSimilarity.add(featureEntryDB.getSemanticSimilarityScore());
+			}
+			System.out.println("read to lists");
+			featureValues.calculateCoreference();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+
+	}*/
 
 }
