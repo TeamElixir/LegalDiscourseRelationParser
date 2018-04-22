@@ -8,11 +8,37 @@ import java.util.ArrayList;
 public class DiscourseModel {
     static double numberOfFeatures = 16;
     static double[][] train ;
+    static ArrayList<Integer> types= new ArrayList();
     public static void main(String[] args) {
         initializeTrainingData();
         svm_model svmModel = svmTrain();
         try {
             svm.svm_save_model("discourseModel.txt",svmModel);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        double[] featureTest = {1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.25,
+                0.6,
+                0.0,
+                0.0,
+                0.0,
+                0.21842863019333608,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+        };
+        System.out.println(types.toString());
+        System.out.println(types.size());
+        try {
+            double v = evaluate(featureTest,svm.svm_load_model("discourseModel.txt"));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -38,7 +64,7 @@ public class DiscourseModel {
         }
 
         svm_parameter param = new svm_parameter();
-        param.probability = 0;
+        param.probability = 1;
         param.gamma = 1/numberOfFeatures; //1/number of features
         param.nu = 0.5;
         param.C = 1;
@@ -60,6 +86,9 @@ public class DiscourseModel {
             train = new double[trainingSetSize][];
             for(int i=0;i<trainingSetSize;i++){
                 FeatureEntryDB featureEntryDB = featureEntryDBS.get(i);
+                if(!types.contains(featureEntryDB.getType())){
+                    types.add(featureEntryDB.getType());
+                }
                 double[] vals = {
                         featureEntryDB.getType(),
                         featureEntryDB.getAdjectiveSimilarity(),
@@ -82,9 +111,37 @@ public class DiscourseModel {
                 train[i]= vals;
             }
             System.out.println("readFeatureEntryDBs");
+
         } catch (SQLException e) {
             e.printStackTrace();
         }
+    }
+
+    public static double evaluate(double[] features, svm_model model)
+    {
+        svm_node[] nodes = new svm_node[features.length-1];
+        for (int i = 1; i < features.length; i++)
+        {
+            svm_node node = new svm_node();
+            node.index = i;
+            node.value = features[i];
+
+            nodes[i-1] = node;
+        }
+
+        int totalClasses = 15;
+        int[] labels = new int[totalClasses];
+        svm.svm_get_labels(model,labels);
+
+        double[] prob_estimates = new double[totalClasses];
+        double v = svm.svm_predict_probability(model, nodes, prob_estimates);
+
+        for (int i = 0; i < totalClasses; i++){
+            System.out.print("(" + labels[i] + ":" + prob_estimates[i] + ")");
+        }
+        System.out.println("(Actual:" + features[0] + " Prediction:" + v + ")");
+
+        return v;
     }
 
 }
