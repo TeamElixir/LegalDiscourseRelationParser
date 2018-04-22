@@ -1,10 +1,12 @@
 import libsvm.*;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class aa {
      static double[][] train = new double[1000][];
      static double[][] test = new double[3][];
+
 
      public static void main(String[] args) {
           double[] featureTest1 = {1,0,600};
