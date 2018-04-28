@@ -12,7 +12,7 @@ public class TransitionalWords {
     Pattern p = Pattern.compile("[a-zA-Z]+");
     Matcher m2;
     String sentence;
-    int wordCount = 5;
+    int wordCount = 6;
     String firstWord;
     String subsentence="";
     boolean wordFound = false;
@@ -61,6 +61,8 @@ public class TransitionalWords {
         return false;
 
     }
+
+
 
     private boolean checkChangePhrase(){
 
