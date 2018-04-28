@@ -34,7 +34,7 @@ public class FeatureCal {
 	public static void main(String[] args) throws Exception {
 
 		// takes all relationships consisting of sourcesent, targetsent and judgement
-		ArrayList<Relationship> relationships = Relationship.getAllLegal();
+		ArrayList<Relationship> relationships = Relationship.getAll();
 
 		logger.info(relationships.size() + " relationships fetch from the database.");
 
@@ -67,7 +67,7 @@ public class FeatureCal {
 			featureEntry.setRelationshipId(relationship.getDbId());
 
 			// sets relationship type
-//			featureEntry.setType(relationship.getType());
+			featureEntry.setType(relationship.getType());
 
 			// word cosine similarity
 			WordSimilarity wordSimilarity = new WordSimilarity(sourceSentence, targetSentence) ;
@@ -156,7 +156,7 @@ public class FeatureCal {
 		logger.info("All features calculated.");
 
 		for(FeatureEntryDB entry:featureEntries){
-			entry.saveLegal();
+			entry.save();
 		}
 
 		logger.info("All features entries saved");
