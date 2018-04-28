@@ -30,6 +30,8 @@ public class SQLiteUtils {
 		return statement.executeQuery(sql);
 	}
 
+
+
 	// TABLE CREATION SQLs
 	/*
 	String sql = "CREATE TABLE RELATIONSHIP_ENTRY " +
