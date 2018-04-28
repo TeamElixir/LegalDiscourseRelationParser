@@ -141,6 +141,8 @@ public class FeatureCal {
 
 			// at the end
 			featureEntries.add(featureEntry);
+
+			logger.info("Relationship : " + relationship.getDbId() + "calculated.");
 		}
 
 //		try{
