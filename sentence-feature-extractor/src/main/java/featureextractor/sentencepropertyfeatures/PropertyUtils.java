@@ -26,7 +26,8 @@ public class PropertyUtils {
                     "to show that","in each case”","at that time","this opinion","confirms this","confirm this",
                     "in context","the statute’s","that phrase","one is","second is","third is",
                     "another is","they are","that is","with these assumptions", " special factors here",
-                    "other special factors","these reasons", "these arguments","of the sentence","that reasoning"
+                    "other special factors","these reasons", "these arguments","of the sentence","that reasoning",
+                    "it is also","that is also","those are also"
 
 
             ));
