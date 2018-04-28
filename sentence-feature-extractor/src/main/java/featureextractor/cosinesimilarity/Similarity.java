@@ -28,7 +28,7 @@ public abstract class Similarity {
 			double freq1 = (double) frequencyValues.getSentence1();
 			double freq2 = (double) frequencyValues.getSentence2();
 
-			System.out.println(distincts.get(i) + "#" + freq1 + "#" + freq2);
+//			System.out.println(distincts.get(i) + "#" + freq1 + "#" + freq2);
 
 			vectS1S2 = vectS1S2 + (freq1 * freq2);
 
@@ -37,7 +37,7 @@ public abstract class Similarity {
 
 		}
 
-		System.out.println("VectS1S2 " + vectS1S2 + " VectS1_Sq " + vectS1_Sq + " VectS2_Sq " + vectS2_Sq);
+//		System.out.println("VectS1S2 " + vectS1S2 + " VectS1_Sq " + vectS1_Sq + " VectS2_Sq " + vectS2_Sq);
 
 		if(vectS1_Sq==0 || vectS2_Sq==0){
 			similarity_score = 0;

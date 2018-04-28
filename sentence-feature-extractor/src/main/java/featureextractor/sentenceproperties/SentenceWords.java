@@ -27,8 +27,8 @@ public class SentenceWords extends SentenceProps{
 			seq_sentence2.add(word.toLowerCase());
 		}
 
-		System.out.println("st1 :"+seq_sentence1);
-		System.out.println("st2 :"+seq_sentence2);
+//		System.out.println("st1 :"+seq_sentence1);
+//		System.out.println("st2 :"+seq_sentence2);
 	}
 }
 

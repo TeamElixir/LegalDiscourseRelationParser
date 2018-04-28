@@ -84,9 +84,9 @@ public abstract class SentenceProps {
 			}
 		}
 
-		System.out.println("dt1 :"+ distincts_sentence1);
-		System.out.println("dt2 :"+ distincts_sentence2);
-		System.out.println("cw :"+ commons);
+//		System.out.println("dt1 :"+ distincts_sentence1);
+//		System.out.println("dt2 :"+ distincts_sentence2);
+//		System.out.println("cw :"+ commons);
 	}
 
 	public ArrayList<String> getSeq_sentence1() {

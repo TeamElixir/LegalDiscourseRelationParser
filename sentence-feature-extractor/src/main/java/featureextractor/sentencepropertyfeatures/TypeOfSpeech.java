@@ -30,10 +30,10 @@ public class TypeOfSpeech {
                 String regexMatch1 = regexMatch.replaceAll("(')", "");
 
                 if(targetSentence.toLowerCase().indexOf(regexMatch1.toLowerCase()) != -1){
-                    System.out.println("found : "+regexMatch1);
+//                    System.out.println("found : "+regexMatch1);
                     return true;
                 }else if(targetSentence.toLowerCase().indexOf(regexMatch.toLowerCase()) != -1){
-                    System.out.println("found : "+regexMatch);
+//                    System.out.println("found : "+regexMatch);
                     return true;
                 }
             }
@@ -53,10 +53,10 @@ public class TypeOfSpeech {
                 String regexMatch1 = regexMatch.replaceAll("(')", "");
 
                 if(sourceSentence.toLowerCase().indexOf(regexMatch1.toLowerCase()) != -1){
-                    System.out.println("found : "+regexMatch1);
+//                    System.out.println("found : "+regexMatch1);
                     return true;
                 }else if(sourceSentence.toLowerCase().indexOf(regexMatch.toLowerCase()) != -1){
-                    System.out.println("found : "+regexMatch);
+//                    System.out.println("found : "+regexMatch);
                     return true;
                 }
             }
