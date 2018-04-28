@@ -82,8 +82,8 @@ public class SemanticSentenceSimilarity {
         verbs.addAll(nlpUtils.getVerbs(annotation1));
         verbs.addAll(nlpUtils.getVerbs(annotation2));
 
-        System.out.println("nouns :"+nouns);
-        System.out.println("verbs :"+verbs);
+      //  System.out.println("nouns :"+nouns);
+      //  System.out.println("verbs :"+verbs);
     }
 
     public void checkSimilarity() {
@@ -103,9 +103,9 @@ public class SemanticSentenceSimilarity {
                     }
                     //compute(nouns.get(i), nouns.get(j));
                     aggregateNounDistance += distance;
-                    System.out.println(nouns.get(i) + " -  " + nouns.get(j) + " = " + distance);
+                    //System.out.println(nouns.get(i) + " -  " + nouns.get(j) + " = " + distance);
                     nounCount++;
-                    System.out.println(nounCount);
+                    //System.out.println(nounCount);
                 }
             }
         }
@@ -123,9 +123,9 @@ public class SemanticSentenceSimilarity {
                         //compute(verbs.get(i), verbs.get(j));
                     }
                     aggregateVerbDistance += distance;
-                    System.out.println(verbs.get(i) + " -  " + verbs.get(j) + " = " + distance);
+                    //System.out.println(verbs.get(i) + " -  " + verbs.get(j) + " = " + distance);
                     verbCount++;
-                    System.out.println(verbCount);
+                    //System.out.println(verbCount);
                 }
             }
 
