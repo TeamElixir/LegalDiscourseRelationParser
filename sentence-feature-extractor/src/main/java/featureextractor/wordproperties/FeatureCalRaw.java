@@ -50,8 +50,8 @@ public class FeatureCalRaw {
         // iterating through all the relationships
 
             // takes two sentences from the relationship
-            sourceSentence =". Such \"evidence is 'material' . . . when there is a reasonable probability that, had the evidence been disclosed, the result of the proceeding would have been different.\"";
-            targetSentence =  "Petitioners and the Government, however, do contest the materiality of the undisclosed Brady information.";
+            sourceSentence =" group attack was very cornerstone of Government's case, and virtually every witness to crime agreed that Fuller was killed by large group of perpetrators.";
+            targetSentence =  "Considering withheld evidence \"in context of entire record,\" Agurs, supra, at 112, that evidence is too little, weak, or distant from main evidentiary points to meet Brady's standards.";
 
             // creates a FeatureEntry to hold all feature values
             featureEntry = new FeatureEntry();
@@ -134,6 +134,7 @@ public class FeatureCalRaw {
 
             // at the end
             featureEntries.add(featureEntry);
+        System.out.println("aaaa :" + featureEntry.getAdjectiveSimilarity());
 
             double[] val = {featureEntry.getType(),featureEntry.getAdjectiveSimilarity(),
             featureEntry.getChangeTransitionScore(),featureEntry.getEllaborationTransitionScore(),

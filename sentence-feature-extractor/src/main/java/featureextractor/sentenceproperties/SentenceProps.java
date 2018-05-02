@@ -5,6 +5,7 @@ import java.util.Hashtable;
 import java.util.LinkedList;
 
 import featureextractor.wordproperties.Frequency;
+import utils.WordUtils;
 
 public abstract class SentenceProps {
 
@@ -21,25 +22,28 @@ public abstract class SentenceProps {
 	private Hashtable<String, Frequency> freq_vector = new Hashtable<String,Frequency>();
 	private LinkedList<String> distincts = new LinkedList<String>();
 
+
 	/**
 	 * Used for Cosine Similarities
 	 */
 	public void initializeFrequencies() {
 		for (int i = 0; i < seq_sentence1.size(); i++) {
 			String tmp_wd = seq_sentence1.get(i).trim();
-			if (tmp_wd.length() > 0) {
-				if (freq_vector.containsKey(tmp_wd)) {
-					Frequency vals1 = freq_vector.get(tmp_wd);
-					int freq1 = vals1.getSentence1() + 1;
-					int freq2 = vals1.getSentence2();
-					vals1.updateFrequency(freq1, freq2);
-					freq_vector.put(tmp_wd, vals1);
-				} else {
-					Frequency vals1 = new Frequency(1, 0);
-					freq_vector.put(tmp_wd, vals1);
-					distincts.add(tmp_wd);
+
+				if (tmp_wd.length() > 0) {
+					if (freq_vector.containsKey(tmp_wd)) {
+						Frequency vals1 = freq_vector.get(tmp_wd);
+						int freq1 = vals1.getSentence1() + 1;
+						int freq2 = vals1.getSentence2();
+						vals1.updateFrequency(freq1, freq2);
+						freq_vector.put(tmp_wd, vals1);
+					} else {
+						Frequency vals1 = new Frequency(1, 0);
+						freq_vector.put(tmp_wd, vals1);
+						distincts.add(tmp_wd);
+					}
 				}
-			}
+
 		}
 
 		//prepare word frequency vector by using Text2
@@ -129,7 +133,8 @@ public abstract class SentenceProps {
 		return distincts_sentence2;
 	}
 
-	public ArrayList<String> getCommons() {
+	public ArrayList<String>
+	getCommons() {
 		return commons;
 	}
 }
