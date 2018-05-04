@@ -10,8 +10,8 @@ import java.util.ArrayList;
 public class OverLapRatios {
 
 	public static void main(String[] args) {
-		String sourceSentence = "Julie loves me more than Linda loves me";
-		String targetSentence = "Jane likes me more than Julie loves me";
+		String sourceSentence = "The Julie loves me more than Linda loves me";
+		String targetSentence = "A Jane likes me more than Julie loves me";
 
 		OverlapWordRatio overlapWordRatio = new OverlapWordRatio();
 		ArrayList<Double> overlapScores = overlapWordRatio.getOverlapScore(sourceSentence, targetSentence);

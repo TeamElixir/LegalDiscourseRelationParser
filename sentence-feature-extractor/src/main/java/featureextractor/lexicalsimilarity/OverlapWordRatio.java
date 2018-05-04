@@ -8,10 +8,8 @@ import java.util.ArrayList;
 
 public class OverlapWordRatio {
 
-	private ArrayList<String> stopWords = WordUtils.getStopWords();
-	private ArrayList<String> effectiveCommons = new ArrayList<>();
-	private ArrayList<String> effectiveDistinctSent1 = new ArrayList<>();
-	private ArrayList<String> effectiveDistinctSent2 = new ArrayList<>();
+
+
 
 	public ArrayList<Double> getOverlapScore(String sourceSentence, String targetSentence) {
 
@@ -24,35 +22,22 @@ public class OverlapWordRatio {
 		// remember to initialize distinct words and common words
 		wordProps.initializeDistinctsCommons();
 
-		for (String word : wordProps.getCommons()){
-			if(!stopWords.contains(word)){
-				effectiveCommons.add(word);
-			}
-		}
-		
-		for (String word : wordProps.getDistincts_sentence1()){
-			if(!stopWords.contains(word)){
-				effectiveDistinctSent1.add(word);
-			}
-		}
 
-		for(String word : wordProps.getDistincts_sentence2()){
-			if(!stopWords.contains(word)){
-				effectiveDistinctSent2.add(word);
-			}
-		}
 
 
 		double sentence1Ratio =
-				((double) effectiveCommons.size() /
-						(double) effectiveDistinctSent1.size());
+				((double) wordProps.getCommons().size() /
+						(double) wordProps.getDistincts_sentence1().size());
 
 		double sentence2Ratio =
-				((double) effectiveCommons.size() /
-						(double) effectiveDistinctSent2.size());
+				((double) wordProps.getCommons().size() /
+						(double) wordProps.getDistincts_sentence2().size());
 
 		overlapScores.add(sentence1Ratio);
 		overlapScores.add(sentence2Ratio);
+		System.out.println("commons :"+wordProps.getCommons());
+		System.out.println("distingt 1 : "+wordProps.getDistincts_sentence1());
+		System.out.println("distinct 2 : "+wordProps.getDistincts_sentence2());
 		return overlapScores;
 	}
 }

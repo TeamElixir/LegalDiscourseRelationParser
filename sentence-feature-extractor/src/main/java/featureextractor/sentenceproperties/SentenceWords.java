@@ -1,5 +1,7 @@
 package featureextractor.sentenceproperties;
 
+import utils.WordUtils;
+
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -18,13 +20,17 @@ public class SentenceWords extends SentenceProps{
 		while (m1.find())
 		{
 			String word = m1.group();
-			seq_sentence1.add(word.toLowerCase());
+			if(!WordUtils.getStopWords().contains(word.toLowerCase())) {
+				seq_sentence1.add(word.toLowerCase());
+			}
 		}
 
 		while (m2.find())
 		{
 			String word = m2.group();
-			seq_sentence2.add(word.toLowerCase());
+			if(!WordUtils.getStopWords().contains(word.toLowerCase())) {
+				seq_sentence2.add(word.toLowerCase());
+			}
 		}
 
 //		System.out.println("st1 :"+seq_sentence1);
