@@ -2,11 +2,11 @@ package featureextractor;
 
 import java.util.ArrayList;
 
-import datasetparser.models.FeatureEntryDB;
+import datasetparser.models.FeatureEntry;
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.math3.stat.correlation.*;
 
-public class FeatureValues {
+public class FeatureCorrelation {
     private ArrayList<Double> feature1List = new ArrayList<>();
     private ArrayList<Double> feature2List = new ArrayList<>();
 
@@ -45,21 +45,21 @@ public class FeatureValues {
     }
 
 	public static void main(String[] args) throws Exception{
-		ArrayList<FeatureEntryDB> featureEntryDBS = FeatureEntryDB.getAll();
+		ArrayList<FeatureEntry> featureEntries = FeatureEntry.getAll();
 
 		ArrayList<Double> feature1 = new ArrayList<>();
 		ArrayList<Double> feature2 = new ArrayList<>();
 
-		for(FeatureEntryDB entry: featureEntryDBS){
+		for(FeatureEntry entry: featureEntries){
 			feature1.add(entry.getWordSimilarity());
 			feature2.add(entry.getSemanticSimilarityScore());
 		}
 
-		FeatureValues featureValues = new FeatureValues();
-		featureValues.setFeature1List(feature1);
-		featureValues.setFeature2List(feature2);
+		FeatureCorrelation featureCorrelation = new FeatureCorrelation();
+		featureCorrelation.setFeature1List(feature1);
+		featureCorrelation.setFeature2List(feature2);
 
-		System.out.println("Pearson\'s coefficient of correlation: " + featureValues.calculateCorrelation());
+		System.out.println("Pearson\'s coefficient of correlation: " + featureCorrelation.calculateCorrelation());
 
 	}
 }

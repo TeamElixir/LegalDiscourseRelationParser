@@ -1,7 +1,7 @@
 package svmmodel;
 
 import libsvm.*;
-import datasetparser.models.FeatureEntryDB;
+import datasetparser.models.FeatureEntry;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -83,35 +83,35 @@ public class DiscourseModel {
     }
 
     private static void initializeTrainingData(){
-        FeatureEntryDB fEDB = new FeatureEntryDB();
+        FeatureEntry fEDB = new FeatureEntry();
         try {
-            ArrayList<FeatureEntryDB> featureEntryDBS = fEDB.getAll();
-            int trainingSetSize = featureEntryDBS.size();
+            ArrayList<FeatureEntry> featureEntries = fEDB.getAll();
+            int trainingSetSize = featureEntries.size();
             train = new double[trainingSetSize][];
             for(int i=0;i<trainingSetSize;i++){
-                FeatureEntryDB featureEntryDB = featureEntryDBS.get(i);
-                if(!types.contains(featureEntryDB.getType())){
-                    types.add(featureEntryDB.getType());
+                FeatureEntry featureEntry = featureEntries.get(i);
+                if(!types.contains(featureEntry.getType())){
+                    types.add(featureEntry.getType());
                 }
 
                 double[] vals = {
-                        featureEntryDB.getType(),
-                        featureEntryDB.getAdjectiveSimilarity(),
-                        featureEntryDB.getChangeTransitionScore(),
-                        featureEntryDB.getEllaborationTransitionScore(),
-                        featureEntryDB.getLcs(),
-                        featureEntryDB.getLengthRatio(),
-                        featureEntryDB.getNerRatio(),
-                        featureEntryDB.getNounSimilarity(),
-                        featureEntryDB.getObjectOverlap(),
-                        featureEntryDB.getSemanticSimilarityScore(),
-                        featureEntryDB.getSubjectNounOverlap(),
-                        featureEntryDB.getSubjectOverlap(),
-                        featureEntryDB.getTosScore(),
-                        featureEntryDB.getVerbSimilarity(),
-                        featureEntryDB.getWordOverlapSSent(),
-                        featureEntryDB.getWordOverlapTSent(),
-                        featureEntryDB.getWordSimilarity()
+                        featureEntry.getType(),
+                        featureEntry.getAdjectiveSimilarity(),
+                        featureEntry.getChangeTransitionScore(),
+                        featureEntry.getEllaborationTransitionScore(),
+                        featureEntry.getLcs(),
+                        featureEntry.getLengthRatio(),
+                        featureEntry.getNerRatio(),
+                        featureEntry.getNounSimilarity(),
+                        featureEntry.getObjectOverlap(),
+                        featureEntry.getSemanticSimilarityScore(),
+                        featureEntry.getSubjectNounOverlap(),
+                        featureEntry.getSubjectOverlap(),
+                        featureEntry.getTosScore(),
+                        featureEntry.getVerbSimilarity(),
+                        featureEntry.getWordOverlapSSent(),
+                        featureEntry.getWordOverlapTSent(),
+                        featureEntry.getWordSimilarity()
                 };
                 train[i]= vals;
             }

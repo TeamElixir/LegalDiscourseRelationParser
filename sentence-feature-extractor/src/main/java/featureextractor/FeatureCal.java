@@ -2,14 +2,10 @@ package featureextractor;
 
 import static org.slf4j.LoggerFactory.getLogger;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 import java.util.Properties;
 
 import datasetparser.models.FeatureEntry;
-import datasetparser.models.FeatureEntryDB;
 import datasetparser.models.Relationship;
 import edu.stanford.nlp.pipeline.Annotation;
 import featureextractor.cosinesimilarity.AdjectiveSimilarity;
@@ -41,8 +37,8 @@ public class FeatureCal {
 		String sourceSentence;
 		String targetSentence;
 
-		FeatureEntryDB featureEntry;
-		ArrayList<FeatureEntryDB> featureEntries = new ArrayList<>();
+		FeatureEntry featureEntry;
+		ArrayList<FeatureEntry> featureEntries = new ArrayList<>();
 
 		Properties props = new Properties();
 		props.setProperty("annotators","tokenize,ssplit,pos,lemma,ner,depparse,coref");
@@ -61,7 +57,7 @@ public class FeatureCal {
 			targetSentence = relationship.getTargetSent();
 
 			// creates a FeatureEntry to hold all feature values
-			featureEntry = new FeatureEntryDB();
+			featureEntry = new FeatureEntry();
 
 			// sets relationshipId (for the table reference)
 			featureEntry.setRelationshipId(relationship.getDbId());
@@ -145,19 +141,9 @@ public class FeatureCal {
 			logger.info("Relationship : " + relationship.getDbId() + " calculated.");
 		}
 
-//		try{
-//			FileOutputStream fos= new FileOutputStream("featurearrayfile");
-//			ObjectOutputStream oos= new ObjectOutputStream(fos);
-//			oos.writeObject(featureEntries);
-//			oos.close();
-//			fos.close();
-//		}catch(IOException ioe){
-//			ioe.printStackTrace();
-//		}
-
 		logger.info("All features calculated.");
 
-		for(FeatureEntryDB entry:featureEntries){
+		for(FeatureEntry entry:featureEntries){
 			entry.save();
 		}
 
