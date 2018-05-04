@@ -39,11 +39,13 @@ public class LongestCommonSubstring {
         for (int i = 0; i < sourceSentence.length(); i++) {
             for (int j = 0; j < targetSentence.length(); j++) {
                 if (sourceSentence.charAt(i) == targetSentence.charAt(j)) {
-                    if ((i == 0) || (j == 0))
+                    if ((i == 0) || (j == 0)) {
                         num[i][j] = 1;
-                    else
+                    }
+                    else {
                         //diagonal previous value+1
                         num[i][j] = 1 + num[i - 1][j - 1];
+                    }
 
                     if (num[i][j] > currentMaxLength) {
                         currentMaxLength = num[i][j];
@@ -59,18 +61,6 @@ public class LongestCommonSubstring {
                             longestSubString.append(sourceSentence.substring(lastSubsBegin, i + 1));
                         }
                         longestCommonSubstrings=new ArrayList<String>();
-                        longestCommonSubstrings.add(longestSubString.toString());
-                    }else if (num[i][j]==currentMaxLength){
-                        int thisSubsBegin = i - num[i][j] + 1;
-                        if (lastSubsBegin == thisSubsBegin) {
-                            //if the current LCS is the same as the last time this block ran
-                            longestSubString.append(sourceSentence.charAt(i));
-                        } else {
-                            //this block resets the string builder if a different LCS is found
-                            lastSubsBegin = thisSubsBegin;
-                            longestSubString = new StringBuilder();
-                            longestSubString.append(sourceSentence.substring(lastSubsBegin, i + 1));
-                        }
                         longestCommonSubstrings.add(longestSubString.toString());
                     }
                 }

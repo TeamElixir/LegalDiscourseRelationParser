@@ -7,11 +7,11 @@ import java.util.ArrayList;
 public class LCS{
 
     public static void main(String[] args) {
-        String sentence1 = "Gathika is a boy";
-        String sentence2 = "My name is Gathika";
+        String sentence1 = "Gathika is a good boy.";
+        String sentence2 = "Gathika plays cricket.";
         ArrayList<String> output = new ArrayList<String>();
 
-        LongestCommonSubstring longestCommonSubstring=new LongestCommonSubstring(sentence1,sentence2);
+        LongestCommonSubstring longestCommonSubstring=new LongestCommonSubstring(sentence1.toLowerCase(),sentence2.toLowerCase());
         output = longestCommonSubstring.longestSubstring();
         double value = longestCommonSubstring.lcsValueSentence1();
 
