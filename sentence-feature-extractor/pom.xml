@@ -28,7 +28,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>featureextractor.FeatureCal</mainClass>
+                            <mainClass>CalLegalType</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

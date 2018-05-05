@@ -1,13 +1,14 @@
 import static org.slf4j.LoggerFactory.getLogger;
 
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.Properties;
 
 import datasetparser.models.FeatureEntry;
-import datasetparser.models.Relationship;
 import edu.stanford.nlp.pipeline.Annotation;
-import featureextractor.FeatureCal;
 import featureextractor.cosinesimilarity.AdjectiveSimilarity;
 import featureextractor.cosinesimilarity.NounSimilarity;
 import featureextractor.cosinesimilarity.VerbSimilarity;
@@ -20,6 +21,7 @@ import featureextractor.sentencepropertyfeatures.NERRatio;
 import featureextractor.sentencepropertyfeatures.SentenceLengths;
 import featureextractor.sentencepropertyfeatures.TransitionalWords;
 import featureextractor.sentencepropertyfeatures.TypeOfSpeech;
+import libsvm.svm;
 import libsvm.svm_model;
 import org.slf4j.Logger;
 import svmmodel.DiscourseModel;
@@ -46,27 +48,51 @@ public class CalLegalType {
 
 		// TODO: 5/4/18 remove "No. 16-327, Pp. 5-13., Id., at 236, 244...." like from sentences
 
-		String sourceSentence;
-		String targetSentence;
+		FeatureEntry featureEntry;
+		CalLegalType calLegalType = new CalLegalType();
 
-		for (int i = 0; i < sentences.size(); i++) {
-			for (int j = 1; j < 6; j++) {
-
-			}
-		}
+		svm_model model = svm.svm_load_model("/home/thejan/FYP/LegalDisourseRelationParser/sentence-feature-extractor/discourseModel.txt");
 
 		Properties props = new Properties();
 		props.setProperty("annotators", "tokenize,ssplit,pos,lemma,ner,depparse,coref");
 		props.setProperty("coref.algorithm", "statistical");
 		NLPUtils nlpUtils = new NLPUtils(props);
 
+		ArrayList<FeatureEntry> entries = new ArrayList<>();
 
+		// 50 sentences first
+		for (int i = 0; i < 51; i++) {
+			for (int j = 1; j < 6; j++) {
+				if ((i - j) >= 0) {
+					featureEntry = calLegalType.getFeatures(sentences.get(i), sentences.get(i - j), nlpUtils);
+					featureEntry.setType((int) calLegalType.getType(featureEntry, model));
+					featureEntry.setSsid(i + 1);
+					featureEntry.setTsid(i - j + 1);
+//					featureEntry.saveLegal();
+					entries.add(featureEntry);
+				}
 
-		logger.info("All features calculated.");
+				if ((i + j) < 51) {
+					featureEntry = calLegalType.getFeatures(sentences.get(i + j), sentences.get(i), nlpUtils);
+					featureEntry.setType((int) calLegalType.getType(featureEntry, model));
+					featureEntry.setSsid(i + j + 1);
+					featureEntry.setTsid(i + 1);
+//					featureEntry.saveLegal();
+					entries.add(featureEntry);
+				}
+			}
+			System.out.println(i+"done");
+		}
 
-
-		logger.info("All features entries saved");
-
+		try{
+			FileOutputStream fos= new FileOutputStream("legalfeatureentry");
+			ObjectOutputStream oos= new ObjectOutputStream(fos);
+			oos.writeObject(entries);
+			oos.close();
+			fos.close();
+		}catch(IOException ioe){
+			ioe.printStackTrace();
+		}
 	}
 
 	public FeatureEntry getFeatures(String sourceSentence, String targetSentence, NLPUtils nlpUtils){

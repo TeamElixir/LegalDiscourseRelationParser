@@ -13,13 +13,17 @@ public class DiscourseModel {
     static ArrayList<Integer> types= new ArrayList();
     static int zeroCount =0;
     public static void main(String[] args) {
-       /*initializeTrainingData();
+
+        initializeTrainingData();
         svm_model svmModel = svmTrain();
         try {
             svm.svm_save_model("discourseModel.txt",svmModel);
         } catch (IOException e) {
             e.printStackTrace();
-        }*/
+        }
+
+
+
         double[] featureTest = {1.0,
                 0.0,
                 0.0,
@@ -30,22 +34,24 @@ public class DiscourseModel {
                 0.0,
                 0.0,
                 0.24878336464751513,
+                0.235343,
                 0.0,
                 0.0,
-                0.0,
-                0.0,
-                0.18181818181818182,
-                0.14814814814814814,
-                0.16395645894598826,
+                0.364545757,
+                0.45181818181818182,
+                0.148144814814,
+                0.89895645894598826,
 
         };
         System.out.println(types.toString());
         System.out.println(types.size());
         try {
             double v = evaluate(featureTest,svm.svm_load_model("discourseModel.txt"));
+	        System.out.println(v);
         } catch (IOException e) {
             e.printStackTrace();
         }
+
     }
 
     private static svm_model svmTrain() {

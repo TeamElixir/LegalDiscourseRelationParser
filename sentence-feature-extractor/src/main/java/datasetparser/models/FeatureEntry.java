@@ -1,12 +1,13 @@
 package datasetparser.models;
 
+import java.io.Serializable;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
 import utils.SQLiteUtils;
 
-public class FeatureEntry {
+public class FeatureEntry implements Serializable {
 
 	public static final int FEATURE_NO = 16;
 
