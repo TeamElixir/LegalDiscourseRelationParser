@@ -47,7 +47,9 @@ public class FeatureCal {
 		NLPUtils nlpUtils = new NLPUtils(props);
 
 		// iterating through all the relationships
-		for (Relationship relationship : relationships) {
+		for (int i=1577;i<relationships.size();i++) {
+			Relationship relationship = relationships.get(i);
+
 			// takes two sentences from the relationship
 			sourceSentence = relationship.getSourceSent();
 			targetSentence = relationship.getTargetSent();
