@@ -13,7 +13,7 @@ public class DiscourseModel {
     static ArrayList<Integer> types= new ArrayList();
     static int zeroCount =0;
     public static void main(String[] args) {
-
+		/*
         initializeTrainingData();
         svm_model svmModel = svmTrain();
         try {
@@ -21,8 +21,7 @@ public class DiscourseModel {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-
+        */
 
         double[] featureTest = {1.0,
                 0.0,

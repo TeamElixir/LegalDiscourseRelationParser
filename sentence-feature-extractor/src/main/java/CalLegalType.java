@@ -1,7 +1,9 @@
 import static org.slf4j.LoggerFactory.getLogger;
 
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.sql.ResultSet;
 import java.util.ArrayList;
@@ -68,8 +70,8 @@ public class CalLegalType {
 					featureEntry.setType((int) calLegalType.getType(featureEntry, model));
 					featureEntry.setSsid(i + 1);
 					featureEntry.setTsid(i - j + 1);
-//					featureEntry.saveLegal();
-					entries.add(featureEntry);
+					featureEntry.saveLegal();
+//					entries.add(featureEntry);
 				}
 
 				if ((i + j) < 51) {
@@ -77,13 +79,14 @@ public class CalLegalType {
 					featureEntry.setType((int) calLegalType.getType(featureEntry, model));
 					featureEntry.setSsid(i + j + 1);
 					featureEntry.setTsid(i + 1);
-//					featureEntry.saveLegal();
-					entries.add(featureEntry);
+					featureEntry.saveLegal();
+//					entries.add(featureEntry);
 				}
 			}
 			System.out.println(i+"done");
 		}
 
+		/*
 		try{
 			FileOutputStream fos= new FileOutputStream("legalfeatureentry");
 			ObjectOutputStream oos= new ObjectOutputStream(fos);
@@ -93,6 +96,27 @@ public class CalLegalType {
 		}catch(IOException ioe){
 			ioe.printStackTrace();
 		}
+
+
+		ArrayList<FeatureEntry> arraylist= new ArrayList<>();
+		try
+		{
+			FileInputStream fis = new FileInputStream("legalfeatureentry");
+			ObjectInputStream ois = new ObjectInputStream(fis);
+			arraylist = (ArrayList) ois.readObject();
+			ois.close();
+			fis.close();
+		}catch(IOException ioe){
+			ioe.printStackTrace();
+		}catch(ClassNotFoundException c){
+			System.out.println("Class not found");
+			c.printStackTrace();
+		}
+		for(FeatureEntry tmp: arraylist){
+			System.out.println(tmp);
+			tmp.saveLegal();
+		}
+		*/
 	}
 
 	public FeatureEntry getFeatures(String sourceSentence, String targetSentence, NLPUtils nlpUtils){

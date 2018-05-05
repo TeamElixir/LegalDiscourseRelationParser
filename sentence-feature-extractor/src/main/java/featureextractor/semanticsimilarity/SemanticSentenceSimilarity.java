@@ -103,7 +103,7 @@ public class SemanticSentenceSimilarity {
                     }
                     //compute(nouns.get(i), nouns.get(j));
                     aggregateNounDistance += distance;
-                    System.out.println(nouns.get(i) + " -  " + nouns.get(j) + " = " + distance);
+//                    System.out.println(nouns.get(i) + " -  " + nouns.get(j) + " = " + distance);
                     nounCount++;
                     //System.out.println(nounCount);
                 }
