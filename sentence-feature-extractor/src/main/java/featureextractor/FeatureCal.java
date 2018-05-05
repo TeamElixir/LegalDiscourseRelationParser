@@ -46,10 +46,6 @@ public class FeatureCal {
 		//		NLPUtils nlpUtils = new NLPUtils(props, "http://corenlp.run", 80, 8);
 		NLPUtils nlpUtils = new NLPUtils(props);
 
-		/**
-		 *  This loop iterates through all the relationships and calculate all the
-		 *  features based on WORDS.
-		 */
 		// iterating through all the relationships
 		for (Relationship relationship : relationships) {
 			// takes two sentences from the relationship
@@ -139,13 +135,15 @@ public class FeatureCal {
 			featureEntries.add(featureEntry);
 
 			logger.info("Relationship : " + relationship.getDbId() + " calculated.");
+
+			featureEntry.save();
 		}
 
 		logger.info("All features calculated.");
 
-		for(FeatureEntry entry:featureEntries){
-			entry.save();
-		}
+//		for(FeatureEntry entry:featureEntries){
+//			entry.save();
+//		}
 
 		logger.info("All features entries saved");
 

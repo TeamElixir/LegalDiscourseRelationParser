@@ -7,8 +7,8 @@ import java.util.ArrayList;
 public class LCS{
 
     public static void main(String[] args) {
-        String sentence1 = "Gathika is a good boy.";
-        String sentence2 = "Gathika plays cricket.";
+        String sentence1 = "The crash by the Piper tourist plane into the 26th floor occurred at 5:50 p.m. (1450 GMT) on Thursday, said journalist Desideria Cavina.";
+        String sentence2 = "The crash by the Piper tourist plane into the 26th floor occurred at 5:50 p.m. (1450 GMT) on Thursday, said journalist Desideria Cavina.";
         ArrayList<String> output = new ArrayList<String>();
 
         LongestCommonSubstring longestCommonSubstring=new LongestCommonSubstring(sentence1.toLowerCase(),sentence2.toLowerCase());
