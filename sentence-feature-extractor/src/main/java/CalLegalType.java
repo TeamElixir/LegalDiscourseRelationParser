@@ -20,7 +20,9 @@ import featureextractor.sentencepropertyfeatures.NERRatio;
 import featureextractor.sentencepropertyfeatures.SentenceLengths;
 import featureextractor.sentencepropertyfeatures.TransitionalWords;
 import featureextractor.sentencepropertyfeatures.TypeOfSpeech;
+import libsvm.svm_model;
 import org.slf4j.Logger;
+import svmmodel.DiscourseModel;
 import utils.NLPUtils;
 import utils.SQLiteUtils;
 
@@ -145,8 +147,14 @@ public class CalLegalType {
 		return featureEntry;
 	}
 
-	public double getType(FeatureEntry featureEntry){
-		return 0.0;
+	public double getType(FeatureEntry featureEntry, svm_model model){
+		double[] arrayToEval = new double[FeatureEntry.FEATURE_NO+1];
+		double[] features = featureEntry.getFeatureArray();
+
+		arrayToEval[0] = 1.0;
+		System.arraycopy(features, 0, arrayToEval, 1, features.length);
+
+		return DiscourseModel.evaluate(arrayToEval,model);
 	}
 
 }

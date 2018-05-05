@@ -144,10 +144,10 @@ public class DiscourseModel {
         double[] prob_estimates = new double[totalClasses];
         double v = svm.svm_predict_probability(model, nodes, prob_estimates);
 
-        for (int i = 0; i < totalClasses; i++){
-            System.out.print("(" + labels[i] + ":" + prob_estimates[i] + ")");
-        }
-        System.out.println("(Actual:" + features[0] + " Prediction:" + v + ")");
+//        for (int i = 0; i < totalClasses; i++){
+//            System.out.print("(" + labels[i] + ":" + prob_estimates[i] + ")");
+//        }
+//        System.out.println("(Actual:" + features[0] + " Prediction:" + v + ")");
 
         return v;
     }

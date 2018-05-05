@@ -8,9 +8,13 @@ import utils.SQLiteUtils;
 
 public class FeatureEntry {
 
+	public static final int FEATURE_NO = 16;
+
 	private int dbId;
 	private int relationshipId;
 	private int type;
+	private int ssid;
+	private int tsid;
 
 	private double adjectiveSimilarity;
 	private double nounSimilarity;
@@ -64,6 +68,22 @@ public class FeatureEntry {
 
 	public void setRelationshipId(int relationshipId) {
 		this.relationshipId = relationshipId;
+	}
+
+	public int getSsid() {
+		return ssid;
+	}
+
+	public void setSsid(int ssid) {
+		this.ssid = ssid;
+	}
+
+	public int getTsid() {
+		return tsid;
+	}
+
+	public void setTsid(int tsid) {
+		this.tsid = tsid;
 	}
 
 	public int getType() {
@@ -276,8 +296,10 @@ public class FeatureEntry {
 	}
 
 	public void saveLegal() throws SQLException {
-		String sql = "INSERT INTO FEATURE_ENTRY_LEGAL "
-				+ "(RELATIONSHIP_ID,"
+		String sql = "INSERT INTO FEATURE_ENTRY_LEGAL_SENTENCE "
+				+ "(SSID,"
+				+ "TSID,"
+				+ "TYPE,"
 				+ "ADJECTIVE_SIMI,"
 				+ "NOUN_SIMI,"
 				+ "VERB_SIMI,"
@@ -295,7 +317,9 @@ public class FeatureEntry {
 				+ "TOS_SCORE,"
 				+ "SEMANTIC_SCORE) " +
 				"VALUES ("
-				+ relationshipId + ", " +
+				+ ssid + ", " +
+				+ tsid + ", " +
+				+ type + ", " +
 				+ adjectiveSimilarity + ", " +
 				+ nounSimilarity + ", " +
 				+ verbSimilarity + ", " +
@@ -317,7 +341,7 @@ public class FeatureEntry {
 	}
 
 	public static ArrayList<FeatureEntry> getAllLegal() throws SQLException {
-		String sql = "SELECT * FROM FEATURE_ENTRY_LEGAL;";
+		String sql = "SELECT * FROM FEATURE_ENTRY_LEGAL_SENTENCE;";
 		ResultSet resultSet = sqLiteUtils.executeQuery(sql);
 
 		if(resultSet.isClosed()){
@@ -329,7 +353,9 @@ public class FeatureEntry {
 		while (resultSet.next()){
 			entry = new FeatureEntry();
 			entry.dbId = resultSet.getInt("ID");
-			entry.relationshipId = resultSet.getInt("RELATIONSHIP_ID");
+			entry.ssid = resultSet.getInt("SSID");
+			entry.tsid = resultSet.getInt("TSID");
+			entry.type = resultSet.getInt("TYPE");
 			entry.adjectiveSimilarity = resultSet.getDouble("ADJECTIVE_SIMI");
 			entry.nounSimilarity = resultSet.getDouble("NOUN_SIMI");
 			entry.verbSimilarity = resultSet.getDouble("VERB_SIMI");
@@ -351,5 +377,28 @@ public class FeatureEntry {
 		}
 
 		return featureEntries;
+	}
+
+	public double[] getFeatureArray(){
+		double[] featureArray = {
+				this.getAdjectiveSimilarity(),
+				this.getChangeTransitionScore(),
+				this.getEllaborationTransitionScore(),
+				this.getLcs(),
+				this.getLengthRatio(),
+				this.getNerRatio(),
+				this.getNounSimilarity(),
+				this.getObjectOverlap(),
+				this.getSemanticSimilarityScore(),
+				this.getSubjectNounOverlap(),
+				this.getSubjectOverlap(),
+				this.getTosScore(),
+				this.getVerbSimilarity(),
+				this.getWordOverlapSSent(),
+				this.getWordOverlapTSent(),
+				this.getWordSimilarity()
+		};
+
+		return featureArray;
 	}
 }
