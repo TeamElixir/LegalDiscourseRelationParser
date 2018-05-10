@@ -53,7 +53,8 @@ public class CalLegalType {
 		FeatureEntry featureEntry;
 		CalLegalType calLegalType = new CalLegalType();
 
-		svm_model model = svm.svm_load_model("/home/thejan/FYP/LegalDisourseRelationParser/sentence-feature-extractor/discourseModel.txt");
+		svm_model model = svm.svm_load_model(
+				"/home/thejan/FYP/LegalDisourseRelationParser/sentence-feature-extractor/discourseModel.txt");
 
 		Properties props = new Properties();
 		props.setProperty("annotators", "tokenize,ssplit,pos,lemma,ner,depparse,coref");
@@ -62,6 +63,17 @@ public class CalLegalType {
 
 		ArrayList<FeatureEntry> entries = new ArrayList<>();
 
+		for (int i = 0; i < sentences.size() - 1; i++) {
+			featureEntry = calLegalType.getFeatures(sentences.get(i+1),sentences.get(i),nlpUtils);
+			featureEntry.setType((int)calLegalType.getType(featureEntry, model));
+			featureEntry.setSsid(i+2);
+			featureEntry.setTsid(i+1);
+			logger.info((i+1) + " and " + (i+2) + " relation calculated");
+			featureEntry.saveLegal();
+		}
+
+		/*
+		// for 5 up and 5 down
 		// 50 sentences first
 		for (int i = 0; i < 51; i++) {
 			for (int j = 1; j < 6; j++) {
@@ -71,7 +83,6 @@ public class CalLegalType {
 					featureEntry.setSsid(i + 1);
 					featureEntry.setTsid(i - j + 1);
 					featureEntry.saveLegal();
-//					entries.add(featureEntry);
 				}
 
 				if ((i + j) < 51) {
@@ -80,11 +91,11 @@ public class CalLegalType {
 					featureEntry.setSsid(i + j + 1);
 					featureEntry.setTsid(i + 1);
 					featureEntry.saveLegal();
-//					entries.add(featureEntry);
 				}
 			}
 			System.out.println(i+"done");
 		}
+		*/
 
 		/*
 		try{
@@ -119,7 +130,7 @@ public class CalLegalType {
 		*/
 	}
 
-	public FeatureEntry getFeatures(String sourceSentence, String targetSentence, NLPUtils nlpUtils){
+	public FeatureEntry getFeatures(String sourceSentence, String targetSentence, NLPUtils nlpUtils) {
 		// creates a FeatureEntry to hold all feature values
 		FeatureEntry featureEntry = new FeatureEntry();
 
@@ -197,14 +208,14 @@ public class CalLegalType {
 		return featureEntry;
 	}
 
-	public double getType(FeatureEntry featureEntry, svm_model model){
-		double[] arrayToEval = new double[FeatureEntry.FEATURE_NO+1];
+	public double getType(FeatureEntry featureEntry, svm_model model) {
+		double[] arrayToEval = new double[FeatureEntry.FEATURE_NO + 1];
 		double[] features = featureEntry.getFeatureArray();
 
 		arrayToEval[0] = 1.0;
 		System.arraycopy(features, 0, arrayToEval, 1, features.length);
 
-		return DiscourseModel.evaluate(arrayToEval,model);
+		return DiscourseModel.evaluate(arrayToEval, model);
 	}
 
 }
