@@ -28,7 +28,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>CalLegalType</mainClass>
+                            <mainClass>WikipediaCal</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

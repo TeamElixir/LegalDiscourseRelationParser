@@ -376,6 +376,51 @@ public class FeatureEntry implements Serializable {
 		sqLiteUtils.executeUpdate(sql);
 	}
 
+	public void saveWiki() throws SQLException {
+		String sql = "INSERT INTO FEATURE_ENTRY_WIKIPEDIA_SENTENCE "
+				+ "(SSID,"
+				+ "TSID,"
+				+ "TYPE,"
+				+ "ADJECTIVE_SIMI,"
+				+ "NOUN_SIMI,"
+				+ "VERB_SIMI,"
+				+ "WORD_SIMI,"
+				+ "WOVERLAP_S,"
+				+ "WOVERLAP_T,"
+				+ "ETRANSITION,"
+				+ "CTRANSITION,"
+				+ "LCS,"
+				+ "SOVERLAP,"
+				+ "OOVERLAP,"
+				+ "SNOVERLAP,"
+				+ "NER_RATIO,"
+				+ "LENGTH_RATIO,"
+				+ "TOS_SCORE,"
+				+ "SEMANTIC_SCORE) " +
+				"VALUES ("
+				+ ssid + ", " +
+				+ tsid + ", " +
+				+ type + ", " +
+				+ adjectiveSimilarity + ", " +
+				+ nounSimilarity + ", " +
+				+ verbSimilarity + ", " +
+				+ wordSimilarity + ", " +
+				+ wordOverlapSSent + ", " +
+				+ wordOverlapTSent + ", " +
+				+ ellaborationTransitionScore + ", " +
+				+ changeTransitionScore + ", " +
+				+ lcs + ", " +
+				+ subjectOverlap + ", " +
+				+ objectOverlap + ", " +
+				+ subjectNounOverlap + ", " +
+				+ nerRatio + ", " +
+				+ lengthRatio + ", " +
+				+ tosScore + ", " +
+				semanticSimilarityScore + ");";
+		System.out.println(sql);
+		sqLiteUtils.executeUpdate(sql);
+	}
+
 	public static ArrayList<FeatureEntry> getAllLegal() throws SQLException {
 		String sql = "SELECT * FROM FEATURE_ENTRY_LEGAL_SENTENCE;";
 		ResultSet resultSet = sqLiteUtils.executeQuery(sql);
