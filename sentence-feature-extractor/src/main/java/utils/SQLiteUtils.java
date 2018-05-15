@@ -20,11 +20,24 @@ public class SQLiteUtils {
 		return connection;
 	}
 
+	/**
+	 * Inserts, Updates..
+	 *
+	 * @param sql
+	 * @throws SQLException
+	 */
 	public void executeUpdate(String sql) throws SQLException {
 		Statement statement = connection.createStatement();
 		statement.executeUpdate(sql);
 	}
 
+	/**
+	 * Selects ONLY
+	 *
+	 * @param sql
+	 * @return
+	 * @throws SQLException
+	 */
 	public ResultSet executeQuery(String sql) throws SQLException {
 		Statement statement = connection.createStatement();
 		return statement.executeQuery(sql);
