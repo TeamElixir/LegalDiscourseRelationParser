@@ -113,7 +113,7 @@ public class WikipediaCal {
 					logger.info(featureEntry.getSsid() + " + " + featureEntry.getTsid());
 				}
 
-				if ((i + j) < 51) {
+				if ((i + j) < 101) {
 					featureEntry = calLegalType.getFeatures(sentences.get(i + j), sentences.get(i), nlpUtils);
 					featureEntry.setType((int) calLegalType.getType(featureEntry, model));
 					featureEntry.setSsid(i + j + 1);
