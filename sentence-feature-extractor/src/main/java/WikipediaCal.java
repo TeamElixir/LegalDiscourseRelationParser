@@ -46,7 +46,7 @@ public class WikipediaCal {
 		StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
 		String globalFilePath = new File("").getAbsolutePath();
-		globalFilePath += "/wikipedia-europe.txt";
+		globalFilePath += "/wikipedia-red.txt";
 
 		String textRaw = readFile(globalFilePath);
 
@@ -68,7 +68,7 @@ public class WikipediaCal {
 			for (CoreMap sentence : sentences) {
 				String sentenceString = sentence.toString();
 				sentenceString = sentenceString.replaceAll("\"","'");
-				String sql = "INSERT INTO WIKIPEDIA_SENTENCE (SENTENCE) VALUES ("+"\""+sentenceString+"\""+");";
+				String sql = "INSERT INTO WIKIPEDIA_SENTENCE (ARTICLE,SENTENCE) VALUES ("+"\""+"red"+"\""+","+"\""+sentenceString+"\""+");";
 				System.out.println(sql);
 				sqLiteUtils.executeUpdate(sql);
 			}   // for each sentence
@@ -77,7 +77,7 @@ public class WikipediaCal {
 
 	public static void calFeatureType() throws Exception{
 		// sql to take sentences only from 1st case in db
-		String sql = "SELECT * FROM WIKIPEDIA_SENTENCE;";
+		String sql = "SELECT * FROM WIKIPEDIA_SENTENCE WHERE ID>101;";
 
 		// executes sql and fills up the array list
 		SQLiteUtils sqLiteUtils = new SQLiteUtils();
@@ -99,32 +99,29 @@ public class WikipediaCal {
 		props.setProperty("coref.algorithm", "statistical");
 		NLPUtils nlpUtils = new NLPUtils(props);
 
-		ArrayList<FeatureEntry> entries = new ArrayList<>();
-
 		// for 5 up and 5 down
-		for (int i = 0; i < 101; i++) {
+		for (int i = 0; i < sentences.size(); i++) {
 			for (int j = 1; j < 6; j++) {
 				if ((i - j) >= 0) {
 					featureEntry = calLegalType.getFeatures(sentences.get(i), sentences.get(i - j), nlpUtils);
 					featureEntry.setType((int) calLegalType.getType(featureEntry, model));
-					featureEntry.setSsid(i + 1);
-					featureEntry.setTsid(i - j + 1);
+					featureEntry.setSsid(i +101+ 1);
+					featureEntry.setTsid(i - j + 1+101);
 					featureEntry.saveWiki();
 					logger.info(featureEntry.getSsid() + " + " + featureEntry.getTsid());
 				}
 
-				if ((i + j) < 101) {
+				if ((i + j) < sentences.size()) {
 					featureEntry = calLegalType.getFeatures(sentences.get(i + j), sentences.get(i), nlpUtils);
 					featureEntry.setType((int) calLegalType.getType(featureEntry, model));
-					featureEntry.setSsid(i + j + 1);
-					featureEntry.setTsid(i + 1);
+					featureEntry.setSsid(i + +101+j + 1);
+					featureEntry.setTsid(i + 1+101);
 					featureEntry.saveWiki();
 					logger.info(featureEntry.getSsid() + " + " + featureEntry.getTsid());
 				}
 			}
 			logger.info( i+1 + " completed.");
 		}
-
 	}
 
 	public static void main(String[] args) throws Exception{
