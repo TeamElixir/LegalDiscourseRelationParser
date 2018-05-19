@@ -5,6 +5,9 @@ import java.util.ArrayList;
 import datasetparser.models.FeatureEntry;
 import utils.SQLiteUtils;
 
+/**
+ * To Run any temporary algorithms
+ */
 public class Run {
 
 	public static void main(String[] args) throws Exception {
@@ -24,7 +27,6 @@ public class Run {
 
 			sqLiteUtils.executeUpdate(sql);
 //			System.out.println(i);
-
 		}
 
 	}

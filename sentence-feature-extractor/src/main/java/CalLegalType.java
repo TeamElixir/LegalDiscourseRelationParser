@@ -36,8 +36,8 @@ public class CalLegalType {
 
 	public static void main(String[] args) throws Exception {
 
-		// sql to take sentences only from 1st case in db
-		String sql = "SELECT * FROM LEGAL_SENTENCE WHERE CASE_FILE='criminal_triples/case_11.txt'";
+		// sql to take sentences in db
+		String sql = "SELECT * FROM LEGAL_SENTENCE;";
 
 		// executes sql and fills up the array list
 		SQLiteUtils sqLiteUtils = new SQLiteUtils();
@@ -63,13 +63,22 @@ public class CalLegalType {
 
 		ArrayList<FeatureEntry> entries = new ArrayList<>();
 
-		for (int i = 0; i < sentences.size() - 1; i++) {
+		for (int i = 0; i < sentences.size(); i++) {
 			featureEntry = calLegalType.getFeatures(sentences.get(i+1),sentences.get(i),nlpUtils);
 			featureEntry.setType((int)calLegalType.getType(featureEntry, model));
 			featureEntry.setSsid(i+2);
 			featureEntry.setTsid(i+1);
 			logger.info((i+1) + " and " + (i+2) + " relation calculated");
 			featureEntry.saveLegal();
+
+			if (i <= sentences.size() - 2) {
+				featureEntry = calLegalType.getFeatures(sentences.get(i+2),sentences.get(i),nlpUtils);
+				featureEntry.setType((int)calLegalType.getType(featureEntry, model));
+				featureEntry.setSsid(i+3);
+				featureEntry.setTsid(i+1);
+				logger.info((i+1) + " and " + (i+3) + " relation calculated");
+				featureEntry.saveLegal();
+			}
 		}
 
 		/*
