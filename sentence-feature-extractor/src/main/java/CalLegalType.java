@@ -19,6 +19,7 @@ import featureextractor.grammaticalrelationships.GrammarOverlapRatio;
 import featureextractor.lexicalsimilarity.LongestCommonSubstring;
 import featureextractor.lexicalsimilarity.OverlapWordRatio;
 import featureextractor.semanticsimilarity.SemanticSentenceSimilarity;
+import featureextractor.sentenceproperties.Citation;
 import featureextractor.sentencepropertyfeatures.NERRatio;
 import featureextractor.sentencepropertyfeatures.SentenceLengths;
 import featureextractor.sentencepropertyfeatures.TransitionalWords;
@@ -65,8 +66,14 @@ public class CalLegalType {
 
 		for (int i = 680; i < sentences.size(); i++) {
 
+
+
 			featureEntry = calLegalType.getFeatures(sentences.get(i+1),sentences.get(i),nlpUtils);
-			featureEntry.setType((int)calLegalType.getType(featureEntry, model));
+			if(Citation.checkCitation(sentences.get(i+1))){
+                 featureEntry.setType(7);
+			}else {
+				featureEntry.setType((int) calLegalType.getType(featureEntry, model));
+			}
 			featureEntry.setSsid(i+2);
 			featureEntry.setTsid(i+1);
 			logger.info((i+1) + " and " + (i+2) + " relation calculated");
