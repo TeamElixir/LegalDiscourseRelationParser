@@ -205,6 +205,7 @@ public class NLPUtils {
 
 		for (CorefChain chain : annotation.get(CorefCoreAnnotations.CorefChainAnnotation.class).values()) {
 			String represent = chain.getRepresentativeMention().mentionSpan;
+			represent = represent.replaceAll("\\$","&");
 			for(CorefChain.CorefMention mention: chain.getMentionsInTextualOrder()){
 				int sentNo = mention.sentNum;
 				int startIndex = mention.startIndex;

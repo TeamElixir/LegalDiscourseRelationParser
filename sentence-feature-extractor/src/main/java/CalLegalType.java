@@ -63,7 +63,7 @@ public class CalLegalType {
 
 		ArrayList<FeatureEntry> entries = new ArrayList<>();
 
-		for (int i = 0; i < sentences.size(); i++) {
+		for (int i = 680; i < sentences.size(); i++) {
 			featureEntry = calLegalType.getFeatures(sentences.get(i+1),sentences.get(i),nlpUtils);
 			featureEntry.setType((int)calLegalType.getType(featureEntry, model));
 			featureEntry.setSsid(i+2);
