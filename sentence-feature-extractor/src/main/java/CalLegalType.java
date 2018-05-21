@@ -66,26 +66,28 @@ public class CalLegalType {
 
 		for (int i = 680; i < sentences.size(); i++) {
 
+			if(!Citation.checkCitation(sentences.get(i))) {
 
 
-			featureEntry = calLegalType.getFeatures(sentences.get(i+1),sentences.get(i),nlpUtils);
-			if(Citation.checkCitation(sentences.get(i+1))){
-                 featureEntry.setType(7);
-			}else {
-				featureEntry.setType((int) calLegalType.getType(featureEntry, model));
-			}
-			featureEntry.setSsid(i+2);
-			featureEntry.setTsid(i+1);
-			logger.info((i+1) + " and " + (i+2) + " relation calculated");
-			featureEntry.saveLegal();
-
-			if (i <= sentences.size() - 2) {
-				featureEntry = calLegalType.getFeatures(sentences.get(i+2),sentences.get(i),nlpUtils);
-				featureEntry.setType((int)calLegalType.getType(featureEntry, model));
-				featureEntry.setSsid(i+3);
-				featureEntry.setTsid(i+1);
-				logger.info((i+1) + " and " + (i+3) + " relation calculated");
+				featureEntry = calLegalType.getFeatures(sentences.get(i + 1), sentences.get(i), nlpUtils);
+				if (Citation.checkCitation(sentences.get(i + 1))) {
+					featureEntry.setType(7);
+				} else {
+					featureEntry.setType((int) calLegalType.getType(featureEntry, model));
+				}
+				featureEntry.setSsid(i + 2);
+				featureEntry.setTsid(i + 1);
+				logger.info((i + 1) + " and " + (i + 2) + " relation calculated");
 				featureEntry.saveLegal();
+
+				if (i <= sentences.size() - 2) {
+					featureEntry = calLegalType.getFeatures(sentences.get(i + 2), sentences.get(i), nlpUtils);
+					featureEntry.setType((int) calLegalType.getType(featureEntry, model));
+					featureEntry.setSsid(i + 3);
+					featureEntry.setTsid(i + 1);
+					logger.info((i + 1) + " and " + (i + 3) + " relation calculated");
+					featureEntry.saveLegal();
+				}
 			}
 		}
 
