@@ -68,7 +68,6 @@ public class CalLegalType {
 
 			if(!Citation.checkCitation(sentences.get(i))) {
 
-
 				featureEntry = calLegalType.getFeatures(sentences.get(i + 1), sentences.get(i), nlpUtils);
 				if (Citation.checkCitation(sentences.get(i + 1))) {
 					featureEntry.setType(7);

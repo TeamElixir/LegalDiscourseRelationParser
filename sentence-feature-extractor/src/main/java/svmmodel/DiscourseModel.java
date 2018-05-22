@@ -25,7 +25,7 @@ public class DiscourseModel {
         }
 
 
-        double[] featureTest = {1.0,
+        /*double[] featureTest = {1.0,
                 0.0,
                 0.0,
                 0.0,
@@ -51,7 +51,7 @@ public class DiscourseModel {
 	        System.out.println(v);
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
 
     }
 
