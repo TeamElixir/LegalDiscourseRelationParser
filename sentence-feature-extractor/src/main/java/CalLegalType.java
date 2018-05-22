@@ -35,7 +35,7 @@ public class CalLegalType {
 
 	private static final Logger logger = getLogger(CalLegalType.class);
 
-	public static void main(String[] args) throws Exception {
+	/*public static void main(String[] args) throws Exception {
 
 		// sql to take sentences in db
 		String sql = "SELECT * FROM LEGAL_SENTENCE;";
@@ -147,7 +147,7 @@ public class CalLegalType {
 			tmp.saveLegal();
 		}
 		*/
-	}
+	/*}*/
 
 	public FeatureEntry getFeatures(String sourceSentence, String targetSentence, NLPUtils nlpUtils) {
 		// creates a FeatureEntry to hold all feature values
@@ -235,6 +235,23 @@ public class CalLegalType {
 		System.arraycopy(features, 0, arrayToEval, 1, features.length);
 
 		return DiscourseModel.evaluate(arrayToEval, model);
+	}
+
+	public static void main(String[] args) throws IOException {
+		svm_model model = svm.svm_load_model(
+				"/media/gathika/Other/repos/LegalDisourseRelationParser/svm-implementation/discourseModel.txt");
+
+		Properties props = new Properties();
+		props.setProperty("annotators", "tokenize,ssplit,pos,lemma,ner,depparse,coref");
+		props.setProperty("coref.algorithm", "statistical");
+		NLPUtils nlpUtils = new NLPUtils(props);
+		CalLegalType calLegalType = new CalLegalType();
+		FeatureEntry featureEntry = calLegalType.getFeatures(" Such \"evidence is 'material' when there is a reasonable probability that, had the evidence been disclosed, the result of the proceeding would have been different.\"",
+
+				"Petitioners and the Government, however, do contest the materiality of the undisclosed Brady information.",nlpUtils);
+		System.out.println("semScore : "+featureEntry.getSemanticSimilarityScore());
+		double type = calLegalType.getType(featureEntry,model);
+		System.out.println(type);
 	}
 
 }
