@@ -12,7 +12,7 @@ public class SQLiteUtils {
 
 	public SQLiteUtils() throws SQLException {
 		if(connection==null){
-			connection = DriverManager.getConnection("jdbc:sqlite:/home/thejan/Downloads/extractorDatabase.db");
+			connection = DriverManager.getConnection("jdbc:sqlite:/home/thejan/FYP/LegalDisourseRelationParser/extractorDatabase.db");
 		}
 	}
 

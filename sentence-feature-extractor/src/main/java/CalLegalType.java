@@ -35,7 +35,7 @@ public class CalLegalType {
 
 	private static final Logger logger = getLogger(CalLegalType.class);
 
-	/*public static void main(String[] args) throws Exception {
+	public static void main(String[] args) throws Exception {
 
 		// sql to take sentences in db
 		String sql = "SELECT * FROM LEGAL_SENTENCE;";
@@ -64,7 +64,7 @@ public class CalLegalType {
 
 		ArrayList<FeatureEntry> entries = new ArrayList<>();
 
-		for (int i = 680; i < sentences.size(); i++) {
+		for (int i = 0; i < sentences.size(); i++) {
 
 			if(!Citation.checkCitation(sentences.get(i))) {
 
@@ -90,7 +90,7 @@ public class CalLegalType {
 			}
 		}
 
-		/*
+
 		// for 5 up and 5 down
 		// 50 sentences first
 		for (int i = 0; i < 51; i++) {
@@ -113,7 +113,7 @@ public class CalLegalType {
 			}
 			System.out.println(i+"done");
 		}
-		*/
+
 
 		/*
 		try{
@@ -146,7 +146,7 @@ public class CalLegalType {
 			tmp.saveLegal();
 		}
 		*/
-	/*}*/
+	}
 
 	public FeatureEntry getFeatures(String sourceSentence, String targetSentence, NLPUtils nlpUtils) {
 		// creates a FeatureEntry to hold all feature values
@@ -236,6 +236,7 @@ public class CalLegalType {
 		return DiscourseModel.evaluate(arrayToEval, model);
 	}
 
+	/*
 	public static void main(String[] args) throws IOException {
 		svm_model model = svm.svm_load_model(
 				"/media/gathika/Other/repos/LegalDisourseRelationParser/svm-implementation/discourseModel.txt");
@@ -252,5 +253,6 @@ public class CalLegalType {
 		double type = calLegalType.getType(featureEntry,model);
 		System.out.println(type);
 	}
+	*/
 
 }
