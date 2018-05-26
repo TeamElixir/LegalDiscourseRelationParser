@@ -62,6 +62,13 @@ public class Run {
 		}
 
 		System.out.println("ok");
+		for(AnnotationRelation ar1 :arList ){
+			System.out.println(" user1 : "+ar1.user1Id+" user1Rel : "+ar1.user1Relation+ " pairID : " + ar1.pairId + " svmRelation : " + ar1.svmRelation);
+			System.out.println("user2 : "+ar1.user2Id+" uer2Rel : "+ar1.user2Relation+ " pairID : " + ar1.pairId);
+		}
+	}
+
+	public int svmToLegalRelation(int svmRelation){
 
 	}
 
@@ -96,4 +103,6 @@ class AnnotationRelation {
 
 	public int user2Relation;
 }
+
+
 

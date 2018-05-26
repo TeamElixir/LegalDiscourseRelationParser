@@ -239,16 +239,16 @@ public class CalLegalType {
 	/*
 	public static void main(String[] args) throws IOException {
 		svm_model model = svm.svm_load_model(
-				"/media/gathika/Other/repos/LegalDisourseRelationParser/svm-implementation/discourseModel.txt");
+				"/media/gathika/Other/repos/LegalDisourseRelationParser/sentence-feature-extractor/discourseModel.txt");
 
 		Properties props = new Properties();
 		props.setProperty("annotators", "tokenize,ssplit,pos,lemma,ner,depparse,coref");
 		props.setProperty("coref.algorithm", "statistical");
 		NLPUtils nlpUtils = new NLPUtils(props);
 		CalLegalType calLegalType = new CalLegalType();
-		FeatureEntry featureEntry = calLegalType.getFeatures(" Such \"evidence is 'material' when there is a reasonable probability that, had the evidence been disclosed, the result of the proceeding would have been different.\"",
+		FeatureEntry featureEntry = calLegalType.getFeatures("plane is in the airport.",
 
-				"Petitioners and the Government, however, do contest the materiality of the undisclosed Brady information.",nlpUtils);
+				"children are playing cricket.",nlpUtils);
 		System.out.println("semScore : "+featureEntry.getSemanticSimilarityScore());
 		double type = calLegalType.getType(featureEntry,model);
 		System.out.println(type);

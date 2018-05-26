@@ -9,31 +9,33 @@ public class DiscourseModel {
     static double numberOfFeatures = 16;
     static double[][] train ;
     static ArrayList<Integer> types= new ArrayList();
+    static int zeroCount =0;
     public static void main(String[] args) {
-        initializeTrainingData();
+       /*initializeTrainingData();
         svm_model svmModel = svmTrain();
         try {
             svm.svm_save_model("discourseModel.txt",svmModel);
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
         double[] featureTest = {1.0,
                 0.0,
                 0.0,
                 0.0,
-                0.25,
-                0.6,
+                0.03870967741935484,
+                0.44642857142857145,
+                0.5,
                 0.0,
                 0.0,
-                0.0,
-                0.21842863019333608,
-                0.0,
-                0.0,
+                0.24878336464751513,
                 0.0,
                 0.0,
                 0.0,
                 0.0,
-                0.0,
+                0.18181818181818182,
+                0.14814814814814814,
+                0.16395645894598826,
+
         };
         System.out.println(types.toString());
         System.out.println(types.size());
@@ -89,6 +91,7 @@ public class DiscourseModel {
                 if(!types.contains(featureEntryDB.getType())){
                     types.add(featureEntryDB.getType());
                 }
+
                 double[] vals = {
                         featureEntryDB.getType(),
                         featureEntryDB.getAdjectiveSimilarity(),
@@ -112,9 +115,12 @@ public class DiscourseModel {
             }
             System.out.println("readFeatureEntryDBs");
 
+
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        System.out.println("typees:"+types);
+
     }
 
     public static double evaluate(double[] features, svm_model model)
