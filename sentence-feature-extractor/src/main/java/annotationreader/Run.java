@@ -46,7 +46,7 @@ public class Run {
 					ar.clusterId = resultSet1.getInt("cluster_id");
 					ar.user1Id = dbrP.userId;
 					ar.user2Id = resultSet1.getInt("user_id");
-					ar.svmRelation = resultSet1.getInt("relation");
+					ar.svmRelation = getRelation(resultSet1.getInt("relation"));
 					ar.user1Relation = dbrP.userRelation;
 					ar.user2Relation = resultSet1.getInt("user_annotation");
 
@@ -70,6 +70,26 @@ public class Run {
 
 	public int svmToLegalRelation(int svmRelation){
 
+	}
+
+	private static int getRelation(int no){
+		/** Elaboration **/
+		if(no==2 || no==8 || no==4 || no==13 || no==12 || no==11 ||
+				no==18 || no==14 || no==15 || no==6 || no==16 || no==9){
+			return 2;
+		/** Redundancy **/
+		}else if(no==1){
+			return 3;
+		/** Citation **/
+		}else if(no==7){
+			return 4;
+		/** Shift in View **/
+		}else if(no==17 || no==5){
+			return 5;
+		/** No Relation **/
+		}else {
+			return 1;
+		}
 	}
 
 }
