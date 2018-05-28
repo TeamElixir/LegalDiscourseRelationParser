@@ -70,10 +70,33 @@ public class Run {
 			System.out.println(" user1 : "+ar1.user1Id+" user1Rel : "+ar1.user1Relation+ " pairID : " + ar1.pairId + " svmRelation : " + ar1.svmRelation);
 			System.out.println("user2 : "+ar1.user2Id+" uer2Rel : "+ar1.user2Relation+ " pairID : " + ar1.pairId);
 		}*/
-		//System.out.println(checkPrecision(4));
-		//System.out.println(checkRecall(1));
-		analyzeShiftinView();
-		//generateClusters();
+		//checkCitationOR();
+		//System.out.println(checkPrecision(2));
+		//System.out.println(checkRecall(2));
+		//System.out.println(precisionOR(2));
+		//System.out.println(checkRecallOR(2));
+		//analyzeShiftinView();
+		generateClusters();
+		/*System.out.println("Elabo");
+		confusionMatrixBoth(2);
+		System.out.println("");
+		System.out.println("No Relation");
+		confusionMatrixBoth(1);
+		System.out.println("Shift In View");
+		confusionMatrixBoth(5);
+		System.out.println("");
+		System.out.println("Redundancy");
+		confusionMatrixBoth(3);
+		System.out.println("");
+		confusionMatrixBoth(4);
+		System.out.println("");
+		systemPredictCountFromBoth();
+		System.out.println("");
+		User1User2();*/
+
+		usersCorelationByType(2);
+		corelationByType1(2); //correct way
+		//systemusersCorelationByType(1); //will not be useful
 	}
 
 	public static double checkPrecision(int type){
@@ -103,6 +126,23 @@ public class Run {
 		double svmCount=0;
 		for (AnnotationRelation ar3:arList){
 			if(ar3.user1Relation == type && ar3.user1Relation == ar3.user2Relation){
+				userCount++;
+				if(ar3.svmRelation==type){
+					svmCount++;
+				}
+			}
+		}
+		System.out.println(svmCount);
+		System.out.println(userCount);
+		double recall = svmCount/userCount;
+		return recall;
+	}
+
+	public static double checkRecallOR(int type){
+		double userCount = 0;
+		double svmCount = 0;
+		for (AnnotationRelation ar3:arList){
+			if (ar3.user1Relation == type || ar3.user2Relation==type){
 				userCount++;
 				if(ar3.svmRelation==type){
 					svmCount++;
@@ -172,6 +212,98 @@ public class Run {
 		}else {
 			return 1;
 		}
+	}
+
+	public static void systemPredictCountFromBoth(){
+
+		double elabo = 0;
+		double noRelation = 0;
+		double citation = 0;
+		double shift_in_view = 0;
+		double redundancy = 0;
+
+		for (AnnotationRelation ar6 : arList){
+			if(ar6.user1Relation==ar6.user2Relation){
+
+					if(ar6.svmRelation == 1){
+						noRelation++;
+					}
+					if(ar6.svmRelation==2) {
+						elabo++;
+					}
+					if (ar6.svmRelation==3){
+						redundancy++;
+					}
+					if (ar6.svmRelation==4){
+						citation++;
+					}
+					if(ar6.svmRelation==5){
+						shift_in_view++;
+					}
+				}
+
+		}
+
+		System.out.println("systemElabo : "+elabo);
+		System.out.println("systemNoRelation : "+noRelation);
+		System.out.println("system : "+ redundancy);
+		System.out.println("systemElabo : "+citation);
+		System.out.println("systemElabo : "+shift_in_view);
+	}
+
+	public  static void User1User2(){
+		double user1user2=0;
+		for (AnnotationRelation ar : arList){
+			if(ar.user1Relation==ar.user2Relation){
+				user1user2++;
+			}
+		}
+		System.out.println("User 1 and User 2: "+ user1user2);
+	}
+
+
+	public static void confusionMatrixBoth(int type){
+		double totalUser = 0;
+		double elabo = 0;
+		double noRelation = 0;
+		double citation = 0;
+		double shift_in_view = 0;
+		double redundancy = 0;
+
+
+		for (AnnotationRelation ar6 : arList){
+			if(ar6.user1Relation==ar6.user2Relation){
+
+				if(ar6.user1Relation == type){
+					totalUser++;
+					if(ar6.svmRelation == 1){
+						noRelation++;
+					}else if(ar6.svmRelation==2){
+						elabo++;
+					}else if (ar6.svmRelation==3){
+						redundancy++;
+					}else if (ar6.svmRelation==4){
+						citation++;
+					}else if(ar6.svmRelation==5){
+						shift_in_view++;
+					}
+				}
+			}
+		}
+
+		double elaboRatio = elabo/totalUser;
+		double noRelationRatio = noRelation/totalUser;
+		double shift_in_view_Ratio = shift_in_view/totalUser;
+		double citationRatio = citation/totalUser;
+		double redundancyRatio = redundancy/totalUser;
+		System.out.println(elabo);
+		System.out.println(totalUser);
+		System.out.println("elabo: "+elaboRatio);
+		System.out.println("noRelation: "+noRelationRatio);
+		System.out.println("shiftInView: "+shift_in_view_Ratio);
+		System.out.println("Citation: "+citationRatio);
+		System.out.println("Redundancy: "+redundancyRatio);
+		System.out.println("Total: "+totalUser);
 	}
 
 	public static void generateClusters(){
@@ -246,6 +378,176 @@ public class Run {
 		System.out.println("SyUS2 : "+finalSyUS2);
 		System.out.println("SyUS1US2 : "+finalSyUS2US1);
 	}
+
+	public static double precisionOR(int type){
+		double svmCount = 0;
+		double userCount = 0;
+		for(AnnotationRelation ar2:arList){
+			if(ar2.svmRelation==type){
+				svmCount++;
+				if(ar2.user1Relation==type|| ar2.user2Relation==type){
+						userCount++;
+				}
+			}
+		}
+
+		double precision= userCount/svmCount;
+		System.out.println(userCount);
+		System.out.println(svmCount);
+		return precision;
+	}
+
+	public static void corelationByType1(int type){
+             double US1=0;
+             double US2=0;
+             double Sys=0;
+             double US1US2=0;
+             double SysUS1=0;
+             double SysUS2=0;
+             double SysUS1US2=0;
+             double total=0;
+		int cS1U1=0;
+		int cS1U2=0;
+
+		for (AnnotationRelation ar7:arList) {
+			int user1 = ar7.user1Relation;
+			int user2 = ar7.user2Relation;
+			int system = ar7.svmRelation;
+
+
+			if( user1==type || user2==type || system==type){
+				total++;
+				if(user1==type && user2==type && system==type){
+					SysUS1US2++;
+				}else if(user1==type && user2==type){
+					US1US2++;
+				}else if (user1==type && system==type){
+					SysUS1++;
+				}else if (user2==type && system==type){
+					SysUS2++;
+				}else if(user1==type){
+					user1++;
+				}else if(user2==type){
+					user2++;
+				}else if(system==type){
+					system++;
+				}
+			}
+			if (user1==type && system==type && user2!=type){
+				cS1U1++;
+			}
+			if (user1!=type && system==type && user2==type){
+				cS1U2++;
+			}
+
+		}
+
+		double allAgree=SysUS1US2;
+		double usersAgree=SysUS1US2+US1US2;
+		double systemUsersAgree=SysUS1US2+SysUS1+SysUS2;
+
+		double atleast1Put = total;
+		double userCorelation = usersAgree/atleast1Put;
+		double systemUserCorelation = (systemUsersAgree)/atleast1Put;
+
+		/*System.out.println("systemUserAgree "+ systemUsersAgree);
+		System.out.println("SysUS1US2 "+ SysUS1US2);
+		System.out.println(cS1U1);
+		System.out.println(cS1U2);
+
+		System.out.println("userCorelation: "+userCorelation);*/
+		System.out.println("systemUserCorelation: "+systemUserCorelation);
+
+
+	}
+
+	public static void usersCorelationByType(int type){
+		double US1=0;
+		double US2=0;
+		double Sys=0;
+		double US1US2=0;
+		double SysUS1=0;
+		double SysUS2=0;
+		double SysUS1US2=0;
+		double total=0;
+
+		for (AnnotationRelation ar7:arList) {
+			int user1 = ar7.user1Relation;
+			int user2 = ar7.user2Relation;
+			int system = ar7.svmRelation;
+
+			if( user1==type || user2==type ){
+				total++;
+				 if(user1==type && user2==type){
+					US1US2++;
+				}
+			}
+		}
+
+
+		double userCorelation = US1US2/total;
+		System.out.println("userCorelation "+userCorelation);
+
+
+	}
+
+	public static void systemusersCorelationByType(int type){
+		double US1=0;
+		double US2=0;
+		double Sys=0;
+		double US1US2=0;
+		double SysUS1=0;
+		double SysUS2=0;
+		double SysUS1US2=0;
+		double totalUS1=0;
+		double totalUS2=0;
+
+		for (AnnotationRelation ar7:arList) {
+			int user1 = ar7.user1Relation;
+			//int user2 = ar7.user2Relation;
+			int system = ar7.svmRelation;
+
+			if( user1==type || system==type ){
+				totalUS1++;
+				if(user1==type && system==type){
+					SysUS1++;
+				}
+			}
+		}
+
+		for (AnnotationRelation ar7:arList) {
+			//int user1 = ar7.user1Relation;
+			int user2 = ar7.user2Relation;
+			int system = ar7.svmRelation;
+
+			if( user2==type || system==type ){
+				totalUS2++;
+				if(user2==type && system==type){
+					SysUS2++;
+				}
+			}
+		}
+		double user1Corelation = SysUS1/totalUS1;
+		double user2Corelation = SysUS2/totalUS2;
+		double userCorelation=(user1Corelation*totalUS1+user2Corelation*totalUS2)/(totalUS1+totalUS2);
+		System.out.println("userSystemCorelation "+userCorelation);
+
+
+	}
+
+	public static void checkCitationOR(){
+		int count=0;
+		for (AnnotationRelation ar:
+			 arList) {
+			if (ar.user1Relation==4 || ar.user2Relation==4){
+				count++;
+			}
+
+		}
+		System.out.println(count);
+	}
+
+
 
 }
 
