@@ -54,7 +54,9 @@ public class Run {
 					ar.user1Relation = dbrP.userRelation;
 					ar.user2Relation = resultSet1.getInt("user_annotation");
 
-					arList.add(ar);
+					if(arList.size()<182){
+						arList.add(ar);
+					}
 				}
 
 				dbrP.pairId = resultSet1.getInt("pair_id");
@@ -66,6 +68,11 @@ public class Run {
 		}
 
 		System.out.println("ok");
+		for(AnnotationRelation relation:arList){
+			if(relation.svmRelation==1 && relation.user1Relation==1 && relation.user2Relation==1){
+				System.out.println(relation);
+			}
+		}
 		/*for(AnnotationRelation ar1 :arList ){
 			System.out.println(" user1 : "+ar1.user1Id+" user1Rel : "+ar1.user1Relation+ " pairID : " + ar1.pairId + " svmRelation : " + ar1.svmRelation);
 			System.out.println("user2 : "+ar1.user2Id+" uer2Rel : "+ar1.user2Relation+ " pairID : " + ar1.pairId);
@@ -163,7 +170,7 @@ public class Run {
 		double systemElaboration = 0;
 		for (AnnotationRelation ar4:arList){
 			fullPairs++;
-			if(ar4.user1Relation==ar4.user2Relation && ar4.user1Relation==5){
+			if(ar4.user1Relation==ar4.user2Relation && ar4.user1Relation==2){
 				bothAgree ++;
 				if(ar4.svmRelation==2){
 					//systemElaboration++;
