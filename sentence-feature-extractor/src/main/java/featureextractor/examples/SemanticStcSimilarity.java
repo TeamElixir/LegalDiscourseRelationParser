@@ -6,8 +6,8 @@ import utils.NLPUtils;
 
 public class SemanticStcSimilarity {
     static NLPUtils nlpUtils = new NLPUtils("tokenize,ssplit,pos");
-    static String sentence1 = "Plane and John play cricket";
-    static String sentence2 = "Plane is driving in sky";
+    static String sentence1 = "Database";
+    static String sentence2 = "Database is a collection of data";
 
     public static void main(String[] args) {
 
@@ -17,7 +17,9 @@ public class SemanticStcSimilarity {
 
         SemanticSentenceSimilarity semanticSentenceSimilarity = new SemanticSentenceSimilarity(annotation1,
                 annotation2,nlpUtils);
+
         double finalScore = semanticSentenceSimilarity.getAverageScore();
+
         System.out.println("finalScore : "+finalScore);
     }
 }

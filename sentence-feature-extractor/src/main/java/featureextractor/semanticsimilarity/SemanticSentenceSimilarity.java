@@ -14,15 +14,17 @@ import edu.cmu.lti.ws4j.util.WS4JConfiguration;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Properties;
 
 public class SemanticSentenceSimilarity {
 
     private String sentence1 ;
     private String sentence2;
 
-    ArrayList<String> nouns = new ArrayList<>();
-    ArrayList<String> verbs = new ArrayList<>();
+    ArrayList<String> nouns1 = new ArrayList<>();
+    ArrayList<String> nouns2 = new ArrayList<>();
+    ArrayList<String> verbs1 = new ArrayList<>();
+    ArrayList<String> verbs2 = new ArrayList<>();
+
     private int nounCount=0;
     private int verbCount=0;
     private double aggregateNounDistance = 0;
@@ -77,56 +79,69 @@ public class SemanticSentenceSimilarity {
 
     public void getVerbsAndNouns(){
 
-        nouns.addAll(nlpUtils.getNouns(annotation1));
-        nouns.addAll(nlpUtils.getNouns(annotation2));
-        verbs.addAll(nlpUtils.getVerbs(annotation1));
-        verbs.addAll(nlpUtils.getVerbs(annotation2));
+        nouns1.addAll(nlpUtils.getNouns(annotation1));
+        nouns2.addAll(nlpUtils.getNouns(annotation2));
+        verbs1.addAll(nlpUtils.getVerbs(annotation1));
+        verbs2.addAll(nlpUtils.getVerbs(annotation2));
 
-      //  System.out.println("nouns :"+nouns);
-      //  System.out.println("verbs :"+verbs);
+      //  System.out.println("nouns1 :"+nouns1);
+      //  System.out.println("verbs1 :"+verbs1);
     }
 
     public void checkSimilarity() {
 
         getVerbsAndNouns();
-        if(nouns.size()>1) {
+        if(nouns1.size()>0 && nouns2.size()>0) {
             hasValue=true;
-            for (int i = 0; i < nouns.size() - 1; i++) {
-                for (int j = i + 1; j < nouns.size(); j++) {
+            for (int i = 0; i < nouns2.size(); i++) {
+                double maxdistance=0;
+                for (int j = 0; j < nouns1.size(); j++) {
                     double distance;
-                    if (nouns.get(i).equals(nouns.get(j))) {
+                    if (nouns2.get(i).equals(nouns1.get(j))) {
                         distance = 1;
                     } else {
 
-                        distance = wordSimilarity(nouns.get(i), POS.n, nouns.get(j), POS.n);
+                        distance = wordSimilarity(nouns2.get(i), POS.n, nouns1.get(j), POS.n);
 
                     }
-                    //compute(nouns.get(i), nouns.get(j));
-                    aggregateNounDistance += distance;
-//                    System.out.println(nouns.get(i) + " -  " + nouns.get(j) + " = " + distance);
-                    nounCount++;
-                    //System.out.println(nounCount);
+                    if(maxdistance<distance){
+                        maxdistance=distance;
+                    }
+                    //compute(nouns1.get(i), nouns1.get(j));
+
                 }
+                aggregateNounDistance += maxdistance;
+//                    System.out.println(nouns1.get(i) + " -  " + nouns1.get(j) + " = " + distance);
+
+
+                nounCount++;
+
+                //System.out.println(nounCount);
             }
         }
-        if (verbs.size()>1) {
+        if (verbs1.size()>0 && verbs2.size()>0) {
             hasValue=true;
-            for (int i = 0; i < verbs.size() - 1; i++) {
-                for (int j = i + 1; j < verbs.size(); j++) {
+            for (int i = 0; i < verbs2.size(); i++) {
+                double maxdistance=0;
+                for (int j = 0; j < verbs1.size(); j++) {
 
                     double distance;
-                    if (verbs.get(i).equals(verbs.get(j))) {
+                    if (verbs2.get(i).equals(verbs1.get(j))) {
                         distance = 1;
                     } else {
-                        distance = wordSimilarity(verbs.get(i), POS.v, verbs.get(j), POS.v);
+                        distance = wordSimilarity(verbs2.get(i), POS.v, verbs1.get(j), POS.v);
 
-                        //compute(verbs.get(i), verbs.get(j));
+                        //compute(verbs1.get(i), verbs1.get(j));
                     }
-                    aggregateVerbDistance += distance;
-                    //System.out.println(verbs.get(i) + " -  " + verbs.get(j) + " = " + distance);
-                    verbCount++;
-                    //System.out.println(verbCount);
+                    if(maxdistance<distance){
+                        maxdistance=distance;
+                    }
+
                 }
+                aggregateVerbDistance += maxdistance;
+                //System.out.println(verbs1.get(i) + " -  " + verbs1.get(j) + " = " + distance);
+                verbCount++;
+                //System.out.println(verbCount);
             }
 
         }
@@ -135,16 +150,21 @@ public class SemanticSentenceSimilarity {
     public double getAverageScore(){
         checkSimilarity();
         if(nounCount==0 && verbCount==0) {
+
             return 0.0;
         }else if(!hasValue){
+
             return 0.0;
         }
+
         double score = (aggregateNounDistance + aggregateVerbDistance) / (double) (nounCount + verbCount);
         /*double finalScore = score * 2;
         if(finalScore >= 1){
            return 1;
         }*/
+
         return score;
+
     }
 
 

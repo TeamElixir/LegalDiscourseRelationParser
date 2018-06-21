@@ -54,9 +54,10 @@ public class Run {
 					ar.user1Relation = dbrP.userRelation;
 					ar.user2Relation = resultSet1.getInt("user_annotation");
 
-					if(arList.size()<182){
+					/*if(arList.size()<180){
 						arList.add(ar);
-					}
+					}*/
+					arList.add(ar);
 				}
 
 				dbrP.pairId = resultSet1.getInt("pair_id");
@@ -79,14 +80,17 @@ public class Run {
 		}*/
 		//checkCitationOR();
 		//System.out.println(checkPrecision(2));
+
 		//System.out.println(checkRecall(2));
-		//System.out.println(precisionOR(2));
-		//System.out.println(checkRecallOR(2));
+
+		/*System.out.println(precisionOR(1));
+		System.out.println("Recall");
+		System.out.println(checkRecallOR(1));*/
 		//analyzeShiftinView();
-		generateClusters();
-		/*System.out.println("Elabo");
-		confusionMatrixBoth(2);
-		System.out.println("");
+		//generateClusters();
+		//System.out.println("Elabo");
+		//confusionMatrixBoth(5);
+		/*System.out.println("");
 		System.out.println("No Relation");
 		confusionMatrixBoth(1);
 		System.out.println("Shift In View");
@@ -101,8 +105,12 @@ public class Run {
 		System.out.println("");
 		User1User2();*/
 
-		usersCorelationByType(2);
-		corelationByType1(2); //correct way
+		getShiftInView();
+
+		/*System.out.println("user");
+		usersCorelationByType(1);
+		System.out.println("system");
+		corelationByType1(1);*/ //correct way
 		//systemusersCorelationByType(1); //will not be useful
 	}
 
@@ -170,7 +178,7 @@ public class Run {
 		double systemElaboration = 0;
 		for (AnnotationRelation ar4:arList){
 			fullPairs++;
-			if(ar4.user1Relation==ar4.user2Relation && ar4.user1Relation==2){
+			if(ar4.user1Relation==ar4.user2Relation && ar4.user1Relation==5){
 				bothAgree ++;
 				if(ar4.svmRelation==2){
 					//systemElaboration++;
@@ -548,7 +556,24 @@ public class Run {
 			 arList) {
 			if (ar.user1Relation==4 || ar.user2Relation==4){
 				count++;
+				System.out.println(ar.pairId);
 			}
+
+		}
+
+	}
+
+	public static void getShiftInView(){
+		int count=0;
+		for (AnnotationRelation ar:
+				arList) {
+			if (ar.user1Relation==5 || ar.user2Relation==5){
+				System.out.println("pairdID");
+				System.out.println(ar.pairId);
+
+				count++;
+			}
+
 
 		}
 		System.out.println(count);
