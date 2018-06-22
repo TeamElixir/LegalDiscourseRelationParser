@@ -202,15 +202,38 @@ public class NLPUtils {
 	 * @return arraylist containing two changed sentences sourceSentence-0 , targetSentence-1
 	 */
 	public ArrayList<String> replaceCoreferences(Annotation annotation, String sourceSentence, String targetSentence){
+        ArrayList<ArrayList<String>>  sentenceWords = new ArrayList<>();
+        ArrayList<ArrayList<Integer>> sentenceUnreplacableIndices = new ArrayList<>();
 
+		List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
+		for (CoreMap sentence : sentences) {
+			ArrayList<String>  tokenizedWords = new ArrayList<>();
+			ArrayList<Integer> unreplacableWordIndices = new ArrayList<>();
+			for (CoreLabel token: sentence.get(CoreAnnotations.TokensAnnotation.class)) {
+				String word = token.get(CoreAnnotations.TextAnnotation.class);
+				String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
+                tokenizedWords.add(word);
+				// proper nouns and pronouns are considered
+				if( "PRP$".equals(pos)){
+					unreplacableWordIndices.add(token.index());
+				}
+			}
+			sentenceWords.add(tokenizedWords);
+			sentenceUnreplacableIndices.add(unreplacableWordIndices);
+		}
 		for (CorefChain chain : annotation.get(CorefCoreAnnotations.CorefChainAnnotation.class).values()) {
 			String represent = chain.getRepresentativeMention().mentionSpan;
 			represent = represent.replaceAll("\\$","&");
+			System.out.println("represent: "+represent);
 			for(CorefChain.CorefMention mention: chain.getMentionsInTextualOrder()){
 				int sentNo = mention.sentNum;
 				int startIndex = mention.startIndex;
 				int endIndex = mention.endIndex;
 				String word = mention.mentionSpan;
+				System.out.println("word : "+word);
+				System.out.println("sIndex: "+startIndex);
+				System.out.println("eIndex: "+ endIndex);
+				System.out.println("type : "+ mention.mentionType);
 				if(sentNo==1){
 					targetSentence = targetSentence.replaceAll(word,represent);
 				}else if(sentNo==2){
@@ -218,6 +241,9 @@ public class NLPUtils {
 				}
 			}
 		}
+		System.out.println("2 array lists");
+		System.out.println(sentenceWords.toString());
+		System.out.println(sentenceUnreplacableIndices.toString());
 
 		return new ArrayList<>(Arrays.asList(sourceSentence,targetSentence));
 	}
