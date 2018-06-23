@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import edu.stanford.nlp.coref.CorefCoreAnnotations;
 import edu.stanford.nlp.coref.data.CorefChain;
@@ -250,10 +252,8 @@ public class NLPUtils {
                 System.out.println("type : " + mention.mentionType);
                 if (sentNo == 1) {
                     referencesSentence1.add(referenceModel);
-                    targetSentence = targetSentence.replaceAll(word, represent);
                 } else if (sentNo == 2) {
                     referencesSentence2.add(referenceModel);
-                    sourceSentence = sourceSentence.replaceAll(word, represent);
                 }
             }
         }
@@ -264,7 +264,7 @@ public class NLPUtils {
         referencedSentences.add(referencesSentence2);
 
 
-        for(int j=0;j<sentenceWords.size();j++) {
+        for (int j = 0; j < sentenceWords.size(); j++) {
             ArrayList<String> currentSentence = sentenceWords.get(j);
             ArrayList<String> replaceSingleSentence = new ArrayList<>();
 
@@ -293,14 +293,17 @@ public class NLPUtils {
                 }
             }
             replaceSentenceWords.add(replaceSingleSentence);
+
         }
 
-
+        String changedSentence1 = this.referenceReplacedSentence(replaceSentenceWords.get(0));
+        String changedSentence2 = this.referenceReplacedSentence(replaceSentenceWords.get(1));
 
         System.out.println("2 replaced Sentences");
         System.out.println(replaceSentenceWords.get(0).toString());
         System.out.println(replaceSentenceWords.get(1).toString());
-
+        System.out.println(changedSentence1);
+        System.out.println(changedSentence2);
 
         return new ArrayList<>(Arrays.asList(sourceSentence, targetSentence));
     }
@@ -333,4 +336,28 @@ public class NLPUtils {
 		}
 	}
 	*/
+
+    private String referenceReplacedSentence(ArrayList<String> tokenList) {
+        Pattern p = Pattern.compile("(\\w+)");
+        String referencedSentence = "";
+
+        for (int i = 0; i < tokenList.size(); i++) {
+            String token = tokenList.get(i);
+            if (i == 0) {
+                referencedSentence = referencedSentence + token;
+            } else {
+                String[] words = token.split(" ");
+                Matcher m1 = p.matcher(words[0]);
+                if (m1.matches()) {
+                    referencedSentence = referencedSentence + " " + token;
+                } else {
+                    referencedSentence = referencedSentence + token;
+                }
+            }
+        }
+
+        return referencedSentence;
+    }
+
+
 }
