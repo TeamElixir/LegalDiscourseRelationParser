@@ -22,7 +22,7 @@ public class Coreferencer {
 
         // annotate both sentences in order to resolve coreferences
         Annotation annotation = nlpUtils.annotate(corefText);
-        ArrayList<String> resolvedSents = nlpUtils.replaceCoreferences(annotation, sourceSentence, targetSentence);
+        ArrayList<String> resolvedSents = nlpUtils.replaceCoreferences(annotation);
 
         // coreferences replaced new sentences
         sourceSentence = resolvedSents.get(0);

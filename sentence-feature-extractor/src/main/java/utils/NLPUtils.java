@@ -199,11 +199,9 @@ public class NLPUtils {
 
     /**
      * @param annotation     annotated string - targetSentence + " " + sourceSentence
-     * @param sourceSentence
-     * @param targetSentence
      * @return arraylist containing two changed sentences sourceSentence-0 , targetSentence-1
      */
-    public ArrayList<String> replaceCoreferences(Annotation annotation, String sourceSentence, String targetSentence) {
+    public ArrayList<String> replaceCoreferences(Annotation annotation) {
         ArrayList<ArrayList<String>> sentenceWords = new ArrayList<>();
         ArrayList<ArrayList<String>> replaceSentenceWords = new ArrayList<>();
         ArrayList<ArrayList<Integer>> unReplacableIndices = new ArrayList<>();
@@ -245,11 +243,6 @@ public class NLPUtils {
                 referenceModel.setStartIndex(startIndex);
                 referenceModel.setEndIndex(endIndex);
 
-
-                System.out.println("word : " + word);
-                System.out.println("sIndex: " + startIndex);
-                System.out.println("eIndex: " + endIndex);
-                System.out.println("type : " + mention.mentionType);
                 if (sentNo == 1) {
                     referencesSentence1.add(referenceModel);
                 } else if (sentNo == 2) {
@@ -257,9 +250,7 @@ public class NLPUtils {
                 }
             }
         }
-        System.out.println("2 array lists");
-        System.out.println(sentenceWords.toString());
-        System.out.println(unReplacableIndices.toString());
+
         referencedSentences.add(referencesSentence1);
         referencedSentences.add(referencesSentence2);
 
@@ -277,10 +268,6 @@ public class NLPUtils {
                     if (referenceModel.getStartIndex() == m) {
                         if (!unReplacableIndices.get(j).contains(referenceModel.getStartIndex())) {
                             int additionalLenght = referenceModel.getEndIndex() - referenceModel.getStartIndex();
-                            System.out.println(referenceModel.getRepresent());
-                            System.out.println(referenceModel.getReplacableWord());
-                            System.out.println("additionalLength");
-                            System.out.println(additionalLenght);
                             i += additionalLenght - 1;
                             replaceSingleSentence.add(referenceModel.getRepresent());
                             wordAdded = true;
@@ -296,14 +283,9 @@ public class NLPUtils {
 
         }
 
-        String changedSentence1 = this.referenceReplacedSentence(replaceSentenceWords.get(0));
-        String changedSentence2 = this.referenceReplacedSentence(replaceSentenceWords.get(1));
+        String targetSentence = this.referenceReplacedSentence(replaceSentenceWords.get(0));
+        String sourceSentence = this.referenceReplacedSentence(replaceSentenceWords.get(1));
 
-        System.out.println("2 replaced Sentences");
-        System.out.println(replaceSentenceWords.get(0).toString());
-        System.out.println(replaceSentenceWords.get(1).toString());
-        System.out.println(changedSentence1);
-        System.out.println(changedSentence2);
 
         return new ArrayList<>(Arrays.asList(sourceSentence, targetSentence));
     }
