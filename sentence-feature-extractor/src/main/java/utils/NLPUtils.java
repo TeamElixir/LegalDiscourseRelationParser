@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.Set;
 
 import edu.stanford.nlp.coref.CorefCoreAnnotations;
 import edu.stanford.nlp.coref.data.CorefChain;
@@ -19,6 +20,7 @@ import edu.stanford.nlp.semgraph.SemanticGraph;
 import edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations;
 import edu.stanford.nlp.semgraph.SemanticGraphEdge;
 import edu.stanford.nlp.util.CoreMap;
+import edu.stanford.nlp.trees.*;
 import shifinview.ReferenceModel;
 
 public class NLPUtils {
@@ -339,6 +341,22 @@ public class NLPUtils {
         }
 
         return referencedSentence;
+    }
+
+    public void constituentParse(Annotation annotation) {
+
+        // get tree
+        Tree tree =
+                annotation.get(CoreAnnotations.SentencesAnnotation.class).get(0).get(TreeCoreAnnotations.TreeAnnotation.class);
+        System.out.println(tree);
+        Set<Constituent> treeConstituents = tree.constituents(new LabeledScoredConstituentFactory());
+        for (Constituent constituent : treeConstituents) {
+            if (constituent.label() != null &&
+                    (constituent.label().toString().equals("S") )) {
+                System.err.println("found constituent: " + constituent.toString());
+                System.err.println(tree.getLeaves().subList(constituent.start(), constituent.end() + 1));
+            }
+        }
     }
 
 
