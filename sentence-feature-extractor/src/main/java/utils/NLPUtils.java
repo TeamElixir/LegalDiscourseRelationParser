@@ -343,12 +343,13 @@ public class NLPUtils {
         return referencedSentence;
     }
 
-    public void constituentParse(Annotation annotation) {
+    public Tree constituentParse(Annotation annotation) {
 
         // get tree
         Tree tree =
                 annotation.get(CoreAnnotations.SentencesAnnotation.class).get(0).get(TreeCoreAnnotations.TreeAnnotation.class);
-        System.out.println(tree);
+        return tree;
+       /* System.out.println(tree);
         Set<Constituent> treeConstituents = tree.constituents(new LabeledScoredConstituentFactory());
         for (Constituent constituent : treeConstituents) {
             if (constituent.label() != null &&
@@ -356,7 +357,17 @@ public class NLPUtils {
                 System.err.println("found constituent: " + constituent.toString());
                 System.err.println(tree.getLeaves().subList(constituent.start(), constituent.end() + 1));
             }
+        }*/
+    }
+
+    public ArrayList<SemanticGraph> getSemanticDependencyGraph(Annotation annotation){
+        ArrayList<SemanticGraph> graphs=new ArrayList<>();
+        List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
+        for (CoreMap sentence : sentences) {
+            SemanticGraph dependencies = sentence.get(SemanticGraphCoreAnnotations.EnhancedPlusPlusDependenciesAnnotation.class);
+            graphs.add(dependencies);
         }
+        return graphs;
     }
 
 

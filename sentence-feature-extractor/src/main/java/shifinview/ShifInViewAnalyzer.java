@@ -12,7 +12,7 @@ public class ShifInViewAnalyzer {
         String targetSentence = "Although he has lived in this country for most of his life, Lee is not a United States" +
                 " citizen, and he feared that a criminal conviction might affect his status as a lawful " +
                 "permanent resident.";
-        String sourceSentence = "His attorney assured him there was nothing to worry about--the Government would not " +
+        String sourceSentence = "His attorney assured him there was nothing to worry about,the Government would not " +
                 "deport him if he pleaded guilty.\n";
 
         ArrayList<String> coreferencedSentences = new ArrayList<>();
@@ -28,7 +28,7 @@ public class ShifInViewAnalyzer {
 
         NLPUtils nlpUtils =  new NLPUtils(props);
         // build annotation for a review
-        Annotation annotation = nlpUtils.annotate(targetSentence);
+        Annotation annotation = nlpUtils.annotate(sourceSentence);
 
 
 
