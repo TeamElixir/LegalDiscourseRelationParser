@@ -30,7 +30,25 @@ public class ConstituentParser {
             }
         }
         createSentences();
-        System.out.println(tree.toString());
+        //System.out.println(tree.toString());
+
+
+    }
+
+    private void createSentences(){
+        for(List<Tree> wordArray:wordArrays){
+            System.out.println(wordArray);
+            String sentence = "";
+            for(Tree word:wordArray){
+                sentence=sentence+" "+word.toString();
+
+            }
+            System.out.println(sentence);
+        }
+    }
+
+    private void getVerbRelationships(Annotation annotation,NLPUtils nlpUtils){
+
         graphs=nlpUtils.getSemanticDependencyGraph(annotation);
         for (SemanticGraph graph:graphs){
             Collection<TypedDependency> typedDependencies =graph.typedDependencies();
@@ -54,25 +72,15 @@ public class ConstituentParser {
                     verb.setRelation(dependency.reln().toString());
 
                     System.out.println("printtt");
+                    System.out.println("");
                     System.out.println(verb.getRelation());
                     System.out.println(verb.getDepLemma());
                     System.out.println(verb.getGovLemma());
+                    System.out.println("");
                 }
 
             }
         }
 
-    }
-
-    private void createSentences(){
-        for(List<Tree> wordArray:wordArrays){
-            System.out.println(wordArray);
-            String sentence = "";
-            for(Tree word:wordArray){
-                sentence=sentence+" "+word.toString();
-
-            }
-            System.out.println(sentence);
-        }
     }
 }
