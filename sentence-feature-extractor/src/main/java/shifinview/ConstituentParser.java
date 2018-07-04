@@ -47,8 +47,9 @@ public class ConstituentParser {
         }
     }
 
-    private void getVerbRelationships(Annotation annotation,NLPUtils nlpUtils){
+    public ArrayList<Verb> getVerbRelationships(Annotation annotation,NLPUtils nlpUtils){
 
+        ArrayList<Verb> verbArrayList = new ArrayList<>();
         graphs=nlpUtils.getSemanticDependencyGraph(annotation);
         for (SemanticGraph graph:graphs){
             Collection<TypedDependency> typedDependencies =graph.typedDependencies();
@@ -70,17 +71,14 @@ public class ConstituentParser {
                     verb.setGovWord(dependency.gov().word());
                     verb.setGovTag(dependency.gov().tag());
                     verb.setRelation(dependency.reln().toString());
+                    verbArrayList.add(verb);
 
-                    System.out.println("printtt");
-                    System.out.println("");
-                    System.out.println(verb.getRelation());
-                    System.out.println(verb.getDepLemma());
-                    System.out.println(verb.getGovLemma());
-                    System.out.println("");
                 }
 
             }
         }
+
+        return verbArrayList;
 
     }
 }

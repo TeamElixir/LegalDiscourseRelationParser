@@ -2,6 +2,7 @@ package shifinview;
 
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
+import shifinview.models.Verb;
 import utils.NLPUtils;
 
 import java.util.ArrayList;
@@ -14,6 +15,10 @@ public class ShifInViewAnalyzer {
                 "permanent resident.";
         String sourceSentence = "His attorney assured him there was nothing to worry about,the Government would not " +
                 "deport him if he pleaded guilty.\n";
+        ArrayList<Verb> verbsSentence1;
+        ArrayList<Verb> verbsSentence2;
+        Annotation targetAnnotation;
+        Annotation sourceAnnotation;
 
         ArrayList<String> coreferencedSentences = new ArrayList<>();
 
@@ -28,8 +33,8 @@ public class ShifInViewAnalyzer {
 
         NLPUtils nlpUtils =  new NLPUtils(props);
         // build annotation for a review
-        Annotation annotation = nlpUtils.annotate(sourceSentence);
-
+        sourceAnnotation = nlpUtils.annotate(sourceSentence);
+        targetAnnotation = nlpUtils.annotate(targetSentence);
 
 
 
@@ -38,7 +43,31 @@ public class ShifInViewAnalyzer {
         System.out.println(coreferencedSentences.get(0));
         System.out.println(coreferencedSentences.get(1));*/
        ConstituentParser constituentParser = new ConstituentParser();
-       constituentParser.runConstituentParser(annotation,nlpUtils);
+       constituentParser.runConstituentParser(sourceAnnotation,nlpUtils);
+
+        System.out.println("break");
+
+       verbsSentence1 = constituentParser.getVerbRelationships(sourceAnnotation,nlpUtils);
+
+       for(Verb verb : verbsSentence1){
+           System.out.println("verb relation");
+           System.out.println(" ");
+           System.out.println(verb.getRelation());
+           System.out.println(verb.getDepLemma());
+           System.out.println(verb.getGovLemma());
+           System.out.println(" ");
+       }
+
+        System.out.println( targetSentence);
+        verbsSentence2 = constituentParser.getVerbRelationships(targetAnnotation,nlpUtils);
+        for(Verb verb : verbsSentence2){
+            System.out.println("verb relation");
+            System.out.println(" ");
+            System.out.println(verb.getRelation());
+            System.out.println(verb.getDepLemma());
+            System.out.println(verb.getGovLemma());
+            System.out.println(" ");
+        }
 
     }
 }
