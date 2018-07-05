@@ -49,23 +49,39 @@ public class ShifInViewAnalyzer {
 
        verbsSentence1 = constituentParser.getVerbRelationships(sourceAnnotation,nlpUtils);
 
-       for(Verb verb : verbsSentence1){
-           System.out.println("verb relation");
-           System.out.println(" ");
-           System.out.println(verb.getRelation());
-           System.out.println(verb.getDepLemma());
-           System.out.println(verb.getGovLemma());
-           System.out.println(" ");
-       }
-
-        System.out.println( targetSentence);
-        verbsSentence2 = constituentParser.getVerbRelationships(targetAnnotation,nlpUtils);
-        for(Verb verb : verbsSentence2){
+        for(int j=0;j<verbsSentence1.size();j++){
+            Verb verb = verbsSentence1.get(j);
             System.out.println("verb relation");
             System.out.println(" ");
             System.out.println(verb.getRelation());
-            System.out.println(verb.getDepLemma());
-            System.out.println(verb.getGovLemma());
+            if(verb.isVerbIsDep()){
+                System.out.println(verb.getDepLemma());
+                System.out.println(j);
+            }
+            if(verb.isVerbIsGov()){
+                System.out.println(verb.getGovLemma());
+                System.out.println(j);
+            }
+            System.out.println(" ");
+        }
+
+        System.out.println( "targetSentence");
+        System.out.println(" ");
+
+        verbsSentence2 = constituentParser.getVerbRelationships(targetAnnotation,nlpUtils);
+        for(int j=0;j<verbsSentence2.size();j++){
+            Verb verb = verbsSentence2.get(j);
+            System.out.println("verb relation");
+            System.out.println(" ");
+            System.out.println(verb.getRelation());
+            if(verb.isVerbIsDep()){
+                System.out.println(verb.getDepLemma());
+                System.out.println(j);
+            }
+            if(verb.isVerbIsGov()){
+                System.out.println(verb.getGovLemma());
+                System.out.println(j);
+            }
             System.out.println(" ");
         }
 

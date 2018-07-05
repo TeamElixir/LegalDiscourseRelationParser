@@ -60,9 +60,7 @@ public class ConstituentParser {
                 String govTag = dependency.gov().tag();
 
                 if ("VB".equals(depTag) || "VBD".equals(depTag) || "VBG".equals(depTag) ||
-                        "VBN".equals(depTag) || "VBP".equals(depTag) || "VBZ".equals(depTag)||
-                        "VB".equals(govTag) || "VBD".equals(govTag) || "VBG".equals(govTag) ||
-                        "VBN".equals(govTag) || "VBP".equals(govTag) || "VBZ".equals(govTag) ) {
+                        "VBN".equals(depTag) || "VBP".equals(depTag) || "VBZ".equals(depTag)) {
                     Verb verb = new Verb();
                     verb.setDepLemma(dependency.dep().lemma());
                     verb.setDepWord(dependency.dep().word());
@@ -71,8 +69,21 @@ public class ConstituentParser {
                     verb.setGovWord(dependency.gov().word());
                     verb.setGovTag(dependency.gov().tag());
                     verb.setRelation(dependency.reln().toString());
+                    verb.setVerbIsDep(true);
                     verbArrayList.add(verb);
 
+                }else if( "VB".equals(govTag) || "VBD".equals(govTag) || "VBG".equals(govTag) ||
+                        "VBN".equals(govTag) || "VBP".equals(govTag) || "VBZ".equals(govTag) ){
+                    Verb verb = new Verb();
+                    verb.setDepLemma(dependency.dep().lemma());
+                    verb.setDepWord(dependency.dep().word());
+                    verb.setDepTag(dependency.dep().tag());
+                    verb.setGovLemma(dependency.gov().lemma());
+                    verb.setGovWord(dependency.gov().word());
+                    verb.setGovTag(dependency.gov().tag());
+                    verb.setRelation(dependency.reln().toString());
+                    verb.setVerbIsGov(true);
+                    verbArrayList.add(verb);
                 }
 
             }

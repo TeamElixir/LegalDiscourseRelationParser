@@ -8,9 +8,28 @@ public class Verb {
     private String govWord;
     private String govLemma;
     private String govTag;
+    private boolean verbIsGov;
+    private boolean verbIsDep;
+
+    public boolean isVerbIsGov() {
+        return verbIsGov;
+    }
+
+    public void setVerbIsGov(boolean verbIsGov) {
+        this.verbIsGov = verbIsGov;
+    }
+
+    public boolean isVerbIsDep() {
+        return verbIsDep;
+    }
+
+    public void setVerbIsDep(boolean verbIsDep) {
+        this.verbIsDep = verbIsDep;
+    }
 
     public String getRelation() {
         return relation;
+
     }
 
     public void setRelation(String relation) {
