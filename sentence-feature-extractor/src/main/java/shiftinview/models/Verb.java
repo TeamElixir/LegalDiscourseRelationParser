@@ -1,4 +1,4 @@
-package shifinview.models;
+package shiftinview.models;
 
 public class Verb {
     private String relation;

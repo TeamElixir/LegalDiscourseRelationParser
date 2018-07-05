@@ -1,14 +1,14 @@
-package shifinview;
+package shiftinview;
 
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
-import shifinview.models.Verb;
+import shiftinview.models.Verb;
 import utils.NLPUtils;
 
 import java.util.ArrayList;
 import java.util.Properties;
 
-public class ShifInViewAnalyzer {
+public class ShiftInViewAnalyzer {
     public static void main(String[] args) {
         String targetSentence = "Although he has lived in this country for most of his life, Lee is not a United States" +
                 " citizen, and he feared that a criminal conviction might affect his status as a lawful " +

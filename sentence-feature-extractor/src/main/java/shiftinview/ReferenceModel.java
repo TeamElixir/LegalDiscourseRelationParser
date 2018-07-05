@@ -1,4 +1,4 @@
-package shifinview;
+package shiftinview;
 
 public class ReferenceModel {
     private String represent;
