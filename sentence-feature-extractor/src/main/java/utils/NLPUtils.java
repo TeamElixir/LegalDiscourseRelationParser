@@ -21,7 +21,7 @@ import edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations;
 import edu.stanford.nlp.semgraph.SemanticGraphEdge;
 import edu.stanford.nlp.util.CoreMap;
 import edu.stanford.nlp.trees.*;
-import shifinview.ReferenceModel;
+import shiftinview.ReferenceModel;
 
 public class NLPUtils {
 

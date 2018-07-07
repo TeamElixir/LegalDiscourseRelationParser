@@ -3,7 +3,6 @@ package featureextractor.examples;
 import edu.stanford.nlp.pipeline.Annotation;
 import featureextractor.grammaticalrelationships.GrammarOverlapRatio;
 import featureextractor.lexicalsimilarity.OverlapWordRatio;
-import shifinview.ConstituentParser;
 import utils.NLPUtils;
 
 import java.util.ArrayList;
