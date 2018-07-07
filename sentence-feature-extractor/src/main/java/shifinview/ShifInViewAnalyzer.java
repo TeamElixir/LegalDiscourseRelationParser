@@ -2,11 +2,14 @@ package shifinview;
 
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
+import featureextractor.semanticsimilarity.SemanticSentenceSimilarity;
 import shifinview.models.Verb;
 import utils.NLPUtils;
 
 import java.util.ArrayList;
 import java.util.Properties;
+
+import edu.cmu.lti.jawjaw.pobj.POS;
 
 public class ShifInViewAnalyzer {
     public static void main(String[] args) {
@@ -43,47 +46,85 @@ public class ShifInViewAnalyzer {
         System.out.println(coreferencedSentences.get(0));
         System.out.println(coreferencedSentences.get(1));*/
        ConstituentParser constituentParser = new ConstituentParser();
-       constituentParser.runConstituentParser(sourceAnnotation,nlpUtils);
+     //  constituentParser.runConstituentParser(sourceAnnotation,nlpUtils);
 
         System.out.println("break");
 
        verbsSentence1 = constituentParser.getVerbRelationships(sourceAnnotation,nlpUtils);
 
-        for(int j=0;j<verbsSentence1.size();j++){
-            Verb verb = verbsSentence1.get(j);
-            System.out.println("verb relation");
-            System.out.println(" ");
-            System.out.println(verb.getRelation());
-            if(verb.isVerbIsDep()){
-                System.out.println(verb.getDepLemma());
-                System.out.println(j);
-            }
-            if(verb.isVerbIsGov()){
-                System.out.println(verb.getGovLemma());
-                System.out.println(j);
-            }
-            System.out.println(" ");
-        }
+
 
         System.out.println( "targetSentence");
         System.out.println(" ");
 
         verbsSentence2 = constituentParser.getVerbRelationships(targetAnnotation,nlpUtils);
+        String verbSource="";
+        String verbTarget="";
+        String currentSourceVerb="";
+        String currentTargetVerb = "";
+        Verb secondverb;
+        Verb verb;
+        ArrayList<String[]> closeVerbs = new ArrayList<>();
+
+
+        System.out.println("array sizes");
+        System.out.println(verbsSentence2.size());
+        System.out.println(verbsSentence1.size());
+
         for(int j=0;j<verbsSentence2.size();j++){
-            Verb verb = verbsSentence2.get(j);
-            System.out.println("verb relation");
-            System.out.println(" ");
-            System.out.println(verb.getRelation());
+            verb = verbsSentence2.get(j);
+
             if(verb.isVerbIsDep()){
-                System.out.println(verb.getDepLemma());
-                System.out.println(j);
+               verbTarget = verb.getDepLemma();
             }
-            if(verb.isVerbIsGov()){
-                System.out.println(verb.getGovLemma());
-                System.out.println(j);
+            else if(verb.isVerbIsGov()){
+                verbTarget=verb.getGovLemma();
             }
-            System.out.println(" ");
+            for(int i=0;i<verbsSentence1.size();i++){
+                 secondverb= verbsSentence1.get(i);
+
+
+                if(secondverb.isVerbIsDep()){
+                    verbSource=secondverb.getDepLemma();
+                }
+                else if(secondverb.isVerbIsGov()){
+                    verbSource=secondverb.getGovLemma();
+                }
+                /*System.out.println(" ");
+                System.out.println("s  "  +verbSource);
+                System.out.println("t  "+ verbTarget);*/
+                SemanticSentenceSimilarity semanticSentenceSimilarity= new SemanticSentenceSimilarity();
+                double score =semanticSentenceSimilarity.wordSimilarity(verbSource,POS.v,verbTarget,POS.v);
+                if(score>=0.8){
+                    if(!currentSourceVerb.equals(verbSource) || !currentTargetVerb.equals(verbTarget)){
+                        String[] verbPair = new String[2];
+                        verbPair[0]=verbTarget;
+                        verbPair[1]=verbSource;
+                        currentSourceVerb=verbSource;
+                        currentTargetVerb=verbTarget;
+                        closeVerbs.add(verbPair);
+
+                    }
+                }
+
+                //System.out.println("score: "+score);
+
+            }
+
         }
+
+        System.out.println("close verbs");
+        for(String[] pair:closeVerbs){
+            System.out.println(pair[0]);
+            System.out.println(pair[1]);
+            System.out.println("");
+        }
+
+
+
+
+
+
 
     }
 }

@@ -43,6 +43,10 @@ public class SemanticSentenceSimilarity {
         nlpUtils = nlpUtls;
     }
 
+    public SemanticSentenceSimilarity(){
+
+    }
+
     private double compute(String word1, String word2) {
         WS4JConfiguration.getInstance().setMFS(true);
         double s = new WuPalmer(db).calcRelatednessOfWords(word1, word2);

@@ -116,6 +116,7 @@ public class NLPUtils {
         return verbsWithOutBe;
     }
 
+
     public ArrayList<String> getAdjectives(Annotation annotation) {
         ArrayList<String> adjectives = new ArrayList<>();
 
