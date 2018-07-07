@@ -1,9 +1,9 @@
-package shifinview;
+package shiftinview;
 
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import featureextractor.semanticsimilarity.SemanticSentenceSimilarity;
-import shifinview.models.Verb;
+import shiftinview.models.Verb;
 import utils.NLPUtils;
 
 import java.util.ArrayList;
@@ -11,7 +11,7 @@ import java.util.Properties;
 
 import edu.cmu.lti.jawjaw.pobj.POS;
 
-public class ShifInViewAnalyzer {
+public class ShiftInViewAnalyzer {
     public static void main(String[] args) {
         String targetSentence = "Although he has lived in this country for most of his life, Lee is not a United States" +
                 " citizen, and he feared that a criminal conviction might affect his status as a lawful " +
@@ -32,7 +32,7 @@ public class ShifInViewAnalyzer {
         props.setProperty("parse.model", "edu/stanford/nlp/models/srparser/englishSR.ser.gz");
         props.setProperty("parse.maxlen", "100");
         // set up Stanford CoreNLP pipeline
-       // StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
+        // StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
         NLPUtils nlpUtils =  new NLPUtils(props);
         // build annotation for a review
@@ -45,12 +45,12 @@ public class ShifInViewAnalyzer {
         coreferencedSentences=Coreferencer.getCoreferencedSentences(sourceSentence,targetSentence,nlpUtils);
         System.out.println(coreferencedSentences.get(0));
         System.out.println(coreferencedSentences.get(1));*/
-       ConstituentParser constituentParser = new ConstituentParser();
-     //  constituentParser.runConstituentParser(sourceAnnotation,nlpUtils);
+        ConstituentParser constituentParser = new ConstituentParser();
+        //  constituentParser.runConstituentParser(sourceAnnotation,nlpUtils);
 
         System.out.println("break");
 
-       verbsSentence1 = constituentParser.getVerbRelationships(sourceAnnotation,nlpUtils);
+        verbsSentence1 = constituentParser.getVerbRelationships(sourceAnnotation,nlpUtils);
 
 
 
@@ -75,13 +75,13 @@ public class ShifInViewAnalyzer {
             verb = verbsSentence2.get(j);
 
             if(verb.isVerbIsDep()){
-               verbTarget = verb.getDepLemma();
+                verbTarget = verb.getDepLemma();
             }
             else if(verb.isVerbIsGov()){
                 verbTarget=verb.getGovLemma();
             }
             for(int i=0;i<verbsSentence1.size();i++){
-                 secondverb= verbsSentence1.get(i);
+                secondverb= verbsSentence1.get(i);
 
 
                 if(secondverb.isVerbIsDep()){
