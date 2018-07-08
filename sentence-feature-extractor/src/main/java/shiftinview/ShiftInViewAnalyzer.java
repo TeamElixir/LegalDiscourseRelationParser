@@ -20,6 +20,8 @@ public class ShiftInViewAnalyzer {
                 "deport him if he pleaded guilty.\n";
         ArrayList<Verb> verbsSentence1;
         ArrayList<Verb> verbsSentence2;
+
+
         Annotation targetAnnotation;
         Annotation sourceAnnotation;
 
@@ -106,6 +108,7 @@ public class ShiftInViewAnalyzer {
 
                     }
                 }
+
 
                 //System.out.println("score: "+score);
 
