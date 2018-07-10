@@ -80,7 +80,7 @@ public class TfIdfCal {
 		return tfIdfValues;
 	}
 
-	private static ArrayList<String> getWordsOfCase(int n) {
+	public static ArrayList<String> getWordsOfCase(int n) {
 		String filePath = new File("").getAbsolutePath();
 		filePath += "/src/main/resources/StopWordsRemovedCriminalCases/" + n + ".txt";
 
