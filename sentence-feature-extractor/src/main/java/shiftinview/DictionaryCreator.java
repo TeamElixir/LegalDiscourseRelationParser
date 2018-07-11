@@ -2,6 +2,9 @@ package shiftinview;
 
 import static shiftinview.TfIdfCal.getWordsOfCase;
 
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -76,6 +79,8 @@ public class DictionaryCreator {
 
 		System.out.println("done");
 
+		writeDic(dictionary);
+
 	}
 
 	private static HashMap<String, Double> getCaseWordFreq(ArrayList<String> caseWords) {
@@ -94,6 +99,21 @@ public class DictionaryCreator {
 		}
 
 		return caseFrq;
+	}
+
+	private static void writeDic(HashMap<String, Double> dictionary) {
+		try (PrintWriter writer = new PrintWriter("dictionary.txt", "UTF-8")) {
+			for (String word : dictionary.keySet()) {
+				double value = dictionary.get(word);
+				writer.println(word + "\t" + value);
+			}
+		}
+		catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		catch (UnsupportedEncodingException e) {
+			e.printStackTrace();
+		}
 	}
 
 }
