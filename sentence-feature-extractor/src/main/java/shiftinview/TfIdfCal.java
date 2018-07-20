@@ -5,8 +5,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -25,7 +23,12 @@ public class TfIdfCal {
 			totalWords.add(getWordsOfCase(i + 1));
 		}
 
+		// array of case number which you want to get TF-IDF values for each word
 		int[] caseNumbers = { 86, 88, 102, 113, 114, 118, 130, 145, 146 };
+
+		// stores the word TF-IDF values for each case
+		// Integer - case number as in the text file name
+		// HashMap - contains HashMap<String, Double> - String:word, Double:TF-IDF value
 		HashMap<Integer, HashMap> casesTfIdf = new HashMap<>();
 
 		for (int i = 0; i < caseNumbers.length; i++) {
@@ -77,7 +80,7 @@ public class TfIdfCal {
 		return tfIdfValues;
 	}
 
-	private static ArrayList<String> getWordsOfCase(int n) {
+	public static ArrayList<String> getWordsOfCase(int n) {
 		String filePath = new File("").getAbsolutePath();
 		filePath += "/src/main/resources/StopWordsRemovedCriminalCases/" + n + ".txt";
 

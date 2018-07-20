@@ -14,7 +14,7 @@ public class Coreferencer {
 
 		// annotate both sentences in order to resolve coreferences
 		Annotation annotation = nlpUtils.annotate(corefText);
-		ArrayList<String> resolvedSents = nlpUtils.replaceCoreferences(annotation);
+		ArrayList<String> resolvedSents = nlpUtils.replaceCoreferencesNoHis(annotation);
 
 		// coreferences replaced new sentences
 		sourceSentence = resolvedSents.get(0);
