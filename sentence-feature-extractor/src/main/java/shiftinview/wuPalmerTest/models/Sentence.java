@@ -29,4 +29,16 @@ public class Sentence {
                 ", file='" + file + '\'' +
                 '}';
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getSentence() {
+        return sentence;
+    }
+
+    public String getFile() {
+        return file;
+    }
 }
