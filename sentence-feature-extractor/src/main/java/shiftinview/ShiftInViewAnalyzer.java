@@ -16,8 +16,8 @@ public class ShiftInViewAnalyzer {
         String targetSentence = "Although he has lived in this country for most of his life, Lee is not a United States" +
                 " citizen, and he feared that a criminal conviction might affect his status as a lawful " +
                 "permanent resident.";
-        String sourceSentence = "His attorney assured him there was nothing to worry about,the Government would not " +
-                "deport him if he pleaded guilty.\n";
+        String sourceSentence
+                = "His attorney assured him there was nothing to worry about,the Government would not deport him if he pleaded guilty.";
         ArrayList<Verb> verbsSentence1;
         ArrayList<Verb> verbsSentence2;
 
