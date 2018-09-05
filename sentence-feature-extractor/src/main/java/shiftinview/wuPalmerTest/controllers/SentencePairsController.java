@@ -12,11 +12,16 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class SentencePairsController {
-    public static ArrayList<SentencePair> getAllSentencePairs() {
+    public static ArrayList<SentencePair> getAllSentencePairs(int limit) {
         Connection conn = DBCon.getConnection();
         ArrayList<SentencePair> sentencePairs = new ArrayList<>();
         ResultSet resultSet;
-        String query = "SELECT * FROM " + SentencePair.TABLE_NAME;
+        String query = "";
+        if (limit > 0) {
+            query = "SELECT * FROM " + SentencePair.TABLE_NAME + " LIMIT " + limit;
+        } else {
+            query = "SELECT * FROM " + SentencePair.TABLE_NAME;
+        }
         try {
             PreparedStatement preparedStatement = conn.prepareStatement(query);
             resultSet = preparedStatement.executeQuery();
@@ -40,6 +45,12 @@ public class SentencePairsController {
             conn.close();
         } catch (SQLException e) {
             e.printStackTrace();
+        }finally {
+            try {
+                conn.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
         return sentencePairs;
     }

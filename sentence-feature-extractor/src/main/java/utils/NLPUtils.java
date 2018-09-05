@@ -100,7 +100,6 @@ public class NLPUtils {
             for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
                 String word = token.get(CoreAnnotations.TextAnnotation.class);
                 String lemma = token.get(CoreAnnotations.LemmaAnnotation.class);
-                System.out.println("lemma: " + lemma);
                 String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
 
                 // "be" verbs are considered
