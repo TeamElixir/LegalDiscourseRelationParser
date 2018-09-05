@@ -10,6 +10,10 @@ public class Sentence {
 
     private String file;
 
+    public Sentence(String sentence) {
+        this.sentence = sentence;
+    }
+
     public Sentence(int id, String file, String sentence) {
         this.id = id;
         this.sentence = sentence;

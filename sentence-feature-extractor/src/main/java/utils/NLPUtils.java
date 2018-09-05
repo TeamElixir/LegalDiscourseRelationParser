@@ -71,6 +71,7 @@ public class NLPUtils {
         return nouns;
     }
 
+
     public ArrayList<String> getVerbs(Annotation annotation) {
         ArrayList<String> verbs = new ArrayList<>();
 
@@ -91,10 +92,56 @@ public class NLPUtils {
         return verbs;
     }
 
+    public ArrayList<String> getLemmaVerbs(Annotation annotation) {
+        ArrayList<String> verbs = new ArrayList<>();
+
+        List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
+        for (CoreMap sentence : sentences) {
+            for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
+                String word = token.get(CoreAnnotations.TextAnnotation.class);
+                String lemma = token.get(CoreAnnotations.LemmaAnnotation.class);
+                System.out.println("lemma: " + lemma);
+                String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
+
+                // "be" verbs are considered
+                if ("VB".equals(pos) || "VBD".equals(pos) || "VBG".equals(pos) ||
+                        "VBN".equals(pos) || "VBP".equals(pos) || "VBZ".equals(pos)) {
+                    verbs.add(lemma);
+                }
+            }
+        }
+
+        return verbs;
+    }
+
     public ArrayList<String> getVerbsWithOutBe(Annotation annotation) {
         ArrayList<String> verbsWithOutBe = new ArrayList<>();
 
         ArrayList<String> allVerbs = getVerbs(annotation);
+
+        // TODO: 4/5/18 change variable location
+        ArrayList<String> present = new ArrayList<>(Arrays.asList(
+                "be", "is", "are", "am", "being", "has", "have", "do", "does"));
+        ArrayList<String> past = new ArrayList<>(Arrays.asList(
+                "was", "were", "been", "would", "should", "did"));
+        ArrayList<String> future = new ArrayList<>(Arrays.asList("will", "shall"));
+
+        for (String verb : allVerbs) {
+            String verbLowerCase = verb.toLowerCase();
+            if (present.contains(verbLowerCase) || past.contains(verbLowerCase) || future.contains(verbLowerCase)) {
+                continue;
+            } else {
+                verbsWithOutBe.add(verbLowerCase);
+            }
+        }
+
+        return verbsWithOutBe;
+    }
+
+    public ArrayList<String> getLemmaVerbsWithOutBe(Annotation annotation) {
+        ArrayList<String> verbsWithOutBe = new ArrayList<>();
+
+        ArrayList<String> allVerbs = getLemmaVerbs(annotation);
 
         // TODO: 4/5/18 change variable location
         ArrayList<String> present = new ArrayList<>(Arrays.asList(
