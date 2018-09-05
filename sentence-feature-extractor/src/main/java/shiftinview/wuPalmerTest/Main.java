@@ -13,10 +13,9 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<SentencePair> allSentencePairs = SentencePairsController.getAllSentencePairs(500);
+        ArrayList<SentencePair> allSentencePairs = SentencePairsController.getAllSentencePairs(5000);
 
         NLPUtils nlpUtils = new NLPUtils("tokenize,ssplit,pos,lemma");
-        ArrayList<VerbPair> verbPairs = new ArrayList<>();
         for (SentencePair sentencePair : allSentencePairs) {
             System.out.println("SentencePair: " + sentencePair.getId());
             ArrayList<String> sourceVerbs = getSourceVerbs(sentencePair.getSourceSentence(), nlpUtils);
@@ -28,18 +27,13 @@ public class Main {
                     double wordSimilarity = similarity.wordSimilarity(sVerb, POS.v, tVerb, POS.v);
                     if (wordSimilarity > 0.7) {
                         VerbPair verbPair = new VerbPair(sentencePair.getId(), sVerb, tVerb);
-                        verbPairs.add(verbPair);
+                        boolean inserted = VerbPairsController.insertVerbPairToDB(verbPair);
+                        if (!inserted) {
+                            System.out.println("Insertion failed: " + sentencePair.getId());
+                        }
                     }
                 }
             }
-        }
-
-        // insert into DB
-        boolean inserted = VerbPairsController.insertVerbPairToDB(verbPairs);
-        if (inserted) {
-            System.out.println("Successfully inserted!");
-        } else {
-            System.out.println("Insertion failed!");
         }
     }
 
