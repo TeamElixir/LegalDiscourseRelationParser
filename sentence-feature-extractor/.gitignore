@@ -3,10 +3,9 @@
 *.iml
 modules.xml
 .idea/misc.xml
+engmalt.linear-1.7.mco
 *.ipr
 
 *.class
-
-
 
 target/

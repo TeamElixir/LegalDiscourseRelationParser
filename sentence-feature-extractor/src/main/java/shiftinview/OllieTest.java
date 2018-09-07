@@ -21,10 +21,11 @@ public class OllieTest {
 	private static final String MALT_PARSER_FILENAME = "engmalt.linear-1.7.mco";
 
 	public OllieTest() throws MalformedURLException {
+		File file = new File(MALT_PARSER_FILENAME);
+		System.out.println(file.getAbsolutePath());
 		// initialize MaltParser
 		scala.Option<File> nullOption = scala.Option.apply(null);
 		maltParser = new MaltParser(new File(MALT_PARSER_FILENAME));
-
 		// initialize Ollie
 		ollie = new Ollie();
 	}
@@ -56,5 +57,7 @@ public class OllieTest {
 			OllieExtraction extr = inst.extr();
 			System.out.println(extr.arg1().text()+"\t"+extr.rel().text()+"\t"+extr.arg2().text());
 		}
+
+
 	}
 }
