@@ -18,7 +18,7 @@ public class SentencePairsController {
         ResultSet resultSet;
         String query = "";
         if (limit > 0) {
-            query = "SELECT * FROM " + SentencePair.TABLE_NAME + " LIMIT " + limit + " OFFSET 499";
+            query = "SELECT * FROM " + SentencePair.TABLE_NAME + " LIMIT " + limit;
         } else {
             query = "SELECT * FROM " + SentencePair.TABLE_NAME;
         }
