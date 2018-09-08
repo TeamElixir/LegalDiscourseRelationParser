@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<SentencePair> allSentencePairs = SentencePairsController.getAllSentencePairs(5000);
+        ArrayList<SentencePair> allSentencePairs = SentencePairsController.getAllSentencePairs(-1);
 
         NLPUtils nlpUtils = new NLPUtils("tokenize,ssplit,pos,lemma");
         for (SentencePair sentencePair : allSentencePairs) {
@@ -25,7 +25,7 @@ public class Main {
             for (String sVerb : sourceVerbs) {
                 for (String tVerb : targetVerbs) {
                     double wordSimilarity = similarity.wordSimilarity(sVerb, POS.v, tVerb, POS.v);
-                    if (wordSimilarity > 0.7) {
+                    if (wordSimilarity > 0.9) {
                         VerbPair verbPair = new VerbPair(sentencePair.getId(), sVerb, tVerb);
                         boolean inserted = VerbPairsController.insertVerbPairToDB(verbPair);
                         if (!inserted) {
