@@ -25,7 +25,7 @@ public class Main {
             for (String sVerb : sourceVerbs) {
                 for (String tVerb : targetVerbs) {
                     double wordSimilarity = similarity.wordSimilarity(sVerb, POS.v, tVerb, POS.v);
-                    if (wordSimilarity > 0.9) {
+                    if (wordSimilarity > 0.75) {
                         VerbPair verbPair = new VerbPair(sentencePair.getId(), sVerb, tVerb);
                         boolean inserted = VerbPairsController.insertVerbPairToDB(verbPair);
                         if (!inserted) {
