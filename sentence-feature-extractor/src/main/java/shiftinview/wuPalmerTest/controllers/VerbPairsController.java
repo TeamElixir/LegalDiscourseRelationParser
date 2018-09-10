@@ -5,7 +5,9 @@ import shiftinview.wuPalmerTest.models.VerbPair;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 public class VerbPairsController {
 
@@ -33,6 +35,31 @@ public class VerbPairsController {
         }
 
         return true;
+    }
 
+    public static ArrayList<VerbPair> getAllVerbPairs() {
+        Connection conn = DBCon.getConnection();
+        ArrayList<VerbPair> verbPairs = new ArrayList<>();
+        ResultSet resultSet;
+        String query = "SELECT * FROM " + VerbPair.TABLE_NAME;
+        try {
+            PreparedStatement preparedStatement = conn.prepareStatement(query);
+            resultSet = preparedStatement.executeQuery();
+
+            while (resultSet.next()) {
+                int id = resultSet.getInt("ID");
+                int sentencePairID = resultSet.getInt("SENTENCE_PAIR_ID");
+                String sourceVerb = resultSet.getString("SOURCE_VERB");
+                String targetVerb = resultSet.getString("TARGET_VERB");
+
+                VerbPair vp = new VerbPair(id, sentencePairID, sourceVerb, targetVerb);
+
+                verbPairs.add(vp);
+            }
+            conn.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return verbPairs;
     }
 }
