@@ -25,6 +25,7 @@ public class ParseTreeSplitter {
         props.setProperty("annotators", "tokenize,ssplit,pos,lemma,parse,depparse,sentiment");
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
+        //insert your sentence here
         String sentence = "The Government contends that Lee cannot show prejudice from accepting a plea where his only hope at trial was that something unexpected and unpredictable might occur that would lead to acquittal.";
         Annotation ann = new Annotation(sentence);
         pipeline.annotate(ann);
@@ -41,6 +42,7 @@ public class ParseTreeSplitter {
         System.out.println(processParseTree(parseTree(ann),pipeline));
     }
 
+    //Just returns the string containing complete parse tree structure
     public static String parseTree(Annotation ann){
         List<CoreMap> sentences = ann.get(CoreAnnotations.SentencesAnnotation.class);
         for (CoreMap sentence : sentences) {
@@ -50,15 +52,21 @@ public class ParseTreeSplitter {
         return null;
     }
 
+    //returned parse tree processed in this method
     public static String processParseTree(String text, StanfordCoreNLP pipeline){
         //to split from the pattern SBAR IN
         String[] phraseList = text.split("\\(SBAR \\(IN [a-z]+\\)");
 
         int count = 0;
         for(String phrase : phraseList){
+
+            //parantheses and parse tree nodes (Uppercase) are removed
             phrase = phrase.replaceAll("\\(","").replaceAll("\\)","").replaceAll("[A-Z]+ ","").replaceAll(" [\\.]"," ").trim() +".";
             phraseList[count] = phrase;
+
+            //to identify subject sentiment pairs
             intermediate_execution(phrase,pipeline);
+
             System.out.println(phrase);
             count += 1;
         }
@@ -67,17 +75,18 @@ public class ParseTreeSplitter {
         return null;
     }
 
+    //to calculate Subject Sentiment pairs
     public static void intermediate_execution(String text, StanfordCoreNLP pipeline){
         Annotation ann = new Annotation(text);
         pipeline.annotate(ann);
 
         CustomizedSentimentAnnotator.createPosTagMapForSentence(ann);
 
-        System.out.println(findSubject(ann));
+        System.out.println(findSubjectAndSentiment(ann));
     }
 
     //outputs subject for a given sentence part
-    public static String findSubject(Annotation ann){
+    public static String findSubjectAndSentiment(Annotation ann){
         ArrayList<String> subjectList = new ArrayList<>();
         List<CoreMap> sentences = ann.get(CoreAnnotations.SentencesAnnotation.class);
         for (CoreMap sent : sentences) {
@@ -104,6 +113,7 @@ public class ParseTreeSplitter {
             return sentiment;
         }
 
+        //lowering threshold for negative
         if(Double.parseDouble(sm.toString().split("\n")[2])>=0.4){
             return "Negative";
         }
