@@ -27,6 +27,7 @@ public class ParseTreeSplitter {
 
         //insert your sentence here
         String sentence = "The Government contends that Lee cannot show prejudice from accepting a plea where his only hope at trial was that something unexpected and unpredictable might occur that would lead to acquittal.";
+
         Annotation ann = new Annotation(sentence);
         pipeline.annotate(ann);
 
@@ -39,7 +40,11 @@ public class ParseTreeSplitter {
             e.printStackTrace();
         }
 
-        System.out.println(processParseTree(parseTree(ann),pipeline));
+        ArrayList<SubjectSentimentPair> list = processParseTree(parseTree(ann),pipeline);
+
+        for(SubjectSentimentPair pair : list){
+            System.out.println(pair.subject + "  "+ pair.sentiment);
+        }
     }
 
     //Just returns the string containing complete parse tree structure
@@ -53,7 +58,10 @@ public class ParseTreeSplitter {
     }
 
     //returned parse tree processed in this method
-    public static String processParseTree(String text, StanfordCoreNLP pipeline){
+    public static ArrayList<SubjectSentimentPair> processParseTree(String text, StanfordCoreNLP pipeline){
+
+        ArrayList<SubjectSentimentPair> subjectSentimentPairs = new ArrayList<>();
+
         //to split from the pattern SBAR IN
         String[] phraseList = text.split("\\(SBAR \\(IN [a-z]+\\)");
 
@@ -65,39 +73,43 @@ public class ParseTreeSplitter {
             phraseList[count] = phrase;
 
             //to identify subject sentiment pairs
-            intermediate_execution(phrase,pipeline);
+            subjectSentimentPairs.add(intermediate_execution(phrase,pipeline));
 
-            System.out.println(phrase);
             count += 1;
         }
 
-        System.out.println(phraseList[1]);
-        return null;
+
+        return subjectSentimentPairs;
     }
 
     //to calculate Subject Sentiment pairs
-    public static void intermediate_execution(String text, StanfordCoreNLP pipeline){
+    public static SubjectSentimentPair intermediate_execution(String text, StanfordCoreNLP pipeline){
         Annotation ann = new Annotation(text);
         pipeline.annotate(ann);
 
         CustomizedSentimentAnnotator.createPosTagMapForSentence(ann);
 
-        System.out.println(findSubjectAndSentiment(ann));
+        return findSubjectAndSentiment(ann);
     }
 
     //outputs subject for a given sentence part
-    public static String findSubjectAndSentiment(Annotation ann){
-        ArrayList<String> subjectList = new ArrayList<>();
+    public static SubjectSentimentPair findSubjectAndSentiment(Annotation ann){
+
         List<CoreMap> sentences = ann.get(CoreAnnotations.SentencesAnnotation.class);
         for (CoreMap sent : sentences) {
+            SubjectSentimentPair pair = new SubjectSentimentPair();
             SemanticGraph sg = sent.get(SemanticGraphCoreAnnotations.BasicDependenciesAnnotation.class);
-            SentimentClassification(sent);
+            pair.sentiment = SentimentClassification(sent);
 
             for (TypedDependency td : sg.typedDependencies()) {
                 if (td.reln().toString().equals("nsubj") || td.reln().equals("nsubjpass")) {
-                    return td.dep().originalText();
+                    pair.subject= td.dep().originalText();
+                    return pair;
                 }
             }
+
+            return pair;
+
         }
 
         return null;
