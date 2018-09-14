@@ -47,7 +47,7 @@ public class CustomizedSentimentAnnotator {
 
     // if the sentences are not in database: use this method
     public static void
-    createPosTagMapForSentence(String sentence, Annotation annotation) {
+    createPosTagMapForSentence( Annotation annotation) {
 
         //to create empty map for the word-postag combinations inside SentimentCostAndGradient class
         SentimentCostAndGradient.createPosTagMap();
@@ -75,13 +75,13 @@ public class CustomizedSentimentAnnotator {
                 return -1;
 
             case "Neutral":
-                return 0;
+                return 1;
 
             case "Positive":
                 return 1;
 
             default:
-                return 0;
+                return 1;
         }
     }
 }
