@@ -24,7 +24,7 @@ public class ParseTreeSplitter {
         Annotation ann = new Annotation(sentence);
         pipeline.annotate(ann);
 
-        System.out.println(processParseTree(parseTree(ann)));
+        System.out.println(processParseTree(parseTree(ann),pipeline));
     }
 
     public static String parseTree(Annotation ann){
@@ -36,14 +36,16 @@ public class ParseTreeSplitter {
         return null;
     }
 
-    public static String processParseTree(String text){
+    public static String processParseTree(String text, StanfordCoreNLP pipeline){
         //to split from the pattern SBAR IN
         String[] phraseList = text.split("\\(SBAR \\(IN [a-z]+\\)");
 
         int count = 0;
         for(String phrase : phraseList){
-            phrase = phrase.replaceAll("\\(","").replaceAll("\\)","").replaceAll("[A-Z]+ ","").trim();
+            phrase = phrase.replaceAll("\\(","").replaceAll("\\)","").replaceAll("[A-Z]+ ","").replaceAll(" [\\.]"," ").trim() +".";
             phraseList[count] = phrase;
+            //intermediate_execution(phrase,pipeline);
+            System.out.println(phrase);
             count += 1;
         }
 
@@ -51,7 +53,12 @@ public class ParseTreeSplitter {
         return null;
     }
 
+    public static void intermediate_execution(String text, StanfordCoreNLP pipeline){
+        Annotation ann = new Annotation(text);
+        pipeline.annotate(ann);
 
+        System.out.println(findSubject(ann));
+    }
 
     //outputs subject for a given sentence part
     public static String findSubject(Annotation ann){
