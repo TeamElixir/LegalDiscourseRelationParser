@@ -94,13 +94,20 @@ public class ParseTreeSplitter {
         return null;
     }
 
-    public static void SentimentClassification(CoreMap coreMapSentence){
+    //to calculate sentiment
+    public static String SentimentClassification(CoreMap coreMapSentence){
         final Tree tree = coreMapSentence.get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
         final SimpleMatrix sm = RNNCoreAnnotations.getPredictions(tree);
         final String sentiment = coreMapSentence.get(SentimentCoreAnnotations.SentimentClass.class);
-        System.out.println("sentence:  " + coreMapSentence);
-        System.out.println("sentiment: " + sentiment);
 
-        System.out.println(sm.toString().split("\n")[2]);
+        if(sentiment.equals("Negative")){
+            return sentiment;
+        }
+
+        if(Double.parseDouble(sm.toString().split("\n")[2])>=0.4){
+            return "Negative";
+        }
+
+        return "Non-negative";
     }
 }
