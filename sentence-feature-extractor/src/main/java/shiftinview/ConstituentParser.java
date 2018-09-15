@@ -16,9 +16,9 @@ public class ConstituentParser {
     ArrayList<List<Tree>> wordArrays = new ArrayList<>();
     ArrayList<String> indexPoints = new ArrayList<>();
     ArrayList<SemanticGraph> graphs = new ArrayList<>();
+    ArrayList<String> innerSentences = new ArrayList<>();
 
-    public void runConstituentParser(Annotation annotation, NLPUtils nlpUtils) {
-
+    public ArrayList<String> runConstituentParser(Annotation annotation, NLPUtils nlpUtils) {
         Tree tree = nlpUtils.constituentParse(annotation);
         Set<Constituent> treeConstituents = tree.constituents(new LabeledScoredConstituentFactory());
 
@@ -32,18 +32,19 @@ public class ConstituentParser {
         createSentences();
         //System.out.println(tree.toString());
 
-
+	    return innerSentences;
     }
 
     private void createSentences() {
         for (List<Tree> wordArray : wordArrays) {
-            System.out.println(wordArray);
+//            System.out.println(wordArray);
             String sentence = "";
             for (Tree word : wordArray) {
                 sentence = sentence + " " + word.toString();
 
             }
-            System.out.println(sentence);
+//            System.out.println(sentence);
+            innerSentences.add(sentence);
         }
     }
 
