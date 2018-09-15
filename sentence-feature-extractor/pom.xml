@@ -189,6 +189,24 @@
             <version>2.4.5</version>
         </dependency>
 
+        <dependency>
+            <groupId>edu.washington.cs.knowitall.nlptools</groupId>
+            <artifactId>nlptools-postag-opennlp_2.10</artifactId>
+            <version>2.4.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>edu.washington.cs.knowitall.nlptools</groupId>
+            <artifactId>nlptools-postag-stanford_2.10</artifactId>
+            <version>2.4.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>edu.washington.cs.knowitall.nlptools</groupId>
+            <artifactId>nlptools-tokenize-stanford_2.10</artifactId>
+            <version>2.4.5</version>
+        </dependency>
+
     </dependencies>
 
 </project>

@@ -1,8 +1,11 @@
-package shiftinview;
+package shiftinview.pubmed;
 
-import static shiftinview.TfIdfCal.getWordsOfCase;
+import static shiftinview.pubmed.TfIdfCal.getWordsOfCase;
 
+import java.io.BufferedReader;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
@@ -114,6 +117,25 @@ public class DictionaryCreator {
 		catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
 		}
+	}
+
+	public static HashMap<String, Double> readDic() {
+		HashMap<String, Double> dictionary = new HashMap<>();
+
+		try (FileReader fileReader = new FileReader("dictionary.txt")) {
+			BufferedReader br = new BufferedReader(fileReader);
+			String line;
+			while ((line = br.readLine()) != null) {
+				String[] temp = line.split("\t");
+				dictionary.put(temp[0], Double.parseDouble(temp[1]));
+			}
+
+		}
+		catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		return dictionary;
 	}
 
 }
