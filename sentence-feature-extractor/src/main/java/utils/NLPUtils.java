@@ -24,6 +24,7 @@ import edu.stanford.nlp.semgraph.SemanticGraphEdge;
 import edu.stanford.nlp.util.CoreMap;
 import edu.stanford.nlp.trees.*;
 import utils.models.ReferenceModel;
+import utils.models.Triple;
 
 public class NLPUtils {
 
@@ -439,6 +440,7 @@ public class NLPUtils {
 							replaceSingleSentence.add(referenceModel.getRepresent());
 						} else {
 							replaceSingleSentence.add(" " + referenceModel.getRepresent() + "'s");
+//							replaceSingleSentence.add(referenceModel.getRepresent());
 						}
 						wordAdded = true;
 						break;
@@ -509,14 +511,24 @@ public class NLPUtils {
 		return graphs;
 	}
 
-	public ArrayList<RelationTriple> getTriples(Annotation annotation) {
-		ArrayList<RelationTriple> triples = new ArrayList<>();
+	public ArrayList<Triple> getTriples(Annotation annotation) {
+		ArrayList<Triple> triples = new ArrayList<>();
 
 		List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
 		for (CoreMap sentence : sentences) {
 			Collection<RelationTriple> stanfordTriples =
 					sentence.get(NaturalLogicAnnotations.RelationTriplesAnnotation.class);
-			triples.addAll(stanfordTriples);
+			Triple triple = new Triple();
+			for(RelationTriple stanfordTriple:stanfordTriples){
+				triple.subject = stanfordTriple.subjectGloss();
+				triple.subjectLemma = stanfordTriple.subjectLemmaGloss();
+				triple.object = stanfordTriple.objectGloss();
+				triple.objectLemma = stanfordTriple.objectLemmaGloss();
+				triple.relation = stanfordTriple.relationGloss();
+				triple.relationLemma = stanfordTriple.relationLemmaGloss();
+
+				triples.add(triple);
+			}
 		}
 
 		return triples;
