@@ -460,6 +460,47 @@ public class FeatureEntry implements Serializable {
 		return featureEntries;
 	}
 
+	public static ArrayList<FeatureEntry> getElaborationLegal() throws SQLException {
+		String sql = "SELECT * FROM FEATURE_ENTRY_LEGAL_SENTENCE WHERE "
+				+ "TYPE=2 OR TYPE=8 OR TYPE=4 OR TYPE=13 OR TYPE=12 OR TYPE=11 OR "
+				+ "TYPE=18 OR TYPE=14 OR TYPE=15 OR TYPE=6 OR TYPE=16 OR TYPE=9;";
+		ResultSet resultSet = sqLiteUtils.executeQuery(sql);
+
+		if(resultSet.isClosed()){
+			return null;
+		}
+
+		ArrayList<FeatureEntry> featureEntries = new ArrayList<>();
+		FeatureEntry entry;
+		while (resultSet.next()){
+			entry = new FeatureEntry();
+			entry.dbId = resultSet.getInt("ID");
+			entry.ssid = resultSet.getInt("SSID");
+			entry.tsid = resultSet.getInt("TSID");
+			entry.type = resultSet.getInt("TYPE");
+			entry.adjectiveSimilarity = resultSet.getDouble("ADJECTIVE_SIMI");
+			entry.nounSimilarity = resultSet.getDouble("NOUN_SIMI");
+			entry.verbSimilarity = resultSet.getDouble("VERB_SIMI");
+			entry.wordSimilarity = resultSet.getDouble("WORD_SIMI");
+			entry.wordOverlapSSent = resultSet.getDouble("WOVERLAP_S");
+			entry.wordOverlapTSent = resultSet.getDouble("WOVERLAP_T");
+			entry.ellaborationTransitionScore = resultSet.getDouble("ETRANSITION");
+			entry.changeTransitionScore = resultSet.getDouble("CTRANSITION");
+			entry.lcs = resultSet.getDouble("LCS");
+			entry.subjectOverlap = resultSet.getDouble("SOVERLAP");
+			entry.objectOverlap = resultSet.getDouble("OOVERLAP");
+			entry.subjectNounOverlap = resultSet.getDouble("SNOVERLAP");
+			entry.nerRatio = resultSet.getDouble("NER_RATIO");
+			entry.lengthRatio = resultSet.getDouble("LENGTH_RATIO");
+			entry.tosScore = resultSet.getInt("TOS_SCORE");
+			entry.semanticSimilarityScore = resultSet.getDouble("SEMANTIC_SCORE");
+
+			featureEntries.add(entry);
+		}
+
+		return featureEntries;
+	}
+
 	public double[] getFeatureArray(){
 		double[] featureArray = {
 				this.getAdjectiveSimilarity(),
