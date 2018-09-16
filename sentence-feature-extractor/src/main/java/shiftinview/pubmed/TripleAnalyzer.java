@@ -9,11 +9,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
+import java.util.Properties;
 
 import edu.cmu.lti.jawjaw.pobj.POS;
-import edu.cmu.lti.jawjaw.util.WordNetUtil;
 import edu.stanford.nlp.pipeline.Annotation;
 import featureextractor.semanticsimilarity.SemanticSentenceSimilarity;
 import net.didion.jwnl.data.list.PointerTargetNode;
@@ -31,27 +29,55 @@ public class TripleAnalyzer {
 
 	private HashMap<String, Double> dictionary;
 
-	public TripleAnalyzer() {
+	public Dictionary wordnetDic;
+
+	public PointerUtils pu;
+
+	public TripleAnalyzer() throws Exception {
 		dictionary = new HashMap<>();
 		dictionary = DictionaryCreator.readDic();
+
+		JWNL.initialize(new FileInputStream(
+				"/home/thejan/FYP/LegalDisourseRelationParser/sentence-feature-extractor/src/main/resources/jwnl_properties.xml"));
+
+		wordnetDic = Dictionary.getInstance();
+		pu = PointerUtils.getInstance();
 	}
 
 	public void analyze(ArrayList<Triple> sourceTriples, ArrayList<Triple> targetTriples) throws Exception {
-		double similT = 0.0;
-		double diffT = 0.0;
-		int sN = 0;
-		int dN = 0;
 
 		for (Triple sourceTriple : sourceTriples) {
 			// TODO: 9/16/18 remove stop words from both triple word list
-			// TODO: 9/16/18 replace if one word with lemma
 			String sourceRelation = sourceTriple.relation;
 			String[] sourceRelationWordArray = sourceRelation.split(" ");
 			ArrayList<String> sourceRelationWords = new ArrayList<>(Arrays.asList(sourceRelationWordArray));
+
+			// replace with lemma if single word relationship
+			if (sourceRelationWords.size() == 1) {
+				IndexWord indexWord = getIndexedWord(sourceRelationWords.get(0), wordnetDic);
+				if (indexWord != null) {
+					sourceRelationWords.set(0, indexWord.getLemma());
+				}
+			}
+
 			for (Triple targetTriple : targetTriples) {
 				String targetRelation = targetTriple.relation;
 				String[] targetRelationWordArray = targetRelation.split(" ");
 				ArrayList<String> targetRelationWords = new ArrayList<>(Arrays.asList(targetRelationWordArray));
+
+				// replace with lemma if single word relationship
+				if (targetRelationWords.size() == 1) {
+					IndexWord indexWord = getIndexedWord(targetRelationWords.get(0), wordnetDic);
+					if (indexWord != null) {
+						targetRelationWords.set(0, indexWord.getLemma());
+					}
+				}
+
+				double similT = 0.0;
+				double diffT = 0.0;
+				int sN = 0;
+				int dN = 0;
+				double sigma = 0.1;
 
 				for (int i = 0; i < sourceRelationWords.size(); i++) {
 					String sWord = sourceRelationWords.get(i);
@@ -84,10 +110,8 @@ public class TripleAnalyzer {
 							double simil = similarity.wordSimilarity(sWord, POS.v, tWord, POS.v);
 							simil = simil / (sourceRelationWordArray.length + targetRelationWordArray.length);
 
-							Dictionary dic = Dictionary.getInstance();
-
-							IndexWord indexSWord = getIndexedWord(sWord, dic);
-							IndexWord indexTWord = getIndexedWord(tWord, dic);
+							IndexWord indexSWord = getIndexedWord(sWord, wordnetDic);
+							IndexWord indexTWord = getIndexedWord(tWord, wordnetDic);
 
 							String sWordLemma = sWord;
 							String tWordLemma = tWord;
@@ -98,25 +122,57 @@ public class TripleAnalyzer {
 								tWordLemma = indexTWord.getLemma();
 							}
 
-							ArrayList<String> synAntonymsSWord = getSynAntonyms(sWordLemma, dic);
-							ArrayList<String> synAntonymsTWord = getSynAntonyms(tWordLemma, dic);
+							ArrayList<String> synAntonymsSWord = getSynAntonyms(sWordLemma, wordnetDic);
+							ArrayList<String> synAntonymsTWord = getSynAntonyms(tWordLemma, wordnetDic);
 
-							if(synAntonymsSWord.isEmpty()){
-
+							double diff1 = 0;
+							for (String antonym : synAntonymsTWord) {
+								diff1 = Math.max(diff1, similarity.wordSimilarity(sWordLemma, POS.v, antonym, POS.v));
 							}
 
+							double diff2 = 0;
+							for (String antonym : synAntonymsSWord) {
+								diff2 = Math.max(diff1, similarity.wordSimilarity(tWordLemma, POS.v, antonym, POS.v));
+							}
+
+							double diff =
+									((diff1 / targetRelationWordArray.length) + (diff2 / sourceRelationWordArray.length))
+											/ 2;
+
+							double oppo = (double) Math
+									.max(Math.pow(Math.min(diff, 1), (wNo / (2 * wYes)) * Math.min(simil, 1) + 1),
+											0) * (-1);
+
+							if (oppo > 0) {
+								similT += oppo * wYes * dictionary.get(sWord) * dictionary.get(tWord);
+								sN++;
+							} else if (oppo < 0) {
+								diffT += (oppo * (-wNo)) * dictionary.get(sWord) * dictionary.get(tWord);
+								dN++;
+							}
 						}
 					}
-				}
+				} // both word loops in a triple relation end
 
+				similT = (similT * (dN + sigma) * wYes) / (sN + dN + 2 * sigma); //Calculate by inverse
+				diffT = (diffT * (sN + sigma) * wNo) / (sN + dN + 2 * sigma);
+
+				System.out.println("source triple: " + sourceTriple.toString());
+				System.out.println("target triple: " + targetTriple.toString());
+				System.out.println("similT : " + similT);
+				System.out.println("diffT : " + diffT);
+
+				//				if (similT < diffT) {
+				//					return diffT * (-1);
+				//				} else {
+				//					return similT;
+				//				}
 			}
 		}
 	}
 
 	private ArrayList<String> getSynAntonyms(String wordLemma, Dictionary dictionary) throws Exception {
 		Synset[] synWord = getSynsets(wordLemma, dictionary);
-
-		PointerUtils pu = PointerUtils.getInstance();
 
 		PointerTargetNodeList ptnl = new PointerTargetNodeList();
 		if (synWord != null) {
@@ -200,22 +256,73 @@ public class TripleAnalyzer {
 		return list;
 	}
 
-	public static void main(String[] args) throws Exception{
-		JWNL.initialize(new FileInputStream(
-				"/home/thejan/FYP/LegalDisourseRelationParser/sentence-feature-extractor/src/main/resources/jwnl_properties.xml"));
-		Dictionary dic = Dictionary.getInstance();
-		TripleAnalyzer tn = new TripleAnalyzer();
+	public ArrayList<Triple> removeDuplicates(ArrayList<Triple> triples) {
+		ArrayList<Integer> indexToRemove = new ArrayList<>();
 
-		String sWord = "man";
-		IndexWord indexSWord = tn.getIndexedWord(sWord, dic);
-
-		String sWordLemma = sWord;
-		if (indexSWord != null) {
-			sWordLemma = indexSWord.getLemma();
+		for (int i = 0; i < triples.size() - 1; i++) {
+			for (int j = i + 1; j < triples.size(); j++) {
+				if (triples.get(i).subject.equalsIgnoreCase(triples.get(j).subject)
+						&& triples.get(i).relation.equalsIgnoreCase(triples.get(j).relation)
+						&& triples.get(i).object.equalsIgnoreCase(triples.get(j).object)) {
+					triples.remove(triples.get(j));
+					j--;
+				} else {
+				}
+			}
 		}
 
-		ArrayList<String> synAntonymsSWord = tn.getSynAntonyms(sWordLemma, dic);
-		System.out.println(synAntonymsSWord);
+		return triples;
+	}
+
+	public static void main(String[] args) throws Exception {
+		TripleAnalyzer tripleAnalyzer = new TripleAnalyzer();
+
+		//		String targetSentence = "Although he has lived in this country for most of his life, Lee is not a United States citizen, and he feared that a criminal conviction might affect his status as a lawful permanent resident.";
+
+		//		String sourceSentence
+		//				= "His attorney assured him there was nothing to worry about,the Government would not deport him if he pleaded guilty.";
+
+		String targetSentence = "Petitioner Jae Lee moved to the United States from South Korea with his parents when he was 13.";
+		String sourceSentence = "In the 35 years he has spent in this country, he has never returned to South Korea, nor has he become a U. S. citizen, living instead as a lawful permanent resident.";
+
+		Properties props = new Properties();
+		props.setProperty("annotators", "tokenize,ssplit,pos,lemma,ner,parse,natlog,openie,coref");
+		props.setProperty("coref.algorithm", "statistical");
+		NLPUtils nlpUtils = new NLPUtils(props);
+
+		// text to resolve coreferences
+		String corefText = targetSentence + " " + sourceSentence;
+
+		// annotate both sentences in order to resolve coreferences
+		Annotation annotation = nlpUtils.annotate(corefText);
+		ArrayList<String> resolvedSents = nlpUtils.replaceCoreferences(annotation);
+
+		// coreferences replaced new sentences
+		sourceSentence = resolvedSents.get(0);
+		targetSentence = resolvedSents.get(1);
+
+		// annotate again
+		Annotation sourceAnnotation = nlpUtils.annotate(sourceSentence);
+		Annotation targetAnnotation = nlpUtils.annotate(targetSentence);
+
+		// generate triple list
+		ArrayList<Triple> sourceTriples = tripleAnalyzer.generateTripleList(sourceAnnotation, nlpUtils);
+		ArrayList<Triple> targetTriples = tripleAnalyzer.generateTripleList(targetAnnotation, nlpUtils);
+
+		sourceTriples = tripleAnalyzer.removeDuplicates(sourceTriples);
+		targetTriples = tripleAnalyzer.removeDuplicates(targetTriples);
+
+		System.out.println(sourceTriples);
+		System.out.println(targetTriples);
+
+		tripleAnalyzer.analyze(sourceTriples, targetTriples);
+
+		//		JWNL.initialize(new FileInputStream(
+		//				"/home/thejan/FYP/LegalDisourseRelationParser/sentence-feature-extractor/src/main/resources/jwnl_properties.xml"));
+		//
+		//		Dictionary wordnetDic = Dictionary.getInstance();
+		//
+		//		System.out.println(tripleAnalyzer.getSynAntonyms("affect",wordnetDic));
 	}
 
 }
