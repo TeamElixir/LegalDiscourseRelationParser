@@ -1,0 +1,692 @@
+In the 35 years Petitioner Jae Lee has spent in the 35 years, Petitioner Jae Lee has never returned to South Korea, nor has Petitioner Jae Lee become aU.S. citizen, living instead as a lawful permanent resident.
+0.922: (Petitioner Jae Lee; has spent in; the 35 years)
+0.825: (Petitioner Jae Lee; has never returned to; South Korea)[enabler=the 35 years Petitioner Jae Lee has spent in the 35 years]
+0.509: (Petitioner Jae Lee; has never returned living instead as; a lawful permanent resident)[enabler=the 35 years Petitioner Jae Lee has spent in the 35 years]
+
+Petitioner Jae Lee moved to the United States from South Korea with Petitioner Jae Lee's parents when Petitioner Jae Lee was 13.
+0.92: (Petitioner Jae Lee; moved to; the United States)
+0.891: (Petitioner Jae Lee; moved from; South Korea)
+0.859: (Petitioner Jae Lee; moved with; Petitioner Jae Lee 's parents)
+0.726: (Petitioner Jae Lee; was; 13)
+
+In 2008, federal officials received a tip from a confidential informant that Petitioner Jae Lee had sold the informant ecstasy and marijuana.
+0.908: (federal officials; received a tip from; a confidential informant)
+0.829: (federal officials; received; a tip)
+0.804: (a tip; be received from; a confidential informant)
+0.708: (federal officials; received a tip in; 2008)
+0.684: (Petitioner Jae Lee; had sold; the informant ecstasy and marijuana)
+0.565: (a tip; be received in; 2008)
+
+Petitioner Jae Lee moved to the United States from South Korea with Petitioner Jae Lee's parents when Petitioner Jae Lee was 13.
+0.92: (Petitioner Jae Lee; moved to; the United States)
+0.891: (Petitioner Jae Lee; moved from; South Korea)
+0.859: (Petitioner Jae Lee; moved with; Petitioner Jae Lee 's parents)
+0.726: (Petitioner Jae Lee; was; 13)
+
+In 2008, federal officials received a tip from a confidential informant that Lee had sold the informant ecstasy and marijuana.
+0.908: (federal officials; received a tip from; a confidential informant)
+0.829: (federal officials; received; a tip)
+0.804: (a tip; be received from; a confidential informant)
+0.708: (federal officials; received a tip in; 2008)
+0.684: (Lee; had sold; the informant ecstasy and marijuana)
+0.565: (a tip; be received in; 2008)
+
+In the 35 years he has spent in the 35 years, he has never returned to South Korea, nor has he become aU.S. citizen, living instead as a lawful permanent resident.
+0.869: (he; has spent in; the 35 years)
+0.726: (he; has never returned to; South Korea)[enabler=the 35 years he has spent in the 35 years]
+0.502: (he; has become; aU.S. citizen)
+0.369: (he; has never returned living instead as; a lawful permanent resident)[enabler=the 35 years he has spent in the 35 years]
+
+Lee admitted that the drugs were Lee's, and a grand jury indicted Lee on one count of possessing ecstasy with intent to distribute.
+0.937: (Lee 's , and a grand jury; indicted Lee on; one count possessing ecstasy with intent)[attrib=Lee admitted]
+0.908: (the drugs; indicted Lee on; one count possessing ecstasy with intent)[attrib=Lee admitted]
+0.879: (Lee; be indicted on; one count possessing ecstasy with intent)[attrib=Lee admitted]
+0.807: (Lee 's , and a grand jury; indicted; Lee)[attrib=Lee admitted]
+0.731: (ecstasy; be possessing with; intent to distribute)
+0.723: (the drugs; indicted; Lee)[attrib=Lee admitted]
+
+In the 35 years Lee has spent in the 35 years, Lee has never returned to South Korea, nor has Lee become aU.S. citizen, living instead as a lawful permanent resident.
+0.922: (Lee; has spent in; the 35 years)
+0.825: (Lee; has never returned to; South Korea)[enabler=the 35 years Lee has spent in the 35 years]
+0.773: (aU.S. citizen; living instead as; a lawful permanent resident)
+
+Lee admitted that the drugs were Lee's, and a grand jury indicted Lee on one count of possessing ecstasy with intent to distribute.
+0.937: (Lee 's , and a grand jury; indicted Lee on; one count possessing ecstasy with intent)[attrib=Lee admitted]
+0.908: (the drugs; indicted Lee on; one count possessing ecstasy with intent)[attrib=Lee admitted]
+0.879: (Lee; be indicted on; one count possessing ecstasy with intent)[attrib=Lee admitted]
+0.807: (Lee 's , and a grand jury; indicted; Lee)[attrib=Lee admitted]
+0.731: (ecstasy; be possessing with; intent to distribute)
+0.723: (the drugs; indicted; Lee)[attrib=Lee admitted]
+
+In 2008, federal officials received a tip from a confidential informant that Lee had sold the informant ecstasy and marijuana.
+0.908: (federal officials; received a tip from; a confidential informant)
+0.829: (federal officials; received; a tip)
+0.804: (a tip; be received from; a confidential informant)
+0.708: (federal officials; received a tip in; 2008)
+0.684: (Lee; had sold; the informant ecstasy and marijuana)
+0.565: (a tip; be received in; 2008)
+
+Lee retained counsel and entered into plea discussions with the Government.
+0.92: (Lee; entered into; plea discussions)
+0.794: (Lee; retained; counsel)
+
+In 2008, federal officials received a tip from a confidential informant that Lee had sold the informant ecstasy and marijuana.
+0.908: (federal officials; received a tip from; a confidential informant)
+0.829: (federal officials; received; a tip)
+0.804: (a tip; be received from; a confidential informant)
+0.708: (federal officials; received a tip in; 2008)
+0.684: (Lee; had sold; the informant ecstasy and marijuana)
+0.565: (a tip; be received in; 2008)
+
+Lee retained counsel and entered into plea discussions with the Government.
+0.92: (Lee; entered into; plea discussions)
+0.794: (Lee; retained; counsel)
+
+Lee admitted that the drugs were Lee's, and a grand jury indicted Lee on one count of possessing ecstasy with intent to distribute.
+0.937: (Lee 's , and a grand jury; indicted Lee on; one count possessing ecstasy with intent)[attrib=Lee admitted]
+0.908: (the drugs; indicted Lee on; one count possessing ecstasy with intent)[attrib=Lee admitted]
+0.879: (Lee; be indicted on; one count possessing ecstasy with intent)[attrib=Lee admitted]
+0.807: (Lee 's , and a grand jury; indicted; Lee)[attrib=Lee admitted]
+0.731: (ecstasy; be possessing with; intent to distribute)
+0.723: (the drugs; indicted; Lee)[attrib=Lee admitted]
+
+During the plea process, Lee repeatedly asked his attorney's whether Lee would face deportation; his attorney's assured Lee that Lee would not be deported as a result of pleading guilty.
+0.88: (Lee; would not be deported as; a result pleading guilty)
+0.819: (Lee; repeatedly asked his attorney 's whether Lee would face deportation; his attorney assured Lee that Lee would not be deported as a result)
+0.796: (his attorney; be assured in; Lee)
+0.65: (Lee; would face; deportation)
+0.476: (Lee; repeatedly asked his attorney 's whether Lee would face deportation during; the plea process)
+0.381: (his attorney assured Lee that Lee would not be deported as a result; repeatedly asked his attorney 's whether Lee would be face deportation during; the plea process)
+0.35: (Lee; repeatedly asked his attorney 's assured Lee that Lee would not be deported as a result of pleading guilty during; the plea process)
+0.303: (Lee; repeatedly asked his attorney 's assured Lee that Lee would not be deported as a result of pleading guilty; his attorney)
+0.267: (his attorney; repeatedly asked his attorney 's assured Lee that Lee would be not be deported as a result of pleading guilty during; the plea process)
+
+Lee admitted that the drugs were Lee's, and a grand jury indicted Lee on one count of possessing ecstasy with intent to distribute.
+0.937: (Lee 's , and a grand jury; indicted Lee on; one count possessing ecstasy with intent)[attrib=Lee admitted]
+0.908: (the drugs; indicted Lee on; one count possessing ecstasy with intent)[attrib=Lee admitted]
+0.879: (Lee; be indicted on; one count possessing ecstasy with intent)[attrib=Lee admitted]
+0.807: (Lee 's , and a grand jury; indicted; Lee)[attrib=Lee admitted]
+0.731: (ecstasy; be possessing with; intent to distribute)
+0.723: (the drugs; indicted; Lee)[attrib=Lee admitted]
+
+During the plea process, Lee repeatedly asked his attorney's whether Lee would face deportation; his attorney's assured Lee that Lee would not be deported as a result of pleading guilty.
+0.88: (Lee; would not be deported as; a result pleading guilty)
+0.819: (Lee; repeatedly asked his attorney 's whether Lee would face deportation; his attorney assured Lee that Lee would not be deported as a result)
+0.796: (his attorney; be assured in; Lee)
+0.65: (Lee; would face; deportation)
+0.476: (Lee; repeatedly asked his attorney 's whether Lee would face deportation during; the plea process)
+0.381: (his attorney assured Lee that Lee would not be deported as a result; repeatedly asked his attorney 's whether Lee would be face deportation during; the plea process)
+0.35: (Lee; repeatedly asked his attorney 's assured Lee that Lee would not be deported as a result of pleading guilty during; the plea process)
+0.303: (Lee; repeatedly asked his attorney 's assured Lee that Lee would not be deported as a result of pleading guilty; his attorney)
+0.267: (his attorney; repeatedly asked his attorney 's assured Lee that Lee would be not be deported as a result of pleading guilty during; the plea process)
+
+Lee retained counsel and entered into plea discussions with the Government.
+0.92: (Lee; entered into; plea discussions)
+0.794: (Lee; retained; counsel)
+
+Based on that assurance, Lee accepted a plea and was sentenced to a year and a day in prison.
+0.883: (Lee; was sentenced to; a year and a day)
+0.821: (Lee; accepted; a plea)
+
+Lee retained counsel and entered into plea discussions with the Government.
+0.92: (Lee; entered into; plea discussions)
+0.794: (Lee; retained; counsel)
+
+Based on that assurance, Lee accepted a plea and was sentenced to a year and a day in prison.
+0.883: (Lee; was sentenced to; a year and a day)
+0.821: (Lee; accepted; a plea)
+
+During the plea process, Lee repeatedly asked his attorney's whether Lee would face deportation; his attorney's assured Lee that Lee would not be deported as a result of pleading guilty.
+0.88: (Lee; would not be deported as; a result pleading guilty)
+0.819: (Lee; repeatedly asked his attorney 's whether Lee would face deportation; his attorney assured Lee that Lee would not be deported as a result)
+0.796: (his attorney; be assured in; Lee)
+0.65: (Lee; would face; deportation)
+0.476: (Lee; repeatedly asked his attorney 's whether Lee would face deportation during; the plea process)
+0.381: (his attorney assured Lee that Lee would not be deported as a result; repeatedly asked his attorney 's whether Lee would be face deportation during; the plea process)
+0.35: (Lee; repeatedly asked his attorney 's assured Lee that Lee would not be deported as a result of pleading guilty during; the plea process)
+0.303: (Lee; repeatedly asked his attorney 's assured Lee that Lee would not be deported as a result of pleading guilty; his attorney)
+0.267: (his attorney; repeatedly asked his attorney 's assured Lee that Lee would be not be deported as a result of pleading guilty during; the plea process)
+
+Lee had in fact pleaded guilty to an`` aggravated felony'' under the Immigration and Nationality Act, 8U.S.C.§ 1101-LRB- a-RRB--LRB- 43-RRB--LRB- B-RRB-, so Lee was, contrary to his attorney 's's advice, subject to mandatory deportation as a result of the plea process.
+0.681: (Lee; had in; fact)
+0.575: (Lee; had; fact)
+
+During the plea process, Lee repeatedly asked his attorney 's's whether Lee would face deportation; his attorney 's's assured Lee that Lee would not be deported as a result of pleading guilty.
+0.88: (Lee; would not be deported as; a result pleading guilty)
+0.796: (his attorney; be assured in; Lee)
+0.69: (Lee; repeatedly asked his attorney 's 's whether Lee would face deportation; his attorney assured Lee that Lee would not be deported as a result)
+0.65: (Lee; would face; deportation)
+0.476: (Lee; repeatedly asked his attorney 's 's whether Lee would face deportation during; the plea process)
+0.381: (his attorney assured Lee that Lee would not be deported as a result; repeatedly asked his attorney 's 's whether Lee would be face deportation during; the plea process)
+0.303: (Lee; repeatedly asked his attorney 's 's assured Lee that Lee would not be deported as a result of pleading guilty; his attorney)
+0.267: (his attorney; repeatedly asked his attorney 's 's assured Lee that Lee would be not be deported as a result of pleading guilty during; the plea process)
+0.213: (Lee; repeatedly asked his attorney 's 's assured Lee that Lee would not be deported as a result of pleading guilty during; the plea process)
+
+Lee had in fact pleaded guilty to an`` aggravated felony'' under the Immigration and Nationality Act, 8U.S.C.§ 1101-LRB- a-RRB--LRB- 43-RRB--LRB- B-RRB-, so Lee was, contrary to Lee's attorney's advice, subject to mandatory deportation as a result of a plea.
+0.681: (Lee; had in; fact)
+0.575: (Lee; had; fact)
+
+Based on that assurance, Lee accepted a plea and was sentenced to a year and a day in prison.
+0.883: (Lee; was sentenced to; a year and a day)
+0.821: (Lee; accepted; a plea)
+
+When Lee learned of a plea, Lee filed a motion to vacate Lee's conviction and sentence, arguing that Lee's attorney had provided constitutionally ineffective assistance.
+0.92: (Lee; learned of; a plea)
+0.871: (Lee; filed; a motion)
+0.821: (Lee; filed a motion to vacate; Lee 's conviction and sentence)
+0.7: (Lee 's attorney; had provided; ineffective assistance)
+
+Based on that assurance, Lee accepted a plea and was sentenced to a year and a day in prison.
+0.883: (Lee; was sentenced to; a year and a day)
+0.821: (Lee; accepted; a plea)
+
+When Lee learned of this consequence, Lee filed a motion to vacate Lee's conviction and sentence, arguing that his attorney 's's had provided constitutionally ineffective assistance.
+0.92: (Lee; learned of; this consequence)
+0.871: (Lee; filed; a motion)
+0.821: (Lee; filed a motion to vacate; Lee 's conviction and sentence)
+
+Lee had in fact pleaded guilty to an`` aggravated felony'' under the Immigration and Nationality Act, 8U.S.C.§ 1101-LRB- a-RRB--LRB- 43-RRB--LRB- B-RRB-, so Lee was, contrary to his attorney 's's advice, subject to mandatory deportation as a result of that plea.
+0.681: (Lee; had in; fact)
+0.575: (Lee; had; fact)
+
+At an evidentiary hearing, both to Lee and to Lee'splea-stage counsel testified that`` deportation was the determinative issue'' to Lee in deciding whether to accept a plea, and to Lee counsel acknowledged that although to Lee defense to the charge was weak, if to Lee had known to Lee would be deported upon pleading guilty, to Lee would have advised to Lee to go to trial.
+0.857: (deportation; was the determinative issue to; Lee)
+0.694: (weak; would have advised to; Lee)
+0.645: (counsel; testified at; an evidentiary hearing)
+0.638: (deportation; acknowledged to; Lee counsel)
+0.588: (deportation; was; the determinative issue)
+0.471: (the charge; was; weak)
+
+to Lee had in fact pleaded guilty to an`` aggravated felony'' under the Immigration and Nationality Act, 8U.S.C.§ 1101-LRB- a-RRB--LRB- 43-RRB--LRB- B-RRB-, so to Lee was, contrary to to Lee's attorney's advice, subject to mandatory deportation as a result of that plea.
+0.484: (B-RRB-,; so Lee was; contrary)
+
+At an evidentiary hearing, both to Lee and to Lee'splea-stage counsel testified that`` deportation was the determinative issue'' to Lee in deciding whether to accept a plea, and to Lee counsel acknowledged that although to Lee defense to the charge was weak, if to Lee had known to Lee would be deported upon pleading guilty, to Lee would have advised to Lee to go to trial.
+0.857: (deportation; was the determinative issue to; Lee)
+0.694: (weak; would have advised to; Lee)
+0.645: (counsel; testified at; an evidentiary hearing)
+0.638: (deportation; acknowledged to; Lee counsel)
+0.588: (deportation; was; the determinative issue)
+0.471: (the charge; was; weak)
+
+When to Lee learned of this consequence, to Lee filed a motion to vacate to Lee's conviction and sentence, arguing that to Lee's attorney had provided constitutionally ineffective assistance.
+0.7: (Lee 's attorney; had provided; ineffective assistance)
+
+A Magistrate Judge recommended that Lee 's plea be set aside and Lee 's's conviction vacated.
+No extractions found.
+
+When Lee 's learned of this consequence, Lee 's filed a motion to vacate Lee 's's conviction and sentence, arguing that Lee 's's attorney had provided constitutionally ineffective assistance.
+0.863: (Lee; learned of; this consequence)
+0.848: (Lee; filed; a motion to vacate Lee 's 's conviction and sentence)
+0.7: (Lee 's 's attorney; had provided; ineffective assistance)
+
+A Magistrate Judge recommended that A Magistrate Judge plea be set aside and A Magistrate Judge's conviction vacated.
+No extractions found.
+
+At an evidentiary hearing, both A Magistrate Judge and A Magistrate Judge'splea-stage counsel testified that`` deportation was the determinative issue'' to Lee in deciding whether to accept Lee 's plea, and A Magistrate Judge counsel acknowledged that although A Magistrate Judge defense to the charge was weak, if A Magistrate Judge had known A Magistrate Judge would be deported upon pleading guilty, A Magistrate Judge would have advised A Magistrate Judge to go to trial.
+0.857: (deportation; was the determinative issue to; Lee)[attrib=A Magistrate Judge 'splea-stage counsel testified]
+0.814: (A Magistrate Judge; would have advised A Magistrate Judge to go to; trial)[enabler=although A Magistrate Judge defense to the charge was weak , if A Magistrate Judge had known A Magistrate Judge would be deported upon pleading guilty]
+0.775: (A Magistrate Judge; would have advised; A Magistrate Judge)[enabler=although A Magistrate Judge defense to the charge was weak , if A Magistrate Judge had known A Magistrate Judge would be deported upon pleading guilty]
+0.588: (deportation; was; the determinative issue)
+0.471: (A Magistrate Judge defense; was; weak)
+0.448: (A Magistrate Judge and A Magistrate Judge 'splea-stage counsel testified that `` deportation was the determinative issue '' to Lee in deciding whether to accept Lee 's plea , and A Magistrate Judge counsel; acknowledged at; an evidentiary hearing)
+0.289: (weak; be A Magistrate Judge defense to; the charge)
+
+The District Court, however, denied relief, and the Sixth Circuit affirmed.
+0.691: (The District Court; however denied; relief)
+0.507: (the Sixth Circuit; however denied; relief)
+
+At an evidentiary hearing, both The District Court and The District Court'splea-stage counsel testified that`` deportation was the determinative issue'' to Lee in deciding whether to accept a plea, and The District Court counsel acknowledged that although The District Court defense to the charge was weak, if The District Court had known The District Court would be deported upon pleading guilty, The District Court would have advised The District Court to go to trial.
+0.857: (deportation; was the determinative issue to; Lee)
+0.814: (The District Court; would have advised The District Court to go to; trial)[enabler=although The District Court defense to the charge was weak , if The District Court had known The District Court would be deported upon pleading guilty]
+0.775: (The District Court; would have advised; The District Court)[enabler=although The District Court defense to the charge was weak , if The District Court had known The District Court would be deported upon pleading guilty]
+0.588: (deportation; was; the determinative issue)
+0.471: (The District Court defense; was; weak)
+0.289: (weak; be The District Court defense to; the charge)
+
+Applying thetwo-part test for ineffective assistance claims from Stricklandv.
+No extractions found.
+
+Washington, 466U.S. 668, the Sixth Circuit concluded that, while the Government conceded that Lee 's had performed deficiently, Lee 's could not show that Lee 's was prejudiced by Lee 's's erroneous advice.
+0.846: (Lee; was prejudiced by; Lee 's 's erroneous advice)[attrib=Lee could not show]
+
+A Magistrate Judge recommended that Lee 's plea be set aside and Lee 's's conviction vacated.
+No extractions found.
+
+Applying thetwo-part test for ineffective assistance claims from Stricklandv.
+No extractions found.
+
+Washington, 466U.S. 668, the Sixth Circuit concluded that, while the Government conceded that Lee 's counsel had performed deficiently, Lee 's could not show that Lee 's was prejudiced by Lee 's's erroneous advice.
+0.846: (Lee; was prejudiced by; Lee 's 's erroneous advice)[attrib=Lee could not show]
+
+The District Court, however, denied relief, and the Sixth Circuit affirmed.
+0.691: (The District Court; however denied; relief)
+0.507: (the Sixth Circuit; however denied; relief)
+
+Lee 's has demonstrated that Lee 's was prejudiced by Lee 's counsel's erroneous advice.
+0.894: (Lee; was prejudiced by; Lee 's counsel 's erroneous advice)
+
+Applying thetwo-part test for ineffective assistance claims from Stricklandv.
+No extractions found.
+
+Washington, 466U.S. 668, the Sixth Circuit concluded that, while the Government conceded that Lee 's counsel had performed deficiently, Lee 's could not show that Lee 's was prejudiced by his attorney 's erroneous advice's.
+0.769: (Lee; was prejudiced by; his attorney 's erroneous advice)[attrib=Lee could not show]
+
+When a defendant claims that Lee 's counsel's deficient performance deprived Lee 's of a trial by causing Lee 's to accept a plea, a defendant can show prejudice by demonstrating a`` reasonable probability that, but for counsel's errors, Lee 's would not have pleaded guilty and would have insisted on going to trial.''
+0.748: (Lee 's counsel 's deficient performance; deprived; Lee 's of a trial)[attrib=a defendant claims]
+0.747: (a defendant; can show; prejudice)
+0.689: (Lee; to accept; a plea)
+
+Applying thetwo-part test for ineffective assistance claims from Stricklandv.
+No extractions found.
+
+Washington, 466U.S. 668, the Sixth Circuit concluded that, while the Government conceded that Lee 's counsel had performed deficiently, Lee 's could not show that Lee 's was prejudiced by Lee 's's erroneous advice.
+0.846: (Lee; was prejudiced by; Lee 's 's erroneous advice)[attrib=Lee could not show]
+
+When a defendant claims that Lee's deficient performance deprived Lee of a trial by causing Lee to accept a plea, a defendant can show prejudice by demonstrating a`` reasonable probability that, but for counsel's errors, Lee would not have pleaded guilty and would have insisted on going to trial.''
+0.841: (Lee 's deficient performance; deprived Lee of; a trial)[attrib=a defendant claims]
+0.805: (Lee; be deprived of; a trial)[attrib=a defendant claims]
+0.747: (a defendant; can show; prejudice)
+0.661: (Lee 's deficient performance; deprived; Lee)[attrib=a defendant claims]
+
+Lee has demonstrated that Lee was prejudiced by Lee's erroneous advice.
+0.88: (Lee; was prejudiced by; Lee 's erroneous advice)
+
+Lee contends that Lee can make Lee showing because Lee never would have accepted a guilty plea had Lee known the result would be deportation.
+0.693: (the result; would be; deportation)
+0.671: (Lee; can make; Lee showing)[enabler=because Lee never would have accepted a guilty plea had Lee known the result would be deportation;attrib=Lee contends]
+
+Lee has demonstrated that Lee was prejudiced by Lee's erroneous advice.
+0.88: (Lee; was prejudiced by; Lee 's erroneous advice)
+
+Lee contends that a defendant can make a defendant showing because a defendant never would have accepted a guilty plea had a defendant known the result would be deportation.
+0.739: (a guilty plea; had; a defendant known the result would be deportation)
+0.693: (the result; would be; deportation)
+
+When a defendant claims that a defendant's counsel's deficient performance deprived a defendant of a trial by causing a defendant to accept a plea, a defendant can show prejudice by demonstrating a`` reasonable probability that, but for counsel's errors, a defendant would not have pleaded guilty and would have insisted on going to trial.''
+0.834: (deficient performance; deprived; a defendant of a trial)
+0.649: (a defendant 's counsel deficient performance deprived a defendant of a trial by causing a defendant; can show; prejudice)[attrib=a defendant claims]
+0.151: (a defendant; be counsel of; a defendant)
+
+The Government contends that Lee can not show prejudice from accepting a plea where Lee's only hope at trial was that something unexpected and unpredictable might occur that would lead to acquittal.
+0.671: (Lee; can not show; prejudice)[attrib=The Government contends]
+
+When a defendant claims that a defendant's counsel's deficient performance deprived a defendant of a trial by causing a defendant to accept a plea, a defendant can show prejudice by demonstrating a`` reasonable probability that, but for counsel's errors, a defendant would not have pleaded guilty and would have insisted on going to trial.''
+0.834: (deficient performance; deprived; a defendant of a trial)
+0.649: (a defendant 's counsel deficient performance deprived a defendant of a trial by causing a defendant; can show; prejudice)[attrib=a defendant claims]
+0.151: (a defendant; be counsel of; a defendant)
+
+The Government contends that Lee can not show prejudice from accepting a plea where Lee's only hope at trial was that something unexpected and unpredictable might occur that would lead to acquittal.
+0.671: (Lee; can not show; prejudice)[attrib=The Government contends]
+
+Lee contends that Lee can make this showing because Lee never would have accepted a guilty plea had Lee known the result would be deportation.
+0.693: (the result; would be; deportation)
+0.671: (Lee; can make; this showing)[enabler=because Lee never would have accepted a guilty plea had Lee known the result would be deportation;attrib=Lee contends]
+
+The Government makes two errors in urging the adoption of a per se rule that a defendant with no viable defense can not show prejudice from the denial of a defendant with no viable defense's right to trial.
+0.746: (The Government; makes; two errors)
+0.739: (prejudice; can be not show with; no viable defense 's right)
+0.712: (a defendant; can not show; prejudice)
+0.643: (a defendant; can not show prejudice from the denial of a defendant with; no viable defense 's right)
+
+The Government contends that Lee can not show prejudice from accepting a plea where Lee's only hope at trial was that something unexpected and unpredictable might occur that would lead to acquittal.
+0.671: (Lee; can not show; prejudice)[attrib=The Government contends]
+
+First, The Government forgets that categorical rules are ill suited to an inquiry that demands a``case-by-case examination'' of the`` totality of The Government.''
+0.613: (demands; a``; case-by-case examination '' of the`` totality of The Government)
+
+The Government contends that Lee can not show prejudice from accepting a plea where Lee's only hope at trial was that something unexpected and unpredictable might occur that would lead to acquittal.
+0.671: (Lee; can not show; prejudice)[attrib=The Government contends]
+
+First, The Government forgets that categorical rules are ill suited to an inquiry that demands a``case-by-case examination'' of the`` totality of The Government.''
+0.613: (demands; a``; case-by-case examination '' of the`` totality of The Government)
+
+The Government makes two errors in urging the adoption of a per se rule that a defendant with no viable defense can not show prejudice from the denial of a defendant with no viable defense's right to trial.
+0.746: (The Government; makes; two errors)
+0.739: (prejudice; can be not show with; no viable defense 's right)
+0.712: (a defendant; can not show; prejudice)
+0.643: (a defendant; can not show prejudice from the denial of a defendant with; no viable defense 's right)
+
+More fundamentally, The Government overlooks that the Hillv.
+No extractions found.
+
+Lockhart inquiry focuses on a defendant's decisionmaking, which may not turn solely on the likelihood of conviction after trial.
+0.899: (Lockhart inquiry; focuses on; a defendant 's decisionmaking which may not turn solely on the likelihood of conviction after trial)
+
+The Government makes two errors in urging the adoption of a per se rule that a defendant with no viable defense can not show prejudice from the denial of a defendant with no viable defense's right to trial.
+0.746: (The Government; makes; two errors)
+0.739: (prejudice; can be not show with; no viable defense 's right)
+0.712: (a defendant; can not show; prejudice)
+0.643: (a defendant; can not show prejudice from the denial of a defendant with; no viable defense 's right)
+
+More fundamentally, it overlooks that the Hillv.
+No extractions found.
+
+Lockhart inquiry focuses on a defendant's decisionmaking, which may not turn solely on the likelihood of conviction after trial.
+0.899: (Lockhart inquiry; focuses on; a defendant 's decisionmaking which may not turn solely on the likelihood of conviction after trial)
+
+First, it forgets that categorical rules are ill suited to an inquiry that demands a``case-by-case examination'' of the`` totality of the evidence.''
+0.628: (demands; a``; case-by-case examination '' of the`` totality of the evidence)
+
+The decision whether to plead guilty also involves assessing the respective consequences of a conviction after trial and by plea.
+0.743: (the respective consequences of a conviction; be assessing after; trial and by plea)
+0.743: (the respective consequences of a conviction; be assessing by; trial and by plea)
+
+First, it forgets that categorical rules are ill suited to an inquiry that demands a``case-by-case examination'' of the`` totality of the evidence.''
+0.628: (demands; a``; case-by-case examination '' of the`` totality of the evidence)
+
+The decision whether to plead guilty also involves assessing the respective consequences of a conviction after trial and by plea.
+0.743: (the respective consequences of a conviction; be assessing after; trial and by plea)
+0.743: (the respective consequences of a conviction; be assessing by; trial and by plea)
+
+More fundamentally, it overlooks that the Hillv.
+No extractions found.
+
+Lockhart inquiry focuses on a defendant's decisionmaking, which may not turn solely on the likelihood of conviction after trial.
+0.899: (Lockhart inquiry; focuses on; a defendant 's decisionmaking which may not turn solely on the likelihood of conviction after trial)
+
+When those consequences are, from a defendant 's perspective, similarly dire, even the smallest chance of success at trial may look attractive.
+No extractions found.
+
+More fundamentally, it overlooks that the Hillv.
+No extractions found.
+
+Lockhart inquiry focuses on a defendant 's decisionmaking, which may not turn solely on the likelihood of conviction after trial.
+0.899: (Lockhart inquiry; focuses on; a defendant 's decisionmaking which may not turn solely on the likelihood of conviction after trial)
+
+When the respective consequences of a conviction are, from the defendant's perspective, similarly dire, even the smallest chance of success at trial may look attractive.
+0.739: (the respective consequences of a conviction; are from; the defendant 's perspective)
+
+The decision whether to plead guilty also involves assessing the respective consequences of a conviction after trial and by plea.
+0.743: (the respective consequences of a conviction; be assessing after; trial and by plea)
+0.743: (the respective consequences of a conviction; be assessing by; trial and by plea)
+
+For Lee, deportation after some time in prison was not meaningfully different from deportation after somewhat less time; he says he accordingly would have rejected any plea leading to deportation in favor of throwing a`` Hail Mary'' at trial.
+0.785: (he; accordingly would have rejected; any plea leading to deportation in favor)[attrib=he says]
+0.716: (any plea; leading in; favor throwing a`` Hail Mary '' at trial)
+0.701: (any plea; leading to; deportation)
+0.593: (a`` Hail Mary; be throwing at; trial)
+
+The decision whether to plead guilty also involves assessing the respective consequences of a conviction after trial and by plea.
+0.743: (the respective consequences of a conviction; be assessing after; trial and by plea)
+0.743: (the respective consequences of a conviction; be assessing by; trial and by plea)
+
+For Lee, deportation after some time in prison was not meaningfully different from deportation after somewhat less time; he says he accordingly would have rejected any plea leading to deportation in favor of throwing a`` Hail Mary'' at trial.
+0.785: (he; accordingly would have rejected; any plea leading to deportation in favor)[attrib=he says]
+0.716: (any plea; leading in; favor throwing a`` Hail Mary '' at trial)
+0.701: (any plea; leading to; deportation)
+0.593: (a`` Hail Mary; be throwing at; trial)
+
+When those consequences are, from the defendant's perspective, similarly dire, even the smallest chance of success at trial may look attractive.
+No extractions found.
+
+Pointing to Strickland, the Government urges that''-LSB- a -RSB- defendant has no entitlement to the luck of a lawless decisionmaker.''
+0.859: (a -RSB- defendant; has no entitlement to; the luck of a lawless decisionmaker)
+0.757: (a -RSB- defendant; has; no entitlement)
+0.704: (a -RSB- defendant; urges in; Pointing)
+0.339: (the Government; be Pointing to; Strickland)
+
+When those consequences are, from a -RSB- defendant perspective, similarly dire, even the smallest chance of success at trial may look attractive.
+No extractions found.
+
+Pointing to Strickland, the Government urges that''-LSB- a-RSB- defendant has no entitlement to the luck of a lawless decisionmaker.''
+0.859: (a-RSB- defendant; has no entitlement to; the luck of a lawless decisionmaker)
+0.757: (a-RSB- defendant; has; no entitlement)
+0.704: (a-RSB- defendant; urges in; Pointing)
+0.339: (the Government; be Pointing to; Strickland)
+
+For Lee, deportation after some time in prison was not meaningfully different from deportation after somewhat less time; he says he accordingly would have rejected any plea leading to deportation in favor of throwing a`` Hail Mary'' at trial.
+0.785: (he; accordingly would have rejected; any plea leading to deportation in favor)[attrib=he says]
+0.716: (any plea; leading in; favor throwing a`` Hail Mary '' at trial)
+0.701: (any plea; leading to; deportation)
+0.593: (a`` Hail Mary; be throwing at; trial)
+
+That statement, however, was made in the context of discussing the presumption of reliability applied to judicial proceedings, which has no place where, as here, a defendant was deprived of a proceeding altogether.
+0.929: (a defendant; was deprived of; a proceeding)
+0.902: (That statement; however was made in; the context discussing the presumption of reliability applied to judicial proceedings ,)
+0.621: (a defendant; was deprived in; no place)
+0.619: (That statement; however was made on; the context discussing the presumption of reliability applied to judicial proceedings ,)
+0.606: (no place where , as here , a defendant was deprived of a proceeding altogether; be has by; judicial proceedings)
+
+For Lee, deportation after some time in prison was not meaningfully different from deportation after somewhat less time; he says he accordingly would have rejected any plea leading to deportation in favor of throwing a`` Hail Mary'' at trial.
+0.785: (he; accordingly would have rejected; any plea leading to deportation in favor)[attrib=he says]
+0.716: (any plea; leading in; favor throwing a`` Hail Mary '' at trial)
+0.701: (any plea; leading to; deportation)
+0.593: (a`` Hail Mary; be throwing at; trial)
+
+That statement, however, was made in the context of discussing the presumption of reliability applied to judicial proceedings, which has no place where, as here, a -RSB- defendant was deprived of a proceeding altogether.
+0.929: (a -RSB- defendant; was deprived of; a proceeding)
+0.902: (That statement; however was made in; the context discussing the presumption of reliability applied to judicial proceedings ,)
+0.621: (a -RSB- defendant; was deprived in; no place)
+0.619: (That statement; however was made on; the context discussing the presumption of reliability applied to judicial proceedings ,)
+0.606: (no place where , as here , a -RSB- defendant was deprived of a proceeding altogether; be has by; judicial proceedings)
+
+Pointing to Strickland, the Government urges that''-LSB- a -RSB- defendant has no entitlement to the luck of a lawless decisionmaker.''
+0.859: (a -RSB- defendant; has no entitlement to; the luck of a lawless decisionmaker)
+0.757: (a -RSB- defendant; has; no entitlement)
+0.704: (a -RSB- defendant; urges in; Pointing)
+0.339: (the Government; be Pointing to; Strickland)
+
+When the inquiry is focused on what an individual defendant would have done, the possibility of even a highly improbable result may be pertinent to the extent the Government would have affected the defendant 's decisionmaking.
+0.759: (the Government; would have affected; the defendant 's decisionmaking)
+0.734: (the possibility of even a highly improbable result; may be pertinent to; the extent)
+0.724: (the possibility of even a highly improbable result; may be; pertinent)
+0.332: (pertinent; be the possibility of; a highly improbable result)
+
+Pointing to Strickland, the Government urges that''-LSB- the defendant 's decisionmaking has no entitlement to the luck of a lawless decisionmaker.''
+0.841: (''-LSB- the defendant 's decisionmaking; has no entitlement to; the luck of a lawless decisionmaker)
+0.73: (''-LSB- the defendant 's decisionmaking; has; no entitlement)
+0.687: (''-LSB- the defendant 's decisionmaking; urges in; Pointing)
+0.339: (the Government; be Pointing to; Strickland)
+
+When the inquiry is focused on what an individual defendant would have done, the possibility of even a highly improbable result may be pertinent to the extent the inquiry would have affected the defendant 's decisionmaking.
+0.759: (the inquiry; would have affected; the defendant 's decisionmaking)
+0.734: (the possibility of even a highly improbable result; may be pertinent to; the extent)
+0.724: (the possibility of even a highly improbable result; may be; pertinent)
+0.332: (pertinent; be the possibility of; a highly improbable result)
+
+That statement, however, was made in the context of discussing the presumption of reliability applied to judicial proceedings, which has no place where, as here, the defendant 's decisionmaking was deprived of a proceeding altogether.
+0.902: (That statement; however was made in; the context discussing the presumption of reliability applied to judicial proceedings ,)
+0.875: (the defendant 's decisionmaking; as here was deprived of; a proceeding)
+0.619: (That statement; however was made on; the context discussing the presumption of reliability applied to judicial proceedings ,)
+0.606: (no place where , as here , the defendant 's decisionmaking was deprived of a proceeding altogether; be has by; judicial proceedings)
+0.531: (the defendant 's decisionmaking; as here was deprived in; no place)
+
+Courts should not upset a plea solely because of post hoc assertions from a defendant about how a defendant would have pleaded but for a defendant's attorney's deficiencies.
+0.85: (Courts; should not upset a plea solely because of; post hoc assertions)
+0.721: (a plea; should be not upset solely because of; post hoc assertions)
+0.535: (Courts; should not upset solely; a plea)
+
+That statement, however, was made in the context of discussing the presumption of reliability applied to judicial proceedings, which has no place where, as here, a defendant was deprived of a proceeding altogether.
+0.929: (a defendant; was deprived of; a proceeding)
+0.902: (That statement; however was made in; the context discussing the presumption of reliability applied to judicial proceedings ,)
+0.621: (a defendant; was deprived in; no place)
+0.619: (That statement; however was made on; the context discussing the presumption of reliability applied to judicial proceedings ,)
+0.606: (no place where , as here , a defendant was deprived of a proceeding altogether; be has by; judicial proceedings)
+
+Courts should not upset a plea solely because of post hoc assertions from a defendant about how he would have pleaded but for he's attorney's deficiencies.
+0.85: (Courts; should not upset a plea solely because of; post hoc assertions)
+0.721: (a plea; should be not upset solely because of; post hoc assertions)
+0.535: (Courts; should not upset solely; a plea)
+0.501: (he; 's deficiencies of; attorney)
+0.409: (he; 's; attorney 's deficiencies)
+
+When the inquiry is focused on what an individual defendant would have done, the possibility of even a highly improbable result may be pertinent to the extent the inquiry would have affected an individual defendant decisionmaking.
+0.759: (the inquiry; would have affected; an individual defendant decisionmaking)
+0.734: (the possibility of even a highly improbable result; may be pertinent to; the extent)
+0.724: (the possibility of even a highly improbable result; may be; pertinent)
+0.332: (pertinent; be the possibility of; a highly improbable result)
+
+Rather, they should look to contemporaneous evidence to substantiate an individual defendant expressed preferences.
+0.898: (they; Rather should look to; contemporaneous evidence to substantiate an individual defendant expressed preferences)
+0.806: (an individual defendant; expressed; preferences)
+
+When the inquiry is focused on what an individual defendant would have done, the possibility of even a highly improbable result may be pertinent to the extent the inquiry would have affected an individual defendant decisionmaking.
+0.759: (the inquiry; would have affected; an individual defendant decisionmaking)
+0.734: (the possibility of even a highly improbable result; may be pertinent to; the extent)
+0.724: (the possibility of even a highly improbable result; may be; pertinent)
+0.332: (pertinent; be the possibility of; a highly improbable result)
+
+Rather, they should look to contemporaneous evidence to substantiate a defendant's expressed preferences.
+0.898: (they; Rather should look to; contemporaneous evidence to substantiate a defendant 's expressed preferences)
+
+Courts should not upset a plea solely because of post hoc assertions from a defendant about how he would have pleaded but for he's attorney's deficiencies.
+0.85: (Courts; should not upset a plea solely because of; post hoc assertions)
+0.721: (a plea; should be not upset solely because of; post hoc assertions)
+0.535: (Courts; should not upset solely; a plea)
+0.501: (he; 's deficiencies of; attorney)
+0.409: (he; 's; attorney 's deficiencies)
+
+In the unusual circumstances of this case, Lee has adequately demonstrated a reasonable probability that he would have rejected a plea had he known that a plea would lead to mandatory deportation: Both Lee and his attorney 's's testified that`` deportation was the determinative issue'' to Lee; Lee's responses during Lee's plea colloquy confirmed the importance he placed on deportation; and he had strong connections to the United States, while he had no ties to South Korea.
+0.803: (deportation; was the determinative issue to; Lee)
+0.778: (Lee and his attorney 's 's; had strong connections to; the United States)
+0.757: (he; had strong connections to; the United States)
+0.757: (he; placed on; deportation)
+0.751: (Lee; has adequately demonstrated; a reasonable probability)
+0.741: (Lee 's responses; confirmed; the importance he placed on deportation)
+0.713: (a plea; would lead to; mandatory deportation)
+0.704: (Lee 's responses; had strong connections to; the United States)
+0.68: (Lee and his attorney 's 's; confirmed; the importance he placed on deportation)
+0.667: (Lee and his attorney 's 's; had; strong connections)
+0.663: (strong connections; be had to; the United States)
+0.64: (he; had; strong connections)
+0.588: (deportation; was; the determinative issue)
+0.575: (Lee 's responses; had; strong connections)
+0.526: (he; had; no ties)
+0.48: (he; confirmed; the importance he placed on deportation)
+0.354: (Lee; has adequately demonstrated a reasonable probability that he would have rejected a plea had he known that a plea would lead to mandatory deportation : Both Lee and his attorney 's 's testified that `` deportation was the determinative issue '' to Lee ; Lee 's responses during Lee 's plea colloquy confirmed the importance he placed on deportation ; and he had strong connections to the United States , while he had no ties to South Korea in; the unusual circumstances of this case)
+0.279: (Lee and his attorney 's 's; be Lee 's responses during; Lee 's plea colloquy)
+0.144: (he; be Lee 's responses during; Lee 's plea colloquy)
+
+Courts should not upset a plea solely because of post hoc assertions from a defendant about how he would have pleaded but for he's attorney's deficiencies.
+0.85: (Courts; should not upset a plea solely because of; post hoc assertions)
+0.721: (a plea; should be not upset solely because of; post hoc assertions)
+0.535: (Courts; should not upset solely; a plea)
+0.501: (he; 's deficiencies of; attorney)
+0.409: (he; 's; attorney 's deficiencies)
+
+In the unusual circumstances of this case, Lee has adequately demonstrated a reasonable probability that Lee would have rejected the plea had Lee known that the plea would lead to mandatory deportation: Both Lee and Lee's attorney testified that`` deportation was the determinative issue'' to Lee; Lee's responses during Lee's plea colloquy confirmed the importance Lee placed on deportation; and Lee had strong connections to the United States, while Lee had no ties to South Korea.
+0.847: (Lee; had strong connections to; the United States)
+0.847: (Lee; placed on; deportation)
+0.803: (deportation; was the determinative issue to; Lee)
+0.788: (Lee 's responses; confirmed; the importance Lee placed on deportation)
+0.759: (Lee; had; strong connections)
+0.751: (Lee; has adequately demonstrated; a reasonable probability)
+0.713: (the plea; would lead to; mandatory deportation)
+0.704: (Lee 's responses; had strong connections to; the United States)
+0.704: (Lee and Lee 's attorney; had strong connections to; the United States)
+0.681: (Lee; confirmed; the importance Lee placed on deportation)
+0.663: (Lee; had; no ties)
+0.663: (strong connections; be had to; the United States)
+0.652: (Lee and Lee 's attorney; confirmed; the importance Lee placed on deportation)
+0.588: (deportation; was; the determinative issue)
+0.575: (Lee 's responses; had; strong connections)
+0.575: (Lee and Lee 's attorney; had; strong connections)
+0.354: (Lee; has adequately demonstrated a reasonable probability that Lee would have rejected the plea had Lee known that the plea would lead to mandatory deportation : Both Lee and Lee 's attorney testified that `` deportation was the determinative issue '' to Lee ; Lee 's responses during Lee 's plea colloquy confirmed the importance Lee placed on deportation ; and Lee had strong connections to the United States , while Lee had no ties to South Korea in; the unusual circumstances of this case)
+0.229: (Lee; be Lee 's responses during; Lee 's plea colloquy)
+0.207: (Lee and Lee 's attorney; be Lee 's responses during; Lee 's plea colloquy)
+
+Rather, they should look to contemporaneous evidence to substantiate a defendant's expressed preferences.
+0.898: (they; Rather should look to; contemporaneous evidence to substantiate a defendant 's expressed preferences)
+
+The Government argues that Lee can not`` convince the court that a decision to reject the plea bargain would have been rational under the circumstances,'' Padillav.
+0.633: (a decision to reject the plea bargain; would have been rational under; the circumstances)
+0.585: (Lee; can not `` convince; the court)
+
+Kentucky, 559U.S. 356, 372, since deportation would almost certainly result from a trial.
+0.784: (deportation; would almost certainly result from; a trial)
+
+Rather, they should look to contemporaneous evidence to substantiate a defendant's expressed preferences.
+0.898: (they; Rather should look to; contemporaneous evidence to substantiate a defendant 's expressed preferences)
+
+The Government argues that to Lee can not`` convince the court that a decision to reject the plea bargain would have been rational under the unusual circumstances of this case,'' to Leev.
+0.706: (a decision to reject the plea bargain; would have been rational under; the unusual circumstances of this case)
+0.597: (The Government; argues to; Leev.)
+0.367: (the court; can be not `` convince to; Lee)
+
+Kentucky, 559U.S. 356, 372, since deportation would almost certainly result from a trial.
+0.784: (deportation; would almost certainly result from; a trial)
+
+In the unusual circumstances of this case, to Lee has adequately demonstrated a reasonable probability that to Lee would have rejected the plea bargain had to Lee known that the plea bargain would lead to mandatory deportation: Both to Lee and to Lee's attorney testified that`` deportation was the determinative issue'' to Lee; to Lee's responses during to Lee's plea colloquy confirmed the importance to Lee placed on deportation; and to Lee had strong connections to the United States, while to Lee had no ties to South Korea.
+0.803: (deportation; was the determinative issue to; Lee)[attrib=Both testified]
+0.713: (the plea bargain; would lead to; mandatory deportation)
+0.695: (a reasonable probability; would have rejected to; Lee)
+0.663: (strong connections; be had to; the United States)
+0.643: (the importance; be confirmed to; Lee)
+0.588: (deportation; was; the determinative issue)
+0.573: (the importance; be confirmed to; Lee 's responses)
+0.456: (strong connections; be had to; Lee)
+
+Unlike the Government, the plea can not say that the plea would be irrational for someone in to Lee position to risk additional prison time in exchange for holding on to some chance of avoiding deportation.
+0.717: (the plea; would be irrational for; someone)[attrib=the plea can not say]
+0.679: (additional prison time; to be risk in; exchange)
+0.621: (the plea; would be; irrational)
+0.519: (the plea; can not say unlike; the Government)
+
+In the unusual circumstances of this case, to Lee has adequately demonstrated a reasonable probability that to Lee would have rejected the plea had to Lee known that the plea would lead to mandatory deportation: Both to Lee and to Lee's attorney testified that`` deportation was the determinative issue'' to Lee; to Lee's responses during to Lee's plea colloquy confirmed the importance to Lee placed on deportation; and to Lee had strong connections to the United States, while to Lee had no ties to South Korea.
+0.803: (deportation; was the determinative issue to; Lee)[attrib=Both testified]
+0.713: (the plea; would lead to; mandatory deportation)
+0.663: (strong connections; be had to; the United States)
+0.643: (the importance; be confirmed to; Lee)
+0.588: (deportation; was; the determinative issue)
+0.573: (the importance; be confirmed to; Lee 's responses)
+0.456: (strong connections; be had to; Lee)
+
+Unlike The Government, the court can not say that The Government would be irrational for someone in Lee 's position to risk additional prison time in exchange for holding on to some chance of avoiding deportation.
+0.717: (The Government; would be irrational for; someone)[attrib=the court can not say]
+0.679: (additional prison time; to be risk in; exchange)
+0.621: (The Government; would be; irrational)
+0.519: (the court; can not say unlike; The Government)
+
+The Government argues that Lee 's can not`` convince the court that a decision to reject the plea bargain would have been rational under the circumstances,'' Padillav.
+0.633: (a decision to reject the plea bargain; would have been rational under; the circumstances)
+0.585: (Lee; can not `` convince; the court)
+
+Kentucky, 559U.S. 356, 372, since deportation would almost certainly result from a trial.
+0.784: (deportation; would almost certainly result from; a trial)
+
+Roberts,C.J., delivered the opinion of the Court, in which Kennedy, Ginsburg, Breyer, Sotomayor, and Kagan,JJ., joined.
+0.837: (Roberts ,C.J.; delivered; the opinion of the Court)
+
+The Government argues that Lee can not`` convince the court that a decision to reject the plea bargain would have been rational under the circumstances,'' Padillav.
+0.633: (a decision to reject the plea bargain; would have been rational under; the circumstances)
+0.585: (Lee; can not `` convince; the court)
+
+Kentucky, 559U.S. 356, 372, since deportation would almost certainly result from a trial.
+0.784: (deportation; would almost certainly result from; a trial)
+
+Roberts,C.J., delivered the opinion of the Court, in which Kennedy, Ginsburg, Breyer, Sotomayor, and Kagan,JJ., joined.
+0.837: (Roberts ,C.J.; delivered; the opinion of the Court)
+
+Unlike the Government, this Court can not say that this Court would be irrational for someone in Lee's position to risk additional prison time in exchange for holding on to some chance of avoiding deportation.
+0.704: (this Court; would be irrational for; someone)[attrib=this Court can not say]
+0.679: (additional prison time; to be risk in; exchange)
+0.606: (this Court; would be; irrational)
+0.504: (this Court; can not say unlike; the Government)
+
+Thomas,J., filed a dissenting opinion, in which Alito,J., joined except as to PartI.
+0.908: (Thomas ,J.; filed; a dissenting opinion in which Alito,J. , joined except as to PartI.)
+
+Gorsuch,J., took no part in the consideration or decision of the case.
+0.946: (Gorsuch,J.; took no part in; the consideration or decision of the case)
+0.877: (Gorsuch,J.; took; no part)
+0.861: (no part; be took in; the consideration or decision of the case)
+0.795: (Gorsuch,J.; took no part; the consideration or decision of the case)
+
+Unlike the Government, this Court can not say that this Court would be irrational for someone in Lee's position to risk additional prison time in exchange for holding on to some chance of avoiding deportation.
+0.704: (this Court; would be irrational for; someone)[attrib=this Court can not say]
+0.679: (additional prison time; to be risk in; exchange)
+0.606: (this Court; would be; irrational)
+0.504: (this Court; can not say unlike; the Government)
+
+Thomas,J., filed a dissenting opinion, in which Alito,J., joined except as to PartI.
+0.908: (Thomas ,J.; filed; a dissenting opinion in which Alito,J. , joined except as to PartI.)
+
+Gorsuch,J., took no part in the consideration or decision of the case.
+0.946: (Gorsuch,J.; took no part in; the consideration or decision of the case)
+0.877: (Gorsuch,J.; took; no part)
+0.861: (no part; be took in; the consideration or decision of the case)
+0.795: (Gorsuch,J.; took no part; the consideration or decision of the case)
+
+Roberts,C.J., delivered the opinion of the Court, in which Kennedy, Ginsburg, Breyer, Sotomayor, and Kagan,JJ., joined.
+0.837: (Roberts ,C.J.; delivered; the opinion of the Court)
+
