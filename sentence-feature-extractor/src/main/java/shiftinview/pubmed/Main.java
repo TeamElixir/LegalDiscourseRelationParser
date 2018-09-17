@@ -1,5 +1,8 @@
 package shiftinview.pubmed;
 
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -48,6 +51,36 @@ public class Main {
 
 		TripleAnalyzer tripleAnalyzer = new TripleAnalyzer();
 
+		try (PrintWriter writer = new PrintWriter("coreferedSentences.txt", "UTF-8")) {
+			for (FeatureEntry entry : legalEntries) {
+				String targetSentence = sentences.get(entry.getTsid() - 1);
+				String sourceSentence = sentences.get(entry.getSsid() - 1);
+
+				// text to resolve coreferences
+				String corefText = targetSentence + " " + sourceSentence;
+
+				// annotate both sentences in order to resolve coreferences
+				Annotation annotation = nlpUtils.annotate(corefText);
+				ArrayList<String> resolvedSents = nlpUtils.replaceCoreferences(annotation);
+
+				// coreferences replaced new sentences
+				sourceSentence = resolvedSents.get(0);
+				targetSentence = resolvedSents.get(1);
+
+				System.out.println("target: " + entry.getTsid()+" ; source" + entry.getSsid());
+				writer.println(sourceSentence);
+				writer.println(targetSentence);
+				writer.println();
+			}
+		}
+		catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		catch (UnsupportedEncodingException e) {
+			e.printStackTrace();
+		}
+
+		/*
 		for (FeatureEntry entry : legalEntries) {
 			String targetSentence = sentences.get(entry.getTsid() - 1);
 			String sourceSentence = sentences.get(entry.getSsid() - 1);
@@ -71,11 +104,9 @@ public class Main {
 			ArrayList<Triple> sourceTriples = tripleAnalyzer.generateTripleList(sourceAnnotation, nlpUtils);
 			ArrayList<Triple> targetTriples = tripleAnalyzer.generateTripleList(targetAnnotation, nlpUtils);
 
-
 		}
+		*/
 
-		Set<String> synonyms = WordNetUtil.findSynonyms("argue", POS.v, false);
-		System.out.println(synonyms.toString());
 
 		System.out.printf("done");
 
