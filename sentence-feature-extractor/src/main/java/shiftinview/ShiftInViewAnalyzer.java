@@ -1,10 +1,9 @@
 package shiftinview;
 
 import edu.stanford.nlp.pipeline.Annotation;
-import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import featureextractor.semanticsimilarity.SemanticSentenceSimilarity;
 
-import shiftinview.models.Verb;
+import shiftinview.models.VerbRelation;
 import shiftinview.models.VerbPair;
 import utils.NLPUtils;
 
@@ -25,8 +24,8 @@ public class ShiftInViewAnalyzer {
         String targetSentence = "Lee could not show that he was prejudiced by his attorney's erroneous advice.";
         String sourceSentence
                 = "Lee has demonstrated that he was prejudiced by his counsel's erroneous advice.";
-        ArrayList<Verb> verbsSentence1;
-        ArrayList<Verb> verbsSentence2;
+        ArrayList<VerbRelation> verbsSentence1;
+        ArrayList<VerbRelation> verbsSentence2;
 
 
         Annotation targetAnnotation;
@@ -69,14 +68,18 @@ public class ShiftInViewAnalyzer {
         verbsSentence2 = constituentParser.getVerbRelationships(targetAnnotation,nlpUtils);
         String verbSource="";
         String verbTarget="";
+        Integer verbSourceId=-1;
+        Integer verbTargetId=-1;
         String sourceOther="";
         String targetOther="";
-        Verb verbObjectTarget=new Verb();
-        Verb verbObjectSource= new Verb();
+        VerbRelation verbObjectTarget=new VerbRelation();
+        VerbRelation verbObjectSource= new VerbRelation();
         String currentSourceVerb="";
         String currentTargetVerb = "";
-        Verb secondverb;
-        Verb verb;
+        int currentSourceVerbID=-1;
+        int currentTargetVerbID=-1;
+        VerbRelation secondverb;
+        VerbRelation verb;
         ArrayList<VerbPair> closeVerbs = new ArrayList<>();
 
 
@@ -89,10 +92,12 @@ public class ShiftInViewAnalyzer {
 
             if(verb.isVerbIsDep()){
                 verbTarget = verb.getDepLemma();
+                verbTargetId=verb.getId();
                 verbObjectTarget=verb;
             }
             else if(verb.isVerbIsGov()){
                 verbTarget=verb.getGovLemma();
+                verbTargetId=verb.getId();
                 verbObjectTarget=verb;
             }
             for(int i=0;i<verbsSentence1.size();i++){
@@ -100,11 +105,14 @@ public class ShiftInViewAnalyzer {
 
 
                 if(secondverb.isVerbIsDep()){
+
                     verbSource=secondverb.getDepLemma();
+                    verbSourceId=verb.getId();
                     verbObjectSource=secondverb;
                 }
                 else if(secondverb.isVerbIsGov()){
                     verbSource=secondverb.getGovLemma();
+                    verbSourceId=verb.getId();
                     verbObjectSource=secondverb;
                 }
                 /*System.out.println(" ");
@@ -113,12 +121,12 @@ public class ShiftInViewAnalyzer {
                 SemanticSentenceSimilarity semanticSentenceSimilarity= new SemanticSentenceSimilarity();
                 double score =semanticSentenceSimilarity.wordSimilarity(verbSource,POS.v,verbTarget,POS.v);
                 if(score>=0.8){
-                    if(!currentSourceVerb.equals(verbSource) || !currentTargetVerb.equals(verbTarget)){
+                    if(currentSourceVerbID!=verbSourceId || currentTargetVerbID !=verbTargetId){
                         /*String[] verbPair = new String[2];
                         verbPair[0]=verbTarget;
                         verbPair[1]=verbSource;*/
-                        currentSourceVerb=verbSource;
-                        currentTargetVerb=verbTarget;
+                        currentSourceVerbID=verbSourceId;
+                        currentTargetVerbID=verbTargetId;
                         System.out.println("rel :"+verbObjectTarget.getRelation());
                         System.out.println("rel :" + verbObjectSource.getRelation());
 

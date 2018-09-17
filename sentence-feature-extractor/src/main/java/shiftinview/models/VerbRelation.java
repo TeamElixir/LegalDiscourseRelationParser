@@ -1,6 +1,6 @@
 package shiftinview.models;
 
-public class Verb {
+public class VerbRelation {
     private String relation;
     private String depWord;
     private String depLemma;
@@ -8,7 +8,7 @@ public class Verb {
     private String govWord;
     private String govLemma;
     private String govTag;
-    private String id;
+    private Integer id;
     private boolean verbIsGov;
     private boolean verbIsDep;
 
@@ -34,11 +34,11 @@ public class Verb {
 
     }
 
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 

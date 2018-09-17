@@ -2,6 +2,7 @@ package shiftinview.wuPalmerTest;
 
 import edu.cmu.lti.jawjaw.pobj.POS;
 import featureextractor.semanticsimilarity.SemanticSentenceSimilarity;
+import shiftinview.wuPalmerTest.controllers.AnnotatedVerbPairsController;
 import shiftinview.wuPalmerTest.controllers.SentencePairsController;
 import shiftinview.wuPalmerTest.controllers.VerbPairsController;
 import shiftinview.wuPalmerTest.models.Sentence;
@@ -13,6 +14,11 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
+        ArrayList<VerbPair> allAnnotatedVerbPairs = AnnotatedVerbPairsController.getAllAnnotatedVerbPairs();
+        System.out.println(allAnnotatedVerbPairs.size());
+    }
+
+    private static void insertVerbPairsWithSpecificScoreToDB() {
         ArrayList<SentencePair> allSentencePairs = SentencePairsController.getAllSentencePairs(-1);
 
         NLPUtils nlpUtils = new NLPUtils("tokenize,ssplit,pos,lemma");

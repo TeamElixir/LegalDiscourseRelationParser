@@ -7,96 +7,108 @@ import edu.stanford.nlp.trees.Constituent;
 import edu.stanford.nlp.trees.LabeledScoredConstituentFactory;
 import edu.stanford.nlp.trees.Tree;
 import edu.stanford.nlp.trees.TypedDependency;
-import shiftinview.models.Verb;
+import shiftinview.models.VerbRelation;
+import shiftinview.models.VerbRelation;
 import utils.NLPUtils;
 
 import java.util.*;
 
 public class ConstituentParser {
-    ArrayList<List<Tree>> wordArrays = new ArrayList<>();
-    ArrayList<String> indexPoints = new ArrayList<>();
-    ArrayList<SemanticGraph> graphs = new ArrayList<>();
 
-    public void runConstituentParser(Annotation annotation, NLPUtils nlpUtils) {
+	ArrayList<List<Tree>> wordArrays = new ArrayList<>();
 
-        Tree tree = nlpUtils.constituentParse(annotation);
-        Set<Constituent> treeConstituents = tree.constituents(new LabeledScoredConstituentFactory());
+	ArrayList<String> indexPoints = new ArrayList<>();
 
-        for (Constituent constituent : treeConstituents) {
-            if (constituent.label() != null &&
-                    (constituent.label().toString().equals("S"))) {
-                //System.err.println("found constituent: " + constituent.toString());
-                wordArrays.add(tree.getLeaves().subList(constituent.start(), constituent.end() + 1));
-            }
-        }
-        createSentences();
-        //System.out.println(tree.toString());
+	ArrayList<SemanticGraph> graphs = new ArrayList<>();
 
+	ArrayList<String> innerSentences = new ArrayList<>();
 
-    }
+	public ArrayList<String> runConstituentParser(Annotation annotation, NLPUtils nlpUtils) {
+		Tree tree = nlpUtils.constituentParse(annotation);
+		Set<Constituent> treeConstituents = tree.constituents(new LabeledScoredConstituentFactory());
 
-    private void createSentences() {
-        for (List<Tree> wordArray : wordArrays) {
-            System.out.println(wordArray);
-            String sentence = "";
-            for (Tree word : wordArray) {
-                sentence = sentence + " " + word.toString();
+		for (Constituent constituent : treeConstituents) {
+			if (constituent.label() != null &&
+					(constituent.label().toString().equals("S"))) {
+				//System.err.println("found constituent: " + constituent.toString());
+				wordArrays.add(tree.getLeaves().subList(constituent.start(), constituent.end() + 1));
+			}
+		}
+		createSentences();
+		//System.out.println(tree.toString());
 
-            }
-            System.out.println(sentence);
-        }
-    }
+		return innerSentences;
+	}
 
-    public ArrayList<Verb> getVerbRelationships(Annotation annotation, NLPUtils nlpUtils) {
+	private void createSentences() {
+		for (List<Tree> wordArray : wordArrays) {
+			//            System.out.println(wordArray);
+			String sentence = "";
+			for (Tree word : wordArray) {
+				if (".".equals(word.toString()) || ",".equals(word.toString()) || "'s".equals(word.toString())) {
+					sentence = sentence + word.toString();
+				} else {
+					sentence = sentence + " " + word.toString();
+				}
+			}
+			//            System.out.println(sentence);
+			innerSentences.add(sentence);
+		}
+	}
 
-        ArrayList<Verb> verbArrayList = new ArrayList<>();
-        graphs = nlpUtils.getSemanticDependencyGraph(annotation);
-        for (SemanticGraph graph : graphs) {
-            Collection<TypedDependency> typedDependencies = graph.typedDependencies();
-            //System.out.println(graph.toList());
-            for (TypedDependency dependency : typedDependencies) {
+	public ArrayList<VerbRelation> getVerbRelationships(Annotation annotation, NLPUtils nlpUtils) {
 
-                String depTag = dependency.dep().tag();
-                String govTag = dependency.gov().tag();
+		ArrayList<VerbRelation> verbArrayList = new ArrayList<>();
+		graphs = nlpUtils.getSemanticDependencyGraph(annotation);
+		Integer count=0;
+		for (SemanticGraph graph : graphs) {
+			Collection<TypedDependency> typedDependencies = graph.typedDependencies();
+			//System.out.println(graph.toList());
+			for (TypedDependency dependency : typedDependencies) {
 
-                if ("VB".equals(depTag) || "VBD".equals(depTag) || "VBG".equals(depTag) ||
-                        "VBN".equals(depTag) || "VBP".equals(depTag) || "VBZ".equals(depTag)) {
+				String depTag = dependency.dep().tag();
+				String govTag = dependency.gov().tag();
 
-                    if (!dependency.dep().lemma().equals("be")) {
-                        Verb verb = new Verb();
-                        verb.setDepLemma(dependency.dep().lemma());
-                        verb.setDepWord(dependency.dep().word());
-                        verb.setDepTag(dependency.dep().tag());
-                        verb.setGovLemma(dependency.gov().lemma());
-                        verb.setGovWord(dependency.gov().word());
-                        verb.setGovTag(dependency.gov().tag());
-                        verb.setRelation(dependency.reln().toString());
-                        System.out.println("relll : "+dependency.reln().toString());
-                        verb.setVerbIsDep(true);
-                        verbArrayList.add(verb);
-                    }
+				if ("VB".equals(depTag) || "VBD".equals(depTag) || "VBG".equals(depTag) ||
+						"VBN".equals(depTag) || "VBP".equals(depTag) || "VBZ".equals(depTag)) {
 
-                } else if ("VB".equals(govTag) || "VBD".equals(govTag) || "VBG".equals(govTag) ||
-                        "VBN".equals(govTag) || "VBP".equals(govTag) || "VBZ".equals(govTag)) {
-                    if(!dependency.gov().lemma().equals("be")) {
-                        Verb verb = new Verb();
-                        verb.setDepLemma(dependency.dep().lemma());
-                        verb.setDepWord(dependency.dep().word());
-                        verb.setDepTag(dependency.dep().tag());
-                        verb.setGovLemma(dependency.gov().lemma());
-                        verb.setGovWord(dependency.gov().word());
-                        verb.setGovTag(dependency.gov().tag());
-                        verb.setRelation(dependency.reln().toString());
-                        System.out.println("relll : "+ dependency.reln().toString());
-                        verb.setVerbIsGov(true);
-                        verbArrayList.add(verb);
-                    }
-                }
+					if (!dependency.dep().lemma().equals("be")) {
+						VerbRelation verb = new VerbRelation();
+						verb.setDepLemma(dependency.dep().lemma());
+						verb.setDepWord(dependency.dep().word());
+						verb.setDepTag(dependency.dep().tag());
+						verb.setGovLemma(dependency.gov().lemma());
+						verb.setGovWord(dependency.gov().word());
+						verb.setGovTag(dependency.gov().tag());
+						verb.setRelation(dependency.reln().toString());
+						verb.setVerbIsDep(true);
+						count++;
+						verb.setId(count);
+						verbArrayList.add(verb);
+					}
 
-            }
-        }
+				} else if ("VB".equals(govTag) || "VBD".equals(govTag) || "VBG".equals(govTag) ||
+						"VBN".equals(govTag) || "VBP".equals(govTag) || "VBZ".equals(govTag)) {
+					if (!dependency.gov().lemma().equals("be")) {
+						VerbRelation verb = new VerbRelation();
+						verb.setDepLemma(dependency.dep().lemma());
+						verb.setDepWord(dependency.dep().word());
+						verb.setDepTag(dependency.dep().tag());
+						verb.setGovLemma(dependency.gov().lemma());
+						verb.setGovWord(dependency.gov().word());
+						verb.setGovTag(dependency.gov().tag());
+						verb.setRelation(dependency.reln().toString());
+						verb.setVerbIsGov(true);
+						count++;
+						verb.setId(count);
+						verbArrayList.add(verb);
+					}
+				}
 
-        return verbArrayList;
+			}
+		}
 
-    }
+		return verbArrayList;
+
+	}
 }
