@@ -33,6 +33,38 @@ public class TripleAnalyzer {
 
 	public PointerUtils pu;
 
+	private String[] stopWordsArr = new String[] { "a", "about", "above", "across", "after", "afterwards", "again",
+			"against",
+			"all", "almost", "alone", "along", "already", "also", "although", "always", "am", "among", "amongst",
+			"amoungst", "amount", "an", "and", "another", "any", "anyhow", "anyone", "anything", "anyway", "anywhere",
+			"are", "around", "as", "at", "back", "be", "became", "because", "become", "becomes", "becoming", "been",
+			"before", "beforehand", "behind", "being", "below", "beside", "besides", "between", "beyond", "bill", "both",
+			"bottom", "but", "by", "call", "can", "cannot", "cant", "co", "con", "could", "couldnt", "cry", "de",
+			"describe", "detail", "do", "done", "down", "due", "during", "each", "eg", "eight", "either", "eleven",
+			"else", "elsewhere", "empty", "enough", "etc", "even", "ever", "every", "everyone", "everything",
+			"everywhere", "except", "few", "fifteen", "fify", "fill", "find", "fire", "first", "five", "for", "former",
+			"formerly", "forty", "found", "four", "from", "front", "full", "further", "get", "give", "go", "had", "has",
+			"hasnt", "have", "he", "hence", "her", "here", "hereafter", "hereby", "herein", "hereupon", "hers",
+			"herself", "him", "himself", "his", "how", "however", "hundred", "ie", "if", "in", "inc", "indeed",
+			"interest", "into", "is", "it", "its", "itself", "keep", "last", "latter", "latterly", "least", "less",
+			"ltd", "made", "many", "may", "me", "meanwhile", "might", "mill", "mine", "more", "moreover", "most",
+			"mostly", "move", "much", "must", "my", "myself", "name", "namely", "neither", "never", "nevertheless",
+			"next", "nine", "no", "nobody", "none", "noone", "nor", "nothing", "now", "nowhere", "of", "off", "often",
+			"on", "once", "one", "only", "onto", "or", "other", "others", "otherwise", "our", "ours", "ourselves", "out",
+			"over", "own", "part", "per", "perhaps", "please", "put", "rather", "re", "same", "see", "seem", "seemed",
+			"seeming", "seems", "serious", "several", "she", "should", "show", "side", "since", "sincere", "six",
+			"sixty", "so", "some", "somehow", "someone", "something", "sometime", "sometimes", "somewhere", "still",
+			"such", "system", "take", "ten", "than", "that", "the", "their", "them", "themselves", "then", "thence",
+			"there", "thereafter", "thereby", "therefore", "therein", "thereupon", "these", "they", "thickv", "thin",
+			"third", "this", "those", "though", "three", "through", "throughout", "thru", "thus", "to", "together",
+			"too", "top", "toward", "towards", "twelve", "twenty", "two", "un", "under", "until", "up", "upon", "us",
+			"very", "via", "was", "we", "well", "were", "what", "whatever", "when", "whence", "whenever", "where",
+			"whereafter", "whereas", "whereby", "wherein", "whereupon", "wherever", "whether", "which", "while",
+			"whither", "who", "whoever", "whole", "whom", "whose", "why", "will", "within", "would", "yet", "you",
+			"your", "yours", "yourself", "yourselves", "the" };
+
+	private ArrayList<String> stopWords = new ArrayList<>(Arrays.asList(stopWordsArr));
+
 	public TripleAnalyzer() throws Exception {
 		dictionary = new HashMap<>();
 		dictionary = DictionaryCreator.readDic();
@@ -49,6 +81,7 @@ public class TripleAnalyzer {
 		for (Triple sourceTriple : sourceTriples) {
 			// TODO: 9/16/18 remove stop words from both triple word list
 			String sourceRelation = sourceTriple.relation;
+			sourceRelation = replaceNt(sourceRelation);
 			String[] sourceRelationWordArray = sourceRelation.split(" ");
 			ArrayList<String> sourceRelationWords = new ArrayList<>(Arrays.asList(sourceRelationWordArray));
 
@@ -62,6 +95,7 @@ public class TripleAnalyzer {
 
 			for (Triple targetTriple : targetTriples) {
 				String targetRelation = targetTriple.relation;
+				targetRelation = replaceNt(targetRelation);
 				String[] targetRelationWordArray = targetRelation.split(" ");
 				ArrayList<String> targetRelationWords = new ArrayList<>(Arrays.asList(targetRelationWordArray));
 
@@ -80,9 +114,9 @@ public class TripleAnalyzer {
 				double sigma = 0.1;
 
 				for (int i = 0; i < sourceRelationWords.size(); i++) {
-					String sWord = sourceRelationWords.get(i);
+					String sWord = sourceRelationWords.get(i).toLowerCase();
 					for (int j = 0; j < targetRelationWords.size(); j++) {
-						String tWord = targetRelationWords.get(j);
+						String tWord = targetRelationWords.get(j).toLowerCase();
 
 						if (sWord.equalsIgnoreCase(tWord)) {
 							if (i != 0 && j != 0) {
@@ -106,6 +140,14 @@ public class TripleAnalyzer {
 								sN++;
 							}
 						} else {
+
+							// if stopword no similarity measure, but not break eg: not in stop word list
+							if (stopWords.contains(sWord) || stopWords.contains(tWord)) {
+								System.out.println(sWord);
+								System.out.println(tWord);
+								continue;
+							}
+
 							SemanticSentenceSimilarity similarity = new SemanticSentenceSimilarity();
 							double simil = similarity.wordSimilarity(sWord, POS.v, tWord, POS.v);
 							simil = simil / (sourceRelationWordArray.length + targetRelationWordArray.length);
@@ -272,6 +314,15 @@ public class TripleAnalyzer {
 		}
 
 		return triples;
+	}
+
+	public String replaceNt(String text) {
+		text = text.replace("can't", "can not");
+		text = text.replace("won't", "will not");
+		text = text.replace("shan't", "shall not");
+		text = text.replace("n't", " not");
+
+		return text;
 	}
 
 	public static void main(String[] args) throws Exception {
