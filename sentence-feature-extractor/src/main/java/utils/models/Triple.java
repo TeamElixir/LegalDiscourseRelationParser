@@ -8,6 +8,7 @@ public class Triple {
 	public String objectLemma;
 	public String relationLemma;
 	public String sentence;
+	public double confidence;
 
 	@Override
 	public String toString(){

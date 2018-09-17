@@ -526,6 +526,7 @@ public class NLPUtils {
 				triple.objectLemma = stanfordTriple.objectLemmaGloss();
 				triple.relation = stanfordTriple.relationGloss();
 				triple.relationLemma = stanfordTriple.relationLemmaGloss();
+				triple.confidence = stanfordTriple.confidence;
 
 				triples.add(triple);
 			}
