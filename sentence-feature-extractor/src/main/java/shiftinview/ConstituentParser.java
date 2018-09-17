@@ -71,6 +71,7 @@ public class ConstituentParser {
                         verb.setGovWord(dependency.gov().word());
                         verb.setGovTag(dependency.gov().tag());
                         verb.setRelation(dependency.reln().toString());
+                        System.out.println("relll : "+dependency.reln().toString());
                         verb.setVerbIsDep(true);
                         verbArrayList.add(verb);
                     }
@@ -86,6 +87,7 @@ public class ConstituentParser {
                         verb.setGovWord(dependency.gov().word());
                         verb.setGovTag(dependency.gov().tag());
                         verb.setRelation(dependency.reln().toString());
+                        System.out.println("relll : "+ dependency.reln().toString());
                         verb.setVerbIsGov(true);
                         verbArrayList.add(verb);
                     }

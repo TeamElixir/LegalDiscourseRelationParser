@@ -3,8 +3,8 @@ package shiftinview.models;
 public class VerbPair {
     private String sourceVerb;
     private String targetVerb;
-    private Boolean sourceVerbNegated;
-    private Boolean targetVerbNegated;
+    private Boolean sourceVerbNegated=false;
+    private Boolean targetVerbNegated=false;
 
     public String getSourceVerb() {
         return sourceVerb;

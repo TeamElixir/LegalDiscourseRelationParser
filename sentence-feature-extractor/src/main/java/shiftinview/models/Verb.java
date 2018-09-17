@@ -8,6 +8,7 @@ public class Verb {
     private String govWord;
     private String govLemma;
     private String govTag;
+    private String id;
     private boolean verbIsGov;
     private boolean verbIsDep;
 
@@ -18,6 +19,7 @@ public class Verb {
     public void setVerbIsGov(boolean verbIsGov) {
         this.verbIsGov = verbIsGov;
     }
+
 
     public boolean isVerbIsDep() {
         return verbIsDep;
@@ -31,6 +33,15 @@ public class Verb {
         return relation;
 
     }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getId() {
+        return id;
+    }
+
 
     public void setRelation(String relation) {
         this.relation = relation;

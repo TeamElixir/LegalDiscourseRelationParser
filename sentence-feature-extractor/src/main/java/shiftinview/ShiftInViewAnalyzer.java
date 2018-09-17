@@ -3,21 +3,28 @@ package shiftinview;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import featureextractor.semanticsimilarity.SemanticSentenceSimilarity;
+
 import shiftinview.models.Verb;
+import shiftinview.models.VerbPair;
 import utils.NLPUtils;
 
+import  java.util.Arrays;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Properties;
 
 import edu.cmu.lti.jawjaw.pobj.POS;
 
 public class ShiftInViewAnalyzer {
+
+
+
     public static void main(String[] args) {
-        String targetSentence = "Although he has lived in this country for most of his life, Lee is not a United States" +
-                " citizen, and he feared that a criminal conviction might affect his status as a lawful " +
-                "permanent resident.";
+
+        List<String> negativeWords = new ArrayList<String>(Arrays.asList("never", "not", "nothing"));
+        String targetSentence = "Lee could not show that he was prejudiced by his attorney's erroneous advice.";
         String sourceSentence
-                = "His attorney assured him there was nothing to worry about,the Government would not deport him if he pleaded guilty.";
+                = "Lee has demonstrated that he was prejudiced by his counsel's erroneous advice.";
         ArrayList<Verb> verbsSentence1;
         ArrayList<Verb> verbsSentence2;
 
@@ -62,11 +69,15 @@ public class ShiftInViewAnalyzer {
         verbsSentence2 = constituentParser.getVerbRelationships(targetAnnotation,nlpUtils);
         String verbSource="";
         String verbTarget="";
+        String sourceOther="";
+        String targetOther="";
+        Verb verbObjectTarget=new Verb();
+        Verb verbObjectSource= new Verb();
         String currentSourceVerb="";
         String currentTargetVerb = "";
         Verb secondverb;
         Verb verb;
-        ArrayList<String[]> closeVerbs = new ArrayList<>();
+        ArrayList<VerbPair> closeVerbs = new ArrayList<>();
 
 
         System.out.println("array sizes");
@@ -78,9 +89,11 @@ public class ShiftInViewAnalyzer {
 
             if(verb.isVerbIsDep()){
                 verbTarget = verb.getDepLemma();
+                verbObjectTarget=verb;
             }
             else if(verb.isVerbIsGov()){
                 verbTarget=verb.getGovLemma();
+                verbObjectTarget=verb;
             }
             for(int i=0;i<verbsSentence1.size();i++){
                 secondverb= verbsSentence1.get(i);
@@ -88,9 +101,11 @@ public class ShiftInViewAnalyzer {
 
                 if(secondverb.isVerbIsDep()){
                     verbSource=secondverb.getDepLemma();
+                    verbObjectSource=secondverb;
                 }
                 else if(secondverb.isVerbIsGov()){
                     verbSource=secondverb.getGovLemma();
+                    verbObjectSource=secondverb;
                 }
                 /*System.out.println(" ");
                 System.out.println("s  "  +verbSource);
@@ -99,11 +114,40 @@ public class ShiftInViewAnalyzer {
                 double score =semanticSentenceSimilarity.wordSimilarity(verbSource,POS.v,verbTarget,POS.v);
                 if(score>=0.8){
                     if(!currentSourceVerb.equals(verbSource) || !currentTargetVerb.equals(verbTarget)){
-                        String[] verbPair = new String[2];
+                        /*String[] verbPair = new String[2];
                         verbPair[0]=verbTarget;
-                        verbPair[1]=verbSource;
+                        verbPair[1]=verbSource;*/
                         currentSourceVerb=verbSource;
                         currentTargetVerb=verbTarget;
+                        System.out.println("rel :"+verbObjectTarget.getRelation());
+                        System.out.println("rel :" + verbObjectSource.getRelation());
+
+                        if(verbObjectTarget.isVerbIsDep()){
+                            System.out.println("other :"+verbObjectTarget.getGovWord());
+                            targetOther=verbObjectTarget.getGovWord();
+                        }
+                        else if(verbObjectTarget.isVerbIsGov()){
+                            System.out.println("other :"+verbObjectTarget.getDepWord());
+                            targetOther=verbObjectTarget.getDepWord();
+                        }
+                        if(verbObjectSource.isVerbIsDep()){
+                            System.out.println("other :"+verbObjectSource.getGovWord());
+                            sourceOther=verbObjectSource.getGovWord();
+                        }
+                        else if(verbObjectSource.isVerbIsGov()){
+                            System.out.println("other :"+verbObjectSource.getDepWord());
+                            sourceOther=verbObjectSource.getDepWord();
+                        }
+                        VerbPair verbPair = new VerbPair();
+                        verbPair.setTargetVerb(verbTarget);
+                        verbPair.setSourceVerb(verbSource);
+                        if(negativeWords.contains(targetOther)){
+                            verbPair.setTargetVerbNegated(true);
+                        }
+                        if(negativeWords.contains(sourceOther)){
+                            verbPair.setSourceVerbNegated(true);
+                        }
+
                         closeVerbs.add(verbPair);
 
                     }
@@ -117,9 +161,11 @@ public class ShiftInViewAnalyzer {
         }
 
         System.out.println("close verbs");
-        for(String[] pair:closeVerbs){
-            System.out.println(pair[0]);
-            System.out.println(pair[1]);
+        for(VerbPair pair:closeVerbs){
+            System.out.println("TV :" + pair.getTargetVerb());
+            System.out.println("SV :"+pair.getSourceVerb());
+            System.out.println("targetNegated: "+ pair.getTargetVerbNegated());
+            System.out.println("sourceNegated: " + pair.getSourceVerbNegated());
             System.out.println("");
         }
 
