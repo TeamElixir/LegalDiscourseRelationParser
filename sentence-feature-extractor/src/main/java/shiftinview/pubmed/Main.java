@@ -24,9 +24,6 @@ public class Main {
 
 	public static void main(String[] args) throws Exception {
 
-		String filePath = new File("").getAbsolutePath();
-		System.out.println(filePath);
-
 		String sentence1 = "Although he has lived in this country for most of his life, Lee is not a United States citizen, and he feared that a criminal conviction might affect his status as a lawful permanent resident.";
 
 		HashMap<String, Double> dictionary = DictionaryCreator.readDic();

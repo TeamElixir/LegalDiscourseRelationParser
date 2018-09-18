@@ -12,7 +12,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Properties;
 import java.util.Set;
+
+import utils.NLPUtils;
 
 public class DictionaryCreator {
 
@@ -105,10 +108,10 @@ public class DictionaryCreator {
 	}
 
 	private static void writeDic(HashMap<String, Double> dictionary) {
-		try (PrintWriter writer = new PrintWriter("dictionary.txt", "UTF-8")) {
+		try (PrintWriter writer = new PrintWriter("dictionary.csv", "UTF-8")) {
 			for (String word : dictionary.keySet()) {
 				double value = dictionary.get(word);
-				writer.println(word + "\t" + value);
+				writer.println(word + "," + value);
 			}
 		}
 		catch (FileNotFoundException e) {
@@ -122,7 +125,10 @@ public class DictionaryCreator {
 	public static HashMap<String, Double> readDic() {
 		HashMap<String, Double> dictionary = new HashMap<>();
 
-		try (FileReader fileReader = new FileReader("dictionary.txt")) {
+		String filePath = "/home/thejan/FYP/LegalDisourceRelationParser/sentence-feature-extractor/";
+		filePath += "dictionary.txt";
+
+		try (FileReader fileReader = new FileReader(filePath)) {
 			BufferedReader br = new BufferedReader(fileReader);
 			String line;
 			while ((line = br.readLine()) != null) {
