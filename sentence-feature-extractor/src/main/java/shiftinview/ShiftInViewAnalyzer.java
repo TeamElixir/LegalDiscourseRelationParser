@@ -5,6 +5,7 @@ import featureextractor.semanticsimilarity.SemanticSentenceSimilarity;
 
 import shiftinview.models.VerbRelation;
 import shiftinview.models.VerbPair;
+import shiftinview.utils.ModifierUtils;
 import utils.NLPUtils;
 
 import  java.util.Arrays;
@@ -16,22 +17,14 @@ import edu.cmu.lti.jawjaw.pobj.POS;
 
 public class ShiftInViewAnalyzer {
 
+    private static List<String> negativeWords = new ArrayList<String>(Arrays.asList("never", "not", "nothing"));
 
 
     public static void main(String[] args) {
 
-        List<String> negativeWords = new ArrayList<String>(Arrays.asList("never", "not", "nothing"));
         String targetSentence = "Lee could not show that he was prejudiced by his attorney's erroneous advice.";
         String sourceSentence
                 = "Lee has demonstrated that he was prejudiced by his counsel's erroneous advice.";
-        ArrayList<VerbRelation> verbsSentence1;
-        ArrayList<VerbRelation> verbsSentence2;
-
-
-        Annotation targetAnnotation;
-        Annotation sourceAnnotation;
-
-        ArrayList<String> coreferencedSentences = new ArrayList<>();
 
         // set up pipeline properties
         Properties props = new Properties();
@@ -43,6 +36,22 @@ public class ShiftInViewAnalyzer {
         // StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
         NLPUtils nlpUtils =  new NLPUtils(props);
+        checkRelationsForOppositeness(nlpUtils,targetSentence,sourceSentence);
+    }
+
+    public static void checkRelationsForOppositeness(NLPUtils nlpUtils,String targetSentence,String sourceSentence) {
+
+
+        ArrayList<VerbRelation> verbsSentence1;
+        ArrayList<VerbRelation> verbsSentence2;
+
+
+        Annotation targetAnnotation;
+        Annotation sourceAnnotation;
+
+        ArrayList<String> coreferencedSentences = new ArrayList<>();
+
+
         // build annotation for a review
         sourceAnnotation = nlpUtils.annotate(sourceSentence);
         targetAnnotation = nlpUtils.annotate(targetSentence);
@@ -151,17 +160,55 @@ public class ShiftInViewAnalyzer {
                         VerbPair verbPair = new VerbPair();
                         verbPair.setTargetVerb(verbTarget);
                         verbPair.setSourceVerb(verbSource);
+                        if(verbObjectTarget.getRelation().equals("neg")){
+                            verbPair.setTargetVerbNegated(true);
+                        }
+                        if(verbObjectSource.getRelation().equals("neg")){
+                            verbPair.setSourceVerbNegated(true);
+                        }
                         if(negativeWords.contains(targetOther)){
                             verbPair.setTargetVerbNegated(true);
                         }
                         if(negativeWords.contains(sourceOther)){
                             verbPair.setSourceVerbNegated(true);
                         }
-                        if(verbObjectTarget.getRelation().equals("neg")){
-                            verbPair.setTargetVerbNegated(true);
+
+                        if(ModifierUtils.getLessFrequent().contains(targetOther)){
+                            verbPair.setLessFrequentTarget(true);
                         }
-                        if(verbObjectSource.getRelation().equals("neg")){
-                            verbPair.setSourceVerbNegated(true);
+                        if(ModifierUtils.getMoreFrequent().contains(targetOther)){
+                            verbPair.setMoreFrequentTarget(true);
+                        }
+                        if(ModifierUtils.getDowntoners().contains(targetOther)){
+                            verbPair.setDowntonerTarget(true);
+                        }
+                        if(ModifierUtils.getAmplifiers().contains(targetOther)){
+                            verbPair.setAmplifierTarget(true);
+                        }
+                        if (ModifierUtils.getNegativeManner().contains(targetOther)){
+                            verbPair.setNegativeMannerTarget(true);
+                        }
+                        if(ModifierUtils.getPositiveManner().contains(targetOther)){
+                            verbPair.setPositiveMannerTarget(true);
+                        }
+
+                        if(ModifierUtils.getLessFrequent().contains(sourceOther)){
+                            verbPair.setLessFrequentSource(true);
+                        }
+                        if(ModifierUtils.getMoreFrequent().contains(sourceOther)){
+                            verbPair.setMoreFrequentSource(true);
+                        }
+                        if(ModifierUtils.getDowntoners().contains(sourceOther)){
+                            verbPair.setDowntonerSource(true);
+                        }
+                        if(ModifierUtils.getAmplifiers().contains(sourceOther)){
+                            verbPair.setAmplifierSource(true);
+                        }
+                        if (ModifierUtils.getNegativeManner().contains(sourceOther)){
+                            verbPair.setNegativeMannerSource(true);
+                        }
+                        if(ModifierUtils.getPositiveManner().contains(sourceOther)){
+                            verbPair.setPositiveMannerSource(true);
                         }
 
                         closeVerbs.add(verbPair);

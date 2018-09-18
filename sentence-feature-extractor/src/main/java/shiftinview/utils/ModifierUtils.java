@@ -25,5 +25,27 @@ public class ModifierUtils {
             Arrays.asList("lazily", "ugly", "faint heartedly")
     );
 
+    public static ArrayList<String> getLessFrequent() {
+        return lessFrequent;
+    }
 
+    public static ArrayList<String> getMoreFrequent() {
+        return moreFrequent;
+    }
+
+    public static ArrayList<String> getAmplifiers() {
+        return amplifiers;
+    }
+
+    public static ArrayList<String> getDowntoners() {
+        return downtoners;
+    }
+
+    public static ArrayList<String> getPositiveManner() {
+        return positiveManner;
+    }
+
+    public static ArrayList<String> getNegativeManner() {
+        return negativeManner;
+    }
 }
