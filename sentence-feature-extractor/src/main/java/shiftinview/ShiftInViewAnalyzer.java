@@ -222,21 +222,54 @@ public class ShiftInViewAnalyzer {
             }
 
         }
-
-        System.out.println("close verbs");
-        for(VerbPair pair:closeVerbs){
-            System.out.println("TV :" + pair.getTargetVerb());
-            System.out.println("SV :"+pair.getSourceVerb());
-            System.out.println("targetNegated: "+ pair.getTargetVerbNegated());
-            System.out.println("sourceNegated: " + pair.getSourceVerbNegated());
-            System.out.println("");
-        }
-
-
+        detectNegation(closeVerbs);
 
 
 
 
 
     }
+
+    public static Integer detectNegation(ArrayList<VerbPair> closeVerbs){
+        System.out.println("close verbs");
+        Integer count = 0;
+
+        for(VerbPair pair:closeVerbs){
+            System.out.println("TV :" + pair.getTargetVerb());
+            System.out.println("SV :"+pair.getSourceVerb());
+            System.out.println("targetNegated: "+ pair.getTargetVerbNegated());
+            System.out.println("sourceNegated: " + pair.getSourceVerbNegated());
+            if(pair.getTargetVerbNegated()){
+                if(!pair.getSourceVerbNegated()){
+                    count++;
+                }
+            }else{
+                if(pair.getSourceVerbNegated()){
+                    count++;
+                }
+            }
+            if(pair.getLessFrequentTarget() && pair.getMoreFrequentSource() ||
+                    pair.getMoreFrequentTarget() && pair.getLessFrequentSource()){
+                    count++;
+
+            }
+            if(pair.getAmplifierTarget() && pair.getDowntonerSource() ||
+                    pair.getDowntonerTarget() && pair.getAmplifierSource()){
+                count++;
+            }
+            if(pair.getPositiveMannerTarget() && pair.getNegativeMannerSource() ||
+                    pair.getNegativeMannerSource() && pair.getPositiveMannerSource()){
+                count++;
+            }
+
+            System.out.println("");
+        }
+        System.out.println(count);
+        return 0;
+    }
+
+
+
+
+
 }
