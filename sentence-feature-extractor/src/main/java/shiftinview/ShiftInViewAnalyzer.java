@@ -115,6 +115,8 @@ public class ShiftInViewAnalyzer {
                     verbSourceId=verb.getId();
                     verbObjectSource=secondverb;
                 }
+
+
                 /*System.out.println(" ");
                 System.out.println("s  "  +verbSource);
                 System.out.println("t  "+ verbTarget);*/
@@ -127,23 +129,23 @@ public class ShiftInViewAnalyzer {
                         verbPair[1]=verbSource;*/
                         currentSourceVerbID=verbSourceId;
                         currentTargetVerbID=verbTargetId;
-                        System.out.println("rel :"+verbObjectTarget.getRelation());
-                        System.out.println("rel :" + verbObjectSource.getRelation());
+                        //System.out.println("rel :"+verbObjectTarget.getRelation());
+                        //System.out.println("rel :" + verbObjectSource.getRelation());
 
                         if(verbObjectTarget.isVerbIsDep()){
-                            System.out.println("other :"+verbObjectTarget.getGovWord());
+                            //System.out.println("other :"+verbObjectTarget.getGovWord());
                             targetOther=verbObjectTarget.getGovWord();
                         }
                         else if(verbObjectTarget.isVerbIsGov()){
-                            System.out.println("other :"+verbObjectTarget.getDepWord());
+                            //System.out.println("other :"+verbObjectTarget.getDepWord());
                             targetOther=verbObjectTarget.getDepWord();
                         }
                         if(verbObjectSource.isVerbIsDep()){
-                            System.out.println("other :"+verbObjectSource.getGovWord());
+                            //System.out.println("other :"+verbObjectSource.getGovWord());
                             sourceOther=verbObjectSource.getGovWord();
                         }
                         else if(verbObjectSource.isVerbIsGov()){
-                            System.out.println("other :"+verbObjectSource.getDepWord());
+                            //System.out.println("other :"+verbObjectSource.getDepWord());
                             sourceOther=verbObjectSource.getDepWord();
                         }
                         VerbPair verbPair = new VerbPair();
@@ -153,6 +155,12 @@ public class ShiftInViewAnalyzer {
                             verbPair.setTargetVerbNegated(true);
                         }
                         if(negativeWords.contains(sourceOther)){
+                            verbPair.setSourceVerbNegated(true);
+                        }
+                        if(verbObjectTarget.getRelation().equals("neg")){
+                            verbPair.setTargetVerbNegated(true);
+                        }
+                        if(verbObjectSource.getRelation().equals("neg")){
                             verbPair.setSourceVerbNegated(true);
                         }
 

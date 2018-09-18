@@ -18,8 +18,12 @@ public class ModifierUtils {
     );
 
     private static ArrayList<String> positiveManner = new ArrayList<String>(
-            Arrays.asList("elegantly","beautifully")
+            Arrays.asList("elegantly","beautifully", "confidently")
     );
+
+    private static ArrayList<String> negativeManner = new ArrayList<>(
+            Arrays.asList("lazily", "ugly", "faint heartedly")
+    )
 
 
 }
