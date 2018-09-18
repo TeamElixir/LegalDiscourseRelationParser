@@ -1,6 +1,6 @@
 package shiftinview.pubmed;
 
-/*import net.didion.jwnl.JWNL;
+import net.didion.jwnl.JWNL;
 import net.didion.jwnl.data.IndexWord;
 import net.didion.jwnl.data.*;
 
@@ -377,4 +377,3 @@ public class TripleAnalyzer {
 	}
 
 }
-*/
