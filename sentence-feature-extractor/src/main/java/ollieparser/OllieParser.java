@@ -33,8 +33,15 @@ public class OllieParser {
                 OllieTriple ot= new OllieTriple();
 
                 ot.confidence = Double.parseDouble(nextLine.substring(0,nextLine.indexOf(":")));
+                String intermediateString = null;
 
-                String intermediateString = nextLine.substring(nextLine.indexOf("(")+1, nextLine.length()-1);
+                if(nextLine.contains(")[")){
+                    intermediateString = nextLine.substring(nextLine.indexOf("(")+1, nextLine.indexOf(")["));
+                }
+                else{
+                    intermediateString = nextLine.substring(nextLine.indexOf("(")+1, nextLine.length()-1);
+                }
+
                 String[] tripleArray = intermediateString.split(";");
 
                 ot.subject = tripleArray[0].trim();
