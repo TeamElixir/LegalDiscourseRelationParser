@@ -23,7 +23,7 @@ public class ModifierUtils {
 
     private static ArrayList<String> negativeManner = new ArrayList<>(
             Arrays.asList("lazily", "ugly", "faint heartedly")
-    )
+    );
 
 
 }
