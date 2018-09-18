@@ -254,90 +254,100 @@ public class NLPUtils {
 	 * @return arraylist containing two changed sentences sourceSentence-0 , targetSentence-1
 	 */
 	public ArrayList<String> replaceCoreferencesNoHis(Annotation annotation) {
-		ArrayList<ArrayList<String>> sentenceWords = new ArrayList<>();
-		ArrayList<ArrayList<String>> replaceSentenceWords = new ArrayList<>();
-		ArrayList<ArrayList<Integer>> unReplacableIndices = new ArrayList<>();
-		ArrayList<ReferenceModel> referencesSentence1 = new ArrayList<>();
-		ArrayList<ReferenceModel> referencesSentence2 = new ArrayList<>();
-		ArrayList<ArrayList<ReferenceModel>> referencedSentences = new ArrayList<>();
+		try {
+			ArrayList<ArrayList<String>> sentenceWords = new ArrayList<>();
+			ArrayList<ArrayList<String>> replaceSentenceWords = new ArrayList<>();
+			ArrayList<ArrayList<Integer>> unReplacableIndices = new ArrayList<>();
+			ArrayList<ReferenceModel> referencesSentence1 = new ArrayList<>();
+			ArrayList<ReferenceModel> referencesSentence2 = new ArrayList<>();
+			ArrayList<ArrayList<ReferenceModel>> referencedSentences = new ArrayList<>();
 
-		List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
-		for (CoreMap sentence : sentences) {
-			ArrayList<String> tokenizedWords = new ArrayList<>();
-			ArrayList<Integer> unreplacableWordIndices = new ArrayList<>();
-			for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
-				String word = token.get(CoreAnnotations.TextAnnotation.class);
-				String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
-				tokenizedWords.add(word);
-				// proper nouns and pronouns are considered
-				if ("PRP$".equals(pos)) {
-					unreplacableWordIndices.add(token.index());
-				}
-			}
-			sentenceWords.add(tokenizedWords);
-			unReplacableIndices.add(unreplacableWordIndices);
-		}
-		for (CorefChain chain : annotation.get(CorefCoreAnnotations.CorefChainAnnotation.class).values()) {
-			String represent = chain.getRepresentativeMention().mentionSpan;
-			represent = represent.replaceAll("\\$", "&");
-			System.out.println("represent: " + represent);
-			for (CorefChain.CorefMention mention : chain.getMentionsInTextualOrder()) {
+			List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
+			for (CoreMap sentence : sentences) {
 
-				int sentNo = mention.sentNum;
-				int startIndex = mention.startIndex;
-				int endIndex = mention.endIndex;
-				String word = mention.mentionSpan;
-
-				//adding details to reference model
-				ReferenceModel referenceModel = new ReferenceModel();
-				referenceModel.setRepresent(represent);
-				referenceModel.setReplacableWord(word);
-				referenceModel.setStartIndex(startIndex);
-				referenceModel.setEndIndex(endIndex);
-
-				if (sentNo == 1) {
-					referencesSentence1.add(referenceModel);
-				} else if (sentNo == 2) {
-					referencesSentence2.add(referenceModel);
-				}
-			}
-		}
-
-		referencedSentences.add(referencesSentence1);
-		referencedSentences.add(referencesSentence2);
-
-		for (int j = 0; j < sentenceWords.size(); j++) {
-			ArrayList<String> currentSentence = sentenceWords.get(j);
-			ArrayList<String> replaceSingleSentence = new ArrayList<>();
-
-			for (int i = 0; i < currentSentence.size(); i++) {
-				boolean wordAdded = false;
-				int m = i + 1;
-
-				for (ReferenceModel referenceModel : referencedSentences.get(j)) {
-
-					if (referenceModel.getStartIndex() == m) {
-						if (!unReplacableIndices.get(j).contains(referenceModel.getStartIndex())) {
-							int additionalLenght = referenceModel.getEndIndex() - referenceModel.getStartIndex();
-							i += additionalLenght - 1;
-							replaceSingleSentence.add(referenceModel.getRepresent());
-							wordAdded = true;
-							break;
-						}
+				ArrayList<String> tokenizedWords = new ArrayList<>();
+				ArrayList<Integer> unreplacableWordIndices = new ArrayList<>();
+				for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
+					String word = token.get(CoreAnnotations.TextAnnotation.class);
+					String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
+					tokenizedWords.add(word);
+					// proper nouns and pronouns are considered
+					if ("PRP$".equals(pos)) {
+						unreplacableWordIndices.add(token.index());
 					}
 				}
-				if (!wordAdded) {
-					replaceSingleSentence.add(currentSentence.get(i));
+				System.out.println("senWords :" + tokenizedWords.toString());
+				sentenceWords.add(tokenizedWords);
+				unReplacableIndices.add(unreplacableWordIndices);
+			}
+			for (CorefChain chain : annotation.get(CorefCoreAnnotations.CorefChainAnnotation.class).values()) {
+				String represent = chain.getRepresentativeMention().mentionSpan;
+				represent = represent.replaceAll("\\$", "&");
+				System.out.println("represent: " + represent);
+				for (CorefChain.CorefMention mention : chain.getMentionsInTextualOrder()) {
+
+					int sentNo = mention.sentNum;
+					int startIndex = mention.startIndex;
+					int endIndex = mention.endIndex;
+					String word = mention.mentionSpan;
+
+					//adding details to reference model
+					ReferenceModel referenceModel = new ReferenceModel();
+					referenceModel.setRepresent(represent);
+					referenceModel.setReplacableWord(word);
+					referenceModel.setStartIndex(startIndex);
+					referenceModel.setEndIndex(endIndex);
+
+					if (sentNo == 1) {
+						referencesSentence1.add(referenceModel);
+					} else if (sentNo == 2) {
+						referencesSentence2.add(referenceModel);
+					}
 				}
 			}
-			replaceSentenceWords.add(replaceSingleSentence);
 
+			referencedSentences.add(referencesSentence1);
+			referencedSentences.add(referencesSentence2);
+
+			for (int j = 0; j < sentenceWords.size(); j++) {
+				ArrayList<String> currentSentence = sentenceWords.get(j);
+				ArrayList<String> replaceSingleSentence = new ArrayList<>();
+
+				for (int i = 0; i < currentSentence.size(); i++) {
+					boolean wordAdded = false;
+					int m = i + 1;
+
+					for (ReferenceModel referenceModel : referencedSentences.get(j)) {
+
+						if (referenceModel.getStartIndex() == m) {
+							if (!unReplacableIndices.get(j).contains(referenceModel.getStartIndex())) {
+								int additionalLenght = referenceModel.getEndIndex() - referenceModel.getStartIndex();
+								i += additionalLenght - 1;
+								replaceSingleSentence.add(referenceModel.getRepresent());
+								wordAdded = true;
+								break;
+							}
+						}
+					}
+					if (!wordAdded) {
+						replaceSingleSentence.add(currentSentence.get(i));
+					}
+				}
+				replaceSentenceWords.add(replaceSingleSentence);
+
+			}
+
+			if (replaceSentenceWords.size() == 1) {
+				return null;
+			}
+
+			String targetSentence = this.referenceReplacedSentence(replaceSentenceWords.get(0));
+			String sourceSentence = this.referenceReplacedSentence(replaceSentenceWords.get(1));
+
+			return new ArrayList<>(Arrays.asList(sourceSentence, targetSentence));
+		}catch (Exception e){
+			return null;
 		}
-
-		String targetSentence = this.referenceReplacedSentence(replaceSentenceWords.get(0));
-		String sourceSentence = this.referenceReplacedSentence(replaceSentenceWords.get(1));
-
-		return new ArrayList<>(Arrays.asList(sourceSentence, targetSentence));
 	}
 
 	public AnnotationPipeline getPipeline() {
@@ -370,94 +380,101 @@ public class NLPUtils {
 	*/
 
 	public ArrayList<String> replaceCoreferences(Annotation annotation) {
-		ArrayList<ArrayList<String>> sentenceWords = new ArrayList<>();
-		ArrayList<ArrayList<String>> replaceSentenceWords = new ArrayList<>();
-		ArrayList<ArrayList<Integer>> unReplacableIndices = new ArrayList<>();
-		ArrayList<ReferenceModel> referencesSentence1 = new ArrayList<>();
-		ArrayList<ReferenceModel> referencesSentence2 = new ArrayList<>();
-		ArrayList<ArrayList<ReferenceModel>> referencedSentences = new ArrayList<>();
+		try {
+			ArrayList<ArrayList<String>> sentenceWords = new ArrayList<>();
+			ArrayList<ArrayList<String>> replaceSentenceWords = new ArrayList<>();
+			ArrayList<ArrayList<Integer>> unReplacableIndices = new ArrayList<>();
+			ArrayList<ReferenceModel> referencesSentence1 = new ArrayList<>();
+			ArrayList<ReferenceModel> referencesSentence2 = new ArrayList<>();
+			ArrayList<ArrayList<ReferenceModel>> referencedSentences = new ArrayList<>();
 
-		List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
-		for (CoreMap sentence : sentences) {
-			ArrayList<String> tokenizedWords = new ArrayList<>();
-			ArrayList<Integer> unreplacableWordIndices = new ArrayList<>();
-			for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
-				String word = token.get(CoreAnnotations.TextAnnotation.class);
-				String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
-				tokenizedWords.add(word);
-				// proper nouns and pronouns are considered
-				if ("PRP$".equals(pos)) {
-					unreplacableWordIndices.add(token.index());
-				}
-			}
-			sentenceWords.add(tokenizedWords);
-			unReplacableIndices.add(unreplacableWordIndices);
-		}
-
-		for (CorefChain chain : annotation.get(CorefCoreAnnotations.CorefChainAnnotation.class).values()) {
-			String represent = chain.getRepresentativeMention().mentionSpan;
-			represent = represent.replaceAll("\\$", "&");
-			System.out.println("represent: " + represent);
-			for (CorefChain.CorefMention mention : chain.getMentionsInTextualOrder()) {
-
-				int sentNo = mention.sentNum;
-				int startIndex = mention.startIndex;
-				int endIndex = mention.endIndex;
-				String word = mention.mentionSpan;
-
-				//adding details to reference model
-				ReferenceModel referenceModel = new ReferenceModel();
-				referenceModel.setRepresent(represent);
-				referenceModel.setReplacableWord(word);
-				referenceModel.setStartIndex(startIndex);
-				referenceModel.setEndIndex(endIndex);
-
-				if (sentNo == 1) {
-					referencesSentence1.add(referenceModel);
-				} else if (sentNo == 2) {
-					referencesSentence2.add(referenceModel);
-				}
-			}
-		}
-
-		referencedSentences.add(referencesSentence1);
-		referencedSentences.add(referencesSentence2);
-
-		for (int j = 0; j < sentenceWords.size(); j++) {
-			ArrayList<String> currentSentence = sentenceWords.get(j);
-			ArrayList<String> replaceSingleSentence = new ArrayList<>();
-
-			for (int i = 0; i < currentSentence.size(); i++) {
-				boolean wordAdded = false;
-				int m = i + 1;
-
-				for (ReferenceModel referenceModel : referencedSentences.get(j)) {
-
-					if (referenceModel.getStartIndex() == m) {
-						int additionalLength = referenceModel.getEndIndex() - referenceModel.getStartIndex();
-						i += additionalLength - 1;
-						if (!unReplacableIndices.get(j).contains(referenceModel.getStartIndex())) {
-							replaceSingleSentence.add(referenceModel.getRepresent());
-						} else {
-							replaceSingleSentence.add(" " + referenceModel.getRepresent() + "'s");
-//							replaceSingleSentence.add(referenceModel.getRepresent());
-						}
-						wordAdded = true;
-						break;
+			List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
+			for (CoreMap sentence : sentences) {
+				ArrayList<String> tokenizedWords = new ArrayList<>();
+				ArrayList<Integer> unreplacableWordIndices = new ArrayList<>();
+				for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
+					String word = token.get(CoreAnnotations.TextAnnotation.class);
+					String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
+					tokenizedWords.add(word);
+					// proper nouns and pronouns are considered
+					if ("PRP$".equals(pos)) {
+						unreplacableWordIndices.add(token.index());
 					}
 				}
-				if (!wordAdded) {
-					replaceSingleSentence.add(currentSentence.get(i));
+				sentenceWords.add(tokenizedWords);
+				unReplacableIndices.add(unreplacableWordIndices);
+			}
+
+			for (CorefChain chain : annotation.get(CorefCoreAnnotations.CorefChainAnnotation.class).values()) {
+				String represent = chain.getRepresentativeMention().mentionSpan;
+				represent = represent.replaceAll("\\$", "&");
+				System.out.println("represent: " + represent);
+				for (CorefChain.CorefMention mention : chain.getMentionsInTextualOrder()) {
+
+					int sentNo = mention.sentNum;
+					int startIndex = mention.startIndex;
+					int endIndex = mention.endIndex;
+					String word = mention.mentionSpan;
+
+					//adding details to reference model
+					ReferenceModel referenceModel = new ReferenceModel();
+					referenceModel.setRepresent(represent);
+					referenceModel.setReplacableWord(word);
+					referenceModel.setStartIndex(startIndex);
+					referenceModel.setEndIndex(endIndex);
+
+					if (sentNo == 1) {
+						referencesSentence1.add(referenceModel);
+					} else if (sentNo == 2) {
+						referencesSentence2.add(referenceModel);
+					}
 				}
 			}
-			replaceSentenceWords.add(replaceSingleSentence);
 
+			referencedSentences.add(referencesSentence1);
+			referencedSentences.add(referencesSentence2);
+
+			for (int j = 0; j < sentenceWords.size(); j++) {
+				ArrayList<String> currentSentence = sentenceWords.get(j);
+				ArrayList<String> replaceSingleSentence = new ArrayList<>();
+
+				for (int i = 0; i < currentSentence.size(); i++) {
+					boolean wordAdded = false;
+					int m = i + 1;
+
+					for (ReferenceModel referenceModel : referencedSentences.get(j)) {
+
+						if (referenceModel.getStartIndex() == m) {
+							int additionalLength = referenceModel.getEndIndex() - referenceModel.getStartIndex();
+							i += additionalLength - 1;
+							if (!unReplacableIndices.get(j).contains(referenceModel.getStartIndex())) {
+								replaceSingleSentence.add(referenceModel.getRepresent());
+							} else {
+								replaceSingleSentence.add(" " + referenceModel.getRepresent() + "'s");
+								//replaceSingleSentence.add(referenceModel.getRepresent());
+							}
+							wordAdded = true;
+							break;
+						}
+					}
+					if (!wordAdded) {
+						replaceSingleSentence.add(currentSentence.get(i));
+					}
+				}
+				replaceSentenceWords.add(replaceSingleSentence);
+
+			}
+
+			if (replaceSentenceWords.size() == 1) {
+				return null;
+			}
+			String targetSentence = this.referenceReplacedSentence(replaceSentenceWords.get(0)).trim();
+			String sourceSentence = this.referenceReplacedSentence(replaceSentenceWords.get(1)).trim();
+
+			return new ArrayList<>(Arrays.asList(sourceSentence, targetSentence));
+		}catch (Exception e){
+			return null;
 		}
-
-		String targetSentence = this.referenceReplacedSentence(replaceSentenceWords.get(0)).trim();
-		String sourceSentence = this.referenceReplacedSentence(replaceSentenceWords.get(1)).trim();
-
-		return new ArrayList<>(Arrays.asList(sourceSentence, targetSentence));
 	}
 
 	private String referenceReplacedSentence(ArrayList<String> tokenList) {
@@ -519,7 +536,7 @@ public class NLPUtils {
 			Collection<RelationTriple> stanfordTriples =
 					sentence.get(NaturalLogicAnnotations.RelationTriplesAnnotation.class);
 			Triple triple = new Triple();
-			for(RelationTriple stanfordTriple:stanfordTriples){
+			for (RelationTriple stanfordTriple : stanfordTriples) {
 				triple.subject = stanfordTriple.subjectGloss();
 				triple.subjectLemma = stanfordTriple.subjectLemmaGloss();
 				triple.object = stanfordTriple.objectGloss();
