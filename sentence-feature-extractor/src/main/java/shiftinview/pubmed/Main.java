@@ -49,7 +49,7 @@ public class Main {
 			sentences.add(resultSet.getString("SENTENCE"));
 		}
 
-		TripleAnalyzer tripleAnalyzer = new TripleAnalyzer();
+		//TripleAnalyzer tripleAnalyzer = new TripleAnalyzer();
 
 		try (PrintWriter writer = new PrintWriter("coreferedSentences.txt", "UTF-8")) {
 			for (FeatureEntry entry : legalEntries) {

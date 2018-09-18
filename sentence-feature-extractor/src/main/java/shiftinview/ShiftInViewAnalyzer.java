@@ -265,7 +265,7 @@ public class ShiftInViewAnalyzer {
             System.out.println("");
         }
         System.out.println(count);
-        return 0;
+        return count;
     }
 
 

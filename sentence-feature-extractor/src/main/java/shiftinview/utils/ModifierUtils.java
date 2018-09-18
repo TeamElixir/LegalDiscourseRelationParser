@@ -18,11 +18,15 @@ public class ModifierUtils {
     );
 
     private static ArrayList<String> positiveManner = new ArrayList<String>(
-            Arrays.asList("elegantly","beautifully", "confidently")
+            Arrays.asList("elegantly","beautifully", "confidently","gladly", "gracefully",
+                    "happily","honestly", "innocently", "inquisitively", "joyously", "kindly",
+                    "neatly", "obediently", "rightfully",  "safely")
     );
 
     private static ArrayList<String> negativeManner = new ArrayList<>(
-            Arrays.asList("lazily", "ugly", "faint heartedly")
+            Arrays.asList("lazily", "ugly", "faint heartedly", "cruelly", "angrily", "badly", "blindly",
+                    "defiantly", "greedily", "hungrily", "irritably", "obnoxiously", "painfully", "poorly",
+                    "reluctantly")
     );
 
     public static ArrayList<String> getLessFrequent() {

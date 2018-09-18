@@ -8,8 +8,10 @@ import java.util.Properties;
 
 public class Coreferencer {
 
-	private static  String sourceSentence = "Gathika runs fast because he is tall.";
-	private static String targetSentence = "He is sure that he does not get tired.";
+	private static  String sourceSentence = "Thomas, J., filed a dissenting opinion, " +
+			"in which Alito, J., joined except as to Part I. Gorsuch, J., took no part in the consideration or decision of the case.";
+	private static String targetSentence = "Roberts, C. J., delivered the opinion of the Court, in which " +
+			"Kennedy, Ginsburg, Breyer, Sotomayor, and Kagan, JJ., joined.";
 	public static ArrayList<String> getCoreferencedSentences(String sourceSentence, String targetSentence, NLPUtils nlpUtils) {
 		ArrayList<String> twoSentences = new ArrayList<>();
 		// text to resolve coreferences
