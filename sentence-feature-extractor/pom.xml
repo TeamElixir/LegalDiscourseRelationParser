@@ -28,7 +28,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>CalLegalType</mainClass>
+                            <mainClass>shiftinview.pubmed.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

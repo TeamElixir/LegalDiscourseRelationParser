@@ -462,8 +462,9 @@ public class FeatureEntry implements Serializable {
 
 	public static ArrayList<FeatureEntry> getElaborationLegal() throws SQLException {
 		String sql = "SELECT * FROM FEATURE_ENTRY_LEGAL_SENTENCE WHERE "
+				+ "SSID-TSID=1 AND ("
 				+ "TYPE=2 OR TYPE=8 OR TYPE=4 OR TYPE=13 OR TYPE=12 OR TYPE=11 OR "
-				+ "TYPE=18 OR TYPE=14 OR TYPE=15 OR TYPE=6 OR TYPE=16 OR TYPE=9;";
+				+ "TYPE=18 OR TYPE=14 OR TYPE=15 OR TYPE=6 OR TYPE=16 OR TYPE=9);";
 		ResultSet resultSet = sqLiteUtils.executeQuery(sql);
 
 		if(resultSet.isClosed()){

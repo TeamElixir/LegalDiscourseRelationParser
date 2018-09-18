@@ -39,7 +39,7 @@ public class OllieParser {
 
                 ot.subject = tripleArray[0].trim();
                 ot.relation = tripleArray[1].trim();
-                ot.relation = tripleArray[2].trim();
+                ot.object = tripleArray[2].trim();
 
                 os.arrayList.add(ot);
 

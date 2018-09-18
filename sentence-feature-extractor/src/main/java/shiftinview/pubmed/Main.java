@@ -1,5 +1,6 @@
 package shiftinview.pubmed;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
@@ -61,13 +62,15 @@ public class Main {
 
 				// annotate both sentences in order to resolve coreferences
 				Annotation annotation = nlpUtils.annotate(corefText);
+				System.out.println("target: " + entry.getTsid() + " ; source" + entry.getSsid());
 				ArrayList<String> resolvedSents = nlpUtils.replaceCoreferences(annotation);
 
 				// coreferences replaced new sentences
-				sourceSentence = resolvedSents.get(0);
-				targetSentence = resolvedSents.get(1);
+				if (resolvedSents != null) {
+					sourceSentence = resolvedSents.get(0);
+					targetSentence = resolvedSents.get(1);
+				}
 
-				System.out.println("target: " + entry.getTsid()+" ; source" + entry.getSsid());
 				writer.println(sourceSentence);
 				writer.println(targetSentence);
 				writer.println();
@@ -107,11 +110,8 @@ public class Main {
 		}
 		*/
 
-
 		System.out.printf("done");
 
 	}
-
-
 
 }
