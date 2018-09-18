@@ -1,5 +1,6 @@
 package shiftinview.pubmed;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
@@ -22,6 +23,9 @@ import utils.models.Triple;
 public class Main {
 
 	public static void main(String[] args) throws Exception {
+
+		String filePath = new File("").getAbsolutePath();
+		System.out.println(filePath);
 
 		String sentence1 = "Although he has lived in this country for most of his life, Lee is not a United States citizen, and he feared that a criminal conviction might affect his status as a lawful permanent resident.";
 
