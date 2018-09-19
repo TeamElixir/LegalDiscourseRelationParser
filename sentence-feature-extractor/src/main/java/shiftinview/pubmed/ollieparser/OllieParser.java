@@ -1,14 +1,17 @@
-package ollieparser;
+package shiftinview.pubmed.ollieparser;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import utils.models.Triple;
+
 public class OllieParser {
-    public static void main(String[] args) throws FileNotFoundException {
+
+    public ArrayList<OllieSentence> parse() throws FileNotFoundException {
         String filePath = new File("").getAbsolutePath();
-        filePath += "/src/main/resources/Ollie_text/sample.txt";
+        filePath += "/resultsLegal.txt";
 
         ArrayList<OllieSentence> sentenceList = new ArrayList<>();
 
@@ -30,7 +33,7 @@ public class OllieParser {
             }
 
             while(nextLine.matches("^[01]\\.[0-9]+:.*")){
-                OllieTriple ot= new OllieTriple();
+               Triple ot= new Triple();
 
                 ot.confidence = Double.parseDouble(nextLine.substring(0,nextLine.indexOf(":")));
                 String intermediateString = null;
@@ -61,13 +64,13 @@ public class OllieParser {
 
         for(OllieSentence os:sentenceList){
             System.out.println(os.text);
-            for(OllieTriple ot:os.arrayList){
+            for(Triple ot:os.arrayList){
                 System.out.print(ot.confidence);
                 System.out.println("  "+ot.subject+"    ----  "+ ot.relation+" ----  "+ot.object);
             }
             System.out.println();
         }
 
-
+		return sentenceList;
     }
 }
