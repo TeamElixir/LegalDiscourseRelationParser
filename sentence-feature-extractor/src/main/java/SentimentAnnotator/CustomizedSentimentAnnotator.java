@@ -23,21 +23,23 @@ public class CustomizedSentimentAnnotator {
                                                            String nonNegativeFilePath,
                                                            String nonNeutralFilePath) throws FileNotFoundException {
 
-        String filePath = new File("").getAbsolutePath();
-        filePath += "/src/main/resources/";
+        ClassLoader classLoader = ClassLoader.getSystemClassLoader();
+        String pathNonPositive = classLoader.getResource(nonPositiveFilePath).getPath();
+        String pathNonNegative = classLoader.getResource(nonNegativeFilePath).getPath();
+        String pathNonNetural = classLoader.getResource(nonNeutralFilePath).getPath();
 
-        Scanner nonPositiveScanner = new Scanner(new File(filePath + nonPositiveFilePath));
+        Scanner nonPositiveScanner = new Scanner(new File(pathNonPositive));
         while (nonPositiveScanner.hasNextLine()) {
             String line = nonPositiveScanner.nextLine();
             SentimentCostAndGradient.nonNeutralList.add(line);
         }
 
-        Scanner nonNeutralScanner = new Scanner(new File(filePath + nonNeutralFilePath));
+        Scanner nonNeutralScanner = new Scanner(new File(pathNonNetural));
         while (nonNeutralScanner.hasNextLine()) {
             SentimentCostAndGradient.nonNeutralList.add(nonNeutralScanner.nextLine());
         }
 
-        Scanner nonNegativeScanner = new Scanner(new File(filePath + nonNegativeFilePath));
+        Scanner nonNegativeScanner = new Scanner(new File(pathNonNegative));
         while (nonNegativeScanner.hasNextLine()) {
             SentimentCostAndGradient.nonNegativeList.add(nonNegativeScanner.nextLine());
         }

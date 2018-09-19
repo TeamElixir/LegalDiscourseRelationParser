@@ -11,6 +11,8 @@ public class ShiftInViewPair {
 	private int linShift;
 	private double pubMedVal;
 	private int pubMedCal;
+	private String sourceSentence;
+	private String targetSentence;
 
 	private static SQLiteUtils sqLiteUtils;
 
@@ -59,17 +61,37 @@ public class ShiftInViewPair {
 		this.pubMedCal = pubMedCal;
 	}
 
+	public String getSourceSentence() {
+		return sourceSentence;
+	}
+
+	public void setSourceSentence(String sourceSentence) {
+		this.sourceSentence = sourceSentence;
+	}
+
+	public String getTargetSentence() {
+		return targetSentence;
+	}
+
+	public void setTargetSentence(String targetSentence) {
+		this.targetSentence = targetSentence;
+	}
+
 	public void save() throws SQLException {
 		String sql = "INSERT INTO SHIFT_IN_VIEW"
 				+ "(RELATIONSHIP_ID,"
 				+ "LIN_SHIFT,"
 				+ "PUBMED_VAL,"
-				+ "PUBMED_CAL) " +
+				+ "PUBMED_CAL,"
+				+ "SSENT,"
+				+ "TSENT) " +
 				"VALUES ("
 				+ relationshipId + ", " +
 				+ linShift + ", " +
 				+ pubMedVal + ", " +
-				+ pubMedCal + ");";
+				+ pubMedCal + ", "
+				+ sourceSentence + ", "
+				+ targetSentence + ");";
 		System.out.println(sql);
 		sqLiteUtils.executeUpdate(sql);
 	}

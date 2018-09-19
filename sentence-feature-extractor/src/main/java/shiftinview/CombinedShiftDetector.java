@@ -47,18 +47,21 @@ public class CombinedShiftDetector {
 			resultPair.setPubMedCal(0);
 			resultPair.setPubMedVal(0);
 
+			resultPair.setSourceSentence(sourceSentence);
+			resultPair.setTargetSentence(targetSentence);
+
 			System.out.println("RID: " + resultPair.getRelationshipId());
 			System.out.println("Source: " + sourceSentence);
 			System.out.println("Target: " + targetSentence);
 
-						boolean bValue = combinedDetector(nlpUtils, targetSentence, sourceSentence);
-						if (bValue) {
-							System.out.println("final ::: Truee");
-							resultPair.setLinShift(1);
-						} else {
-							System.out.println("final ::: False");
-							resultPair.setLinShift(0);
-						}
+			boolean bValue = combinedDetector(nlpUtils, targetSentence, sourceSentence);
+			if (bValue) {
+				System.out.println("final ::: Truee");
+				resultPair.setLinShift(1);
+			} else {
+				System.out.println("final ::: False");
+				resultPair.setLinShift(0);
+			}
 
 			j++;
 			resultPair.save();
@@ -67,14 +70,14 @@ public class CombinedShiftDetector {
 	}
 
 	public static boolean combinedDetector(NLPUtils nlpUtils, String targetSentence, String sourceSentence) {
-		Integer value = ShiftInViewAnalyzer.checkRelationsForOppositeness(nlpUtils, targetSentence, sourceSentence);
+		/*Integer value = ShiftInViewAnalyzer.checkRelationsForOppositeness(nlpUtils, targetSentence, sourceSentence);
 		if (value > 0) {
 			return true;
-		} else if (ParseTreeSplitter.subjectSentiment(nlpUtils, targetSentence, sourceSentence)) {
+		} else*/
+		if (ParseTreeSplitter.subjectSentiment(nlpUtils, targetSentence, sourceSentence)) {
 			return true;
 		}
 		return false;
-
 	}
 
 	public static ArrayList<String> readCoreferedSentences() throws Exception {
