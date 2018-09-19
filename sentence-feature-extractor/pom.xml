@@ -28,7 +28,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>shiftinview.pubmed.Main</mainClass>
+                            <mainClass>shiftinview.CombinedShiftDetector</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

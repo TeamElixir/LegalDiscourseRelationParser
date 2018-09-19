@@ -27,10 +27,6 @@ public class ShiftInViewPair {
 		return dbId;
 	}
 
-	public void setDbId(int dbId) {
-		this.dbId = dbId;
-	}
-
 	public int getRelationshipId() {
 		return relationshipId;
 	}
