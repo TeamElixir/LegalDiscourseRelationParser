@@ -2,7 +2,6 @@ package shiftinview.wuPalmerTest.controllers;
 
 import shiftinview.wuPalmerTest.DBCon;
 import shiftinview.wuPalmerTest.models.AnnotatedVerbPair;
-import shiftinview.wuPalmerTest.models.VerbPair;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -11,9 +10,9 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class AnnotatedVerbPairsController {
-    public static ArrayList<VerbPair> getAllAnnotatedVerbPairs() {
+    public static ArrayList<AnnotatedVerbPair> getAllAnnotatedVerbPairs() {
         Connection conn = DBCon.getConnection();
-        ArrayList<VerbPair> annotatedVerbPairs = new ArrayList<>();
+        ArrayList<AnnotatedVerbPair> annotatedVerbPairs = new ArrayList<>();
         ResultSet resultSet;
         String query = "SELECT * FROM " + AnnotatedVerbPair.TABLE_NAME;
         try {
@@ -27,7 +26,7 @@ public class AnnotatedVerbPairsController {
                 String targetVerb = resultSet.getString("TARGET_VERB");
                 int annotation = resultSet.getInt("ANNOTATION");
 
-                VerbPair vp = new AnnotatedVerbPair(id, sentencePairID, sourceVerb, targetVerb, annotation);
+                AnnotatedVerbPair vp = new AnnotatedVerbPair(id, sentencePairID, sourceVerb, targetVerb, annotation);
 
                 annotatedVerbPairs.add(vp);
             }
