@@ -7,11 +7,17 @@ import utils.SQLiteUtils;
 public class ShiftInViewPair {
 
 	private int dbId;
+
 	private int relationshipId;
+
 	private int linShift;
+
 	private double pubMedVal;
+
 	private int pubMedCal;
+
 	private String sourceSentence;
+
 	private String targetSentence;
 
 	private static SQLiteUtils sqLiteUtils;
@@ -87,11 +93,9 @@ public class ShiftInViewPair {
 				+ "TSENT) " +
 				"VALUES ("
 				+ relationshipId + ", " +
-				+ linShift + ", " +
-				+ pubMedVal + ", " +
-				+ pubMedCal + ", "
-				+ "\"" + sourceSentence + "\"" +", "
-				+ "\"" + targetSentence + "\"" + ");";
+				+linShift + ", " +
+				+pubMedVal + ", " +
+				+pubMedCal + ");";
 		System.out.println(sql);
 		sqLiteUtils.executeUpdate(sql);
 	}
