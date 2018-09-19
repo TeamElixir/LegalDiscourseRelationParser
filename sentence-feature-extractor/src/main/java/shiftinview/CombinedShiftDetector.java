@@ -47,9 +47,6 @@ public class CombinedShiftDetector {
 			resultPair.setPubMedCal(0);
 			resultPair.setPubMedVal(0);
 
-			resultPair.setSourceSentence(sourceSentence);
-			resultPair.setTargetSentence(targetSentence);
-
 			System.out.println("RID: " + resultPair.getRelationshipId());
 			System.out.println("Source: " + sourceSentence);
 			System.out.println("Target: " + targetSentence);
