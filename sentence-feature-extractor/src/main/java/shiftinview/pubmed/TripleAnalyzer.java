@@ -27,6 +27,8 @@ public class TripleAnalyzer {
 
 	private static final double wNo = 10;
 
+	double sigma = 0.1;
+
 	private HashMap<String, Double> dictionary;
 
 	public Dictionary wordnetDic;
@@ -78,8 +80,9 @@ public class TripleAnalyzer {
 
 	public void analyze(ArrayList<Triple> sourceTriples, ArrayList<Triple> targetTriples) throws Exception {
 
+		// triples from source sentence
 		for (Triple sourceTriple : sourceTriples) {
-			// TODO: 9/16/18 remove stop words from both triple word list
+
 			String sourceRelation = sourceTriple.relation;
 			sourceRelation = replaceNt(sourceRelation);
 			String[] sourceRelationWordArray = sourceRelation.split(" ");
@@ -93,7 +96,9 @@ public class TripleAnalyzer {
 				}
 			}
 
+			// triples from target sentence
 			for (Triple targetTriple : targetTriples) {
+
 				String targetRelation = targetTriple.relation;
 				targetRelation = replaceNt(targetRelation);
 				String[] targetRelationWordArray = targetRelation.split(" ");
@@ -107,11 +112,11 @@ public class TripleAnalyzer {
 					}
 				}
 
+				// values for each triple permutation
 				double similT = 0.0;
 				double diffT = 0.0;
 				int sN = 0;
 				int dN = 0;
-				double sigma = 0.1;
 
 				for (int i = 0; i < sourceRelationWords.size(); i++) {
 					String sWord = sourceRelationWords.get(i).toLowerCase();
@@ -194,7 +199,7 @@ public class TripleAnalyzer {
 							}
 						}
 					}
-				} // both word loops in a triple relation end
+				} // end both word loops in a triple relation
 
 				similT = (similT * (dN + sigma) * wYes) / (sN + dN + 2 * sigma); //Calculate by inverse
 				diffT = (diffT * (sN + sigma) * wNo) / (sN + dN + 2 * sigma);
@@ -204,13 +209,19 @@ public class TripleAnalyzer {
 				System.out.println("similT : " + similT);
 				System.out.println("diffT : " + diffT);
 
-				//				if (similT < diffT) {
-				//					return diffT * (-1);
-				//				} else {
-				//					return similT;
-				//				}
+				double simDifValue;
+
+				if (similT < diffT) {
+					simDifValue = diffT * (-1);
+				} else {
+					simDifValue = similT;
+				}
 			}
+
+
 		}
+
+
 	}
 
 	private ArrayList<String> getSynAntonyms(String wordLemma, Dictionary dictionary) throws Exception {

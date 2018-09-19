@@ -54,10 +54,13 @@ public class CombinedShiftDetector {
 			System.out.println("Source: " + sourceSentence);
 			System.out.println("Target: " + targetSentence);
 
-			boolean bValue = combinedDetector(nlpUtils, targetSentence, sourceSentence);
-			if (bValue) {
+			int bValue = combinedDetector(nlpUtils, targetSentence, sourceSentence);
+			if (bValue == 1) {
 				System.out.println("final ::: Truee");
 				resultPair.setLinShift(1);
+			} else if (bValue == 2) {
+				System.out.println("final - True 2");
+				resultPair.setLinShift(2);
 			} else {
 				System.out.println("final ::: False");
 				resultPair.setLinShift(0);
@@ -69,15 +72,16 @@ public class CombinedShiftDetector {
 
 	}
 
-	public static boolean combinedDetector(NLPUtils nlpUtils, String targetSentence, String sourceSentence) {
-		/*Integer value = ShiftInViewAnalyzer.checkRelationsForOppositeness(nlpUtils, targetSentence, sourceSentence);
-		if (value > 0) {
-			return true;
-		} else*/
+	public static Integer combinedDetector(NLPUtils nlpUtils, String targetSentence, String sourceSentence) {
+
+		Integer value = ShiftInViewAnalyzer.checkRelationsForOppositeness(nlpUtils, targetSentence, sourceSentence);
+
 		if (ParseTreeSplitter.subjectSentiment(nlpUtils, targetSentence, sourceSentence)) {
-			return true;
+			return 1;
+		} else if (value > 0) {
+			return 2;
 		}
-		return false;
+		return 0;
 	}
 
 	public static ArrayList<String> readCoreferedSentences() throws Exception {

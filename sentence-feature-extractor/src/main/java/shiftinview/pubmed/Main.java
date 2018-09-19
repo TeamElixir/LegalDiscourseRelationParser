@@ -16,6 +16,8 @@ import edu.cmu.lti.jawjaw.util.WordNetUtil;
 import edu.stanford.nlp.ie.util.RelationTriple;
 import edu.stanford.nlp.pipeline.Annotation;
 import shiftinview.ConstituentParser;
+import shiftinview.pubmed.ollieparser.OllieParser;
+import shiftinview.pubmed.ollieparser.OllieSentence;
 import utils.NLPUtils;
 import utils.SQLiteUtils;
 import utils.models.Triple;
@@ -31,6 +33,55 @@ public class Main {
 		String sentence2
 				= "His attorney assured him there was nothing to worry about,the Government would not deport him if he pleaded guilty.";
 
+		ArrayList<FeatureEntry> legalEntries = FeatureEntry.getElaborationLegal();
+
+		OllieParser ollieParser = new OllieParser();
+		ArrayList<OllieSentence> tripleSentences = ollieParser.parse();
+
+		TripleAnalyzer tripleAnalyzer = new TripleAnalyzer();
+
+		int count = 0;
+		for (int i = 0; i < tripleSentences.size(); i += 2) {
+			if (!(tripleSentences.get(i).arrayList.isEmpty() || tripleSentences.get(i + 1).arrayList.isEmpty())) {
+
+//				tripleAnalyzer.analyze();
+			}
+			count++;
+		}
+
+
+		/*
+		for (FeatureEntry entry : legalEntries) {
+			String targetSentence = sentences.get(entry.getTsid() - 1);
+			String sourceSentence = sentences.get(entry.getSsid() - 1);
+
+			// text to resolve coreferences
+			String corefText = targetSentence + " " + sourceSentence;
+
+			// annotate both sentences in order to resolve coreferences
+			Annotation annotation = nlpUtils.annotate(corefText);
+			ArrayList<String> resolvedSents = nlpUtils.replaceCoreferences(annotation);
+
+			// coreferences replaced new sentences
+			sourceSentence = resolvedSents.get(0);
+			targetSentence = resolvedSents.get(1);
+
+			// annotate again
+			Annotation sourceAnnotation = nlpUtils.annotate(sourceSentence);
+			Annotation targetAnnotation = nlpUtils.annotate(targetSentence);
+
+			// generate triple list
+			ArrayList<Triple> sourceTriples = tripleAnalyzer.generateTripleList(sourceAnnotation, nlpUtils);
+			ArrayList<Triple> targetTriples = tripleAnalyzer.generateTripleList(targetAnnotation, nlpUtils);
+
+		}
+		*/
+
+		System.out.println("done");
+
+	}
+
+	public void coreferAndWrite() throws Exception {
 		Properties props = new Properties();
 		props.setProperty("annotators", "tokenize,ssplit,pos,lemma,ner,parse,natlog,openie,coref");
 		props.setProperty("coref.algorithm", "statistical");
@@ -49,8 +100,6 @@ public class Main {
 		while (resultSet.next()) {
 			sentences.add(resultSet.getString("SENTENCE"));
 		}
-
-		//TripleAnalyzer tripleAnalyzer = new TripleAnalyzer();
 
 		try (PrintWriter writer = new PrintWriter("coreferedSentences.txt", "UTF-8")) {
 			for (FeatureEntry entry : legalEntries) {
@@ -82,36 +131,6 @@ public class Main {
 		catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
 		}
-
-		/*
-		for (FeatureEntry entry : legalEntries) {
-			String targetSentence = sentences.get(entry.getTsid() - 1);
-			String sourceSentence = sentences.get(entry.getSsid() - 1);
-
-			// text to resolve coreferences
-			String corefText = targetSentence + " " + sourceSentence;
-
-			// annotate both sentences in order to resolve coreferences
-			Annotation annotation = nlpUtils.annotate(corefText);
-			ArrayList<String> resolvedSents = nlpUtils.replaceCoreferences(annotation);
-
-			// coreferences replaced new sentences
-			sourceSentence = resolvedSents.get(0);
-			targetSentence = resolvedSents.get(1);
-
-			// annotate again
-			Annotation sourceAnnotation = nlpUtils.annotate(sourceSentence);
-			Annotation targetAnnotation = nlpUtils.annotate(targetSentence);
-
-			// generate triple list
-			ArrayList<Triple> sourceTriples = tripleAnalyzer.generateTripleList(sourceAnnotation, nlpUtils);
-			ArrayList<Triple> targetTriples = tripleAnalyzer.generateTripleList(targetAnnotation, nlpUtils);
-
-		}
-		*/
-
-		System.out.printf("done");
-
 	}
 
 }

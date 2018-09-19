@@ -119,7 +119,7 @@ public class ShiftInViewAnalyzer {
                 System.out.println("t  "+ verbTarget);*/
 				SemanticSentenceSimilarity semanticSentenceSimilarity = new SemanticSentenceSimilarity();
 				double score = semanticSentenceSimilarity.wordSimilarity(verbSource, POS.v, verbTarget, POS.v);
-				if (score >= 0.85) {
+				if (score >= 0.88) {
 					if (currentSourceVerbID != verbSourceId || currentTargetVerbID != verbTargetId) {
                         /*String[] verbPair = new String[2];
                         verbPair[0]=verbTarget;
