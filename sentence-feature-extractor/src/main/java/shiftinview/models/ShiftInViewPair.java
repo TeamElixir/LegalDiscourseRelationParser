@@ -88,9 +88,7 @@ public class ShiftInViewPair {
 				+ "(RELATIONSHIP_ID,"
 				+ "LIN_SHIFT,"
 				+ "PUBMED_VAL,"
-				+ "PUBMED_CAL,"
-				+ "SSENT,"
-				+ "TSENT) " +
+				+ "PUBMED_CAL) " +
 				"VALUES ("
 				+ relationshipId + ", " +
 				+linShift + ", " +
