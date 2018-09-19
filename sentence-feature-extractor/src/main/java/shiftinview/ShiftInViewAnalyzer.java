@@ -17,7 +17,7 @@ import edu.cmu.lti.jawjaw.pobj.POS;
 
 public class ShiftInViewAnalyzer {
 
-    private static List<String> negativeWords = new ArrayList<String>(Arrays.asList("never", "not", "nothing"));
+
 
 
     public static void main(String[] args) {
@@ -39,7 +39,7 @@ public class ShiftInViewAnalyzer {
         checkRelationsForOppositeness(nlpUtils,targetSentence,sourceSentence);
     }
 
-    public static void checkRelationsForOppositeness(NLPUtils nlpUtils,String targetSentence,String sourceSentence) {
+    public static Integer checkRelationsForOppositeness(NLPUtils nlpUtils,String targetSentence,String sourceSentence) {
 
 
         ArrayList<VerbRelation> verbsSentence1;
@@ -166,10 +166,10 @@ public class ShiftInViewAnalyzer {
                         if(verbObjectSource.getRelation().equals("neg")){
                             verbPair.setSourceVerbNegated(true);
                         }
-                        if(negativeWords.contains(targetOther)){
+                        if(ModifierUtils.getNegativeWords().contains(targetOther)){
                             verbPair.setTargetVerbNegated(true);
                         }
-                        if(negativeWords.contains(sourceOther)){
+                        if(ModifierUtils.getNegativeWords().contains(sourceOther)){
                             verbPair.setSourceVerbNegated(true);
                         }
 
@@ -222,8 +222,8 @@ public class ShiftInViewAnalyzer {
             }
 
         }
-        detectNegation(closeVerbs);
-
+        Integer value= detectNegation(closeVerbs);
+        return value;
 
 
 

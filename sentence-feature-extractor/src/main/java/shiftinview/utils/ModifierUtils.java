@@ -2,6 +2,7 @@ package shiftinview.utils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class ModifierUtils {
 
@@ -28,6 +29,13 @@ public class ModifierUtils {
                     "defiantly", "greedily", "hungrily", "irritably", "obnoxiously", "painfully", "poorly",
                     "reluctantly")
     );
+
+    private static List<String> negativeWords = new ArrayList<String>(Arrays.asList("never", "not", "nothing"));
+
+    public static List<String> getNegativeWords() {
+        return negativeWords;
+    }
+
 
     public static ArrayList<String> getLessFrequent() {
         return lessFrequent;
