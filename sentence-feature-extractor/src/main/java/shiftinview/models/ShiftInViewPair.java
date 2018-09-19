@@ -90,8 +90,8 @@ public class ShiftInViewPair {
 				+ linShift + ", " +
 				+ pubMedVal + ", " +
 				+ pubMedCal + ", "
-				+ sourceSentence + ", "
-				+ targetSentence + ");";
+				+ "\"" + sourceSentence + "\"" +", "
+				+ "\"" + targetSentence + "\"" + ");";
 		System.out.println(sql);
 		sqLiteUtils.executeUpdate(sql);
 	}
