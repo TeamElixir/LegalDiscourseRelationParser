@@ -15,7 +15,9 @@ import edu.cmu.lti.jawjaw.pobj.POS;
 import edu.cmu.lti.jawjaw.util.WordNetUtil;
 import edu.stanford.nlp.ie.util.RelationTriple;
 import edu.stanford.nlp.pipeline.Annotation;
+import shiftinview.CombinedShiftDetector;
 import shiftinview.ConstituentParser;
+import shiftinview.models.ShiftInViewPair;
 import shiftinview.pubmed.ollieparser.OllieParser;
 import shiftinview.pubmed.ollieparser.OllieSentence;
 import utils.NLPUtils;
@@ -25,6 +27,7 @@ import utils.models.Triple;
 public class Main {
 
 	public static void main(String[] args) throws Exception {
+
 
 		String sentence1 = "Although he has lived in this country for most of his life, Lee is not a United States citizen, and he feared that a criminal conviction might affect his status as a lawful permanent resident.";
 
@@ -40,48 +43,31 @@ public class Main {
 
 		TripleAnalyzer tripleAnalyzer = new TripleAnalyzer();
 
-		int count = 0;
+		int j = 0;
 		for (int i = 0; i < tripleSentences.size(); i += 2) {
 			if (!(tripleSentences.get(i).arrayList.isEmpty() || tripleSentences.get(i + 1).arrayList.isEmpty())) {
 
-//				tripleAnalyzer.analyze();
+				ArrayList<Triple> sourceTriples = tripleSentences.get(i).arrayList;
+				ArrayList<Triple> targetTriples = tripleSentences.get(i + 1).arrayList;
+
+				Double val = tripleAnalyzer.analyze(sourceTriples, targetTriples);
+
+				if (val != null) {
+					System.out.println("Source : " + tripleSentences.get(i).text);
+					System.out.println("Target : " + tripleSentences.get(i + 1).text);
+				}
+			} else {
+
 			}
-			count++;
+			j++;
 		}
-
-
-		/*
-		for (FeatureEntry entry : legalEntries) {
-			String targetSentence = sentences.get(entry.getTsid() - 1);
-			String sourceSentence = sentences.get(entry.getSsid() - 1);
-
-			// text to resolve coreferences
-			String corefText = targetSentence + " " + sourceSentence;
-
-			// annotate both sentences in order to resolve coreferences
-			Annotation annotation = nlpUtils.annotate(corefText);
-			ArrayList<String> resolvedSents = nlpUtils.replaceCoreferences(annotation);
-
-			// coreferences replaced new sentences
-			sourceSentence = resolvedSents.get(0);
-			targetSentence = resolvedSents.get(1);
-
-			// annotate again
-			Annotation sourceAnnotation = nlpUtils.annotate(sourceSentence);
-			Annotation targetAnnotation = nlpUtils.annotate(targetSentence);
-
-			// generate triple list
-			ArrayList<Triple> sourceTriples = tripleAnalyzer.generateTripleList(sourceAnnotation, nlpUtils);
-			ArrayList<Triple> targetTriples = tripleAnalyzer.generateTripleList(targetAnnotation, nlpUtils);
-
-		}
-		*/
 
 		System.out.println("done");
 
+
 	}
 
-	public void coreferAndWrite() throws Exception {
+	public static void coreferAndWrite() throws Exception {
 		Properties props = new Properties();
 		props.setProperty("annotators", "tokenize,ssplit,pos,lemma,ner,parse,natlog,openie,coref");
 		props.setProperty("coref.algorithm", "statistical");
@@ -101,7 +87,7 @@ public class Main {
 			sentences.add(resultSet.getString("SENTENCE"));
 		}
 
-		try (PrintWriter writer = new PrintWriter("coreferedSentences.txt", "UTF-8")) {
+		try (PrintWriter writer = new PrintWriter("coreferedSentencesNoHis.txt", "UTF-8")) {
 			for (FeatureEntry entry : legalEntries) {
 				String targetSentence = sentences.get(entry.getTsid() - 1);
 				String sourceSentence = sentences.get(entry.getSsid() - 1);
@@ -112,7 +98,7 @@ public class Main {
 				// annotate both sentences in order to resolve coreferences
 				Annotation annotation = nlpUtils.annotate(corefText);
 				System.out.println("target: " + entry.getTsid() + " ; source" + entry.getSsid());
-				ArrayList<String> resolvedSents = nlpUtils.replaceCoreferences(annotation);
+				ArrayList<String> resolvedSents = nlpUtils.replaceCoreferencesNoHis(annotation);
 
 				// coreferences replaced new sentences
 				if (resolvedSents != null) {
