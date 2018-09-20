@@ -95,4 +95,6 @@ public class ShiftInViewPair {
 		System.out.println(sql);
 		sqLiteUtils.executeUpdate(sql);
 	}
+
+	
 }
