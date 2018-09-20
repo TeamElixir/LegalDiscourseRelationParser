@@ -171,6 +171,11 @@ public class SemanticSentenceSimilarity {
 
     }
 
+    public double getWuPalmerRelatedness(String word1, String word2){
+        WS4JConfiguration.getInstance().setMFS(true);
+        double s = new WuPalmer(db).calcRelatednessOfWords(word1, word2);
+        return s;
+    }
 
 
 }

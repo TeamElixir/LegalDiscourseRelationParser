@@ -21,6 +21,10 @@ public class Main {
         calculateMetrics(allAnnotatedVerbPairs, similarity, 0.75);
         calculateMetrics(allAnnotatedVerbPairs, similarity, 0.80);
         calculateMetrics(allAnnotatedVerbPairs, similarity, 0.85);
+        calculateMetrics(allAnnotatedVerbPairs, similarity, 0.86);
+        calculateMetrics(allAnnotatedVerbPairs, similarity, 0.87);
+        calculateMetrics(allAnnotatedVerbPairs, similarity, 0.88);
+        calculateMetrics(allAnnotatedVerbPairs, similarity, 0.89);
         calculateMetrics(allAnnotatedVerbPairs, similarity, 0.90);
         calculateMetrics(allAnnotatedVerbPairs, similarity, 0.95);
     }

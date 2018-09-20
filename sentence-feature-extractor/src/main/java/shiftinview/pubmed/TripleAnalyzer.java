@@ -63,7 +63,7 @@ public class TripleAnalyzer {
 			"very", "via", "was", "we", "well", "were", "what", "whatever", "when", "whence", "whenever", "where",
 			"whereafter", "whereas", "whereby", "wherein", "whereupon", "wherever", "whether", "which", "while",
 			"whither", "who", "whoever", "whole", "whom", "whose", "why", "will", "within", "would", "yet", "you",
-			"your", "yours", "yourself", "yourselves", "the" };
+			"your", "yours", "yourself", "yourselves", "the", "did", "does"};
 
 	private ArrayList<String> stopWords = new ArrayList<>(Arrays.asList(stopWordsArr));
 
@@ -78,7 +78,9 @@ public class TripleAnalyzer {
 		pu = PointerUtils.getInstance();
 	}
 
-	public void analyze(ArrayList<Triple> sourceTriples, ArrayList<Triple> targetTriples) throws Exception {
+	public Double analyze(ArrayList<Triple> sourceTriples, ArrayList<Triple> targetTriples) throws Exception {
+
+		boolean cal = false;
 
 		// triples from source sentence
 		for (Triple sourceTriple : sourceTriples) {
@@ -98,6 +100,13 @@ public class TripleAnalyzer {
 
 			// triples from target sentence
 			for (Triple targetTriple : targetTriples) {
+
+				if(!(targetTriple.subject.contains(sourceTriple.subject) || sourceTriple.subject.contains(targetTriple.subject))){
+					continue;
+				}
+
+				System.out.println("source triple: " + sourceTriple.toString());
+				System.out.println("target triple: " + targetTriple.toString());
 
 				String targetRelation = targetTriple.relation;
 				targetRelation = replaceNt(targetRelation);
@@ -123,6 +132,18 @@ public class TripleAnalyzer {
 					for (int j = 0; j < targetRelationWords.size(); j++) {
 						String tWord = targetRelationWords.get(j).toLowerCase();
 
+						// if stopword no similarity measure, but not break eg: not in stop word list
+						if (stopWords.contains(sWord) || stopWords.contains(tWord)) {
+							continue;
+						}
+
+						if(!dictionary.containsKey(sWord) || !dictionary.containsKey(tWord)){
+							continue;
+						}
+
+						System.out.println("SWord: " + sWord);
+						System.out.println("TWord: " + tWord);
+
 						if (sWord.equalsIgnoreCase(tWord)) {
 							if (i != 0 && j != 0) {
 								if ("not".equalsIgnoreCase(sourceRelationWords.get(i - 1)) && "not"
@@ -146,17 +167,6 @@ public class TripleAnalyzer {
 							}
 						} else {
 
-							// if stopword no similarity measure, but not break eg: not in stop word list
-							if (stopWords.contains(sWord) || stopWords.contains(tWord)) {
-								System.out.println(sWord);
-								System.out.println(tWord);
-								continue;
-							}
-
-							SemanticSentenceSimilarity similarity = new SemanticSentenceSimilarity();
-							double simil = similarity.wordSimilarity(sWord, POS.v, tWord, POS.v);
-							simil = simil / (sourceRelationWordArray.length + targetRelationWordArray.length);
-
 							IndexWord indexSWord = getIndexedWord(sWord, wordnetDic);
 							IndexWord indexTWord = getIndexedWord(tWord, wordnetDic);
 
@@ -168,6 +178,12 @@ public class TripleAnalyzer {
 							if (indexTWord != null) {
 								tWordLemma = indexTWord.getLemma();
 							}
+
+							SemanticSentenceSimilarity similarity = new SemanticSentenceSimilarity();
+							double simil = similarity.wordSimilarity(sWordLemma, POS.v, tWordLemma, POS.v);
+							simil = simil / (sourceRelationWordArray.length + targetRelationWordArray.length);
+
+							System.out.println(sWordLemma + " " + tWordLemma + " " + simil);
 
 							ArrayList<String> synAntonymsSWord = getSynAntonyms(sWordLemma, wordnetDic);
 							ArrayList<String> synAntonymsTWord = getSynAntonyms(tWordLemma, wordnetDic);
@@ -191,10 +207,10 @@ public class TripleAnalyzer {
 											0) * (-1);
 
 							if (oppo > 0) {
-								similT += oppo * wYes * dictionary.get(sWord) * dictionary.get(tWord);
+								similT += oppo * wYes ;
 								sN++;
 							} else if (oppo < 0) {
-								diffT += (oppo * (-wNo)) * dictionary.get(sWord) * dictionary.get(tWord);
+								diffT += oppo * wNo;
 								dN++;
 							}
 						}
@@ -204,8 +220,6 @@ public class TripleAnalyzer {
 				similT = (similT * (dN + sigma) * wYes) / (sN + dN + 2 * sigma); //Calculate by inverse
 				diffT = (diffT * (sN + sigma) * wNo) / (sN + dN + 2 * sigma);
 
-				System.out.println("source triple: " + sourceTriple.toString());
-				System.out.println("target triple: " + targetTriple.toString());
 				System.out.println("similT : " + similT);
 				System.out.println("diffT : " + diffT);
 
@@ -216,11 +230,19 @@ public class TripleAnalyzer {
 				} else {
 					simDifValue = similT;
 				}
-			}
 
+				simDifValue = simDifValue * sourceTriple.confidence * targetTriple.confidence;
+
+				cal = true;
+			}
 
 		}
 
+		if(!cal){
+			return null;
+		}
+
+		return new Double(1.0);
 
 	}
 
@@ -337,6 +359,7 @@ public class TripleAnalyzer {
 	}
 
 	public static void main(String[] args) throws Exception {
+		/*
 		TripleAnalyzer tripleAnalyzer = new TripleAnalyzer();
 
 		//		String targetSentence = "Although he has lived in this country for most of his life, Lee is not a United States citizen, and he feared that a criminal conviction might affect his status as a lawful permanent resident.";
@@ -376,8 +399,36 @@ public class TripleAnalyzer {
 
 		System.out.println(sourceTriples);
 		System.out.println(targetTriples);
+		*/
 
-		tripleAnalyzer.analyze(sourceTriples, targetTriples);
+		TripleAnalyzer tripleAnalyzer = new TripleAnalyzer();
+//		Dictionary dic = tripleAnalyzer.wordnetDic;
+//
+//		IndexWord indexWord = tripleAnalyzer.getIndexedWord("indicated", dic);
+//		String lemma = indexWord.getLemma();
+//
+//		SemanticSentenceSimilarity similarity = new SemanticSentenceSimilarity();
+//		double simil = similarity.wordSimilarity(lemma, POS.v, "receive", POS.v);
+//
+//		System.out.println("done" + simil);
+
+		Triple sTriple = new Triple();
+		sTriple.subject = "Lee";
+		sTriple.relation = "increase";
+		sTriple.object = "marks";
+		ArrayList<Triple> sTriples = new ArrayList<>();
+		sTriples.add(sTriple);
+
+		Triple tTriple = new Triple();
+		tTriple.subject = "Lee";
+		tTriple.relation = "decrease";
+		tTriple.object = "marks";
+		ArrayList<Triple> tTriples = new ArrayList<>();
+		tTriples.add(tTriple);
+
+		tripleAnalyzer.analyze(sTriples,tTriples);
+
+		//		tripleAnalyzer.analyze(sourceTriples, targetTriples);
 
 		//		JWNL.initialize(new FileInputStream(
 		//				"/home/thejan/FYP/LegalDisourseRelationParser/sentence-feature-extractor/src/main/resources/jwnl_properties.xml"));

@@ -1,7 +1,11 @@
 package shiftinview.models;
 
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
+import datasetparser.models.FeatureEntry;
+import net.didion.jwnl.data.Exc;
 import utils.SQLiteUtils;
 
 public class ShiftInViewPair {
@@ -98,5 +102,27 @@ public class ShiftInViewPair {
 		sqLiteUtils.executeUpdate(sql);
 	}
 
-	
+	public static ArrayList<ShiftInViewPair> getAll() throws Exception {
+		String sql = "SELECT * FROM SHIFT_IN_VIEW;";
+		ResultSet resultSet = sqLiteUtils.executeQuery(sql);
+
+		if (resultSet.isClosed()) {
+			return null;
+		}
+
+		ArrayList<ShiftInViewPair> pairs = new ArrayList<>();
+		ShiftInViewPair pair;
+		while (resultSet.next()) {
+			pair = new ShiftInViewPair();
+			pair.dbId = resultSet.getInt("ID");
+			pair.relationshipId = resultSet.getInt("RELATIONSHIP_ID");
+			pair.linShift = resultSet.getInt("LIN_SHIFT");
+			pair.pubMedVal = resultSet.getDouble("PUBMED_VAL");
+			pair.pubMedCal = resultSet.getInt("PUBMED_CAL");
+
+			pairs.add(pair);
+		}
+
+		return pairs;
+	}
 }
