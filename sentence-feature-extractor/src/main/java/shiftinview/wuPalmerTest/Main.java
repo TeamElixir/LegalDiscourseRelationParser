@@ -29,7 +29,8 @@ public class Main {
         calculateMetrics(allAnnotatedVerbPairs, similarity, 0.95);
     }
 
-    private static void calculateMetrics(ArrayList<AnnotatedVerbPair> allAnnotatedVerbPairs, SemanticSentenceSimilarity similarity, double minScore) {
+    private static void calculateMetrics(ArrayList<AnnotatedVerbPair> allAnnotatedVerbPairs,
+                                         SemanticSentenceSimilarity similarity, double minScore) {
         int total = 0;
         int precisionCount = 0;
         int recallCount = 0;
