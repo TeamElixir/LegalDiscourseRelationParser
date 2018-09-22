@@ -57,7 +57,7 @@ public class SemanticSentenceSimilarity {
     }
 
     public double[] getAllWordSimilarityScores(String word1, POS posWord1, String word2, POS posWord2) {
-        double[] maxScores = {0, 0, 0, 0, 0, 0};
+        double[] maxScores = {0D, 0D, 0D, 0D, 0D, 0D, 0D, 0D};
         try {
             for (int i = 0; i < rcs.length; i++) {
                 WS4JConfiguration.getInstance().setMFS(true);
@@ -79,7 +79,7 @@ public class SemanticSentenceSimilarity {
         }
 
         for (int i = 0; i < rcs.length; i++) {
-            if (maxScores[i] >= 1) {
+            if (maxScores[i] > 1) {
                 maxScores[i] = 1;
             }
         }

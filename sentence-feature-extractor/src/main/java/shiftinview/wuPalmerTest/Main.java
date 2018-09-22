@@ -5,10 +5,7 @@ import featureextractor.semanticsimilarity.SemanticSentenceSimilarity;
 import shiftinview.wuPalmerTest.controllers.AnnotatedVerbPairsController;
 import shiftinview.wuPalmerTest.controllers.SentencePairsController;
 import shiftinview.wuPalmerTest.controllers.VerbPairsController;
-import shiftinview.wuPalmerTest.models.AnnotatedVerbPair;
-import shiftinview.wuPalmerTest.models.Sentence;
-import shiftinview.wuPalmerTest.models.SentencePair;
-import shiftinview.wuPalmerTest.models.VerbPair;
+import shiftinview.wuPalmerTest.models.*;
 import utils.NLPUtils;
 
 import java.util.ArrayList;
@@ -17,6 +14,23 @@ public class Main {
     public static void main(String[] args) {
         ArrayList<AnnotatedVerbPair> allAnnotatedVerbPairs = AnnotatedVerbPairsController.getAllAnnotatedVerbPairs();
         SemanticSentenceSimilarity similarity = new SemanticSentenceSimilarity();
+
+        System.out.println(allAnnotatedVerbPairs.size());
+
+        ArrayList<VerbPairWithAllScores> verbPairsWithAllScores = new ArrayList<>();
+
+        for (AnnotatedVerbPair avp : allAnnotatedVerbPairs) {
+            double[] allScores = similarity.getAllWordSimilarityScores(avp.getSourceVerb(), POS.v,
+                    avp.getTargetVerb(), POS.v);
+
+            VerbPairWithAllScores vpwals = new VerbPairWithAllScores(avp, allScores);
+            System.out.println(vpwals);
+            System.out.println();
+            verbPairsWithAllScores.add(vpwals);
+        }
+
+        System.out.println(verbPairsWithAllScores.size());
+
     }
 
     private static void indWuPalmerThreshold() {

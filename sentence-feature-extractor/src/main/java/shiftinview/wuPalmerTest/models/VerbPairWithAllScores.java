@@ -4,26 +4,16 @@ public class VerbPairWithAllScores extends AnnotatedVerbPair {
     public static final String TABLE_NAME = "VERB_PAIR_WITH_ALL_SCORES";
     private double hirstStOnge, jiangConrath, leacockChodorow, lesk, lin, path, resnik, wuPalmer;
 
-    public VerbPairWithAllScores(AnnotatedVerbPair avp,
-                                 // arranged in the alphabetical order. do not change.
-                                 double hirstStOnge,
-                                 double jiangConrath,
-                                 double leacockChodorow,
-                                 double lesk,
-                                 double lin,
-                                 double path,
-                                 double resnik,
-                                 double wuPalmer
-    ) {
+    public VerbPairWithAllScores(AnnotatedVerbPair avp, double[] allScores) {
         super(avp.getId(), avp.getSentencePairID(), avp.getSourceVerb(), avp.getTargetVerb(), avp.getAnnotation());
-        this.hirstStOnge = hirstStOnge;
-        this.jiangConrath = jiangConrath;
-        this.leacockChodorow = leacockChodorow;
-        this.lesk = lesk;
-        this.lin = lin;
-        this.path = path;
-        this.resnik = resnik;
-        this.wuPalmer = wuPalmer;
+        this.hirstStOnge = allScores[0];
+        this.jiangConrath = allScores[1];
+        this.leacockChodorow = allScores[2];
+        this.lesk = allScores[3];
+        this.lin = allScores[4];
+        this.path = allScores[5];
+        this.resnik = allScores[6];
+        this.wuPalmer = allScores[7];
     }
 
     public double getHirstStOnge() {
@@ -60,8 +50,7 @@ public class VerbPairWithAllScores extends AnnotatedVerbPair {
 
     @Override
     public String toString() {
-        String superToString = super.toString();
-        return superToString + "\nVerbPairWithAllScores{" +
+        return super.toString() + "\nVerbPairWithAllScores{" +
                 "hirstStOnge=" + hirstStOnge +
                 ", jiangConrath=" + jiangConrath +
                 ", leacockChodorow=" + leacockChodorow +
