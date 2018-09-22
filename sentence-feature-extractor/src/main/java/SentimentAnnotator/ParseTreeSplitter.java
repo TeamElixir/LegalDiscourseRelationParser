@@ -48,8 +48,8 @@ public class ParseTreeSplitter {
 		Annotation annSource = nlpUtils.annotate(sourceSentence);
 		//        pipeline.annotate(ann);
 
-		//String filePath = "/home/thejan/FYP/LegalDisourseRelationParser/sentence-feature-extractor/";
-		String filePath = "/home/viraj/FYP/";
+		String filePath = "/home/thejan/FYP/LegalDisourseRelationParser/sentence-feature-extractor/";
+		//String filePath = "/home/viraj/FYP/";
 
 		try {
 			CustomizedSentimentAnnotator.addSentimentLayerToCoreNLPSentiment(
