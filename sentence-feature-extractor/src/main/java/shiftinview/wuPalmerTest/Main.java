@@ -5,6 +5,7 @@ import featureextractor.semanticsimilarity.SemanticSentenceSimilarity;
 import shiftinview.wuPalmerTest.controllers.AnnotatedVerbPairsController;
 import shiftinview.wuPalmerTest.controllers.SentencePairsController;
 import shiftinview.wuPalmerTest.controllers.VerbPairsController;
+import shiftinview.wuPalmerTest.controllers.VerbPairsWithAllScoresController;
 import shiftinview.wuPalmerTest.models.*;
 import utils.NLPUtils;
 
@@ -23,13 +24,18 @@ public class Main {
             double[] allScores = similarity.getAllWordSimilarityScores(avp.getSourceVerb(), POS.v,
                     avp.getTargetVerb(), POS.v);
 
-            VerbPairWithAllScores vpwals = new VerbPairWithAllScores(avp, allScores);
-            System.out.println(vpwals);
-            System.out.println();
-            verbPairsWithAllScores.add(vpwals);
+            VerbPairWithAllScores vpwal = new VerbPairWithAllScores(avp, allScores);
+            boolean inserted = VerbPairsWithAllScoresController.insertVerbPairToDB(vpwal);
+            if(!inserted) {
+                System.out.println("Not Inserted!");
+                System.out.println(vpwal);
+            }
+//            System.out.println(vpwals);
+//            System.out.println();
+//            verbPairsWithAllScores.add(vpwals);
         }
 
-        System.out.println(verbPairsWithAllScores.size());
+//        System.out.println(verbPairsWithAllScores.size());
 
     }
 
