@@ -17,20 +17,25 @@ public class Main {
     public static void main(String[] args) {
         ArrayList<AnnotatedVerbPair> allAnnotatedVerbPairs = AnnotatedVerbPairsController.getAllAnnotatedVerbPairs();
         SemanticSentenceSimilarity similarity = new SemanticSentenceSimilarity();
-
-        calculateMetrics(allAnnotatedVerbPairs, similarity, 0.75);
-        calculateMetrics(allAnnotatedVerbPairs, similarity, 0.80);
-        calculateMetrics(allAnnotatedVerbPairs, similarity, 0.85);
-        calculateMetrics(allAnnotatedVerbPairs, similarity, 0.86);
-        calculateMetrics(allAnnotatedVerbPairs, similarity, 0.87);
-        calculateMetrics(allAnnotatedVerbPairs, similarity, 0.88);
-        calculateMetrics(allAnnotatedVerbPairs, similarity, 0.89);
-        calculateMetrics(allAnnotatedVerbPairs, similarity, 0.90);
-        calculateMetrics(allAnnotatedVerbPairs, similarity, 0.95);
     }
 
-    private static void calculateMetrics(ArrayList<AnnotatedVerbPair> allAnnotatedVerbPairs,
-                                         SemanticSentenceSimilarity similarity, double minScore) {
+    private static void indWuPalmerThreshold() {
+        ArrayList<AnnotatedVerbPair> allAnnotatedVerbPairs = AnnotatedVerbPairsController.getAllAnnotatedVerbPairs();
+        SemanticSentenceSimilarity similarity = new SemanticSentenceSimilarity();
+
+        checkWuPalmerAccuracy(allAnnotatedVerbPairs, similarity, 0.75);
+        checkWuPalmerAccuracy(allAnnotatedVerbPairs, similarity, 0.80);
+        checkWuPalmerAccuracy(allAnnotatedVerbPairs, similarity, 0.85);
+        checkWuPalmerAccuracy(allAnnotatedVerbPairs, similarity, 0.86);
+        checkWuPalmerAccuracy(allAnnotatedVerbPairs, similarity, 0.87);
+        checkWuPalmerAccuracy(allAnnotatedVerbPairs, similarity, 0.88);
+        checkWuPalmerAccuracy(allAnnotatedVerbPairs, similarity, 0.89);
+        checkWuPalmerAccuracy(allAnnotatedVerbPairs, similarity, 0.90);
+        checkWuPalmerAccuracy(allAnnotatedVerbPairs, similarity, 0.95);
+    }
+
+    private static void checkWuPalmerAccuracy(ArrayList<AnnotatedVerbPair> allAnnotatedVerbPairs,
+                                              SemanticSentenceSimilarity similarity, double minScore) {
         int total = 0;
         int precisionCount = 0;
         int recallCount = 0;
