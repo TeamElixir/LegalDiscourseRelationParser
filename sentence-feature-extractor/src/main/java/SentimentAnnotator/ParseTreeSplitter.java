@@ -6,6 +6,7 @@ import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.semgraph.SemanticGraph;
 import edu.stanford.nlp.semgraph.SemanticGraphCoreAnnotations;
 import edu.stanford.nlp.sentiment.SentimentCoreAnnotations;
+import edu.stanford.nlp.sentiment.SentimentCostAndGradient;
 import edu.stanford.nlp.trees.Tree;
 import edu.stanford.nlp.trees.TreeCoreAnnotations;
 import edu.stanford.nlp.trees.TypedDependency;
@@ -26,6 +27,9 @@ public class ParseTreeSplitter {
 		NLPUtils nlpUtils = new NLPUtils(props);
 		//        StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
+		//To create treemap at the very beginning.
+		SentimentCostAndGradient.createPosTagMap();
+
 		//insert your sentence here
 
 		String targetSentence = "Lee contends that he can make this showing because he never would have " +
@@ -44,7 +48,8 @@ public class ParseTreeSplitter {
 		Annotation annSource = nlpUtils.annotate(sourceSentence);
 		//        pipeline.annotate(ann);
 
-		String filePath = "/home/thejan/FYP/LegalDisourseRelationParser/sentence-feature-extractor/";
+		//String filePath = "/home/thejan/FYP/LegalDisourseRelationParser/sentence-feature-extractor/";
+		String filePath = "/home/viraj/FYP/";
 
 		try {
 			CustomizedSentimentAnnotator.addSentimentLayerToCoreNLPSentiment(
@@ -170,6 +175,8 @@ public class ParseTreeSplitter {
 		Annotation ann = nlpUtils.annotate(text);
 
 		CustomizedSentimentAnnotator.createPosTagMapForSentence(ann);
+		//this line is required
+		ann = nlpUtils.annotate(text);
 
 		return findSubjectAndSentiment(ann);
 	}
@@ -184,7 +191,7 @@ public class ParseTreeSplitter {
 			pair.sentiment = SentimentClassification(sent);
 
 			for (TypedDependency td : sg.typedDependencies()) {
-				if (td.reln().toString().equals("nsubj") || td.reln().equals("nsubjpass")) {
+				if (td.reln().toString().equals("nsubj") || td.reln().toString().equals("nsubjpass")) {
 					pair.subject = td.dep().originalText();
 					return pair;
 				}
