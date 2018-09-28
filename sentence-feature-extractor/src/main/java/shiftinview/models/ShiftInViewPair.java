@@ -24,6 +24,26 @@ public class ShiftInViewPair {
 
 	private String targetSentence;
 
+	private  int targetSentenceID;
+
+	private  int sourceSentenceID;
+
+	public void setTargetSentenceID(int targetSentenceID) {
+		this.targetSentenceID = targetSentenceID;
+	}
+
+	public void setSourceSentenceID(int sourceSentenceID) {
+		this.sourceSentenceID = sourceSentenceID;
+	}
+
+	public int getTargetSentenceID() {
+		return targetSentenceID;
+	}
+
+	public int getSourceSentenceID() {
+		return sourceSentenceID;
+	}
+
 	private static SQLiteUtils sqLiteUtils;
 
 	static {
