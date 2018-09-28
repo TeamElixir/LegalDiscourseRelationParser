@@ -13,12 +13,29 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
+        ArrayList<VerbPairWithAllScores> verbPairsWithAllScores = VerbPairsWithAllScoresController.getAllAnnotatedVerbPairs();
+
+        double[] checkRanges = {0.75, 0.80, 0.85, 0.90, 0.95};
+        for (double value : checkRanges) {
+            checkSimilarityMeasureAccuracy(Constants.JIAN_CONRATH, verbPairsWithAllScores, value);
+        }
+
+        for (double value : checkRanges) {
+            checkSimilarityMeasureAccuracy(Constants.LIN, verbPairsWithAllScores, value);
+        }
+
+        double[] checkRanges1 = {0.75, 0.80, 0.85, 0.86, 0.87, 0.88, 0.89, 0.90, 0.95};
+        for (double value : checkRanges1) {
+            checkSimilarityMeasureAccuracy(Constants.WU_PALMER, verbPairsWithAllScores, value);
+        }
+
+    }
+
+    private static void insertVerbPairsWithAllScoresToDB() {
         ArrayList<AnnotatedVerbPair> allAnnotatedVerbPairs = AnnotatedVerbPairsController.getAllAnnotatedVerbPairs();
         SemanticSentenceSimilarity similarity = new SemanticSentenceSimilarity();
 
         System.out.println(allAnnotatedVerbPairs.size());
-
-        ArrayList<VerbPairWithAllScores> verbPairsWithAllScores = new ArrayList<>();
 
         for (AnnotatedVerbPair avp : allAnnotatedVerbPairs) {
             double[] allScores = similarity.getAllWordSimilarityScores(avp.getSourceVerb(), POS.v,
@@ -26,20 +43,15 @@ public class Main {
 
             VerbPairWithAllScores vpwal = new VerbPairWithAllScores(avp, allScores);
             boolean inserted = VerbPairsWithAllScoresController.insertVerbPairToDB(vpwal);
-            if(!inserted) {
+            if (!inserted) {
                 System.out.println("Not Inserted!");
                 System.out.println(vpwal);
             }
-//            System.out.println(vpwals);
-//            System.out.println();
-//            verbPairsWithAllScores.add(vpwals);
         }
-
-//        System.out.println(verbPairsWithAllScores.size());
-
     }
 
-    private static void indWuPalmerThreshold() {
+    private static void checkWuPalmerThreshold() {
+        System.out.println("Wu-Palmer");
         ArrayList<AnnotatedVerbPair> allAnnotatedVerbPairs = AnnotatedVerbPairsController.getAllAnnotatedVerbPairs();
         SemanticSentenceSimilarity similarity = new SemanticSentenceSimilarity();
 
@@ -52,6 +64,75 @@ public class Main {
         checkWuPalmerAccuracy(allAnnotatedVerbPairs, similarity, 0.89);
         checkWuPalmerAccuracy(allAnnotatedVerbPairs, similarity, 0.90);
         checkWuPalmerAccuracy(allAnnotatedVerbPairs, similarity, 0.95);
+    }
+
+    private static void checkSimilarityMeasureAccuracy(String measure, ArrayList<VerbPairWithAllScores> verbPairs, double minScore) {
+        int total = 0;
+        int precisionCount = 0;
+        int recallCount = 0;
+
+        switch (measure) {
+            case Constants.JIAN_CONRATH: {
+                System.out.println(Constants.JIAN_CONRATH + " > " + minScore);
+                System.out.println("===========================");
+                for (VerbPairWithAllScores verbPair : verbPairs) {
+                    if (verbPair.getJiangConrath() > minScore) {
+                        total++;
+                        if (verbPair.getAnnotation() == 1) {
+                            precisionCount++;
+                        }
+                    } else if (verbPair.getAnnotation() == 1) {
+                        recallCount++;
+                    }
+                }
+            } break;
+            case Constants.LIN: {
+                System.out.println(Constants.LIN + " > " + minScore);
+                System.out.println("===========================");
+                for (VerbPairWithAllScores verbPair : verbPairs) {
+                    if (verbPair.getLin() > minScore) {
+                        total++;
+                        if (verbPair.getAnnotation() == 1) {
+                            precisionCount++;
+                        }
+                    } else if (verbPair.getAnnotation() == 1) {
+                        recallCount++;
+                    }
+                }
+            } break;
+
+            case Constants.WU_PALMER: {
+                System.out.println(Constants.WU_PALMER + " > " + minScore);
+                System.out.println("===========================");
+                for (VerbPairWithAllScores verbPair : verbPairs) {
+                    if (verbPair.getWuPalmer() > minScore) {
+                        total++;
+                        if (verbPair.getAnnotation() == 1) {
+                            precisionCount++;
+                        }
+                    } else if (verbPair.getAnnotation() == 1) {
+                        recallCount++;
+                    }
+                }
+            } break;
+
+            default: {
+                System.out.println("Enter a valid similarity measure");
+            }
+        }
+
+        System.out.println("Total: " + total);
+        System.out.println("PrecisionCount: " + precisionCount);
+        System.out.println("RecallCount: " + recallCount);
+
+        double precision = calculatePrecision(precisionCount, total);
+        double recall = calculateRecall(recallCount, total);
+        double fMeasure = getFMeasure(precision, recall);
+
+        System.out.println("Precision: " + precision);
+        System.out.println("Recall: " + recall);
+        System.out.println("F-Measure: " + fMeasure);
+        System.out.println();
     }
 
     private static void checkWuPalmerAccuracy(ArrayList<AnnotatedVerbPair> allAnnotatedVerbPairs,
@@ -80,14 +161,22 @@ public class Main {
         System.out.println("PrecisionCount: " + precisionCount);
         System.out.println("RecallCount: " + recallCount);
 
-        double precision = (double) precisionCount / (double) total;
-        double recall = (double) precisionCount / ((double) precisionCount + (double) recallCount);
+        double precision = calculatePrecision(precisionCount, total);
+        double recall = calculateRecall(recallCount, total);
         double fMeasure = getFMeasure(precision, recall);
 
         System.out.println("Precision: " + precision);
         System.out.println("Recall: " + recall);
         System.out.println("F-Measure: " + fMeasure);
         System.out.println();
+    }
+
+    private static double calculatePrecision(int precisionCount, int total) {
+        return (double) precisionCount / (double) total;
+    }
+
+    private static double calculateRecall(int recallCount, int total) {
+        return (double) recallCount / (double) total;
     }
 
     private static void insertVerbPairsWithSpecificScoreToDB() {
