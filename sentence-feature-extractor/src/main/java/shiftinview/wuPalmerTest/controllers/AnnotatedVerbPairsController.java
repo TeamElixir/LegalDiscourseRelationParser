@@ -10,6 +10,21 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class AnnotatedVerbPairsController {
+
+    static int getAnnotationOfVerbPair(int id) {
+        Connection conn = DBCon.getConnection();
+        String query = "SELECT ANNOTATION FROM " + AnnotatedVerbPair.TABLE_NAME + " WHERE id=" + id;
+        try {
+            PreparedStatement preparedStatement = conn.prepareStatement(query);
+            ResultSet rs = preparedStatement.executeQuery();
+            int annotation = rs.getInt("ANNOTATION");
+            return annotation;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return -1;
+        }
+    }
+
     public static ArrayList<AnnotatedVerbPair> getAllAnnotatedVerbPairs() {
         Connection conn = DBCon.getConnection();
         ArrayList<AnnotatedVerbPair> annotatedVerbPairs = new ArrayList<>();
