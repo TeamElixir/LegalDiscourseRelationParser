@@ -9,6 +9,7 @@ import shiftinview.wuPalmerTest.controllers.VerbPairsWithAllScoresController;
 import shiftinview.wuPalmerTest.models.*;
 import utils.NLPUtils;
 
+import java.io.*;
 import java.util.ArrayList;
 
 public class Main {
@@ -138,6 +139,32 @@ public class Main {
         System.out.println("Recall: " + recall);
         System.out.println("F-Measure: " + fMeasure);
         System.out.println();
+
+        writeResultsToCSV(measure, minScore, precision, recall, fMeasure);
+
+    }
+
+    private static void writeResultsToCSV(String measure, double minScore, double precision, double recall, double fMeasure) {
+        try {
+            File f = new File("results.csv");
+            BufferedWriter bw = new BufferedWriter(new FileWriter(f, true));
+            StringBuilder sb = new StringBuilder();
+            sb.append(measure);
+            sb.append(",");
+            sb.append(minScore);
+            sb.append(",");
+            sb.append(precision);
+            sb.append(",");
+            sb.append(recall);
+            sb.append(",");
+            sb.append(fMeasure);
+            sb.append("\n");
+
+            bw.write(sb.toString());
+            bw.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     private static void checkWuPalmerAccuracy(ArrayList<AnnotatedVerbPair> allAnnotatedVerbPairs,
