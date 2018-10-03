@@ -9,7 +9,10 @@ import shiftinview.wuPalmerTest.controllers.VerbPairsWithAllScoresController;
 import shiftinview.wuPalmerTest.models.*;
 import utils.NLPUtils;
 
-import java.io.*;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class Main {
@@ -20,7 +23,12 @@ public class Main {
     private static void checkAccuracyOfMeasures() {
         ArrayList<VerbPairWithAllScores> verbPairsWithAllScores = VerbPairsWithAllScoresController.getAllAnnotatedVerbPairs();
 
-        double[] values = {0.75, 0.80, 0.85, 0.86, 0.87, 0.88, 0.89, 0.90, 0.95};
+        ArrayList<Double> values = new ArrayList<>();
+
+        for (int i = 75; i <= 90; i++) {
+            values.add(((double) i) / 100);
+        }
+
         for (double value : values) {
             checkSimilarityMeasureAccuracy(Constants.JIAN_CONRATH, verbPairsWithAllScores, value);
         }
