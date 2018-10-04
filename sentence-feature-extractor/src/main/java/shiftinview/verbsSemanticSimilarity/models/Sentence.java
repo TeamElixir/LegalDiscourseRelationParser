@@ -1,4 +1,4 @@
-package shiftinview.wuPalmerTest.models;
+package shiftinview.verbsSemanticSimilarity.models;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

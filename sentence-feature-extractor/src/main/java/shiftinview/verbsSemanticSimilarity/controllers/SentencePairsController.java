@@ -1,9 +1,9 @@
-package shiftinview.wuPalmerTest.controllers;
+package shiftinview.verbsSemanticSimilarity.controllers;
 
-import shiftinview.wuPalmerTest.DBCon;
-import shiftinview.wuPalmerTest.models.Relation;
-import shiftinview.wuPalmerTest.models.Sentence;
-import shiftinview.wuPalmerTest.models.SentencePair;
+import shiftinview.verbsSemanticSimilarity.DBCon;
+import shiftinview.verbsSemanticSimilarity.models.Relation;
+import shiftinview.verbsSemanticSimilarity.models.Sentence;
+import shiftinview.verbsSemanticSimilarity.models.SentencePair;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

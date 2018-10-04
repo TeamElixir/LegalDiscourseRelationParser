@@ -1,12 +1,12 @@
-package shiftinview.wuPalmerTest;
+package shiftinview.verbsSemanticSimilarity;
 
 import edu.cmu.lti.jawjaw.pobj.POS;
 import featureextractor.semanticsimilarity.SemanticSentenceSimilarity;
-import shiftinview.wuPalmerTest.controllers.AnnotatedVerbPairsController;
-import shiftinview.wuPalmerTest.controllers.SentencePairsController;
-import shiftinview.wuPalmerTest.controllers.VerbPairsController;
-import shiftinview.wuPalmerTest.controllers.VerbPairsWithAllScoresController;
-import shiftinview.wuPalmerTest.models.*;
+import shiftinview.verbsSemanticSimilarity.controllers.AnnotatedVerbPairsController;
+import shiftinview.verbsSemanticSimilarity.controllers.SentencePairsController;
+import shiftinview.verbsSemanticSimilarity.controllers.VerbPairsController;
+import shiftinview.verbsSemanticSimilarity.controllers.VerbPairsWithAllScoresController;
+import shiftinview.verbsSemanticSimilarity.models.*;
 import utils.NLPUtils;
 
 import java.io.BufferedWriter;

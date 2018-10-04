@@ -1,7 +1,7 @@
-package shiftinview.wuPalmerTest;
+package shiftinview.verbsSemanticSimilarity;
 
-import shiftinview.wuPalmerTest.controllers.VerbPairsController;
-import shiftinview.wuPalmerTest.models.VerbPair;
+import shiftinview.verbsSemanticSimilarity.controllers.VerbPairsController;
+import shiftinview.verbsSemanticSimilarity.models.VerbPair;
 
 import java.io.File;
 import java.io.FileNotFoundException;
