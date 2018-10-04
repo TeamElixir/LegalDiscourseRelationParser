@@ -29,7 +29,8 @@ public class ShiftInViewAnalyzer {
         // StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
         NLPUtils nlpUtils = new NLPUtils(props);
-        checkRelationsForOppositeness(nlpUtils, targetSentence, sourceSentence);
+        Integer value = checkRelationsForOppositeness(nlpUtils, targetSentence, sourceSentence);
+        System.out.println("Returned value: " + value);
     }
 
     public static Integer checkRelationsForOppositeness(NLPUtils nlpUtils, String targetSentence, String sourceSentence) {
