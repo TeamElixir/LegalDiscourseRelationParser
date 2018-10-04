@@ -38,14 +38,14 @@ public class SemanticSentenceSimilarity {
 
     // the following is in the alphabetical order. do not change.
     private static RelatednessCalculator[] rcs = {
-            new HirstStOnge(db),     // 0
-            new JiangConrath(db),    // 1
-            new LeacockChodorow(db), // 2
-            new Lesk(db),            // 3
-            new Lin(db),        // 4
-            new Path(db),       // 5
-            new Resnik(db),     // 6
-            new WuPalmer(db)    //7
+//            new HirstStOnge(db),     // 0
+//            new JiangConrath(db),    // 1
+//            new LeacockChodorow(db), // 2
+//            new Lesk(db),            // 3
+            new Lin(db)        // 4
+//            new Path(db),       // 5
+//            new Resnik(db),     // 6
+//            new WuPalmer(db)    //7
     };
 
     public SemanticSentenceSimilarity(Annotation stc1, Annotation stc2, NLPUtils nlpUtls) {

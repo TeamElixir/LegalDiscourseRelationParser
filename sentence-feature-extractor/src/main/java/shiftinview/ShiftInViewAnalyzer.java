@@ -15,9 +15,9 @@ public class ShiftInViewAnalyzer {
 
     public static void main(String[] args) {
 
-        String targetSentence = "Lee could not show that he was prejudiced by his attorney's erroneous advice.";
+        String targetSentence = "Petitioner Jae Lee moved to the United States from South Korea with Petitioner Jae Lee's parents when Petitioner Jae Lee was 13.";
         String sourceSentence
-                = "Lee has demonstrated that he was prejudiced by his counsel's erroneous advice.";
+                = "In the 35 years Petitioner Jae Lee has spent in the 35 years, Petitioner Jae Lee has never returned to South Korea, nor has Petitioner Jae Lee become aU.S. citizen, living instead as a lawful permanent resident.";
 
         // set up pipeline properties
         Properties props = new Properties();
@@ -80,13 +80,13 @@ public class ShiftInViewAnalyzer {
         VerbRelation verb;
         ArrayList<VerbPair> closeVerbs = new ArrayList<>();
 
-        System.out.println("array sizes");
+       /* System.out.println("array sizes");
         System.out.println(verbsSentence2.size());
-        System.out.println(verbsSentence1.size());
+        System.out.println(verbsSentence1.size());*/
 
         for (int j = 0; j < verbsSentence2.size(); j++) {
             verb = verbsSentence2.get(j);
-
+	        System.out.println("verbSize"+verbsSentence2.size());
             if (verb.isVerbIsDep()) {
                 verbTarget = verb.getDepLemma();
                 verbTargetId = verb.getId();
@@ -117,7 +117,10 @@ public class ShiftInViewAnalyzer {
                 SemanticSentenceSimilarity semanticSentenceSimilarity = new SemanticSentenceSimilarity();
 //				double score = semanticSentenceSimilarity.wordSimilarity(verbSource, POS.v, verbTarget, POS.v);
                 // using Lin instead of WuPalmer
-                double score = semanticSentenceSimilarity.getAllWordSimilarityScores(verbSource, POS.v, verbTarget, POS.v)[4];
+
+	            System.out.println("ssder");
+                double score = semanticSentenceSimilarity.getAllWordSimilarityScores(verbSource, POS.v, verbTarget, POS.v)[0];
+	            System.out.println("jj");
                 if (score >= 0.86) {
                     if (currentSourceVerbID != verbSourceId || currentTargetVerbID != verbTargetId) {
                         /*String[] verbPair = new String[2];
@@ -201,12 +204,13 @@ public class ShiftInViewAnalyzer {
                     }
                 }
 
-                //System.out.println("score: "+score);
+                System.out.println("score: "+score);
 
             }
 
         }
         Integer value = detectNegation(closeVerbs);
+        System.out.println("val :" +value);
         return value;
 
     }
