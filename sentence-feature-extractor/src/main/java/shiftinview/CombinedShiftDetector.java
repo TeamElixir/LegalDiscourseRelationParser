@@ -2,6 +2,7 @@ package shiftinview;
 
 import SentimentAnnotator.ParseTreeSplitter;
 import datasetparser.models.FeatureEntry;
+import featureextractor.sentencepropertyfeatures.TransitionalWords;
 import shiftinview.models.ShiftInViewPair;
 import shiftinview.pubmed.ollieparser.OllieSentence;
 import utils.NLPUtils;
@@ -51,13 +52,20 @@ public class CombinedShiftDetector {
 			System.out.println("Source: " + sourceSentence);
 			System.out.println("Target: " + targetSentence);
 
-			int bValue = combinedDetector(nlpUtils, targetSentence, sourceSentence);
-			if (bValue == 1) {
-				System.out.println("final ::: Truee");
-				resultPair.setLinShift(1);
-			} else if (bValue == 2) {
-				System.out.println("final - True 2");
-				resultPair.setLinShift(2);
+			TransitionalWords checkTransition = new TransitionalWords(sourceSentence);
+
+			if (!(checkTransition.checkEllaborationShiftWords() || checkTransition.checkShiftEllaborationPhrase())) {
+				int bValue = combinedDetector(nlpUtils, targetSentence, sourceSentence);
+				if (bValue == 1) {
+					System.out.println("final ::: Truee");
+					resultPair.setLinShift(1);
+				} else if (bValue == 2) {
+					System.out.println("final - True 2");
+					resultPair.setLinShift(2);
+				} else {
+					System.out.println("final ::: False");
+					resultPair.setLinShift(0);
+				}
 			} else {
 				System.out.println("final ::: False");
 				resultPair.setLinShift(0);
