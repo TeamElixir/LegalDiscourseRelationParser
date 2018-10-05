@@ -19,7 +19,7 @@ public class Run {
 		props.setProperty("user", "root");
 		props.setProperty("password", "123456");
 
-		Connection connection = DriverManager.getConnection("jdbc:mysql://206.81.15.81:3306/discourse_annotator", props);
+		Connection connection = DriverManager.getConnection("jdbc:mysql://142.93.244.96:3306/discourse_annotator", props);
 		Statement statement = connection.createStatement();
 
 		String sql1 = "select pair_user_annotations.pair_id, cluster_id, user_id, sentence_pairs_from_algorithm.relation,pair_user_annotations.relation as user_annotation from pair_user_annotations left join pair_clusters on pair_clusters.pair_id = pair_user_annotations.pair_id left join sentence_pairs_from_algorithm on pair_user_annotations.pair_id = sentence_pairs_from_algorithm.id ORDER BY `pair_user_annotations`.`pair_id` ASC ";
@@ -71,9 +71,12 @@ public class Run {
 		System.out.println("ok");
 		for(AnnotationRelation relation:arList){
 			if(relation.svmRelation==1 && relation.user1Relation==1 && relation.user2Relation==1){
-				System.out.println(relation);
+				//System.out.println(relation);
 			}
 		}
+
+
+
 		/*for(AnnotationRelation ar1 :arList ){
 			System.out.println(" user1 : "+ar1.user1Id+" user1Rel : "+ar1.user1Relation+ " pairID : " + ar1.pairId + " svmRelation : " + ar1.svmRelation);
 			System.out.println("user2 : "+ar1.user2Id+" uer2Rel : "+ar1.user2Relation+ " pairID : " + ar1.pairId);
