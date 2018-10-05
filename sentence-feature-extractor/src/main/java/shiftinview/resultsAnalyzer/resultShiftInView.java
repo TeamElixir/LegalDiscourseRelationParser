@@ -1,4 +1,4 @@
-package resultsAnalysinng;
+package shiftinview.resultsAnalyzer;
 
 import shiftinview.models.ShiftInViewPair;
 import utils.SQLiteUtils;

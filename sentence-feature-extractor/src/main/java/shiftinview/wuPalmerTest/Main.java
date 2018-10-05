@@ -9,6 +9,10 @@ import shiftinview.wuPalmerTest.controllers.VerbPairsWithAllScoresController;
 import shiftinview.wuPalmerTest.models.*;
 import utils.NLPUtils;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class Main {
@@ -19,7 +23,12 @@ public class Main {
     private static void checkAccuracyOfMeasures() {
         ArrayList<VerbPairWithAllScores> verbPairsWithAllScores = VerbPairsWithAllScoresController.getAllAnnotatedVerbPairs();
 
-        double[] values = {0.75, 0.80, 0.85, 0.86, 0.87, 0.88, 0.89, 0.90, 0.95};
+        ArrayList<Double> values = new ArrayList<>();
+
+        for (int i = 75; i <= 90; i++) {
+            values.add(((double) i) / 100);
+        }
+
         for (double value : values) {
             checkSimilarityMeasureAccuracy(Constants.JIAN_CONRATH, verbPairsWithAllScores, value);
         }
@@ -138,6 +147,32 @@ public class Main {
         System.out.println("Recall: " + recall);
         System.out.println("F-Measure: " + fMeasure);
         System.out.println();
+
+        writeResultsToCSV(measure, minScore, precision, recall, fMeasure);
+
+    }
+
+    private static void writeResultsToCSV(String measure, double minScore, double precision, double recall, double fMeasure) {
+        try {
+            File f = new File("results.csv");
+            BufferedWriter bw = new BufferedWriter(new FileWriter(f, true));
+            StringBuilder sb = new StringBuilder();
+            sb.append(measure);
+            sb.append(",");
+            sb.append(minScore);
+            sb.append(",");
+            sb.append(precision);
+            sb.append(",");
+            sb.append(recall);
+            sb.append(",");
+            sb.append(fMeasure);
+            sb.append("\n");
+
+            bw.write(sb.toString());
+            bw.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     private static void checkWuPalmerAccuracy(ArrayList<AnnotatedVerbPair> allAnnotatedVerbPairs,

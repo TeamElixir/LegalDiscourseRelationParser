@@ -145,4 +145,13 @@ public class ShiftInViewPair {
 
 		return pairs;
 	}
+
+	public void update() throws Exception{
+		String sql = "UPDATE SHIFT_IN_VIEW SET"
+				+ " PUBMED_VAL=" + pubMedVal
+				+ ", PUBMED_CAL= " + pubMedCal
+				+ " WHERE ID=" + dbId + ";";
+		System.out.println(sql);
+		sqLiteUtils.executeUpdate(sql);
+	}
 }

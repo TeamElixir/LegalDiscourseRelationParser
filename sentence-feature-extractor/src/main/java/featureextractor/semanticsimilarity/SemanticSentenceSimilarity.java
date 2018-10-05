@@ -36,9 +36,17 @@ public class SemanticSentenceSimilarity {
     private static ILexicalDatabase db = new NictWordNet();
     private static RelatednessCalculator rcWuPalmer = new WuPalmer(db);
 
-    // following in the alphabetical order. do not change.
-    private static RelatednessCalculator[] rcs = {new HirstStOnge(db), new JiangConrath(db), new LeacockChodorow(db),
-            new Lesk(db), new Lin(db), new Path(db), new Resnik(db), new WuPalmer(db)};
+    // the following is in the alphabetical order. do not change.
+    private static RelatednessCalculator[] rcs = {
+//            new HirstStOnge(db),     // 0
+//            new JiangConrath(db),    // 1
+//            new LeacockChodorow(db), // 2
+//            new Lesk(db),            // 3
+            new Lin(db)        // 4
+//            new Path(db),       // 5
+//            new Resnik(db),     // 6
+//            new WuPalmer(db)    //7
+    };
 
     public SemanticSentenceSimilarity(Annotation stc1, Annotation stc2, NLPUtils nlpUtls) {
         annotation1 = stc1;

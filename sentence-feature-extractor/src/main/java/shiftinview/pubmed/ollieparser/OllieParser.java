@@ -11,7 +11,7 @@ public class OllieParser {
 
     public ArrayList<OllieSentence> parse() throws FileNotFoundException {
         String filePath = new File("").getAbsolutePath();
-        filePath += "/resultsLegalNoHis.txt";
+        filePath += "/resultsLegal.txt";
 
         ArrayList<OllieSentence> sentenceList = new ArrayList<>();
 
