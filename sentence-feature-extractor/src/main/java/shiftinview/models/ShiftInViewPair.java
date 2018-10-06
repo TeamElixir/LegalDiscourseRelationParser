@@ -12,7 +12,9 @@ public class ShiftInViewPair {
 
 	private int relationshipId;
 
-	private int linShift;
+	private int verbShift;
+
+	private int sentimentShift;
 
 	private double pubMedVal;
 
@@ -65,12 +67,20 @@ public class ShiftInViewPair {
 		this.relationshipId = relationshipId;
 	}
 
-	public int getLinShift() {
-		return linShift;
+	public int getVerbShift() {
+		return verbShift;
 	}
 
-	public void setLinShift(int linShift) {
-		this.linShift = linShift;
+	public void setVerbShift(int verbShift) {
+		this.verbShift = verbShift;
+	}
+
+	public int getSentimentShift() {
+		return sentimentShift;
+	}
+
+	public void setSentimentShift(int sentimentShift) {
+		this.sentimentShift = sentimentShift;
 	}
 
 	public double getPubMedVal() {
@@ -108,12 +118,14 @@ public class ShiftInViewPair {
 	public void save() throws SQLException {
 		String sql = "INSERT INTO SHIFT_IN_VIEW"
 				+ "(RELATIONSHIP_ID,"
-				+ "LIN_SHIFT,"
+				+ "VERB_SHIFT,"
+				+ "SENTIMENT_SHIFT,"
 				+ "PUBMED_VAL,"
 				+ "PUBMED_CAL) " +
 				"VALUES ("
 				+ relationshipId + ", " +
-				+linShift + ", " +
+				+verbShift + ", " +
+				+sentimentShift + ", " +
 				+pubMedVal + ", " +
 				+pubMedCal + ");";
 		System.out.println(sql);
@@ -134,7 +146,8 @@ public class ShiftInViewPair {
 			pair = new ShiftInViewPair();
 			pair.dbId = resultSet.getInt("ID");
 			pair.relationshipId = resultSet.getInt("RELATIONSHIP_ID");
-			pair.linShift = resultSet.getInt("LIN_SHIFT");
+			pair.verbShift = resultSet.getInt("VERB_SHIFT");
+			pair.sentimentShift = resultSet.getInt("SENTIMENT_SHIFT");
 			pair.pubMedVal = resultSet.getDouble("PUBMED_VAL");
 			pair.pubMedCal = resultSet.getInt("PUBMED_CAL");
 
@@ -144,6 +157,11 @@ public class ShiftInViewPair {
 		return pairs;
 	}
 
+	/**
+	 * to be only used for PubMed calculations
+	 *
+	 * @throws Exception
+	 */
 	public void update() throws Exception {
 		String sql = "UPDATE SHIFT_IN_VIEW SET"
 				+ " PUBMED_VAL=" + pubMedVal
@@ -173,7 +191,8 @@ public class ShiftInViewPair {
 			pair = new ShiftInViewPair();
 			pair.dbId = resultSet.getInt("ID");
 			pair.relationshipId = resultSet.getInt("RELATIONSHIP_ID");
-			pair.linShift = resultSet.getInt("LIN_SHIFT");
+			pair.verbShift = resultSet.getInt("VERB_SHIFT");
+			pair.sentimentShift = resultSet.getInt("SENTIMENT_SHIFT");
 			pair.pubMedVal = resultSet.getDouble("PUBMED_VAL");
 			pair.pubMedCal = resultSet.getInt("PUBMED_CAL");
 
