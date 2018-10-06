@@ -4,8 +4,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import datasetparser.models.FeatureEntry;
-import net.didion.jwnl.data.Exc;
 import utils.SQLiteUtils;
 
 public class ShiftInViewPair {
@@ -24,9 +22,9 @@ public class ShiftInViewPair {
 
 	private String targetSentence;
 
-	private  int targetSentenceID;
+	private int targetSentenceID;
 
-	private  int sourceSentenceID;
+	private int sourceSentenceID;
 
 	public void setTargetSentenceID(int targetSentenceID) {
 		this.targetSentenceID = targetSentenceID;
@@ -146,12 +144,42 @@ public class ShiftInViewPair {
 		return pairs;
 	}
 
-	public void update() throws Exception{
+	public void update() throws Exception {
 		String sql = "UPDATE SHIFT_IN_VIEW SET"
 				+ " PUBMED_VAL=" + pubMedVal
 				+ ", PUBMED_CAL= " + pubMedCal
 				+ " WHERE ID=" + dbId + ";";
 		System.out.println(sql);
 		sqLiteUtils.executeUpdate(sql);
+	}
+
+	/**
+	 *
+	 * @param value unsigned oppositeness measure double
+	 * @return
+	 * @throws Exception
+	 */
+	public static ArrayList<ShiftInViewPair> getPubMed(double value) throws Exception {
+		String sql = "SELECT * FROM SHIFT_IN_VIEW WHERE PUBMED_CAL=1 AND PUBMED_VAL<-" + value + ";";
+		ResultSet resultSet = sqLiteUtils.executeQuery(sql);
+
+		if (resultSet.isClosed()) {
+			return null;
+		}
+
+		ArrayList<ShiftInViewPair> pairs = new ArrayList<>();
+		ShiftInViewPair pair;
+		while (resultSet.next()) {
+			pair = new ShiftInViewPair();
+			pair.dbId = resultSet.getInt("ID");
+			pair.relationshipId = resultSet.getInt("RELATIONSHIP_ID");
+			pair.linShift = resultSet.getInt("LIN_SHIFT");
+			pair.pubMedVal = resultSet.getDouble("PUBMED_VAL");
+			pair.pubMedCal = resultSet.getInt("PUBMED_CAL");
+
+			pairs.add(pair);
+		}
+
+		return pairs;
 	}
 }
