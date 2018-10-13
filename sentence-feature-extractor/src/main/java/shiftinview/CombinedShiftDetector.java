@@ -4,7 +4,6 @@ import SentimentAnnotator.ParseTreeSplitter;
 import datasetparser.models.FeatureEntry;
 import featureextractor.sentencepropertyfeatures.TransitionalWords;
 import shiftinview.models.ShiftInViewPair;
-import shiftinview.pubmed.ollieparser.OllieSentence;
 import utils.NLPUtils;
 
 import java.io.File;
@@ -45,8 +44,11 @@ public class CombinedShiftDetector {
 			ShiftInViewPair resultPair = new ShiftInViewPair();
 			resultPair.setRelationshipId(legalEntries.get(j).getDbId());
 
+			// sets every calculation to zero
 			resultPair.setPubMedCal(0);
 			resultPair.setPubMedVal(0);
+			resultPair.setVerbShift(0);
+			resultPair.setSentimentShift(0);
 
 			System.out.println("RID: " + resultPair.getRelationshipId());
 			System.out.println("Source: " + sourceSentence);
@@ -55,26 +57,20 @@ public class CombinedShiftDetector {
 			TransitionalWords checkTransition = new TransitionalWords(sourceSentence);
 
 			if (!(checkTransition.checkEllaborationShiftWords() || checkTransition.checkShiftEllaborationPhrase())) {
-				int bValue = combinedDetector(nlpUtils, targetSentence, sourceSentence);
-				if (bValue == 1) {
-					System.out.println("final ::: Truee");
-					resultPair.setLinShift(1);
-				} else if (bValue == 2) {
-					System.out.println("final - True 2");
-					resultPair.setLinShift(2);
-				} else {
-					System.out.println("final ::: False");
-					resultPair.setLinShift(0);
+
+				Integer value = ShiftInViewAnalyzer.checkRelationsForOppositeness(nlpUtils, targetSentence, sourceSentence);
+
+				if (ParseTreeSplitter.subjectSentiment(nlpUtils, targetSentence, sourceSentence)) {
+					resultPair.setSentimentShift(1);
 				}
-			} else {
-				System.out.println("final ::: False");
-				resultPair.setLinShift(0);
+				if (value > 0) {
+					resultPair.setVerbShift(1);
+				}
 			}
 
 			j++;
 			resultPair.save();
 		}
-
 	}
 
 	public static Integer combinedDetector(NLPUtils nlpUtils, String targetSentence, String sourceSentence) {

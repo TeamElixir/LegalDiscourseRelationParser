@@ -24,7 +24,7 @@ public class resultShiftInView {
             for (ShiftInViewPair pair:pairs) {
 
                 //String sql = "SELECT SENTENCE FROM LEGAL_SENTENCE where ID ="+pair.getTargetSentence()+";";
-                if(pair.getLinShift()==2) {
+                if(pair.getVerbShift()==2) {
                     String sql = "SELECT SSID,TSID from FEATURE_ENTRY_LEGAL_SENTENCE where ID =" + pair.getRelationshipId() + ";";
                     ResultSet resultSet = sqLiteUtils.executeQuery(sql);
                     while (resultSet.next()) {
