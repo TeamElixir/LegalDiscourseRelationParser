@@ -9,8 +9,14 @@ import java.util.ArrayList;
 
 public class resultShiftInView {
 
+    public static ArrayList<Integer> verbPairs = new ArrayList<>();
     public static void main(String[] args) throws SQLException {
 
+       getShiftInView();
+
+    }
+
+    public static ArrayList<Integer> getShiftInView(){
         try {
             ArrayList<ShiftInViewPair> pairs = ShiftInViewPair.getAll();
 
@@ -24,11 +30,12 @@ public class resultShiftInView {
             for (ShiftInViewPair pair:pairs) {
 
                 //String sql = "SELECT SENTENCE FROM LEGAL_SENTENCE where ID ="+pair.getTargetSentence()+";";
-                if(pair.getVerbShift()==2) {
+                if(pair.getVerbShift()==1) {
                     String sql = "SELECT SSID,TSID from FEATURE_ENTRY_LEGAL_SENTENCE where ID =" + pair.getRelationshipId() + ";";
                     ResultSet resultSet = sqLiteUtils.executeQuery(sql);
                     while (resultSet.next()) {
-                        System.out.println("Pair ID : " + pair.getRelationshipId());
+                        System.out.println(/*"Pair ID : "*/ + pair.getRelationshipId());
+                        verbPairs.add(pair.getRelationshipId());
                        /* System.out.println("SSID :" + resultSet.getString("SSID"));
                         System.out.println("TSOD :" + resultSet.getString("TSID"));*/
                         pair.setSourceSentenceID(Integer.parseInt(resultSet.getString("SSID")));
@@ -51,8 +58,7 @@ public class resultShiftInView {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-
+        return verbPairs;
     }
 
 }

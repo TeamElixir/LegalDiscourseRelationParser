@@ -1,17 +1,21 @@
 package resultsAnalysinng;
 
 import scalaz.Category;
+import shiftinview.resultsAnalyzer.resultShiftInView;
 
 import java.sql.*;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Properties;
 
 public class DiscourseAnnotator {
 
     public static HashMap<Integer, AnnotatedPair> map = new HashMap<Integer, AnnotatedPair>();
+    public static ArrayList verbMethod;
 
     public static void main(String[] args) throws SQLException {
 
+        //verbMethod= resultShiftInView.getShiftInView();
         Properties props = new Properties();
         props.setProperty("user", "root");
         props.setProperty("password", "123456");
@@ -43,11 +47,44 @@ public class DiscourseAnnotator {
             }
         }
 
+        int count=0;
         for (HashMap.Entry<Integer,AnnotatedPair> entry:map.entrySet()){
+            AnnotatedPair ap=entry.getValue();
+            if(ap.userRelation1==5 || ap.userRelation2==5){
 
-            System.out.println(entry.getValue().pairId);
-            System.out.println("no of users:" + entry.getValue().annotatedUsers);
+                    String sql2 = "Select source_sntc_id, target_sntc_id from sentence_pairs_from_algorithm where id ="+ap.pairId;
+                    ResultSet resultSet2 = statement.executeQuery(sql2);
+                    System.out.println(ap.pairId);
+                    int sourceId=-1;
+                    int targetId=-2;
+                    while (resultSet2.next()) {
+                       // System.out.println("aa");
+                        sourceId = resultSet2.getInt("source_sntc_id");
+                        targetId = resultSet2.getInt("target_sntc_id");
+                    }
+                    String sql3 = "Select sentence from sentences where id ="+targetId;
+                    ResultSet resultSetTarget = statement.executeQuery(sql3);
+
+                while (resultSetTarget.next()){
+                    System.out.println("Target : "+resultSetTarget.getString("sentence"));
+                }
+
+                    String sql4 = "Select sentence from sentences where id ="+sourceId;
+                    ResultSet resultSetSource = statement.executeQuery(sql4);
+
+
+
+                    while (resultSetSource.next()){
+                        System.out.println("Source : "+resultSetSource.getString("sentence"));
+                    }
+
+                    count++;
+
+
+                //System.out.println("no of users:" + entry.getValue().annotatedUsers);
+            }
         }
+        System.out.println(count);
 
 
 
