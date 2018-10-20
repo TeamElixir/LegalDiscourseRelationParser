@@ -36,7 +36,7 @@ public class ModifierUtils {
 			Arrays.asList("never", "not", "nothing", "no", "insufficient"));
 
 	private static ArrayList<String> transitionWords = new ArrayList<>(
-			Arrays.asList("therefore", "thus", "accordingly", "first", "second", "third", "similarly"));
+			Arrays.asList("because", "and", "therefore", "thus", "accordingly", "first", "second", "third", "similarly"));
 
 	private static ArrayList<String> transitionPhases = new ArrayList<>(
 			Arrays.asList("as a result", "in such cases", "because of that",
