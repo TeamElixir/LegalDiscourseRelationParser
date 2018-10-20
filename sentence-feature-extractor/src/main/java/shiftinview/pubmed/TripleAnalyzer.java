@@ -151,7 +151,11 @@ public class TripleAnalyzer {
 						System.out.println("SWord: " + sWord);
 						System.out.println("TWord: " + tWord);
 
-						if (sWord.equalsIgnoreCase(tWord)) {
+						SemanticSentenceSimilarity semanticSentenceSimilarity = new SemanticSentenceSimilarity();
+
+						if (sWord.equalsIgnoreCase(tWord) ||
+								semanticSentenceSimilarity.getAllWordSimilarityScores(sWord, POS.v, tWord, POS.v)[0] >= 0.86) {
+
 							if (i != 0 && j != 0) {
 								if ("not".equalsIgnoreCase(sourceRelationWords.get(i - 1)) && "not"
 										.equalsIgnoreCase(targetRelationWords.get(j - 1))) {
