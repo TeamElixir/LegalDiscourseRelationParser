@@ -44,8 +44,8 @@ public class NLPUtils {
 		this.pipeline = new StanfordCoreNLP(properties);
 	}
 
-	public NLPUtils(Properties properties, String host, int port, int threads) {
-		this.pipeline = new StanfordCoreNLPClient(properties, host, port, threads);
+	public NLPUtils(Properties properties, String host, int port) {
+		this.pipeline = new StanfordCoreNLPClient(properties, host, port);
 	}
 
 	public Annotation annotate(String text) {

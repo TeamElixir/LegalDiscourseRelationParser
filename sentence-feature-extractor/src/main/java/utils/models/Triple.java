@@ -12,6 +12,6 @@ public class Triple {
 
 	@Override
 	public String toString(){
-		return new String("{"+subject+" : "+relation+" : "+object+"}");
+		return new String(confidence+": ("+subject+"; "+relation+"; "+object+")");
 	}
 }

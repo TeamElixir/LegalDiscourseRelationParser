@@ -20,6 +20,11 @@ import utils.models.Triple;
 
 public class Main {
 
+	public static void main(String[] args) throws Exception{
+		coreferAndWrite();
+	}
+
+	/*
 	public static void main(String[] args) throws Exception {
 
 		String sentence1 = "Although he has lived in this country for most of his life, Lee is not a United States citizen, and he feared that a criminal conviction might affect his status as a lawful permanent resident.";
@@ -131,9 +136,9 @@ public class Main {
 		catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
 		}
-		*/
 
 	}
+	*/
 
 	public static void coreferAndWrite() throws Exception {
 		Properties props = new Properties();
@@ -155,7 +160,7 @@ public class Main {
 			sentences.add(resultSet.getString("SENTENCE"));
 		}
 
-		try (PrintWriter writer = new PrintWriter("coreferedSentencesNoHis.txt", "UTF-8")) {
+		try (PrintWriter writer = new PrintWriter("coreferedSentences.txt", "UTF-8")) {
 			for (FeatureEntry entry : legalEntries) {
 				String targetSentence = sentences.get(entry.getTsid() - 1);
 				String sourceSentence = sentences.get(entry.getSsid() - 1);
@@ -166,7 +171,7 @@ public class Main {
 				// annotate both sentences in order to resolve coreferences
 				Annotation annotation = nlpUtils.annotate(corefText);
 				System.out.println("target: " + entry.getTsid() + " ; source" + entry.getSsid());
-				ArrayList<String> resolvedSents = nlpUtils.replaceCoreferencesNoHis(annotation);
+				ArrayList<String> resolvedSents = nlpUtils.replaceCoreferences(annotation);
 
 				// coreferences replaced new sentences
 				if (resolvedSents != null) {
@@ -174,8 +179,21 @@ public class Main {
 					targetSentence = resolvedSents.get(1);
 				}
 
+				Annotation sourceAnnotation = nlpUtils.annotate(sourceSentence);
+				Annotation targetAnnotation = nlpUtils.annotate(targetSentence);
+
+				ArrayList<Triple> sourceTriples = nlpUtils.getTriples(sourceAnnotation);
+				ArrayList<Triple> targetTriples = nlpUtils.getTriples(targetAnnotation);
+
 				writer.println(sourceSentence);
+				for (Triple triple : sourceTriples) {
+					writer.println(triple.toString());
+				}
+				writer.println();
 				writer.println(targetSentence);
+				for (Triple triple : targetTriples) {
+					writer.println(triple.toString());
+				}
 				writer.println();
 			}
 		}
