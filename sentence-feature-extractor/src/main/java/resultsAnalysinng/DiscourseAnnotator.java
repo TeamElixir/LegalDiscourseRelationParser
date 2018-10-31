@@ -15,7 +15,7 @@ public class DiscourseAnnotator {
 
     public static void main(String[] args) throws SQLException {
 
-        //verbMethod= resultShiftInView.getShiftInView();
+        verbMethod= resultShiftInView.getShiftInView();
         Properties props = new Properties();
         props.setProperty("user", "root");
         props.setProperty("password", "123456");
@@ -29,11 +29,22 @@ public class DiscourseAnnotator {
 
         while (resultSet1.next()){
             int pairId = resultSet1.getInt("pair_id");
+
             if (!map.containsKey(pairId)) {
+               /* String sql2 = "Select relation from pair_user_annotations where id = "+pairId;
+                ResultSet rs = statement.executeQuery(sql2);
+                int svmRelation=-1;
+                while (rs.next()){
+                    int relationId=rs.getInt("relation");
+                    svmRelation=relationId;
+
+                }*/
+
+
 
                 AnnotatedPair annotatedPair = new AnnotatedPair();
                 annotatedPair.pairId = pairId;
-                // annotatedPair.svmRelation=resultSet1.getInt("relation");
+                //annotatedPair.svmRelation=svmRelation;
                 annotatedPair.userId1 = resultSet1.getInt("user_id");
                 annotatedPair.userRelation1 = resultSet1.getInt("relation");
                 annotatedPair.annotatedUsers=1;
@@ -50,7 +61,17 @@ public class DiscourseAnnotator {
         int count=0;
         for (HashMap.Entry<Integer,AnnotatedPair> entry:map.entrySet()){
             AnnotatedPair ap=entry.getValue();
-            if(ap.userRelation1==5 || ap.userRelation2==5){
+
+
+
+           /* if(verbMethod.contains(ap.pairId)){
+                System.out.println("pid :"+ap.pairId);
+                count++;
+
+            }*/
+
+
+            if(ap.userRelation1==1 && ap.userRelation2==1){
 
                     String sql2 = "Select source_sntc_id, target_sntc_id from sentence_pairs_from_algorithm where id ="+ap.pairId;
                     ResultSet resultSet2 = statement.executeQuery(sql2);
@@ -78,11 +99,14 @@ public class DiscourseAnnotator {
                         System.out.println("Source : "+resultSetSource.getString("sentence"));
                     }
 
-                    count++;
+
+                        System.out.println("pid: "+ap.pairId);
+                        count++;
+
 
 
                 //System.out.println("no of users:" + entry.getValue().annotatedUsers);
-            }
+           }
         }
         System.out.println(count);
 

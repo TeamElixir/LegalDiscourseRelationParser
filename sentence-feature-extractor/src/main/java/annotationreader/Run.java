@@ -1,16 +1,23 @@
 package annotationreader;
 
+import shiftinview.resultsAnalyzer.resultShiftInView;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Properties;
 
 public class Run {
 	static ArrayList<AnnotationRelation> arList = new ArrayList<>();
 	static ArrayList<ArrayList<Double>> clusterAnnotations = new ArrayList<>();
 	static ArrayList<Integer> clusterIds = new ArrayList<>();
+	public static ArrayList verbMethod;
+	public static ArrayList<Integer> userShifts=new ArrayList<>(
+			Arrays.asList(21,25,31,33,569,77,81,1137,627,125,695,199,
+					201,753,1793,277,805,815,427,489,181,189,263,363,395,401));
 
 
 	public static void main(String[] args) throws Exception {
@@ -108,7 +115,10 @@ public class Run {
 		System.out.println("");
 		User1User2();*/
 
-		getShiftInView();
+		//getShiftInView();
+		//checkPrecision(1);
+		checkRecall(2);
+
 
 		/*System.out.println("user");
 		usersCorelationByType(1);
@@ -118,22 +128,31 @@ public class Run {
 	}
 
 	public static double checkPrecision(int type){
+		verbMethod= resultShiftInView.getShiftInView();
 				double svmCount = 0;
 				double userCount = 0;
 				for(AnnotationRelation ar2:arList){
 					if(ar2.svmRelation==type){
 						if(ar2.user1Relation==ar2.user2Relation){
 							svmCount++;
+							boolean shift=false;
+							if(verbMethod.contains(ar2.pairId)){
+								System.out.println("pId"+ar2.pairId);
+								shift=true;
+							}
 							if(ar2.user1Relation==ar2.svmRelation){
 								userCount++;
+								/*if(shift) {
+									System.out.println("pId" + ar2.pairId);
+								}*/
 							}
 						}
 					}
 				}
 
 				double precision= userCount/svmCount;
-		System.out.println(userCount);
-		System.out.println(svmCount);
+		System.out.println("ElaborationUser :"+ userCount);
+		System.out.println("ElaborationSVm : "+ svmCount);
 				return precision;
 
 
@@ -145,13 +164,18 @@ public class Run {
 		for (AnnotationRelation ar3:arList){
 			if(ar3.user1Relation == type && ar3.user1Relation == ar3.user2Relation){
 				userCount++;
+
+
 				if(ar3.svmRelation==type){
 					svmCount++;
+					if(userShifts.contains(ar3.pairId)){
+						System.out.println("pID : "+ar3.pairId);
+					}
 				}
 			}
 		}
-		System.out.println(svmCount);
-		System.out.println(userCount);
+		System.out.println("SVM : "+svmCount);
+		System.out.println("user : "+userCount);
 		double recall = svmCount/userCount;
 		return recall;
 	}
@@ -212,7 +236,7 @@ public class Run {
 
 	}
 
-	private static int getRelation(int no){
+	public static int getRelation(int no){
 		/** Elaboration **/
 		if(no==2 || no==8 || no==4 || no==13 || no==12 || no==11 ||
 				no==18 || no==14 || no==15 || no==6 || no==16 || no==9){
