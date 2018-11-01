@@ -21,7 +21,7 @@ public class PropertyUtils {
                     "to put it", "to demonstrate this", "that is to say", "on the positive side",
                      "with this in mind", "as a result",
                     "in that case", "in effect", "one is","two is","Another is","Neither this", "each of these",
-                    "in reaching this","as relevant here","it follows","in those cases",
+                    "in reaching this","as relevant here","it follows","in those Cases",
                     "either way","to do so","to achieve that","to perform that",
                     "to show that","in each case”","at that time","this opinion","confirms this","confirm this",
                     "in context","the statute’s","that phrase","one is","second is","third is",

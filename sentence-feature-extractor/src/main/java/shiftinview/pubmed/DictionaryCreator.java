@@ -21,16 +21,16 @@ public class DictionaryCreator {
 
 	public static void main(String[] args) {
 
-		// stores all the words in all cases, case wise with duplicates
+		// stores all the words in all Cases, case wise with duplicates
 		ArrayList<ArrayList<String>> totalWords = new ArrayList<>();
 
 		for (int i = 0; i < 231; i++) {
 			totalWords.add(getWordsOfCase(i + 1));
 		}
 
-		// stores words from all cases with duplicates
+		// stores words from all Cases with duplicates
 		ArrayList<String> allWordsList = new ArrayList<>();
-		// word frequency values for all cases
+		// word frequency values for all Cases
 		ArrayList<HashMap<String, Double>> casesWordFreq = new ArrayList<>();
 		for (ArrayList caseWords : totalWords) {
 			// flat totalWords list
@@ -39,7 +39,7 @@ public class DictionaryCreator {
 			casesWordFreq.add(getCaseWordFreq(caseWords));
 		}
 
-		// distinct words in all cases
+		// distinct words in all Cases
 		Set<String> distinctWords = new HashSet<>(allWordsList);
 
 		// dictionary

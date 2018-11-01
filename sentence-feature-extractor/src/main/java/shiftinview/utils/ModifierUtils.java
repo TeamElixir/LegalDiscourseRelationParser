@@ -39,7 +39,7 @@ public class ModifierUtils {
 			Arrays.asList("because", "and", "therefore", "thus", "accordingly", "first", "second", "third", "similarly"));
 
 	private static ArrayList<String> transitionPhases = new ArrayList<>(
-			Arrays.asList("as a result", "in such cases", "because of that",
+			Arrays.asList("as a result", "in such Cases", "because of that",
 					"in conclusion", "according to that", "in other words", "also acknowledge", "on the basis of that",
 					"on the basis of those", "on writ of certiorari"));
 
