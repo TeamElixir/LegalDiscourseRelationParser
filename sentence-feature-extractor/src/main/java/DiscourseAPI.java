@@ -37,6 +37,16 @@ public class DiscourseAPI {
 		props.setProperty("annotators", "tokenize,ssplit,pos,lemma,ner,depparse,coref");
 		props.setProperty("coref.algorithm", "statistical");
 		nlpUtils = new NLPUtils(props, "http://104.248.226.230", 9000);
+
+		String sourceSent = "Lee could not show that he was prejudiced by his attorney’s "
+				+ "erroneous advice.";
+
+		String targetSent = "Lee has demonstrated that he was prejudiced by his "
+				+ "counsel’s erroneous advice.";
+
+		DiscourseAPI discourseAPI = new DiscourseAPI();
+
+		System.out.println(discourseAPI.getDiscourseType(sourceSent, targetSent));
 	}
 
 	public int getDiscourseType(String sourceSentence, String targetSentence) {
@@ -44,30 +54,29 @@ public class DiscourseAPI {
 		int originalRelationshipType;
 		int finalRelationshipType;
 
-		if(sourceSentence.equals(targetSentence)){
-			originalRelationshipType=1;
+		if (sourceSentence.equals(targetSentence)) {
+			originalRelationshipType = 1;
 			return originalRelationshipType;
-		}else if (!Citation.checkCitation(targetSentence) ){
+		} else if (!Citation.checkCitation(targetSentence)) {
 
 			FeatureEntry featureEntry = getFeatures(sourceSentence, targetSentence, nlpUtils);
 			if (Citation.checkCitation(sourceSentence)) {
 				featureEntry.setType(7);
-				originalRelationshipType=7;
+				originalRelationshipType = 7;
 			} else {
 				featureEntry.setType((int) getType(featureEntry, model));
-				originalRelationshipType= (int) getType(featureEntry, model);
+				originalRelationshipType = (int) getType(featureEntry, model);
 			}
-			finalRelationshipType=getRelation(originalRelationshipType);
+			finalRelationshipType = getRelation(originalRelationshipType);
 
-			if(finalRelationshipType==2){
+			if (finalRelationshipType == 2) {
 				Integer value = ShiftInViewAnalyzer.checkRelationsForOppositeness(nlpUtils, targetSentence, sourceSentence);
-				if(value>0){
-					finalRelationshipType=5;
+				if (value > 0) {
+					finalRelationshipType = 5;
 				}
 			}
 			return finalRelationshipType;
 		}
-
 
 		return -1;
 	}
@@ -160,22 +169,22 @@ public class DiscourseAPI {
 		return DiscourseModel.evaluate(arrayToEval, model);
 	}
 
-	public static int getRelation(int no){
+	public static int getRelation(int no) {
 		/** Elaboration **/
-		if(no==2 || no==8 || no==4 || no==13 || no==12 || no==11 ||
-				no==18 || no==14 || no==15 || no==6 || no==16 || no==9){
+		if (no == 2 || no == 8 || no == 4 || no == 13 || no == 12 || no == 11 ||
+				no == 18 || no == 14 || no == 15 || no == 6 || no == 16 || no == 9) {
 			return 2;
 			/** Redundancy **/
-		}else if(no==1){
+		} else if (no == 1) {
 			return 3;
 			/** Citation **/
-		}else if(no==7){
+		} else if (no == 7) {
 			return 4;
 			/** Shift in View **/
-		}else if(no==17 || no==5){
+		} else if (no == 17 || no == 5) {
 			return 5;
 			/** No Relation **/
-		}else {
+		} else {
 			return 1;
 		}
 	}
