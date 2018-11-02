@@ -69,7 +69,7 @@ public class DiscourseAPI {
 		}
 
 
-		//return 0;
+		return -1;
 	}
 
 	public FeatureEntry getFeatures(String sourceSentence, String targetSentence, NLPUtils nlpUtils) {
