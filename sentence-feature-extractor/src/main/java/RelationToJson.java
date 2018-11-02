@@ -1,4 +1,4 @@
-import static org.slf4j.LoggerFactory.getLogger;
+/*import static org.slf4j.LoggerFactory.getLogger;
 
 import java.sql.ResultSet;
 import java.util.ArrayList;
@@ -48,7 +48,7 @@ public class RelationToJson {
 		*/
 
 
-		String sql = "SELECT * FROM FEATURE_ENTRY_LEGAL_SENTENCE where SSID=22 or TSID=22 GROUP BY SSID,TSID";
+/*		String sql = "SELECT * FROM FEATURE_ENTRY_LEGAL_SENTENCE where SSID=22 or TSID=22 GROUP BY SSID,TSID";
 		// executes sql and fills up the array list
 		SQLiteUtils sqLiteUtils = new SQLiteUtils();
 		ResultSet resultSet = sqLiteUtils.executeQuery(sql);
@@ -132,3 +132,4 @@ public class RelationToJson {
 	}
 
 }
+*/

@@ -1,4 +1,4 @@
-import static org.slf4j.LoggerFactory.getLogger;
+/*import static org.slf4j.LoggerFactory.getLogger;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -132,3 +132,4 @@ public class WikipediaCal {
 
 
 }
+*/

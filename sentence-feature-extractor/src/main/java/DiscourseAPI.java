@@ -18,6 +18,7 @@ import featureextractor.sentencepropertyfeatures.TransitionalWords;
 import featureextractor.sentencepropertyfeatures.TypeOfSpeech;
 import libsvm.svm;
 import libsvm.svm_model;
+import shiftinview.ShiftInViewAnalyzer;
 import svmmodel.DiscourseModel;
 import utils.NLPUtils;
 
@@ -40,21 +41,35 @@ public class DiscourseAPI {
 
 	public int getDiscourseType(String sourceSentence, String targetSentence) {
 
-		if(sourceSentence.equals(targetSentence)){
-			return 1;
-		}
+		int originalRelationshipType;
+		int finalRelationshipType;
 
-		if (!Citation.checkCitation(sourceSentence) ){
+		if(sourceSentence.equals(targetSentence)){
+			originalRelationshipType=1;
+			return originalRelationshipType;
+		}else if (!Citation.checkCitation(targetSentence) ){
 
 			FeatureEntry featureEntry = getFeatures(sourceSentence, targetSentence, nlpUtils);
-			if (Citation.checkCitation(targetSentence)) {
+			if (Citation.checkCitation(sourceSentence)) {
 				featureEntry.setType(7);
+				originalRelationshipType=7;
 			} else {
 				featureEntry.setType((int) getType(featureEntry, model));
+				originalRelationshipType= (int) getType(featureEntry, model);
 			}
+			finalRelationshipType=getRelation(originalRelationshipType);
+
+			if(finalRelationshipType==2){
+				Integer value = ShiftInViewAnalyzer.checkRelationsForOppositeness(nlpUtils, targetSentence, sourceSentence);
+				if(value>0){
+					finalRelationshipType=5;
+				}
+			}
+			return finalRelationshipType;
 		}
 
-		return 0;
+
+		//return 0;
 	}
 
 	public FeatureEntry getFeatures(String sourceSentence, String targetSentence, NLPUtils nlpUtils) {
@@ -143,6 +158,26 @@ public class DiscourseAPI {
 		System.arraycopy(features, 0, arrayToEval, 1, features.length);
 
 		return DiscourseModel.evaluate(arrayToEval, model);
+	}
+
+	public static int getRelation(int no){
+		/** Elaboration **/
+		if(no==2 || no==8 || no==4 || no==13 || no==12 || no==11 ||
+				no==18 || no==14 || no==15 || no==6 || no==16 || no==9){
+			return 2;
+			/** Redundancy **/
+		}else if(no==1){
+			return 3;
+			/** Citation **/
+		}else if(no==7){
+			return 4;
+			/** Shift in View **/
+		}else if(no==17 || no==5){
+			return 5;
+			/** No Relation **/
+		}else {
+			return 1;
+		}
 	}
 
 }

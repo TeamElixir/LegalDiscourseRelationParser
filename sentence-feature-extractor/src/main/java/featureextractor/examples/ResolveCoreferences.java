@@ -12,8 +12,8 @@ public class ResolveCoreferences {
 		Properties props = new Properties();
 		props.setProperty("annotators","tokenize,ssplit,pos,lemma,ner,parse,coref");
 		props.setProperty("coref.algorithm", "statistical");
-		NLPUtils nlpUtils = new NLPUtils(props, "http://corenlp.run", 80, 8);
-//		NLPUtils nlpUtils = new NLPUtils(props);
+		NLPUtils nlpUtils = new NLPUtils(props, "http://corenlp.run", 80);
+ 	//NLPUtils nlpUtils = new NLPUtils(props);
 
 		String targetSentence =
 				"Although he has lived in this country for most of his life, Lee is not a United States" +
