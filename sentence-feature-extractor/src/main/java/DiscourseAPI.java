@@ -24,8 +24,8 @@ import utils.NLPUtils;
 
 public class DiscourseAPI {
 
-	private static final String svmModelPath = "/home/thejan/FYP/LegalDisourseRelationParser/sentence-feature-extractor/discourseModel.txt";
-
+	//private static final String svmModelPath = "/home/thejan/FYP/LegalDisourseRelationParser/sentence-feature-extractor/discourseModel.txt";
+	private static final String svmModelPath ="G:\\repos\\ldrp\\LegalDisourseRelationParser\\sentence-feature-extractor\\discourseModel.txt";
 	private static NLPUtils nlpUtils;
 
 	private static svm_model model;
@@ -38,10 +38,10 @@ public class DiscourseAPI {
 		props.setProperty("coref.algorithm", "statistical");
 		nlpUtils = new NLPUtils(props, "http://104.248.226.230", 9000);
 
-		String sourceSent = "Lee could not show that he was prejudiced by his attorney’s "
+		String targetSent = "Lee could not show that he was prejudiced by his attorney’s "
 				+ "erroneous advice.";
 
-		String targetSent = "Lee has demonstrated that he was prejudiced by his "
+		String sourceSent = "Lee has demonstrated that he was prejudiced by his "
 				+ "counsel’s erroneous advice.";
 
 		DiscourseAPI discourseAPI = new DiscourseAPI();
