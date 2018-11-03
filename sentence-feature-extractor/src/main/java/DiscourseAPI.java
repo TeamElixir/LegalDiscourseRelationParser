@@ -34,7 +34,7 @@ public class DiscourseAPI {
 		model = svm.svm_load_model(svmModelPath);
 
 		Properties props = new Properties();
-		props.setProperty("annotators", "tokenize,ssplit,pos,lemma,ner,depparse,coref");
+		props.setProperty("annotators", "tokenize,ssplit,pos,lemma,ner,parse,coref");
 		props.setProperty("coref.algorithm", "statistical");
 		nlpUtils = new NLPUtils(props, "http://104.248.226.230", 9000);
 
@@ -46,7 +46,7 @@ public class DiscourseAPI {
 
 		DiscourseAPI discourseAPI = new DiscourseAPI();
 
-		System.out.println(discourseAPI.getDiscourseType(sourceSent, targetSent));
+		System.out.println("final value " + discourseAPI.getDiscourseType(sourceSent, targetSent));
 	}
 
 	public int getDiscourseType(String sourceSentence, String targetSentence) {
@@ -70,9 +70,14 @@ public class DiscourseAPI {
 			finalRelationshipType = getRelation(originalRelationshipType);
 
 			if (finalRelationshipType == 2) {
-				Integer value = ShiftInViewAnalyzer.checkRelationsForOppositeness(nlpUtils, targetSentence, sourceSentence);
+				int value = ShiftInViewAnalyzer.checkRelationsForOppositeness(nlpUtils, targetSentence, sourceSentence);
 				if (value > 0) {
 					finalRelationshipType = 5;
+				} else {
+					value = ShiftInViewAnalyzer.checkRelationsForOppositeness(nlpUtils, sourceSentence, targetSentence);
+					if (value > 0) {
+						finalRelationshipType = 5;
+					}
 				}
 			}
 			return finalRelationshipType;
