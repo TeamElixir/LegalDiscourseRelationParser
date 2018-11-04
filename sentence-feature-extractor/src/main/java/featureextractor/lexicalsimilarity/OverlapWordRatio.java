@@ -41,7 +41,7 @@ public class OverlapWordRatio {
 				"was", "were", "been", "would", "should", "did","had"));
 		ArrayList<String> future = new ArrayList<>(Arrays.asList("will", "shall"));
 
-		ArrayList<String> stopWords = new ArrayList<>(Arrays.asList("a","an","the","of"))
+		ArrayList<String> stopWords = new ArrayList<>(Arrays.asList("a","an","the","of"));
 
 		ArrayList<Double> overlapScores = new ArrayList<Double>();
 
@@ -64,11 +64,11 @@ public class OverlapWordRatio {
 
 
 		double sentence1Ratio =
-				((double) wordProps.getCommons().size() /
+				((double) filteredCommonWords.size() /
 						(double) wordProps.getDistincts_sentence1().size());
 
 		double sentence2Ratio =
-				((double) wordProps.getCommons().size() /
+				((double) filteredCommonWords.size() /
 						(double) wordProps.getDistincts_sentence2().size());
 
 		overlapScores.add(sentence1Ratio);
