@@ -11,6 +11,7 @@ import featureextractor.grammaticalrelationships.GrammarOverlapRatio;
 import featureextractor.lexicalsimilarity.LongestCommonSubstring;
 import featureextractor.lexicalsimilarity.OverlapWordRatio;
 import featureextractor.semanticsimilarity.SemanticSentenceSimilarity;
+import featureextractor.semanticsimilarity.SemanticSentenceSimilarity2;
 import featureextractor.sentenceproperties.Citation;
 import featureextractor.sentencepropertyfeatures.NERRatio;
 import featureextractor.sentencepropertyfeatures.SentenceLengths;
@@ -45,11 +46,13 @@ public class DiscourseAPI {
 				+ "counsel’s erroneous advice.";*/
 
 		String targetSent="\n" +
-				"A Magistrate Judge recommended that Lee's plea be set aside and his conviction vacated.";
+				"Tom plays cricket. ";
 		String sourceSent=
-				"The District Court, however, denied relief, and the Sixth Circuit affirmed.";
+				"Lee is in the ground.";
 
 		DiscourseAPI discourseAPI = new DiscourseAPI();
+
+
 
 		System.out.println("final value " + discourseAPI.getDiscourseType(sourceSent, targetSent));
 	}
@@ -85,6 +88,10 @@ public class DiscourseAPI {
 					}
 				}
 			}
+
+
+
+			System.out.println();
 			return finalRelationshipType;
 		}
 
@@ -131,13 +138,39 @@ public class DiscourseAPI {
 		Annotation annotation = nlpUtils.annotate(corefText);
 		ArrayList<String> resolvedSents = nlpUtils.replaceCoreferences(annotation);
 
+
+
+
+		Annotation sourceAnnotation1 = nlpUtils.annotate(sourceSentence);
+		Annotation targetAnnotation1 = nlpUtils.annotate(targetSentence);
+		SemanticSentenceSimilarity2 semanticSentenceSimilarity2 = new SemanticSentenceSimilarity2(sourceAnnotation1,
+				targetAnnotation1, nlpUtils);
+
+		System.out.println("semNew"+ (semanticSentenceSimilarity2.getAverageScore()));
+
+		SemanticSentenceSimilarity semanticSentenceSimilarity3 = new SemanticSentenceSimilarity(sourceAnnotation1,
+				targetAnnotation1, nlpUtils);
+
+		System.out.println("semPrev :"+semanticSentenceSimilarity3.getAverageScore());
+
+
+
 		// coreferences replaced new sentences
 		System.out.println("aaaa");
+
+
+
+
 		if(resolvedSents!=null) {
 			sourceSentence = resolvedSents.get(0);
 			targetSentence = resolvedSents.get(1);
 		}
 
+		ArrayList<Double> overlapWordRatios2 = overlapWordRatio.getOverlapScore(sourceSentence, targetSentence);
+		System.out.println("sentences after coref");
+		System.out.println(sourceSentence);
+		System.out.println(targetSentence);
+		System.out.println("overlap: "+overlapWordRatios2.get(1));
 
 		// annotated each for other features
 		Annotation sourceAnnotation = nlpUtils.annotate(sourceSentence);
@@ -169,6 +202,8 @@ public class DiscourseAPI {
 		SemanticSentenceSimilarity semanticSentenceSimilarity = new SemanticSentenceSimilarity(sourceAnnotation,
 				targetAnnotation, nlpUtils);
 		featureEntry.setSemanticSimilarityScore(semanticSentenceSimilarity.getAverageScore());
+
+		System.out.println("semPrevAfterCoref :"+semanticSentenceSimilarity.getAverageScore());
 
 		return featureEntry;
 	}
