@@ -55,6 +55,25 @@ public class NLPUtils {
 		return annotation;
 	}
 
+	public ArrayList<String> getProNouns(Annotation annotation){
+		ArrayList<String> nouns = new ArrayList<>();
+
+		List<CoreMap> sentences = annotation.get(CoreAnnotations.SentencesAnnotation.class);
+		for (CoreMap sentence : sentences) {
+			for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
+				String word = token.get(CoreAnnotations.TextAnnotation.class);
+				String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
+
+				// proper nouns and pronouns are considered
+				if ("PRP".equals(pos) || "PRP$".equals(pos)) {
+					nouns.add(word.toLowerCase());
+				}
+			}
+		}
+
+		return nouns;
+	}
+
 	public ArrayList<String> getNouns(Annotation annotation) {
 		ArrayList<String> nouns = new ArrayList<>();
 
