@@ -19,10 +19,17 @@ public class SemanticSentenceSimilarity {
     private String sentence1;
     private String sentence2;
 
-    ArrayList<String> nouns1 = new ArrayList<>();
+    //new method
+    /*ArrayList<String> nouns1 = new ArrayList<>();
     ArrayList<String> nouns2 = new ArrayList<>();
     ArrayList<String> verbs1 = new ArrayList<>();
-    ArrayList<String> verbs2 = new ArrayList<>();
+    ArrayList<String> verbs2 = new ArrayList<>();*/
+
+    //previous method
+
+    ArrayList<String> nouns = new ArrayList<>();
+    ArrayList<String> verbs = new ArrayList<>();
+
 
     private int nounCount = 0;
     private int verbCount = 0;
@@ -123,11 +130,20 @@ public class SemanticSentenceSimilarity {
     }
 
     public void getVerbsAndNouns() {
+        //new method
 
+        /*
         nouns1.addAll(nlpUtils.getNouns(annotation1));
         nouns2.addAll(nlpUtils.getNouns(annotation2));
         verbs1.addAll(nlpUtils.getVerbs(annotation1));
-        verbs2.addAll(nlpUtils.getVerbs(annotation2));
+        verbs2.addAll(nlpUtils.getVerbs(annotation2));*/
+
+
+        //previous method
+        nouns.addAll(nlpUtils.getNouns(annotation1));
+        nouns.addAll(nlpUtils.getNouns(annotation2));
+        verbs.addAll(nlpUtils.getVerbs(annotation1));
+        verbs.addAll(nlpUtils.getVerbs(annotation2));
 
         //  System.out.println("nouns1 :"+nouns1);
         //  System.out.println("verbs1 :"+verbs1);
@@ -136,7 +152,7 @@ public class SemanticSentenceSimilarity {
     public void checkSimilarity() {
 
         getVerbsAndNouns();
-        if (nouns1.size() > 0 && nouns2.size() > 0) {
+        /*if (nouns1.size() > 0 && nouns2.size() > 0) {
             hasValue = true;
             for (int i = 0; i < nouns2.size(); i++) {
                 double maxdistance = 0;
@@ -189,7 +205,54 @@ public class SemanticSentenceSimilarity {
                 //System.out.println(verbCount);
             }
 
+        }*/
+
+
+
+        //previos method
+
+        if(nouns.size()>1) {
+            hasValue=true;
+            for (int i = 0; i < nouns.size() - 1; i++) {
+                for (int j = i + 1; j < nouns.size(); j++) {
+                    double distance;
+                    if (nouns.get(i).equals(nouns.get(j))) {
+                        distance = 1;
+                    } else {
+
+                        distance = wordSimilarity(nouns.get(i), POS.n, nouns.get(j), POS.n);
+
+                    }
+                    //compute(nouns.get(i), nouns.get(j));
+                    aggregateNounDistance += distance;
+//                    System.out.println(nouns.get(i) + " -  " + nouns.get(j) + " = " + distance);
+                    nounCount++;
+                    //System.out.println(nounCount);
+                }
+            }
         }
+        if (verbs.size()>1) {
+            hasValue=true;
+            for (int i = 0; i < verbs.size() - 1; i++) {
+                for (int j = i + 1; j < verbs.size(); j++) {
+
+                    double distance;
+                    if (verbs.get(i).equals(verbs.get(j))) {
+                        distance = 1;
+                    } else {
+                        distance = wordSimilarity(verbs.get(i), POS.v, verbs.get(j), POS.v);
+
+                        //compute(verbs.get(i), verbs.get(j));
+                    }
+                    aggregateVerbDistance += distance;
+                    //System.out.println(verbs.get(i) + " -  " + verbs.get(j) + " = " + distance);
+                    verbCount++;
+                    //System.out.println(verbCount);
+                }
+            }
+
+        }
+
     }
 
     public double getAverageScore() {

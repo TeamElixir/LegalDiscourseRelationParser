@@ -38,11 +38,16 @@ public class DiscourseAPI {
 		props.setProperty("coref.algorithm", "statistical");
 		nlpUtils = new NLPUtils(props, "http://104.248.226.230", 9000);
 
-		String targetSent = "Lee could not show that he was prejudiced by his attorney’s "
+		/*String targetSent = "Lee could not show that he was prejudiced by his attorney’s "
 				+ "erroneous advice.";
 
 		String sourceSent = "Lee has demonstrated that he was prejudiced by his "
-				+ "counsel’s erroneous advice.";
+				+ "counsel’s erroneous advice.";*/
+
+		String targetSent="\n" +
+				"A Magistrate Judge recommended that Lee's plea be set aside and his conviction vacated.";
+		String sourceSent=
+				"The District Court, however, denied relief, and the Sixth Circuit affirmed.";
 
 		DiscourseAPI discourseAPI = new DiscourseAPI();
 
@@ -127,8 +132,12 @@ public class DiscourseAPI {
 		ArrayList<String> resolvedSents = nlpUtils.replaceCoreferences(annotation);
 
 		// coreferences replaced new sentences
-		sourceSentence = resolvedSents.get(0);
-		targetSentence = resolvedSents.get(1);
+		System.out.println("aaaa");
+		if(resolvedSents!=null) {
+			sourceSentence = resolvedSents.get(0);
+			targetSentence = resolvedSents.get(1);
+		}
+
 
 		// annotated each for other features
 		Annotation sourceAnnotation = nlpUtils.annotate(sourceSentence);
