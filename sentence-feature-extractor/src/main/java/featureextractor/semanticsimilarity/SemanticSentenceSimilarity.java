@@ -202,7 +202,7 @@ public class SemanticSentenceSimilarity {
             return 0.0;
         }
 
-        double score = (aggregateNounDistance + aggregateVerbDistance) / (double) (nounCount + verbCount);
+        double score = (aggregateNounDistance + aggregateVerbDistance) / (double) ((nounCount + verbCount));
         /*double finalScore = score * 2;
         if(finalScore >= 1){
            return 1;
