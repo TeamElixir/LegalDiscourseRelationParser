@@ -22,6 +22,7 @@ import libsvm.svm_model;
 import shiftinview.ShiftInViewAnalyzer;
 import svmmodel.DiscourseModel;
 import utils.NLPUtils;
+import utils.models.NoRelation;
 
 public class DiscourseAPI {
 
@@ -237,5 +238,153 @@ public class DiscourseAPI {
 			return 1;
 		}
 	}
+
+	public FeatureEntry getFeaturesNew(String sourceSentence, String targetSentence, NLPUtils nlpUtils,
+									   NoRelation noRelation) {
+		// creates a FeatureEntry to hold all feature values
+		FeatureEntry featureEntry = new FeatureEntry();
+
+		// word cosine similarity
+		WordSimilarity wordSimilarity = new WordSimilarity(sourceSentence, targetSentence);
+		featureEntry.setWordSimilarity(wordSimilarity.similarityScore());
+
+		// overlap ratio of words
+		OverlapWordRatio overlapWordRatio = new OverlapWordRatio();
+		ArrayList<Double> overlapWordRatios = overlapWordRatio.getOverlapScore(sourceSentence, targetSentence);
+		featureEntry.setWordOverlapSSent(overlapWordRatios.get(0));
+		featureEntry.setWordOverlapTSent(overlapWordRatios.get(1));
+
+		//No relation
+		noRelation.overlapRatio=overlapWordRatios.get(1);
+
+		// longest common substring
+		LongestCommonSubstring lcs = new LongestCommonSubstring(sourceSentence, targetSentence);
+		featureEntry.setLcs(lcs.lcsValueSentence1());
+
+		// lengths of sentences
+		SentenceLengths sentenceLengths = new SentenceLengths(sourceSentence, targetSentence);
+		featureEntry.setLengthRatio(sentenceLengths.getLengthScore());
+
+		// type of speech
+		TypeOfSpeech typeOfSpeech = new TypeOfSpeech(sourceSentence, targetSentence);
+		featureEntry.setTosScore(typeOfSpeech.getTOSScore());
+
+		// transitional word
+		TransitionalWords trWords = new TransitionalWords(sourceSentence);
+		//check words that ellaborate
+		featureEntry.setEllaborationTransitionScore(trWords.ellaborationScore());
+		//check words that change the topic
+		featureEntry.setChangeTransitionScore(trWords.changeScore());
+
+		//no relation
+		if(trWords.ellaborationScore()>0 || trWords.changeScore()>0){
+			noRelation.Transition=true;
+		}
+
+
+		Annotation sourceAnnotation1 = nlpUtils.annotate(sourceSentence);
+		Annotation targetAnnotation1 = nlpUtils.annotate(targetSentence);
+
+		ArrayList<String> proNouns = nlpUtils.getProNouns(sourceAnnotation1);
+
+		if(proNouns.size()>0){
+			noRelation.Pronoun=true;
+		}
+
+		SemanticSentenceSimilarity2 semanticSentenceSimilarity2 = new SemanticSentenceSimilarity2(sourceAnnotation1,
+				targetAnnotation1, nlpUtils);
+
+		System.out.println("semNew"+ (semanticSentenceSimilarity2.getAverageScore()));
+
+		SemanticSentenceSimilarity semanticSentenceSimilarity3 = new SemanticSentenceSimilarity(sourceAnnotation1,
+				targetAnnotation1, nlpUtils);
+
+		System.out.println("semPrev :"+semanticSentenceSimilarity3.getAverageScore());
+
+		//noRelation
+		noRelation.SemanticSimilarityNew=semanticSentenceSimilarity2.getAverageScore();
+		noRelation.SemanticSimilarityPrev=semanticSentenceSimilarity3.getAverageScore();
+
+
+
+		// text to resolve coreferences
+		String corefText = targetSentence + " " + sourceSentence;
+
+		// annotate both sentences in order to resolve coreferences
+		Annotation annotation = nlpUtils.annotate(corefText);
+		ArrayList<String> resolvedSents = nlpUtils.replaceCoreferences(annotation);
+
+
+
+
+
+		// coreferences replaced new sentences
+		System.out.println("aaaa");
+
+
+
+
+		if(resolvedSents!=null) {
+			sourceSentence = resolvedSents.get(0);
+			targetSentence = resolvedSents.get(1);
+		}
+
+		ArrayList<Double> overlapWordRatios2 = overlapWordRatio.getOverlapScore(sourceSentence, targetSentence);
+		System.out.println("sentences after coref");
+		System.out.println(sourceSentence);
+		System.out.println(targetSentence);
+		System.out.println("overlap: "+overlapWordRatios2.get(1));
+
+		//noRelation
+		if(noRelation.Pronoun){
+			noRelation.overlapRatio=overlapWordRatios2.get(1);
+		}
+
+		// annotated each for other features
+		Annotation sourceAnnotation = nlpUtils.annotate(sourceSentence);
+		Annotation targetAnnotation = nlpUtils.annotate(targetSentence);
+
+		// noun cosine similarity
+		NounSimilarity nounSimilarity = new NounSimilarity(sourceAnnotation, targetAnnotation, nlpUtils);
+		featureEntry.setNounSimilarity(nounSimilarity.similarityScore());
+
+		// verb cosine similarity
+		VerbSimilarity verbSimilarity = new VerbSimilarity(sourceAnnotation, targetAnnotation, nlpUtils);
+		featureEntry.setVerbSimilarity(verbSimilarity.similarityScore());
+
+		// adjective cosine similarity
+		AdjectiveSimilarity adjectiveSimilarity = new AdjectiveSimilarity(sourceAnnotation, targetAnnotation, nlpUtils);
+		featureEntry.setAdjectiveSimilarity(adjectiveSimilarity.similarityScore());
+
+		// ratio overlap of grammatical relationships
+		GrammarOverlapRatio grammarOverlapRatio = new GrammarOverlapRatio(sourceAnnotation, targetAnnotation, nlpUtils);
+		featureEntry.setSubjectOverlap(grammarOverlapRatio.getSubjectOverlap());
+		featureEntry.setObjectOverlap(grammarOverlapRatio.getObjectOverlap());
+		featureEntry.setSubjectNounOverlap(grammarOverlapRatio.getSubjectNounOverlap());
+
+		// NER ratio
+		NERRatio nerRatio = new NERRatio(sourceAnnotation, targetAnnotation, nlpUtils);
+		featureEntry.setNerRatio(nerRatio.getRatio());
+
+		// Semantic Similarity Score
+		SemanticSentenceSimilarity semanticSentenceSimilarity = new SemanticSentenceSimilarity(sourceAnnotation,
+				targetAnnotation, nlpUtils);
+		featureEntry.setSemanticSimilarityScore(semanticSentenceSimilarity.getAverageScore());
+
+		System.out.println("semPrevAfterCoref :"+semanticSentenceSimilarity.getAverageScore());
+
+		SemanticSentenceSimilarity2 semanticSentenceSimilarity4 = new SemanticSentenceSimilarity2(sourceAnnotation1,
+				targetAnnotation1, nlpUtils);
+
+		System.out.println("semNewAfterCoref"+ (semanticSentenceSimilarity4.getAverageScore()));
+
+		if(noRelation.Pronoun){
+			noRelation.SemanticSimilarityPrev=semanticSentenceSimilarity.getAverageScore();
+			noRelation.SemanticSimilarityNew=semanticSentenceSimilarity4.getAverageScore();
+		}
+
+		return featureEntry;
+	}
+
 
 }
