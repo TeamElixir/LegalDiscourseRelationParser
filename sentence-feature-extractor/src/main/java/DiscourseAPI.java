@@ -100,9 +100,11 @@ public class DiscourseAPI {
 			//no relation
 			//we can include relationship type 5(shift in view) here too
 			if(finalRelationshipType==2){
+				//can add  another condition - sum of legths<25
 				if(noRelation.sourceLength<10 && noRelation.targetLength<10){
 					if(!noRelation.Transition){
 						if(noRelation.overlapRatio<0.02){
+							//if want can increase overlap ratio and give different similarity value here
 							finalRelationshipType=1;
 						}else if(noRelation.SemanticSimilarityNew<0.55){
 							finalRelationshipType=1;
