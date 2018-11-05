@@ -22,6 +22,7 @@ import libsvm.svm_model;
 import shiftinview.ShiftInViewAnalyzer;
 import svmmodel.DiscourseModel;
 import utils.NLPUtils;
+import utils.models.CombinedFeatureEntry;
 import utils.models.NoRelation;
 
 public class DiscourseAPI {
@@ -47,9 +48,9 @@ public class DiscourseAPI {
 				+ "counsel’s erroneous advice.";*/
 
 		String targetSent="\n" +
-				"Tom plays cricket. ";
+				"Cat go after rat.";
 		String sourceSent=
-				"Lee is in the ground.";
+				"Dog is the best friend of human.";
 
 		DiscourseAPI discourseAPI = new DiscourseAPI();
 
@@ -63,12 +64,18 @@ public class DiscourseAPI {
 		int originalRelationshipType;
 		int finalRelationshipType;
 
+		NoRelation noRelation=new NoRelation();
+		noRelation.setLengths(sourceSentence,targetSentence);
+
 		if (sourceSentence.equals(targetSentence)) {
 			originalRelationshipType = 1;
 			return originalRelationshipType;
 		} else if (!Citation.checkCitation(targetSentence)) {
 
-			FeatureEntry featureEntry = getFeatures(sourceSentence, targetSentence, nlpUtils);
+			CombinedFeatureEntry combinedFeatureEntry=getFeaturesNew(sourceSentence,targetSentence,
+					nlpUtils,noRelation);
+			//FeatureEntry featureEntry = getFeatures(sourceSentence, targetSentence, nlpUtils);
+			FeatureEntry featureEntry=combinedFeatureEntry.featureEntry;
 			if (Citation.checkCitation(sourceSentence)) {
 				featureEntry.setType(7);
 				originalRelationshipType = 7;
@@ -86,6 +93,20 @@ public class DiscourseAPI {
 					value = ShiftInViewAnalyzer.checkRelationsForOppositeness(nlpUtils, sourceSentence, targetSentence);
 					if (value > 0) {
 						finalRelationshipType = 5;
+					}
+				}
+			}
+
+			//no relation
+			//we can include relationship type 5(shift in view) here too
+			if(finalRelationshipType==2){
+				if(noRelation.sourceLength<10 && noRelation.targetLength<10){
+					if(!noRelation.Transition){
+						if(noRelation.overlapRatio<0.02){
+							finalRelationshipType=1;
+						}else if(noRelation.SemanticSimilarityNew<0.55){
+							finalRelationshipType=1;
+						}
 					}
 				}
 			}
@@ -239,8 +260,8 @@ public class DiscourseAPI {
 		}
 	}
 
-	public FeatureEntry getFeaturesNew(String sourceSentence, String targetSentence, NLPUtils nlpUtils,
-									   NoRelation noRelation) {
+	public CombinedFeatureEntry getFeaturesNew(String sourceSentence, String targetSentence, NLPUtils nlpUtils,
+															NoRelation noRelation) {
 		// creates a FeatureEntry to hold all feature values
 		FeatureEntry featureEntry = new FeatureEntry();
 
@@ -255,7 +276,8 @@ public class DiscourseAPI {
 		featureEntry.setWordOverlapTSent(overlapWordRatios.get(1));
 
 		//No relation
-		noRelation.overlapRatio=overlapWordRatios.get(1);
+		ArrayList<Double> filteredOverlapWordRatios = overlapWordRatio.getRefinedOverlapScore(sourceSentence, targetSentence);
+		noRelation.overlapRatio=filteredOverlapWordRatios.get(1);
 
 		// longest common substring
 		LongestCommonSubstring lcs = new LongestCommonSubstring(sourceSentence, targetSentence);
@@ -278,6 +300,7 @@ public class DiscourseAPI {
 
 		//no relation
 		if(trWords.ellaborationScore()>0 || trWords.changeScore()>0){
+			System.out.println("Transition found");
 			noRelation.Transition=true;
 		}
 
@@ -329,15 +352,15 @@ public class DiscourseAPI {
 			targetSentence = resolvedSents.get(1);
 		}
 
-		ArrayList<Double> overlapWordRatios2 = overlapWordRatio.getOverlapScore(sourceSentence, targetSentence);
+		ArrayList<Double> filteredOverlapWordRatios2 = overlapWordRatio.getRefinedOverlapScore(sourceSentence, targetSentence);
 		System.out.println("sentences after coref");
 		System.out.println(sourceSentence);
 		System.out.println(targetSentence);
-		System.out.println("overlap: "+overlapWordRatios2.get(1));
+		System.out.println("overlap: "+filteredOverlapWordRatios2.get(1));
 
 		//noRelation
 		if(noRelation.Pronoun){
-			noRelation.overlapRatio=overlapWordRatios2.get(1);
+			noRelation.overlapRatio=filteredOverlapWordRatios2.get(1);
 		}
 
 		// annotated each for other features
@@ -373,8 +396,8 @@ public class DiscourseAPI {
 
 		System.out.println("semPrevAfterCoref :"+semanticSentenceSimilarity.getAverageScore());
 
-		SemanticSentenceSimilarity2 semanticSentenceSimilarity4 = new SemanticSentenceSimilarity2(sourceAnnotation1,
-				targetAnnotation1, nlpUtils);
+		SemanticSentenceSimilarity2 semanticSentenceSimilarity4 = new SemanticSentenceSimilarity2(sourceAnnotation,
+				targetAnnotation, nlpUtils);
 
 		System.out.println("semNewAfterCoref"+ (semanticSentenceSimilarity4.getAverageScore()));
 
@@ -383,7 +406,10 @@ public class DiscourseAPI {
 			noRelation.SemanticSimilarityNew=semanticSentenceSimilarity4.getAverageScore();
 		}
 
-		return featureEntry;
+		CombinedFeatureEntry combinedFeatureEntry= new CombinedFeatureEntry();
+		combinedFeatureEntry.featureEntry=featureEntry;
+		combinedFeatureEntry.noRelation=noRelation;
+		return combinedFeatureEntry;
 	}
 
 
