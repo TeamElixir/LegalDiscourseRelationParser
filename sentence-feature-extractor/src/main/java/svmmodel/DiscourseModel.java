@@ -19,7 +19,7 @@ public class DiscourseModel {
         initializeTrainingData();
         svm_model svmModel = svmTrain();
         try {
-            svm.svm_save_model("discourseModel.txt",svmModel);
+            svm.svm_save_model("discourseModelNew.txt",svmModel);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -90,9 +90,8 @@ public class DiscourseModel {
     }
 
     private static void initializeTrainingData(){
-        FeatureEntry fEDB = new FeatureEntry();
         try {
-            ArrayList<FeatureEntry> featureEntries = fEDB.getAll();
+            ArrayList<FeatureEntry> featureEntries = FeatureEntry.getAll();
             int trainingSetSize = featureEntries.size();
             train = new double[trainingSetSize][];
             for(int i=0;i<trainingSetSize;i++){
