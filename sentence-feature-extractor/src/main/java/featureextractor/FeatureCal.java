@@ -41,13 +41,13 @@ public class FeatureCal {
 		ArrayList<FeatureEntry> featureEntries = new ArrayList<>();
 
 		Properties props = new Properties();
-		props.setProperty("annotators","tokenize,ssplit,pos,lemma,ner,depparse,coref");
+		props.setProperty("annotators", "tokenize,ssplit,pos,lemma,ner,depparse,coref");
 		props.setProperty("coref.algorithm", "statistical");
-		//		NLPUtils nlpUtils = new NLPUtils(props, "http://corenlp.run", 80, 8);
+		//		NLPUtils nlpUtils = new NLPUtils(props, "http://104.248.226.230", 9000);
 		NLPUtils nlpUtils = new NLPUtils(props);
 
 		// iterating through all the relationships
-		for (int i=1577;i<relationships.size();i++) {
+		for (int i = 0; i < relationships.size(); i++) {
 			Relationship relationship = relationships.get(i);
 
 			// takes two sentences from the relationship
@@ -64,7 +64,7 @@ public class FeatureCal {
 			featureEntry.setType(relationship.getType());
 
 			// word cosine similarity
-			WordSimilarity wordSimilarity = new WordSimilarity(sourceSentence, targetSentence) ;
+			WordSimilarity wordSimilarity = new WordSimilarity(sourceSentence, targetSentence);
 			featureEntry.setWordSimilarity(wordSimilarity.similarityScore());
 
 			// overlap ratio of words
@@ -100,23 +100,25 @@ public class FeatureCal {
 			ArrayList<String> resolvedSents = nlpUtils.replaceCoreferences(annotation);
 
 			// coreferences replaced new sentences
-			sourceSentence = resolvedSents.get(0);
-			targetSentence = resolvedSents.get(1);
+			if (resolvedSents != null) {
+				sourceSentence = resolvedSents.get(0);
+				targetSentence = resolvedSents.get(1);
+			}
 
 			// annotated each for other features
 			Annotation sourceAnnotation = nlpUtils.annotate(sourceSentence);
 			Annotation targetAnnotation = nlpUtils.annotate(targetSentence);
 
 			// noun cosine similarity
-			NounSimilarity nounSimilarity = new NounSimilarity(sourceAnnotation, targetAnnotation,nlpUtils);
+			NounSimilarity nounSimilarity = new NounSimilarity(sourceAnnotation, targetAnnotation, nlpUtils);
 			featureEntry.setNounSimilarity(nounSimilarity.similarityScore());
 
 			// verb cosine similarity
-			VerbSimilarity verbSimilarity = new VerbSimilarity(sourceAnnotation, targetAnnotation,nlpUtils);
+			VerbSimilarity verbSimilarity = new VerbSimilarity(sourceAnnotation, targetAnnotation, nlpUtils);
 			featureEntry.setVerbSimilarity(verbSimilarity.similarityScore());
 
 			// adjective cosine similarity
-			AdjectiveSimilarity adjectiveSimilarity = new AdjectiveSimilarity(sourceAnnotation, targetAnnotation,nlpUtils);
+			AdjectiveSimilarity adjectiveSimilarity = new AdjectiveSimilarity(sourceAnnotation, targetAnnotation, nlpUtils);
 			featureEntry.setAdjectiveSimilarity(adjectiveSimilarity.similarityScore());
 
 			// ratio overlap of grammatical relationships
@@ -130,7 +132,8 @@ public class FeatureCal {
 			featureEntry.setNerRatio(nerRatio.getRatio());
 
 			// Semantic Similarity Score
-			SemanticSentenceSimilarity semanticSentenceSimilarity = new SemanticSentenceSimilarity(sourceAnnotation, targetAnnotation, nlpUtils);
+			SemanticSentenceSimilarity semanticSentenceSimilarity = new SemanticSentenceSimilarity(sourceAnnotation,
+					targetAnnotation, nlpUtils);
 			featureEntry.setSemanticSimilarityScore(semanticSentenceSimilarity.getAverageScore());
 
 			// at the end
@@ -143,9 +146,9 @@ public class FeatureCal {
 
 		logger.info("All features calculated.");
 
-//		for(FeatureEntry entry:featureEntries){
-//			entry.save();
-//		}
+		//		for(FeatureEntry entry:featureEntries){
+		//			entry.save();
+		//		}
 
 		logger.info("All features entries saved");
 
