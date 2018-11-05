@@ -28,7 +28,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>shiftinview.pubmed.Main</mainClass>
+                            <mainClass>featureextractor.FeatureCal</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
