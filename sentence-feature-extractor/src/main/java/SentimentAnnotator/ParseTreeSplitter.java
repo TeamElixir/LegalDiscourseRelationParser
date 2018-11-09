@@ -210,7 +210,7 @@ public class ParseTreeSplitter {
 		final SimpleMatrix sm = RNNCoreAnnotations.getPredictions(tree);
 		final String sentiment = coreMapSentence.get(SentimentCoreAnnotations.SentimentClass.class);
 
-		if (sentiment.equals("Negative")) {
+		if (sentiment.equals("Negative") || sentiment.toLowerCase().equals("verynegative")) {
 			return sentiment;
 		}
 
