@@ -1,0 +1,738 @@
+Pair ID : 1
+Target Sentence : Petitioner Jae Lee moved to the United States from South Korea with his parents when he was 13.
+Source Sentence : In the 35 years he has spent in this country, he has never returned to South Korea, nor has he become a U. S. citizen, living instead as a lawful permanent resident.
+Pair ID : 9
+Target Sentence : Lee retained counsel and entered into plea discussions with the Government.
+Source Sentence : During the plea process, Lee repeatedly asked his attorney whether he would face deportation; his attorney assured him that he would not be deported as a result of pleading guilty.
+Pair ID : 19
+Target Sentence : At an evidentiary hearing, both Lee and his plea-stage counsel testified that "deportation was the determinative issue" to Lee in deciding whether to accept a plea, and Lee's counsel acknowledged that although Lee's defense to the charge was weak, if he had known Lee would be deported upon pleading guilty, he would have advised him to go to trial.
+Source Sentence : A Magistrate Judge recommended that Lee's plea be set aside and his conviction vacated.
+Pair ID : 33
+Target Sentence : The Government contends that Lee cannot show prejudice from accepting a plea where his only hope at trial was that something unexpected and unpredictable might occur that would lead to acquittal.
+Source Sentence : The Government makes two errors in urging the adoption of a per se rule that a defendant with no viable defense cannot show prejudice from the denial of his right to trial.
+Pair ID : 59
+Target Sentence : The Government argues that Lee cannot "convince the court that a decision to reject the plea bargain would have been rational under the circumstances," Padilla v. Kentucky, 559 U. S. 356, 372, since deportation would almost certainly result from a trial.
+Source Sentence : Unlike the Government, this Court cannot say that it would be irrational for someone in Lee's position to risk additional prison time in exchange for holding on to some chance of avoiding deportation.
+Pair ID : 77
+Target Sentence : Although he has lived in this country for most of his life, Lee is not a United States citizen, and he feared that a criminal conviction might affect his status as a lawful permanent resident.
+Source Sentence : His attorney assured him there was nothing to worry about--the Government would not deport him if he pleaded guilty.
+Pair ID : 79
+Target Sentence : His attorney assured him there was nothing to worry about--the Government would not deport him if he pleaded guilty.
+Source Sentence : So Lee, who had no real defense to the charge, opted to accept a plea that carried a lesser prison sentence than he would have faced at trial.
+Pair ID : 83
+Target Sentence : Lee's attorney was wrong: The conviction meant that Lee was subject to mandatory deportation from this country.
+Source Sentence : Lee seeks to vacate his conviction on the ground that, in accepting the plea, he received ineffective assistance of counsel in violation of the Sixth Amendment.
+Pair ID : 85
+Target Sentence : Lee seeks to vacate his conviction on the ground that, in accepting the plea, he received ineffective assistance of counsel in violation of the Sixth Amendment.
+Source Sentence : Everyone agrees that Lee received objectively unreasonable representation.
+Pair ID : 87
+Target Sentence : Everyone agrees that Lee received objectively unreasonable representation.
+Source Sentence : The question presented is whether he can show he was prejudiced as a result.
+Pair ID : 89
+Target Sentence : The question presented is whether he can show he was prejudiced as a result.
+Source Sentence : Jae Lee moved to the United States from South Korea in 1982.
+Pair ID : 95
+Target Sentence : After graduating from a business high school in Manhattan, Lee set out on his own to Memphis, Tennessee, where he started working at a restaurant.
+Source Sentence : After three years, Lee decided to try his hand at running a business.
+Pair ID : 97
+Target Sentence : After three years, Lee decided to try his hand at running a business.
+Source Sentence : With some assistance from his family, Lee opened the Mandarin Palace Chinese Restaurant in a Memphis suburb.
+Pair ID : 99
+Target Sentence : With some assistance from his family, Lee opened the Mandarin Palace Chinese Restaurant in a Memphis suburb.
+Source Sentence : The Mandarin was a success, and Lee eventually opened a second restaurant nearby.
+Pair ID : 121
+Target Sentence : Lee informed his attorney of his noncitizen status and repeatedly asked him whether he would face deportation as a result of the criminal proceedings.
+Source Sentence : The attorney told Lee that he would not be deported as a result of pleading guilty.
+Pair ID : 183
+Target Sentence : We instead consider whether the defendant was prejudiced by the "denial of the entire judicial proceeding . . . to which he had a right."
+Source Sentence : As we held in Hill v. Lockhart, when a defendant claims that his counsel's deficient performance deprived him of a trial by causing him to accept a plea, the defendant can show prejudice by demonstrating a "reasonable probability that, but for counsel's errors, he would not have pleaded guilty and would have insisted on going to trial."
+Pair ID : 205
+Target Sentence : Lee, the Government contends, cannot show prejudice from accepting a plea where his only hope at trial was that something unexpected and unpredictable might occur that would lead to an acquittal.
+Source Sentence : The Government asks that we, like the Court of Appeals below, adopt a per se rule that a defendant with no viable defense cannot show prejudice from the denial of his right to trial.
+Pair ID : 235
+Target Sentence : Here Lee alleges that avoiding deportation was the determinative factor for him; deportation after some time in prison was not meaningfully different from deportation after somewhat less time.
+Source Sentence : He says he accordingly would have rejected any plea leading to deportation--even if it shaved off prison time--in favor of throwing a "Hail Mary" at trial.
+Pair ID : 263
+Target Sentence : Lee demonstrated as much at his plea colloquy: When the judge warned him that a conviction "could result in your being deported," and asked "[d]oes that at all affect your decision about whether you want to plead guilty or not," Lee answered "Yes, Your Honor."
+Source Sentence : When the judge inquired "[h]ow does it affect your decision," Lee responded "I don't understand," and turned to his attorney for advice.
+Pair ID : 275
+Target Sentence : The Government argues, however, that under Padilla v. Kentucky, a defendant "must convince the court that a decision to reject the plea bargain would have been rational under the circumstances."
+Source Sentence : The Government contends that Lee cannot make that showing because he was going to be deported either way; going to trial would only result in a longer sentence before that inevitable consequence.
+Pair ID : 277
+Target Sentence : The Government contends that Lee cannot make that showing because he was going to be deported either way; going to trial would only result in a longer sentence before that inevitable consequence.
+Source Sentence : We cannot agree that it would be irrational for a defendant in Lee's position to reject the plea offer in favor of trial.
+Pair ID : 305
+Target Sentence : Neither the Sixth Amendment nor this Court's precedents support that conclusion.
+Source Sentence : As an initial matter, I remain of the view that the Sixth Amendment to the Constitution does not "requir[e] counsel to provide accurate advice concerning the potential removal consequences of a guilty plea."
+Pair ID : 307
+Target Sentence : As an initial matter, I remain of the view that the Sixth Amendment to the Constitution does not "requir[e] counsel to provide accurate advice concerning the potential removal consequences of a guilty plea."
+Source Sentence : I would therefore affirm the Court of Appeals on the ground that the Sixth Amendment does not apply to the allegedly ineffective assistance in this case.
+Pair ID : 311
+Target Sentence : Because the Court today announces a novel standard for prejudice at the plea stage, I further dissent on the separate ground that its standard does not follow from our precedents.
+Source Sentence : The Court and both of the parties agree that the prejudice inquiry in this context is governed by Strickland v. Washington, 466 U. S. 668 (1984).
+Pair ID : 317
+Target Sentence : To establish prejudice under Strickland, a defendant must show a "reasonable probability that, but for counsel's unprofessional errors, the result of the proceeding would have been different."
+Source Sentence : Strickland made clear that the "result of the proceeding" refers to the outcome of the defendant's criminal prosecution as a whole.
+Pair ID : 323
+Target Sentence : And it explained that "[a]n error by counsel . . . does not warrant setting aside the judgment of a criminal proceeding if the error had no effect on the judgment."
+Source Sentence : The parties agree that this inquiry assumes an "objective" decisionmaker.
+Pair ID : 341
+Target Sentence : When the Court extended the right to effective counsel to the plea stage, see Hill v. Lockhart, 474 U. S. 52 (1985), it held that "the same two-part standard" from Strickland applies.
+Source Sentence : To be sure, the Court said--and the majority today emphasizes--that a defendant asserting an ineffectiveness claim at the plea stage "must show that there is a reasonable probability that, but for counsel's errors, he would not have pleaded guilty and would have insisted on going to trial."
+Pair ID : 345
+Target Sentence : But that requirement merely reflects the reality that a defendant cannot show that the outcome of his case would have been different if he would have accepted his current plea anyway.
+Source Sentence : In other words, the defendant's ability to show that he would have gone to trial is necessary, but not sufficient, to establish prejudice.
+Pair ID : 353
+Target Sentence : Thus, a defendant cannot show prejudice where it is " 'inconceivable' " not only that he would have gone to trial, but also " 'that if he had done so he either would have been acquitted or, if convicted, would nevertheless have been given a shorter sentence than he actually received.' "
+Source Sentence : In sum, the proper inquiry requires a defendant to show both that he would have rejected his plea and gone to trial and that he would likely have obtained a more favorable result in the end.
+Pair ID : 363
+Target Sentence : In analyzing the prejudice issue, the Court did not focus solely on whether the suppression hearing would have turned out differently, or whether the defendant would have chosen to go to trial.
+Source Sentence : It focused as well on the weight of the evidence against the defendant and the fact that he likely would not have obtained a more favorable result at trial, regardless of whether he succeeded at the suppression hearing.
+Pair ID : 369
+Target Sentence : In that case, the Court extended Hill to hold that counsel could be constitutionally ineffective for failing to communicate a plea deal to a defendant.
+Source Sentence : The Court emphasized that, in addition to showing a reasonable probability that the defendant "would have accepted the earlier plea offer," it is also "necessary" to show a "reasonable probability that the end result of the criminal process would have been more favorable by reason of a plea to a lesser charge or a sentence of less prison time."
+Pair ID : 371
+Target Sentence : The Court emphasized that, in addition to showing a reasonable probability that the defendant "would have accepted the earlier plea offer," it is also "necessary" to show a "reasonable probability that the end result of the criminal process would have been more favorable by reason of a plea to a lesser charge or a sentence of less prison time."
+Source Sentence : In short, the Court did not focus solely on whether the defendant would have accepted the plea.
+Pair ID : 379
+Target Sentence : In that case, the Court concluded that counsel may be constitutionally ineffective by causing a defendant to reject a plea deal he should have accepted.
+Source Sentence : The Court again emphasized that the prejudice inquiry requires a showing that the criminal prosecution would ultimately have ended differently for the defendant--not merely that the defendant would have accepted the deal.
+Pair ID : 391
+Target Sentence : In those circumstances, the Court has not held that the prejudice inquiry focuses on whether that stage of the proceeding would have ended differently.
+Source Sentence : It instead has made clear that the prejudice inquiry is the same as in Strickland, which requires a defendant to establish that he would have been better off in the end had his counsel not erred.
+Pair ID : 407
+Target Sentence : There, the Court considered a defendant's claim that his attorney failed to file a notice of appeal.
+Source Sentence : The Court observed that the lawyer's failure to file the notice of appeal "arguably led not to a judicial proceeding of disputed reliability," but instead to "the forfeiture of a proceeding itself."
+Pair ID : 425
+Target Sentence : In other words, Hill instructs that the prejudice inquiry must presume that the foregone trial would have been reliable.
+Source Sentence : The majority responds that Hill made statements about presuming a reliable trial only in "discussing how courts should analyze 'predictions of the outcome at a possible trial,' " which "will not always be 'necessary.' "
+Pair ID : 433
+Target Sentence : In any event, the Court in Hill recognized that guilty pleas are themselves generally reliable.
+Source Sentence : Guilty pleas "rarely" give rise to the "concern that unfair procedures may have resulted in the conviction of an innocent defendant."
+Pair ID : 479
+Target Sentence : He is thus plainly better off for having accepted his plea: had he gone to trial, he not only would have faced the same deportation consequences, he also likely would have received a higher prison sentence.
+Source Sentence : Finding that petitioner has established prejudice in these circumstances turns Strickland on its head.
+Pair ID : 485
+Target Sentence : This Court has shown special solicitude for the plea process, which brings "stability" and "certainty" to "the criminal justice system."
+Source Sentence : The Court has warned that "the prospect of collateral challenges" threatens to undermine these important values.
+Pair ID : 531
+Target Sentence : Lee also argues that he can show prejudice because, had his attorney advised him that he would be deported if he accepted the Government's plea offer, he would have bargained for a plea deal that did not result in certain deportation.
+Source Sentence : Given our conclusion that Lee can show prejudice based on the reasonable probability that he would have gone to trial, we need not reach this argument.
+Pair ID : 567
+Target Sentence : The court's appointed psychologist, Dr. Karl Kirkland, reported that, although Madison may have "suffered a significant decline post-stroke, . . . [he] understands the exact posture of his case at this point," and appears to have a "rational understanding of . . . the results or effects" of his death sentence.
+Source Sentence : Asked at the hearing whether Madison understands that Alabama is seeking retribution against him for his criminal act, Dr. Kirkland answered, "Certainly."
+Pair ID : 569
+Target Sentence : Asked at the hearing whether Madison understands that Alabama is seeking retribution against him for his criminal act, Dr. Kirkland answered, "Certainly."
+Source Sentence : Dr. John Goff, a psychologist hired by Madison's counsel, reported that Madison's strokes have rendered him unable to remember "numerous events that have occurred over the past thirty years or more."
+Pair ID : 601
+Target Sentence : We noted that the retributive purpose of capital punishment is not well served where "the prisoner's mental state is so distorted by a mental illness that his awareness of the crime and punishment has little or no relationship to the understanding of those concepts shared by the community as a whole."
+Source Sentence : Similarly, in Ford, we questioned the "retributive value of executing a person who has no comprehension of why he has been singled out."
+Pair ID : 631
+Target Sentence : With that understanding, I join the Court's per curiam disposition of this case.
+Source Sentence : on petition for writ of certiorari to the united states court of appeals for the eleventh circuit
+Pair ID : 645
+Target Sentence : And he wrote that the Medley description "should apply with even greater force in the case of delays that last for many years."
+Source Sentence : In light of those statements, consider the present case.
+Pair ID : 651
+Target Sentence : He was sentenced to death and transferred to Alabama's William C. Holman Correctional Facility in September 1985.
+Source Sentence : He has lived nearly half of his life on death row.
+Pair ID : 653
+Target Sentence : He has lived nearly half of his life on death row.
+Source Sentence : During that time, he has suffered severe strokes, which caused vascular dementia and numerous other significant physical and mental problems.
+Pair ID : 673
+Target Sentence : And we may well have to consider the ways in which lengthy periods of imprisonment between death sentence and execution can deepen the cruelty of the death penalty while at the same time undermining its penological rationale.
+Source Sentence : Glossip, supra, at ___-___ (Breyer, J., dissenting) (slip op., at 17-18) (recognizing the inevitability of delays in light of constitutional requirements needed to ensure procedural and substantive validity of death sentences); see ante, at 1 (Ginsburg, J., concurring).
+Pair ID : 693
+Target Sentence : The court's appointed psychologist, Dr. Karl Kirkland, reported that, although Madison may have "suffered a significant decline post-stroke, . . . [he] understands the exact posture of his case at this point," and appears to have a "rational understanding of . . . the results or effects" of his death sentence.
+Source Sentence : Asked at the hearing whether Madison understands that Alabama is seeking retribution against him for his criminal act, Dr. Kirkland answered, "Certainly."
+Pair ID : 695
+Target Sentence : Asked at the hearing whether Madison understands that Alabama is seeking retribution against him for his criminal act, Dr. Kirkland answered, "Certainly."
+Source Sentence : Dr. John Goff, a psychologist hired by Madison's counsel, reported that Madison's strokes have rendered him unable to remember "numerous events that have occurred over the past thirty years or more."
+Pair ID : 727
+Target Sentence : We noted that the retributive purpose of capital punishment is not well served where "the prisoner's mental state is so distorted by a mental illness that his awareness of the crime and punishment has little or no relationship to the understanding of those concepts shared by the community as a whole."
+Source Sentence : Similarly, in Ford, we questioned the "retributive value of executing a person who has no comprehension of why he has been singled out."
+Pair ID : 757
+Target Sentence : With that understanding, I join the Court's per curiam disposition of this case.
+Source Sentence : on petition for writ of certiorari to the united states court of appeals for the eleventh circuit
+Pair ID : 771
+Target Sentence : And he wrote that the Medley description "should apply with even greater force in the case of delays that last for many years."
+Source Sentence : In light of those statements, consider the present case.
+Pair ID : 777
+Target Sentence : He was sentenced to death and transferred to Alabama's William C. Holman Correctional Facility in September 1985.
+Source Sentence : He has lived nearly half of his life on death row.
+Pair ID : 779
+Target Sentence : He has lived nearly half of his life on death row.
+Source Sentence : During that time, he has suffered severe strokes, which caused vascular dementia and numerous other significant physical and mental problems.
+Pair ID : 799
+Target Sentence : And we may well have to consider the ways in which lengthy periods of imprisonment between death sentence and execution can deepen the cruelty of the death penalty while at the same time undermining its penological rationale.
+Source Sentence : Glossip, supra, at ___-___ (Breyer, J., dissenting) (slip op., at 17-18) (recognizing the inevitability of delays in light of constitutional requirements needed to ensure procedural and substantive validity of death sentences); see ante, at 1 (Ginsburg, J., concurring).
+Pair ID : 807
+Target Sentence : The District Court denied the motion on the ground that, among other things, Tharpe's claim was procedurally defaulted in state court.
+Source Sentence : The District Court also noted that Tharpe could not overcome that procedural default because he had failed to produce any clear and convincing evidence contradicting the state court's determination that Gattie's presence on the jury did not prejudice him.
+Pair ID : 809
+Target Sentence : The District Court also noted that Tharpe could not overcome that procedural default because he had failed to produce any clear and convincing evidence contradicting the state court's determination that Gattie's presence on the jury did not prejudice him.
+Source Sentence : Tharpe sought a certificate of appealability (COA).
+Pair ID : 839
+Target Sentence : In light of the standard for relief from judgment under Rule 60(b)(6), which is available only in " 'extraordinary circumstances,' " Gonzalez v. Crosby, 545 U. S. 524, 536 (2005), Tharpe faces a high bar in showing that jurists of reason could disagree whether the District Court abused its discretion in denying his motion.
+Source Sentence : It may be that, at the end of the day, Tharpe should not receive a COA.
+Pair ID : 901
+Target Sentence : After hearing the evidence, the jury needed less than two hours to return a unanimous sentence of death.
+Source Sentence : As aggravating factors, the jury found that Tharpe murdered Freeman while committing two other capital felonies--the aggravated kidnapings of his wife and Freeman--and that the murder was outrageously or wantonly vile, horrible, or inhuman.
+Pair ID : 911
+Target Sentence : Tharpe "wasn't in the 'good' black folks category," according to the affidavit, and if Freeman had been "the type Tharpe is, then picking between life and death for Tharpe wouldn't have mattered so much."
+Source Sentence : But because Freeman and her family were "good black folks," the affidavit continued, Gattie thought Tharpe "should get the electric chair for what he did."
+Pair ID : 915
+Target Sentence : Gattie's affidavit went on to explain that "[a]fter studying the Bible," he had "wondered if black people even have souls."
+Source Sentence : The affidavit also noted that some of the other jurors "wanted blacks to know they weren't going to get away with killing each other."
+Pair ID : 921
+Target Sentence : In that second affidavit, Gattie stated that he "did not vote to impose the death penalty because [Tharpe] was a black man," but instead because the evidence presented at trial justified it and because Tharpe showed no remorse.
+Source Sentence : The affidavit explained that Gattie had consumed "seven or more beers" on the afternoon he signed the first affidavit.
+Pair ID : 925
+Target Sentence : Although he had signed it, he "never swore to [it] nor was [he] ever asked if [the] statement was true and accurate."
+Source Sentence : He also attested that many of the statements in the first affidavit "were taken out of context and simply not accurate."
+Pair ID : 991
+Target Sentence : It first explained that Pena-Rodriguez announced a new procedural rule that does not apply retroactively on federal collateral review.
+Source Sentence : It alternatively deferred to the state court's finding that Tharpe could not prove cause or prejudice to overcome his procedural default.
+Pair ID : 999
+Target Sentence : The Eleventh Circuit denied a COA.
+Source Sentence : It explained that the District Court had concluded in its first decision that Tharpe failed to prove cause and prejudice.
+Pair ID : 1015
+Target Sentence : To obtain a COA, Tharpe must show "that jurists of reason would find it debatable whether the petition states a valid claim of the denial of a constitutional right" and "that jurists of reason would find it debatable whether the district court was correct in its procedural ruling."
+Source Sentence : The Court is not willing to say that Tharpe can satisfy this standard.
+Pair ID : 1021
+Target Sentence : First, it "read[s]" the decision below as resting "solely" on Tharpe's "fail[ure] to show prejudice" to overcome his procedural default.
+Source Sentence : It does not read the decision as reaching cause, and it declines to consider that or any other alternative reason to affirm the Eleventh Circuit.
+Pair ID : 1033
+Target Sentence : Then the Eleventh Circuit alternatively held that Tharpe had not "shown that 'jurists of reason would find it debatable whether the district court was correct in its procedural ruling.' "
+Source Sentence : The "procedural ruling" of the District Court rested on both cause and prejudice--as the Eleventh Circuit explained earlier in its opinion, quoting the District Court at length.
+Pair ID : 1053
+Target Sentence : Putting aside its misreading of the decision below, the Court inexplicably declines to consider alternative grounds for affirmance.
+Source Sentence : The Court acknowledges that our review "is certainly not limited to grounds expressly addressed by the court whose decision is under review."
+Pair ID : 1055
+Target Sentence : The Court acknowledges that our review "is certainly not limited to grounds expressly addressed by the court whose decision is under review."
+Source Sentence : But the Court does not explain why it nonetheless limits itself to the question of prejudice.
+Pair ID : 1073
+Target Sentence : Second, no reasonable jurist could argue that Tharpe demonstrated cause for his procedural default.
+Source Sentence : The only cause that Tharpe raised in state court was ineffective assistance of counsel.
+Pair ID : 1081
+Target Sentence : Nor could a reasonable jurist debate the cause argument that Tharpe raises here.
+Source Sentence : In his reply brief in support of certiorari in this Court, Tharpe argues that he did not have to raise his claim of juror bias on direct appeal.
+Pair ID : 1093
+Target Sentence : On the one issue it does address--prejudice--the Court falters again.
+Source Sentence : Its conclusion that reasonable jurists could debate prejudice plows through three levels of deference.
+Pair ID : 1159
+Target Sentence : He has already received the benefit of the rule announced in Pena-Rodriguez.
+Source Sentence : Even if Tharpe could show that Pena-Rodriguez is retroactive under Teague and could overcome his procedural default, no reasonable jurist could argue that he has stated a valid juror-bias claim on the merits.
+Pair ID : 1171
+Target Sentence : The District Court entered an initial judgment sentencing petitioner to a term of imprisonment.
+Source Sentence : It also acknowledged that restitution was mandatory but deferred determination of the restitution amount.
+Pair ID : 1185
+Target Sentence : Held: A defendant wishing to appeal an order imposing restitution in a deferred restitution case must file a notice of appeal from that order.
+Source Sentence : If he fails to do so and the Government objects, he may not challenge the restitution order on appeal.
+Pair ID : 1203
+Target Sentence : The Dolan Court did not decide the question presented here, but the Court was not persuaded by the argument that "a sentencing judgment is not 'final' until it contains a definitive determination of the amount of restitution."
+Source Sentence : Instead, the Court recognized, "strong arguments" supported the proposition that both the initial judgment and the restitution order were each immediately appealable final judgments.
+Pair ID : 1213
+Target Sentence : Rather, he argued on appeal that the amount imposed is unlawful.
+Source Sentence : Petitioner's alternative argument that any defect in his notice of appeal should be overlooked as harmless error is rejected.
+Pair ID : 1245
+Target Sentence : We must decide whether a single notice of appeal, filed between the initial judgment and the amended judgment, is sufficient to invoke appellate review of the later-determined restitution amount.
+Source Sentence : We hold that it is not, at least where, as here, the Government objects to the defendant's failure to file a notice of appeal following the amended judgment.
+Pair ID : 1269
+Target Sentence : Petitioner did not file a second notice of appeal from the court's order imposing restitution or from the amended judgment.
+Source Sentence : Notwithstanding his failure to file a second notice of appeal, petitioner challenged the restitution amount before the Eleventh Circuit, arguing in his brief that the Government had not shown he was the proximate cause of the victim's injuries and that the restitution amount bore no rational relationship to the damages she claimed.
+Pair ID : 1271
+Target Sentence : Notwithstanding his failure to file a second notice of appeal, petitioner challenged the restitution amount before the Eleventh Circuit, arguing in his brief that the Government had not shown he was the proximate cause of the victim's injuries and that the restitution amount bore no rational relationship to the damages she claimed.
+Source Sentence : The Government countered that petitioner had forfeited his right to challenge the restitution amount by failing to file a second notice of appeal.
+Pair ID : 1283
+Target Sentence : And Federal Rule of Appellate Procedure 3(a)(1) specifies that "[a]n appeal permitted by law as of right . . . may be taken only by filing a notice of appeal with the district clerk within the time allowed by Rule 4."
+Source Sentence : Both §3742(a) and Rule 4 contemplate that the defendant will file the notice of appeal after the district court has decided the issue sought to be appealed.
+Pair ID : 1327
+Target Sentence : The petitioner in that case argued that the amended judgment imposing restitution is the only final, appealable judgment in a deferred restitution case.
+Source Sentence : Although we did not decide "whether or when a party can, or must, appeal"--the question presented here--we were not persuaded by the argument that "a sentencing judgment is not 'final' until it contains a definitive determination of the amount of restitution."
+Pair ID : 1329
+Target Sentence : Although we did not decide "whether or when a party can, or must, appeal"--the question presented here--we were not persuaded by the argument that "a sentencing judgment is not 'final' until it contains a definitive determination of the amount of restitution."
+Source Sentence : To the contrary, we recognized "strong arguments" supporting the proposition that both the "initial judgment [that] imposed a sentence of imprisonment and supervised release" and the subsequent " 'sentence that impose[d] an order of restitution' " were each immediately appealable final judgments.
+Pair ID : 1347
+Target Sentence : If the court has not yet decided the issue that the appellant seeks to appeal, then the Rule does not come into play.
+Source Sentence : Accordingly, it does not apply where a district court enters an initial judgment deferring restitution and subsequently amends the judgment to include the sentence of restitution.
+Pair ID : 1363
+Target Sentence : Finally, petitioner argues in the alternative that any defect in his notice of appeal should be overlooked as harmless error, citing Lemke v. United States, 346 U. S. 325 (1953) (per curiam).
+Source Sentence : In that case, the petitioner filed a notice of appeal the day after his sentence was announced but three days before the judgment was entered.
+Pair ID : 1445
+Target Sentence : An arresting officer also reported that, based on his "training and experience," he "knew the pills to be ecstasy."
+Source Sentence : On the basis of those false statements, another officer filed a sworn complaint charging Manuel with unlawful possession of a controlled substance.
+Pair ID : 1489
+Target Sentence : Kagan, J., delivered the opinion of the Court, in which Roberts, C. J., and Kennedy, Ginsburg, Breyer, and Sotomayor, JJ., joined.
+Source Sentence : NOTICE:?This opinion is subject to formal revision before publication in the preliminary print of the United States Reports.
+Pair ID : 1523
+Target Sentence : But the technician lied in his report, claiming that one of the pills was "found to be . . . positive for the probable presence of ecstasy."
+Source Sentence : Similarly, one of the arresting officers wrote in his report that "[f ]rom [ his] training and experience, [ he] knew the pills to be ecstasy."
+Pair ID : 1551
+Target Sentence : The District Court dismissed Manuel's suit.
+Source Sentence : The court first held that the applicable two-year statute of limitations barred Manuel's claim for unlawful arrest, because more than two years had elapsed between the date of his arrest (March 18, 2011) and the filing of his complaint (April 22, 2013).
+Pair ID : 1553
+Target Sentence : The court first held that the applicable two-year statute of limitations barred Manuel's claim for unlawful arrest, because more than two years had elapsed between the date of his arrest (March 18, 2011) and the filing of his complaint (April 22, 2013).
+Source Sentence : But the court relied on another basis in rejecting Manuel's challenge to his subsequent detention (which stretched from March 18 to May 5, 2011).
+Pair ID : 1571
+Target Sentence : So the Seventh Circuit held that Manuel's complaint, in alleging only a Fourth Amendment violation, rested on the wrong part of the Constitution: A person detained following the onset of legal process could at most (although, the court agreed, not in Illinois) challenge his pretrial confinement via the Due Process Clause.
+Source Sentence : The Seventh Circuit recognized that its position makes it an outlier among the Courts of Appeals, with ten others taking the opposite view.
+Pair ID : 1573
+Target Sentence : The Seventh Circuit recognized that its position makes it an outlier among the Courts of Appeals, with ten others taking the opposite view.
+Source Sentence : The Fourth Amendment protects "[t]he right of the people to be secure in their persons . . . against unreasonable . . . seizures."
+Pair ID : 1579
+Target Sentence : And that detention was "unreason-able," the complaint continues, because it was based solely on false evidence, rather than supported by probable cause.
+Source Sentence : By their respective terms, then, Manuel's claim fits the Fourth Amendment, and the Fourth Amendment fits Manuel's claim, as hand in glove.
+Pair ID : 1685
+Target Sentence : That element, the City argues, "make[s] little sense" in this context because "the Fourth Amendment is concerned not with the outcome of a prosecution, but with the legality of searches and seizures."
+Source Sentence : And finally, the City contends that Manuel forfeited an alternative theory for treating his date of release as the date of accrual: to wit, that his pretrial detention "constitute[d] a continuing Fourth Amendment violation," each day of which triggered the statute of limitations anew.
+Pair ID : 1695
+Target Sentence : Because the Seventh Circuit wrongly held that Manuel lacked any Fourth Amendment claim once legal process began, the court never addressed the elements of, or rules applicable to, such a claim.
+Source Sentence : And in particular, the court never confronted the accrual issue that the parties contest here.10 On remand, the Court of Appeals should decide that question, unless it finds that the City has previously waived its timeliness argument.
+Pair ID : 1739
+Target Sentence : First, the conflict on the malicious prosecution question was the centerpiece of Manuel's argument in favor of certiorari.1 Second, unless Manuel is given the benefit of the unique accrual rule for malicious prosecution claims, his claim is untimely, and he is not entitled to relief.
+Source Sentence : I would first consider what I take to be the core of the question presented--whether a "malicious prosecution claim may be brought under the Fourth Amendment."
+Pair ID : 1761
+Target Sentence : A claim of malicious prosecution "does not accrue until the criminal proceedings have terminated in the plaintiff's favor."
+Source Sentence : None of the other common-law torts to which Manuel's claim might be compared--such as false arrest or false imprisonment--has such an accrual date.
+Pair ID : 1767
+Target Sentence : Although the Court refuses to decide whether Manuel's claim should be so treated, the answer to that question--the one that the Court actually agreed to review--is straightforward: A malicious prosecution claim cannot be based on the Fourth Amendment.
+Source Sentence : "The first inquiry in any §1983 suit," the Court has explained, is "to isolate the precise constitutional violation with which [the defendant] is charged."
+Pair ID : 1771
+Target Sentence : In this case, Manuel charges that he was seized without probable cause in violation of the Fourth Amendment.
+Source Sentence : In order to flesh out the elements of this constitutional tort, we must look for "tort analogies."
+Pair ID : 1787
+Target Sentence : Second, while subjective bad faith, i.e., malice, is the core element of a malicious prosecution claim, it is firmly established that the Fourth Amendment standard of reasonableness is fundamentally objective.
+Source Sentence : These two standards--one subjective and the other objective--cannot co-exist.
+Pair ID : 1815
+Target Sentence : He then brought a §1983 suit, challenging the constitutionality of the search that led to the discovery of the drugs on which his criminal charge was based.
+Source Sentence : The Court held that respondent's suit could proceed--despite his valid conviction.
+Pair ID : 1883
+Target Sentence : All that this Court held was that Albright's claim had to be analyzed under the Fourth Amendment, not substantive due process.
+Source Sentence : The Court now reads Albright to mean that a Fourth Amendment seizure continues "after the start of 'legal process," but three forms of what might be termed "legal process" were issued in Albright: the arrest warrant, the order releasing him on bond after his first appearance, and the order holding him over for trial after the preliminary examination.
+Pair ID : 1893
+Target Sentence : The other precedent on which the Court relies, Gerstein, goes no further than Albright.
+Source Sentence : All that the Court held in Gerstein was that if there is no probable-cause finding by a neutral magistrate before an arrest, there must be one after the arrest.
+Pair ID : 1897
+Target Sentence : The Court reasoned that "the Fourth Amendment requires a judicial determination of probable cause as a prerequisite to extended restraint of liberty following arrest."
+Source Sentence : The Court said nothing about whether a claim for a seizure in violation of the Fourth Amendment could accrue after an initial appearance.
+Pair ID : 1947
+Target Sentence : State Penitentiary, 401 U. S. 560, 568-569 (1971) (holding that an arrest violated the Fourth Amendment because a magistrate's warrant was not backed by probable cause).
+Source Sentence : And if the Seventh Circuit would reply that arrest warrants are somehow different--that there is legal process and then again there is legal process--the next (and in our view unanswerable) question would be why.
+Pair ID : 1951
+Target Sentence : Even the City no longer appears to contest that conclusion.
+Source Sentence : On multiple occasions during oral argument in this Court, the City agreed that "a Fourth Amendment right . . . survive[d] the initiation of process" at the hearing in which the county judge found probable cause and ordered detention.
+Pair ID : 1953
+Target Sentence : On multiple occasions during oral argument in this Court, the City agreed that "a Fourth Amendment right . . . survive[d] the initiation of process" at the hearing in which the county judge found probable cause and ordered detention.
+Source Sentence : The dissent goes some way toward claiming that a different kind of pretrial legal process--a grand jury indictment or preliminary examination--does expunge such a Fourth Amendment claim.
+Pair ID : 1969
+Target Sentence : In their words, the Framers "drafted the Fourth Amendment" to address "the matter of pretrial deprivations of liberty," Albright, 510 U. S., at 274 (emphasis added), and the Amendment thus provides "standards and procedures" for "the detention of suspects pending trial," Gerstein, 420 U. S., at 125, n. 27 (emphasis added).
+Source Sentence : The two exceptions--the Ninth and D. C. Circuits--have not yet weighed in on whether a Fourth Amendment claim like Manuel's includes a "favorable termination" element.
+Pair ID : 1985
+Target Sentence : But as to that secondary issue, we think (for all the reasons just stated) that Manuel jumped the gun.
+Source Sentence : And contra the dissent, his doing so provides no warrant for our doing so too.
+Pair ID : 2015
+Target Sentence : If a Fourth Amendment seizure continues as long as a person is detained, there is no reason why incarceration after conviction cannot be regarded as a continuing seizure.
+Source Sentence : The Court asserts that the Fourth Amendment "drops out of the picture" after trial, ibid., but it does not explain why this is so.
+Pair ID : 2039
+Target Sentence : There, the Court required the Government to show there was a "nexus" between the defendant's obstructive conduct and a particular judicial proceeding.
+Source Sentence : The Court said that the defendant's "act must have a relationship in time, causation, or logic with the judicial proceedings."
+Pair ID : 2043
+Target Sentence : In reaching this conclusion, the Court emphasized that it has "traditionally exercised restraint in assessing the reach of a federal criminal statute, both out of deference to the prerogatives of Congress and out of concern that 'a fair warning should be given to the world in language that the common world will understand, of what the law intends to do if a certain line is passed.' "
+Source Sentence : That reasoning applies here with similar strength.
+Pair ID : 2071
+Target Sentence : The Government claims that the "corrupt state of mind" requirement will cure any overbreadth problem, but it is difficult to imagine a scenario when that requirement will make a practical difference in the context of federal tax prosecutions.
+Source Sentence : And to rely on prosecutorial discretion to narrow the otherwise wide-ranging scope of a criminal statute's general language places too much power in the prosecutor's hands.
+Pair ID : 2083
+Target Sentence : Breyer, J., delivered the opinion of the Court, in which Roberts, C. J., and Kennedy, Ginsburg, Sotomayor, Kagan, and Gorsuch, JJ., joined.
+Source Sentence : NOTICE:?This opinion is subject to formal revision before publication in the preliminary print of the United States Reports.
+Pair ID : 2097
+Target Sentence : Does it cover virtually all governmental efforts to collect taxes?
+Source Sentence : Or does it have a narrower scope?
+Pair ID : 2117
+Target Sentence : (We have placed the full text of §7212 in the Appendix, infra.)
+Source Sentence : Between 2004 and 2009, the Internal Revenue Service (IRS) opened, then closed, then reopened an investigation into the tax activities of Carlo Marinello, the petitioner here.
+Pair ID : 2121
+Target Sentence : In 2012 the Government indicted Marinello, charging him with violations of several criminal tax statutes including the Omnibus Clause.
+Source Sentence : In respect to the Omnibus Clause the Government claimed that Marinello had engaged in at least one of eight different specified activities, including "failing to maintain corporate books and records," "failing to provide" his tax accountant "with complete and accurate" tax "information," "destroying . . . business records," "hiding income," and "paying employees . . . with cash."
+Pair ID : 2125
+Target Sentence : Before the jury retired to consider the charges, the judge instructed it that, to convict Marinello of violating the Omnibus Clause, it must find unanimously that he engaged in at least one of the eight practices just mentioned, that the jurors need not agree on which one, and that he did so "corruptly," meaning "with the intent to secure an unlawful advantage or benefit, either for [himself ] or for another."
+Source Sentence : The judge, however, did not instruct the jury that it must find that Marinello knew he was under investigation and intended corruptly to interfere with that investigation.
+Pair ID : 2127
+Target Sentence : The judge, however, did not instruct the jury that it must find that Marinello knew he was under investigation and intended corruptly to interfere with that investigation.
+Source Sentence : The jury subsequently convicted Marinello on all counts.
+Pair ID : 2131
+Target Sentence : Marinello appealed to the Court of Appeals for the Second Circuit.
+Source Sentence : He argued, among other things, that a violation of the Omnibus Clause requires the Government to show that the defendant had tried to interfere with a "pending IRS proceeding," such as a particular investigation.
+Pair ID : 2155
+Target Sentence : In interpreting that statute we pointed to earlier cases in which courts had held that the Government must prove "an intent to influence judicial or grand jury proceedings."
+Source Sentence : We noted that some courts had imposed a " 'nexus' requirement": that the defendant's "act must have a relationship in time, causation, or logic with the judicial proceedings."
+Pair ID : 2157
+Target Sentence : We noted that some courts had imposed a " 'nexus' requirement": that the defendant's "act must have a relationship in time, causation, or logic with the judicial proceedings."
+Source Sentence : And we adopted the same requirement.
+Pair ID : 2159
+Target Sentence : And we adopted the same requirement.
+Source Sentence : We set forth two important reasons for doing so.
+Pair ID : 2231
+Target Sentence : For the same reason, we find unconvincing the dissent's argument that the distinction between "willfully" and "corruptly"--at least as defined by the Government--reflects any meaningful difference in culpability.
+Source Sentence : Neither can we rely upon prosecutorial discretion to narrow the statute's scope.
+Pair ID : 2235
+Target Sentence : True, the Government used the Omnibus Clause only sparingly during the first few decades after its enactment.
+Source Sentence : But it used the clause more often after the early 1990's.
+Pair ID : 2269
+Target Sentence : We consequently find these precedents--though not controlling--highly instructive for use as a guide toward a proper resolution of the issue now before us.
+Source Sentence : We conclude that, to secure a conviction under the Omnibus Clause, the Government must show (among other things) that there is a "nexus" between the defendant's conduct and a particular administrative proceeding, such as an investigation, an audit, or other targeted administrative action.
+Pair ID : 2271
+Target Sentence : We conclude that, to secure a conviction under the Omnibus Clause, the Government must show (among other things) that there is a "nexus" between the defendant's conduct and a particular administrative proceeding, such as an investigation, an audit, or other targeted administrative action.
+Source Sentence : That nexus requires a "relationship in time, causation, or logic with the [administrative] proceeding."
+Pair ID : 2291
+Target Sentence : In addition to satisfying this nexus requirement, the Government must show that the proceeding was pending at the time the defendant engaged in the obstructive conduct or, at the least, was then reasonably foreseeable by the defendant.
+Source Sentence : It is not enough for the Government to claim that the defendant knew the IRS may catch on to his unlawful scheme eventually.
+Pair ID : 2305
+Target Sentence : "Any person who forcibly rescues or causes to be rescued any property after it shall have been seized under this title, or shall attempt or endeavor so to do, shall, excepting in cases otherwise provided for, for every such offense, be fined not more than $500, or not more than double the value of the property so rescued, whichever is the greater, or be imprisoned not more than 2 years."
+Source Sentence : Whoever corruptly, or by threats or force, or by any threatening letter or communication, endeavors to influence, intimidate, or impede any grand or petit juror, or officer in or of any court of the United States, or officer who may be serving at any examination or other proceeding before any United States magistrate judge or other committing magistrate, in the discharge of his duty, or injures any such grand or petit juror in his person or property on account of any verdict or indictment assented to by him, or on account of his being or having been such juror, or injures any such officer, magistrate judge, or other committing magistrate in his person or property on account of the performance of his official duties, or corruptly or by threats or force, or by any threatening letter or communication, influences, obstructs, or impedes, or endeavors to influence, obstruct, or impede, the due administration of justice, shall be punished as provided in subsection (b).
+Pair ID : 2327
+Target Sentence : I would hold that the Omnibus Clause does what it says: forbid corrupt efforts to impede the IRS from performing any of these activities.
+Source Sentence : And that proceeding must be either "pending" or "in the offing."
+Pair ID : 2339
+Target Sentence : He paid his employees in cash and did not give them tax documents.
+Source Sentence : And he took tens of thousands of dollars from the company each year to pay his personal expenses.
+Pair ID : 2343
+Target Sentence : Unbeknownst to Marinello, the IRS began investigating him in 2004.
+Source Sentence : The IRS learned that he had not filed a tax return--corporate or individual--since at least 1992.
+Pair ID : 2347
+Target Sentence : But the investigation came to a standstill because the IRS did not have enough information about Marinello's earnings.
+Source Sentence : This was not surprising given his diligent efforts to avoid creating a paper trail.
+Pair ID : 2439
+Target Sentence : But specific clauses in a statute typically do not limit the scope of a general omnibus clause.
+Source Sentence : Nor do the other clauses in §7212 contain the pending-or-imminent-proceeding requirement that the Court reads into the Omnibus Clause.
+Pair ID : 2475
+Target Sentence : Avoiding redundancy is thus not a reason to favor the Court's interpretation.
+Source Sentence : Cf. Marx v. General Revenue Corp., 568 U. S. 371, 385 (2013) ("[T]he canon against surplusage 'assists only where a competing interpretation gives effect to every clause and word of a statute' ").
+Pair ID : 2515
+Target Sentence : But we have never inserted such a requirement into an obstruction statute without textual or historical support.
+Source Sentence : Today the Court does precisely that.
+Pair ID : 2525
+Target Sentence : The Omnibus Clause is both "very broad" and "very clear."
+Source Sentence : If the Court is concerned that the Omnibus Clause does not give defendants "fair warning" of what it prohibits, ante, at 7, I am hard pressed to see how today's decision makes things better.
+Pair ID : 2527
+Target Sentence : If the Court is concerned that the Omnibus Clause does not give defendants "fair warning" of what it prohibits, ante, at 7, I am hard pressed to see how today's decision makes things better.
+Source Sentence : The Court outlines its atextual proceeding requirement in only the vaguest of terms.
+Pair ID : 2541
+Target Sentence : To be sure, §7212(a) is a sweeping obstruction statute.
+Source Sentence : Congress may well have concluded that a broad statute was warranted because "our tax structure is based on a system of self-reporting" and "the Government depends upon the good faith and integrity of each potential taxpayer to disclose honestly all information relevant to tax liability."
+Pair ID : 2551
+Target Sentence : The Court frets that the Omnibus Clause might apply to "a person who pays a babysitter $41 per week in cash without withholding taxes," "leaves a large cash tip in a restaurant," "fails to keep donation receipts from every charity," or "fails to provide every record to an accountant."
+Source Sentence : Whether the Omnibus Clause would cover these hypotheticals--and whether the Government would waste its resources identifying and prosecuting them--is debatable.
+Pair ID : 2577
+Target Sentence : Dr. Goff filed a report two days before the judicial sentencing hearing.
+Source Sentence : He concluded that McWilliams was likely exaggerating his symptoms, but nonetheless appeared to have some genuine neuropsychological problems.
+Pair ID : 2589
+Target Sentence : On appeal, McWilliams argued that the trial court denied him the right to meaningful expert assistance guarantee by Ake.
+Source Sentence : The Alabama Court of Criminal Appeals affirmed McWilliams' conviction and sentence, holding that Dr. Goff's examination satisfied Ake's requirements.
+Pair ID : 2595
+Target Sentence : On federal habeas review, a Magistrate Judge also found that the Goff examination satisfied Ake and, therefore, that the State Court of Criminal Appeals' decision was not contrary to, or an unreasonable application of, clearly established federal law.
+Source Sentence : Adopting the Magistrate Judge's report and recommendation, the District Court denied relief.
+Pair ID : 2607
+Target Sentence : McWilliams is and was an "indigent defendant," 470 U. S., at 70, and his "mental condition" was both "relevant to . . . the punishment he might suffer," id., at 80, and "seriously in question," id., at 70.
+Source Sentence : Second, this Court rejects Alabama's claim the State was relieved of its Ake obligations because McWilliams received brief assistance from a volunteer psychologist at the University of Alabama.
+Pair ID : 2613
+Target Sentence : Third, contrary to Alabama's suggestion, the record indicates that McWilliams did not get all the mental health assistance that he requested.
+Source Sentence : Rather, he asked for additional help at the judicial sentencing hearing, but was rebuffed.
+Pair ID : 2615
+Target Sentence : Rather, he asked for additional help at the judicial sentencing hearing, but was rebuffed.
+Source Sentence : This Court does not have to decide whether Ake requires a State to provide an indigent defendant with a qualified mental health expert retained specifically for the defense team.
+Pair ID : 2637
+Target Sentence : Breyer, J., delivered the opinion of the Court, in which Kennedy, Ginsburg, Sotomayor, and Kagan, JJ., joined.
+Source Sentence : NOTICE:?This opinion is subject to formal revision before publication in the preliminary print of the United States Reports.
+Pair ID : 2647
+Target Sentence : Thirty-one years ago, petitioner James Edmond McWilliams, Jr., was convicted of capital murder by an Alabama jury and sentenced to death.
+Source Sentence : McWilliams challenged his sentence on appeal, arguing that the State had failed to provide him with the expert mental health assistance the Constitution requires, but the Alabama courts refused to grant relief.
+Pair ID : 2651
+Target Sentence : We now consider, in this habeas corpus case, whether the Alabama courts' refusal was "contrary to, or involved an unreasonable application of, clearly established Federal law."
+Source Sentence : We hold that it was.
+Pair ID : 2665
+Target Sentence : The Court began by stating that the "issue in this case is whether the Constitution requires that an indigent defendant have access to the psychiatric examination and assistance necessary to prepare an effective defense based on his mental condition, when his sanity at the time of the offense is seriously in question."
+Source Sentence : The Court said it would consider that issue within the framework of earlier cases granting "an indigent defendant . . . a fair opportunity to present his defense" and "to participate meaningfully in a judicial proceeding in which his liberty is at stake."
+Pair ID : 2667
+Target Sentence : The Court said it would consider that issue within the framework of earlier cases granting "an indigent defendant . . . a fair opportunity to present his defense" and "to participate meaningfully in a judicial proceeding in which his liberty is at stake."
+Source Sentence : "Meaningful access to justice," the Court added, "has been the consistent theme of these cases."
+Pair ID : 2687
+Target Sentence : One month after this Court decided Ake, the State of Alabama charged McWilliams with rape and murder.
+Source Sentence : The trial court found McWilliams indigent and provided him with counsel.
+Pair ID : 2689
+Target Sentence : The trial court found McWilliams indigent and provided him with counsel.
+Source Sentence : It also granted counsel's pretrial motion for a psychiatric evaluation of McWilliams' sanity, including aspects of his mental condition relevant to "mitigating circumstances to be considered in a capital case in the sentencing stage."
+Pair ID : 2701
+Target Sentence : One of them, Dr. Kamal Nagi, wrote that "Mr. McWilliams is grossly exaggerating his psychological symptoms to mimic mental illness."
+Source Sentence : Dr. Nagi noted that McWilliams' performance on one of the tests "suggested that [McWilliams] had exaggerated his endorsement of symptoms of illness and the profile was considered a 'fake bad.' "
+Pair ID : 2723
+Target Sentence : Similarly, when the prosecutor asked McWilliams' mother whether her son was "crazy," she answered, "I am no expert: I don't know whether my son is crazy or not.
+Source Sentence : All I know, that my son do need help."
+Pair ID : 2729
+Target Sentence : Dr. Nagi testified that he had found no evidence of psychosis, but did not appear to be aware of McWilliams' history of head trauma.
+Source Sentence : Dr. Poythress testified that one of the tests that McWilliams took was "clinically invalid" because the test's "validity scales" indicated that McWilliams had exaggerated or faked his symptoms.
+Pair ID : 2749
+Target Sentence : The report concluded that McWilliams presented "some diagnostic dilemmas."
+Source Sentence : On the one hand, he was "obviously attempting to appear emotionally disturbed" and "exaggerating his neuropsychological problems."
+Pair ID : 2773
+Target Sentence : The prosecution then presented its case.
+Source Sentence : Once it had finished, defense counsel moved for a continuance in order "to allow us to go through the material that has been provided to us in the last 2 days."
+Pair ID : 2777
+Target Sentence : The judge offered to give defense counsel until 2 p.m. that afternoon.
+Source Sentence : He also stated that "[a]t that time, The Court will entertain any motion that you may have with some other person to review" the new material.
+Pair ID : 2787
+Target Sentence : During the recess, defense counsel moved to withdraw.
+Source Sentence : He said that "the abritrary [sic] position taken by this Court regarding the Defendant's right to present mitigating circumstances is unconscionable resulting in this proceeding being a mockery."
+Pair ID : 2797
+Target Sentence : "It is the position of the Defense that we have received these records at such a late date, such a late time that it has put us in a position as laymen, with regard to psychological matters, that we cannot adequately make a determination as what to present to The Court with regards to the particular deficiencies that the Defendant has.
+Source Sentence : We believe that he has the type of diagnosed illness that we pointed out earlier for The Court and have mentioned for The Court.
+Pair ID : 2825
+Target Sentence : MR. SOGOL: Your Honor gave me no time in which to do that.
+Source Sentence : Your Honor told me to be here at 2 o'clock this afternoon.
+Pair ID : 2837
+Target Sentence : It found three aggravating circumstances and no mitigating circumstances.
+Source Sentence : It found that McWilliams "was not and is not psychotic," and that "the preponderance of the evidence from these tests and reports show [McWilliams] to be feigning, faking, and manipulative."
+Pair ID : 2841
+Target Sentence : The court wrote that even if McWilliams' mental health issues "did rise to the level of a mitigating circumstance, the aggravating circumstances would far outweigh this as a mitigating circumstance."
+Source Sentence : McWilliams appealed, arguing that the trial court had denied him the right to meaningful expert assistance guaranteed by Ake.
+Pair ID : 2845
+Target Sentence : The Alabama Court of Criminal Appeals rejected his argument.
+Source Sentence : It wrote that Ake's requirements "are met when the State provides the [defendant] with a competent psychiatrist."
+Pair ID : 2851
+Target Sentence : The appeals court therefore affirmed McWilliams' conviction and sentence.
+Source Sentence : The Alabama Supreme Court, in turn, affirmed the appeals court (without addressing the Ake issue).
+Pair ID : 2889
+Target Sentence : Alabama does not refer to any specific record facts that indicate that she was available to the defense at this time.
+Source Sentence : Third, Alabama argues that Ake's requirements are irrelevant because McWilliams "never asked for more expert assistance" than he got, "even though the trial court gave him the opportunity to do so."
+Pair ID : 2907
+Target Sentence : We turn to the main question before us: whether the Alabama Court of Criminal Appeals' determination that McWilliams got all the assistance that Ake requires was "contrary to, or involved an unreasonable application of, clearly established Federal law."
+Source Sentence : McWilliams would have us answer "yes" on the ground that Ake clearly established that a State must provide an indigent defendant with a qualified mental health expert retained specifically for the defense team, not a neutral expert available to both parties.
+Pair ID : 2971
+Target Sentence : The Eleventh Circuit held in the alternative that, even if the Alabama courts clearly erred in their application of federal law, their "error" nonetheless did not have the "substantial and injurious effect or influence" required to warrant a grant of habeas relief, Davis v. Ayala, 576 U. S. ___, ___ (2015) (slip op., at 10) (internal quotation marks omitted).
+Source Sentence : In reaching this conclusion, however, the Eleventh Circuit only considered whether "[a] few additional days to review Dr. Goff's findings" would have made a difference.
+Pair ID : 2973
+Target Sentence : In reaching this conclusion, however, the Eleventh Circuit only considered whether "[a] few additional days to review Dr. Goff's findings" would have made a difference.
+Source Sentence : It did not specifically consider whether access to the type of meaningful assistance in evaluating, preparing, and presenting the defense that Ake requires would have mattered.
+Pair ID : 2979
+Target Sentence : For example, the trial judge relied heavily on his belief that McWilliams was malingering.
+Source Sentence : If McWilliams had the assistance of an expert to explain that "[m]alingering is not inconsistent with serious mental illness," Brief for American Psychiatric Association et al. as Amici Curiae 20, he might have been able to alter the judge's perception of the case.
+Pair ID : 2983
+Target Sentence : Since "we are a court of review, not of first view," Cutter v. Wilkinson, 544 U. S. 709, 718, n. 7 (2005), we do not now resolve this question.
+Source Sentence : Rather we leave it to the lower courts to decide in the first instance.
+Pair ID : 3019
+Target Sentence : Did Ake clearly establish that a defendant in the two situations just noted must be provided with the services of an expert who functions solely as a dedicated member of the defense team as opposed to a neutral expert who examines the defendant, reports his or her conclusions to the court and the parties, and is available to assist and testify for both sides?
+Source Sentence : Did Ake speak with such clarity that it ruled out "any possibility for fairminded disagreement"?
+Pair ID : 3025
+Target Sentence : It is certainly true that there is language in Ake that points toward the position that a defense-team psychiatrist should be provided.
+Source Sentence : Explaining the need for the appointment of a psychiatric expert, Ake noted that a psychiatrist can "assist in preparing the cross-examination of a State's psychiatric witnesses" and would "know the probative questions to ask of the opposing party's psychiatrists and how to interpret their answers."
+Pair ID : 3029
+Target Sentence : And when Ake discussed expert assistance during capital sentencing, the Court said that it is important for a defendant to "offer a well-informed expert's opposing view" in the form of "responsive psychiatric testimony."
+Source Sentence : Ake also explained that factfinding is improved when evidence is offered by "psychiatrists for each party."
+Pair ID : 3037
+Target Sentence : Ake was clear that an indigent defendant does not have a constitutional right to "choose a psychiatrist of his personal liking or . . . receive funds to hire his own."
+Source Sentence : Instead, the Court held only that a defendant is entitled to have "access" to "one competent psychiatrist" chosen by the trial judge.
+Pair ID : 3057
+Target Sentence : While Ake also declared that Baldi did not limit the Court "in considering whether fundamental fairness today requires a different result," 470 U. S., at 85, Ake did not explicitly overrule Baldi, and ultimately its treatment of that case was "most ambiguous," LaFave §8.2, at 450, n. 124.
+Source Sentence : It is also significant that the Ake Court had no need to decide whether due process requires the appointment of a defense-team expert as opposed to a neutral expert because Ake was denied the assistance of any psychiatrist--neutral or otherwise--for purposes of assessing his sanity at the time of the offense or his mental state as it related to capital sentencing.
+Pair ID : 3099
+Target Sentence : But another Eleventh Circuit panel disagreed.
+Source Sentence : A Sixth Circuit panel held that Ake does not require appointment of a defense-team expert.
+Pair ID : 3131
+Target Sentence : The Court refuses to decide the legal question on which we granted review and instead decides the question on which review was denied.
+Source Sentence : The Court holds that "Alabama here did not meet even Ake's most basic requirements."
+Pair ID : 3169
+Target Sentence : The State vigorously opposed review of that question, calling it "an invitation to conduct factbound error correction," Brief in Opposition 13, and we denied review.
+Source Sentence : It will come as a nasty surprise to Alabama that the Court has ruled against it on the very question we declined to review--and without giving the State a fair chance to respond.4
+Pair ID : 3171
+Target Sentence : It will come as a nasty surprise to Alabama that the Court has ruled against it on the very question we declined to review--and without giving the State a fair chance to respond.4
+Source Sentence : It is worth remembering that today's ruling requires the Court to conclude that the state court's treatment of McWilliams's Ake claim "was so lacking in justification that there was an error well understood and comprehended in existing law beyond any possibility for fairminded disagreement."
+Pair ID : 3181
+Target Sentence : Having completed an arduous detour around the question that we agreed to decide, the majority encounters an inconvenient roadblock: The Court of Appeals has already determined that any error of the sort the majority identifies today was harmless.
+Source Sentence : So the majority relies on the thinnest of reasons to require the Eleventh Circuit to redo its analysis.
+Pair ID : 3213
+Target Sentence : McWilliams had prior violent felony convictions for first-degree robbery and first-degree rape.
+Source Sentence : He murdered Reynolds in the course of committing a robbery and rape.
+Pair ID : 3221
+Target Sentence : But the sentencing court concluded that this evidence "did not rise to the level of a mitigating circumstance," in part because of the extensive evidence that McWilliams was feigning symptoms.
+Source Sentence : And in any event, the sentencing court found that "the aggravating circumstances would far outweigh this as a mitigating circumstance."
+Pair ID : 3243
+Target Sentence : But he did not do so.
+Source Sentence : The majority also ignores the fact that McWilliams has already had the chance to show that the outcome of the sentencing proceeding would have been different if he had been given more expert assistance.
+Pair ID : 3245
+Target Sentence : The majority also ignores the fact that McWilliams has already had the chance to show that the outcome of the sentencing proceeding would have been different if he had been given more expert assistance.
+Source Sentence : In state postconviction proceedings, McWilliams argued that he was denied effective assistance of counsel because his lawyers did not obtain an expert who would have fully probed his mental state for purposes of mitigation.
+Pair ID : 3247
+Target Sentence : In state postconviction proceedings, McWilliams argued that he was denied effective assistance of counsel because his lawyers did not obtain an expert who would have fully probed his mental state for purposes of mitigation.
+Source Sentence : McWilliams called an expert, Dr. Woods, who offered the opinion that McWilliams suffered from bipolar disorder at the time of the crime and testified that McWilliams's exaggeration of symptoms was not inconsistent with psychiatric problems.
+Pair ID : 3259
+Target Sentence : It credited the "consensus opinion" reached by the three neutral state psychiatrists, who observed and evaluated McWilliams for over a month before his trial and concluded that he "did not suffer from a mental illness."
+Source Sentence : It expressly found that "both the credibility of Dr. Woods and the reliability of his findings are questionable."
+Pair ID : 3289
+Target Sentence : In the section to which the Court refers, Alabama argued that even if McWilliams was entitled to relief under Ake to a partisan expert, no relief was warranted because he "had a consulting expert that did not report to the State," i.e. "a psychologist employed at the University of Alabama," and because the trial court ordered every form of testing that the defense requested.
+Source Sentence : Exactly six sentences of the State's briefing in this section, id., at 52, touch on the services provided by Dr. Goff and the trial court's denial of a continuance.
+Pair ID : 3311
+Target Sentence : McWilliams's failure to call him as a witness there creates a "void in the record" that prevents McWilliams from carrying his burden of showing "how additional time with Dr. Goff (and his report) would have benefited the defense."
+Source Sentence : It also suggests that, to McWilliams's postconviction counsel, Dr. Goff 's diagnosis and the opportunity to present it to the sentencer was not as important as McWilliams suggests.
+Pair ID : 3325
+Target Sentence : A state habeas court subsequently determined that, under Atkins v. Virginia, 536 U. S. 304, and Hall v. Florida, 572 U. S. ___, Moore qualified as intellectually disabled and that his death sentence therefore violated the Eighth Amendment's proscription of "cruel and unusual punishments."
+Source Sentence : The court consulted current medical diagnostic standards--the 11th edition of the American Association on Intellectual and Developmental Disabilities clinical manual (AAIDD-11) and the 5th edition of the Diagnostic and Statistical Manual of Mental Disorders published by the American Psychiatric Association.
+Pair ID : 3333
+Target Sentence : And relying on testimony from mental-health professionals, the court found significant adaptive deficits in all three skill sets (conceptual, social, and practical).
+Source Sentence : Based on its findings, the habeas court recommended to the Texas Court of Criminal Appeals (CCA) that Moore be granted relief.
+Pair ID : 3349
+Target Sentence : Among alternative causes for Moore's adaptive deficits, the CCA suggested, were an abuse-filled childhood, undiagnosed learning disorders, multiple elementary-school transfers, racially motivated harassment and violence at school, and a history of academic failure, drug abuse, and absenteeism.
+Source Sentence : Briseno's seven evidentiary factors, the CCA further determined, weighed against finding that Moore had satisfied the relatedness requirement.
+Pair ID : 3417
+Target Sentence : For that reason, the court concluded, Moore's death sentence violated the Eighth Amendment's proscription of "cruel and unusual punishments."
+Source Sentence : The habeas court therefore recommended that Moore be granted relief.
+Pair ID : 3457
+Target Sentence : At school, because of his limited ability to read and write, Moore could not keep up with lessons.
+Source Sentence : Often, he was separated from the rest of the class and told to draw pictures.
+Pair ID : 3477
+Target Sentence : Based on this evidence, the state habeas court recommended that the CCA reduce Moore's sentence to life in prison or grant him a new trial on intellectual disability.
+Source Sentence : The CCA rejected the habeas court's recommendations and denied Moore habeas relief.
+Pair ID : 3487
+Target Sentence : This Court's decision in Atkins v. Virginia, 536 U. S. 304 (2002), the CCA emphasized, "left it to the States to develop appropriate ways to enforce the constitutional restriction" on the execution of the intellectually disabled.
+Source Sentence : Thus, even though "[i]t may be true that the AAIDD's and APA's positions regarding the diagnosis of intellectual disability have changed since Atkins and Briseno," the CCA retained Briseno's instructions, both because of "the subjectivity surrounding the medical diagnosis of intellectual disability" and because the Texas Legislature had not displaced Briseno with any other guideposts.
+Pair ID : 3489
+Target Sentence : Thus, even though "[i]t may be true that the AAIDD's and APA's positions regarding the diagnosis of intellectual disability have changed since Atkins and Briseno," the CCA retained Briseno's instructions, both because of "the subjectivity surrounding the medical diagnosis of intellectual disability" and because the Texas Legislature had not displaced Briseno with any other guideposts.
+Source Sentence : The Briseno inquiries, the court said, "remai[n] adequately 'informed by the medical community's diagnostic framework.' "
+Pair ID : 3541
+Target Sentence : In Atkins v. Virginia, we held that the Constitution "restrict[s] . . . the State's power to take the life of" any intellectually disabled individual.
+Source Sentence : Executing intellectually disabled individuals, we concluded in Atkins, serves no penological purpose, see 536 U. S., at 318-320; runs up against a national consensus against the practice, see id., at 313-317; and creates a "risk that the death penalty will be imposed in spite of factors which may call for a less severe penalty," id., at 320 (internal quotation marks omitted); see id., at 320-321.
+Pair ID : 3553
+Target Sentence : Florida, we concluded, had violated the Eighth Amendment by "disregard[ing] established medical practice."
+Source Sentence : We further noted that Florida had parted ways with practices and trends in other States.
+Pair ID : 3623
+Target Sentence : By design and in operation, the Briseno factors "creat[e] an unacceptable risk that persons with intellectual disability will be executed," Hall, 572 U. S., at ___ (slip op., at 1).
+Source Sentence : After observing that persons with "mild" intellectual disability might be treated differently under clinical standards than under Texas' capital system, the CCA defined its objective as identifying the "consensus of Texas citizens" on who "should be exempted from the death penalty."
+Pair ID : 3625
+Target Sentence : After observing that persons with "mild" intellectual disability might be treated differently under clinical standards than under Texas' capital system, the CCA defined its objective as identifying the "consensus of Texas citizens" on who "should be exempted from the death penalty."
+Source Sentence : Mild levels of intellectual disability, although they may fall outside Texas citizens' consensus, nevertheless remain intellectual disabilities, see Hall, 572 U. S., at ___-___ (slip op., at 17-18); Atkins, 536 U. S., at 308, and n. 3; AAIDD-11, at 153, and States may not execute anyone in "the entire category of [intellectually disabled] offenders," Roper, 543 U. S., at 563-564 (emphasis added); see supra, at 9.
+Pair ID : 3663
+Target Sentence : The CCA instead fastened its intellectual-disability determination to "the AAMR's 1992 definition of intellectual disability that [it] adopted in Briseno for Atkins claims presented in Texas death-penalty cases."
+Source Sentence : By rejecting the habeas court's application of medical guidance and clinging to the standard it laid out in Briseno, including the wholly nonclinical Briseno factors, the CCA failed adequately to inform itself of the "medical community's diagnostic framework," Hall, 572 U. S., at ___-___ (slip op., at 19-20).
+Pair ID : 3677
+Target Sentence : It reached that conclusion based on its findings that he had failed to establish either significantly subaverage intellectual functioning or related significant deficits in adaptive behavior.
+Source Sentence : I agree with the Court today that those factors are an unacceptable method of enforcing the guarantee of Atkins, and that the CCA therefore erred in using them to analyze adaptive deficits.
+Pair ID : 3685
+Target Sentence : My broader concern with today's opinion, however, is that it abandons the usual mode of analysis this Court has employed in Eighth Amendment cases.
+Source Sentence : The Court overturns the CCA's conclusion that Moore failed to present sufficient evidence of both inadequate intellectual functioning and significant deficits in adaptive behavior without even considering "objective indicia of society's standards" reflected in the practices among the States.
+Pair ID : 3687
+Target Sentence : The Court overturns the CCA's conclusion that Moore failed to present sufficient evidence of both inadequate intellectual functioning and significant deficits in adaptive behavior without even considering "objective indicia of society's standards" reflected in the practices among the States.
+Source Sentence : The Court instead crafts a constitutional holding based solely on what it deems to be medical consensus about intellectual disability.
+Pair ID : 3723
+Target Sentence : The CCA began by considering the appropriate legal standard for assessing intellectual disability.
+Source Sentence : Following our instruction to the States to "develop[ ] appropriate ways to enforce" Atkins, 536 U. S., at 317 (internal quotation marks omitted), the CCA had set out a legal definition for intellectual disability in its prior decision in Ex parte Briseno.
+Pair ID : 3729
+Target Sentence : But "[t]he decision to modify the legal standard for intellectual disability in the capital-sentencing context," the CCA explained, "rests with this Court unless and until the Legislature acts."
+Source Sentence : Just as we have corrected lower courts for taking it upon themselves to dismiss our precedent as outdated, see, e.g., Bosse v. Okla- homa, 580 U. S. ___, ___ (2016) (per curiam) (slip op., at 2), so too the CCA rebuked the habeas court for ignoring binding CCA precedent.
+Pair ID : 3749
+Target Sentence : Starting with intellectual functioning, the CCA conducted a painstaking analysis of the battery of tests Moore had taken over the past 40 years.
+Source Sentence : The CCA concluded that five of the tests the habeas court had considered were unreliable: two of them were neuropsychological tests rather than formal IQ measures; two were group-administered tests, which Moore's own experts had criticized, App.
+Pair ID : 3763
+Target Sentence : The CCA found, however, that Moore's score was unlikely to be in the lower end of the error-generated range because he was likely exerting poor effort and experiencing depression at the time the test was administered--both factors that Moore's experts agreed could artificially deflate IQ scores.
+Source Sentence : The CCA accordingly concluded that Moore had failed to present sufficient evidence of significantly subaverage intellectual functioning.
+Pair ID : 3819
+Target Sentence : And we did not seek to provide "definitive procedural or substantive guides for determining when a person who claims mental retardation will be so impaired as to fall within Atkins' compass."
+Source Sentence : Instead, we left "to the States the task of developing appropriate ways to enforce the constitutional restriction upon their execution of sentences."
+Pair ID : 3821
+Target Sentence : Instead, we left "to the States the task of developing appropriate ways to enforce the constitutional restriction upon their execution of sentences."
+Source Sentence : Twelve years after Atkins, the Court confronted one State's attempt to enforce the holding of that case.
+Pair ID : 3823
+Target Sentence : Twelve years after Atkins, the Court confronted one State's attempt to enforce the holding of that case.
+Source Sentence : Although the Court thought it "proper to consider the psychiatric and professional studies that elaborate on the purpose and meaning of IQ scores," it emphasized that "[t]he legal determination of intellectual disability is distinct from a medical diagnosis."
+Pair ID : 3839
+Target Sentence : The Court rejects the CCA's conclusion that Moore failed to make the requisite showings with respect to intellectual functioning and adaptive deficits, without any consideration of the state practices that were, three Terms ago, "essential" to the Eighth Amendment question.
+Source Sentence : The Court instead finds error in the CCA's analysis based solely on what the Court views to be departure from typical clinical practice.
+Pair ID : 3865
+Target Sentence : Both because "[m]ost courts . . . consider all of the person's functional abilities" and because it seemed "foolhardy" to ignore strengths, the CCA thought it proper to take note of them.
+Source Sentence : As to prison conduct, the CCA decided that the fundamental questions the Atkins inquiry sought to answer were best considered--and "sound scientific principles" best served--by taking account of "all possible data that sheds light on a person's adaptive functioning, including his conduct in a prison society."
+Pair ID : 3875
+Target Sentence : The Court faults the CCA for "overemphasiz[ing]" strengths and "stress[ing]" Moore's conduct in prison, ante, at 12-13, suggesting that some--but not too much--consideration of strengths and prison functioning is acceptable.
+Source Sentence : The Court's only guidance on when "some" becomes "too much"?
+Pair ID : 3901
+Target Sentence : But the stringency of their caution differs, with the AAIDD seeming to enact a flat ban on ever looking to functioning in prison and the DSM urging "if possible" to consider "corroborative information reflecting functioning outside" of prison.
+Source Sentence : The CCA followed the DSM-5's instruction, relying on Dr. Compton's conclusion that "even before [Moore] went to prison" he demonstrated a "level of adaptive functioning . . . too great . . . to support an intellectual-disability diagnosis."
+Pair ID : 3903
+Target Sentence : The CCA followed the DSM-5's instruction, relying on Dr. Compton's conclusion that "even before [Moore] went to prison" he demonstrated a "level of adaptive functioning . . . too great . . . to support an intellectual-disability diagnosis."
+Source Sentence : In determining that the CCA erred in this regard, the Court implicitly rejects the DSM-5's approach to the proper consideration of prison conduct and accepts what it takes to be that of the AAIDD.
+Pair ID : 3921
+Target Sentence : Although the CCA reviewed these factors to determine whether Moore's adaptive deficits were "related" to his intellectual functioning, it may be that consideration of those factors tainted the whole of the CCA's adaptive functioning analysis.
+Source Sentence : I need not decide this question, however, because the CCA reached the issue of Moore's adaptive functioning only after concluding that he had failed to demonstrate intellectual functioning sufficiently low to warrant a finding of intellectual disability, regardless of his adaptive deficits or their relationship to his IQ.
+Pair ID : 3933
+Target Sentence : The court in fact began by taking account of the SEM, explaining that Moore's tested score of 74 led to an IQ range between 69 and 79.
+Source Sentence : The court went on to consider additional expert testimony about potential factors affecting that score.
+Pair ID : 3975
+Target Sentence : Has the person formulated plans and carried them through or is his conduct impulsive?
+Source Sentence : Does his conduct show leadership or does it show that he is led around by others?
+Pair ID : 3977
+Target Sentence : Does his conduct show leadership or does it show that he is led around by others?
+Source Sentence : Is his conduct in response to external stimuli rational and appropriate, regardless of whether it is socially acceptable?
+Pair ID : 3999
+Target Sentence : Blume, Johnson, & Seeds, Of Atkins and Men: Deviations from Clinical Definitions of Mental Retardation in Death Penalty Cases (footnote omitted), 18 Cornell J. L. & Pub.
+Source Sentence : Macvaugh & Cunningham, Atkins v. Virginia: Implications and Recommendations for Forensic Practice, 37 J. Psychiatry & L. 131, 136 (2009) ("The seven criteria of the Briseno opinion operationalize an Atkins interpretation that [exempts only] a subcategory of persons with [intellectual disabilities] from execution.")
+Pair ID : 4033
+Target Sentence : The Colorado Court of Appeals concluded that both petitioners were entitled to seek refunds of all they had paid, but the Colorado Supreme Court reversed.
+Source Sentence : It reasoned that Colorado's Compensation for Certain Exonerated Persons statute (Exoneration Act or Act), Colo.
+Pair ID : 4125
+Target Sentence : The same Colorado Court of Appeals panel heard both cases and concluded that Nelson and Madden were entitled to seek refunds of all they had paid, including amounts allocated to restitution.
+Source Sentence : Costs, fees, and restitution, the court held, must be "tied to a valid conviction," 369 P. 3d, at 627-628, absent which a court must "retur[n] the defendant to the status quo ante," 2013 WL 1760869, at *2.
+Pair ID : 4127
+Target Sentence : Costs, fees, and restitution, the court held, must be "tied to a valid conviction," 369 P. 3d, at 627-628, absent which a court must "retur[n] the defendant to the status quo ante," 2013 WL 1760869, at *2.
+Source Sentence : The Colorado Supreme Court reversed in both cases.
+Pair ID : 4147
+Target Sentence : To succeed on an Exoneration Act claim, a petitioner must show, by clear and convincing evidence, her actual innocence of the offense of conviction.
+Source Sentence : A successful petitioner may recoup, in addition to compensation for time served,6 "any fine, penalty, court costs, or restitution . . . paid . . . as a result of his or her wrongful conviction."
+Pair ID : 4161
+Target Sentence : Medina "provide[s] the appropriate framework for assessing the validity of state procedural rules" that "are part of the criminal process."
+Source Sentence : Such rules concern, for example, the allocation of burdens of proof and the type of evidence qualifying as admissible.7 These cases, in contrast, concern the continuing deprivation of property after a conviction has been reversed or vacated, with no prospect of reprosecution.
+Pair ID : 4213
+Target Sentence : Just as the restoration of liberty on reversal of a conviction is not compensation, neither is the return of money taken by the State on account of the conviction.
+Source Sentence : Colorado also suggests that "numerous pre- and post-deprivation procedures"--including the need for probable cause to support criminal charges, the jury-trial right, and the State's burden to prove guilt beyond a reasonable doubt--adequately minimize the risk of erroneous deprivation of property.
+Pair ID : 4215
+Target Sentence : Colorado also suggests that "numerous pre- and post-deprivation procedures"--including the need for probable cause to support criminal charges, the jury-trial right, and the State's burden to prove guilt beyond a reasonable doubt--adequately minimize the risk of erroneous deprivation of property.
+Source Sentence : But Colorado misperceives the risk at issue.
+Pair ID : 4239
+Target Sentence : on writ of certiorari to the supreme court of colorado
+Source Sentence : I agree that the judgments of the Colorado Supreme Court must be reversed, but I reach that conclusion by a different route.
+Pair ID : 4257
+Target Sentence : Under Medina, a state rule of criminal procedure not governed by a specific rule set out in the Bill of Rights violates the Due Process Clause of the Fourteenth Amendment only if it offends a fundamental and deeply rooted principle of justice.
+Source Sentence : And "[h]istorical practice is probative of whether a procedural rule can be characterized as fundamental."
+Pair ID : 4293
+Target Sentence : The remedy was "equitable in origin and function," and return of the money was " 'not of mere right,' " but " 'rest[ed] in the exercise of a sound discretion.' "
+Source Sentence : This was true in both civil and criminal cases.
+Pair ID : 4317
+Target Sentence : In its Mathews analysis, the Court reasons that the reversal of petitioners' convictions restored the presumption of their innocence and that "Colorado may not presume a person, adjudged guilty of no crime, nonetheless guilty enough for monetary exactions."
+Source Sentence : The implication of this brief statement is that under Mathews, reversal restores the defendant to the status quo ante, see ante, at 3.
+Pair ID : 4343
+Target Sentence : As noted, Colorado and many other States have similar statutes designed narrowly to compensate those few persons who can demonstrate that they are truly innocent.
+Source Sentence : The Court apparently acknowledges that these statutes pose no constitutional difficulty.
+Pair ID : 4379
+Target Sentence : It is not clear (and the Court certainly does not explain) why that formal distinction should make a substantive difference.3
+Source Sentence : It is especially startling to insist that a State must provide a refund after enforcing a restitution judgment on the victims' behalf in reliance on a final judgment that is then vacated on collateral review.
+Pair ID : 4389
+Target Sentence : Nor does the Court consider how restitution's unique characteristics might affect the balance that it strikes under Mathews.
+Source Sentence : The Court summarily rejects the proposition that " 'equitable considerations' " might militate against a blanket rule requiring the refund of money paid as restitution, see ibid., but why is this so?
+Pair ID : 4403
+Target Sentence : But if the Court had to address this subject to dispose of these cases, it should have acknowledged that--at least in some circumstances--refunds of restitution payments made under later reversed judgments are not constitutionally required.
+Source Sentence : For these reasons, I concur only in the judgment.
+Pair ID : 4407
+Target Sentence : on writ of certiorari to the supreme court of colorado
+Source Sentence : The majority and concurring opinions debate whether the procedural due process framework of Mathews v. Eldridge, 424 U. S. 319 (1976), or that of Medina v. California, 505 U. S. 437 (1992), governs the question before us.
+Pair ID : 4451
+Target Sentence : The Colorado Supreme Court further noted that, "[o]nce the state disburses restitution to the victims, the state no longer controls that money."
+Source Sentence : The Colorado Supreme Court explained that "Colorado's constitution protects" the Colorado Legislature's "control over public money," and thus a "court may authorize refunds from public funds only pursuant to statutory authority."
+Pair ID : 4487
+Target Sentence : No one disputes that if petitioners had never been convicted, Colorado could not have required them to pay the money at issue.
+Source Sentence : And no one disputes that Colorado cannot require petitioners to pay any additional costs, fees, or restitution now that their convictions have been invalidated.
+Pair ID : 4491
+Target Sentence : It does not follow, however, that petitioners have a property right in the money they paid pursuant to their then-valid convictions, which now belongs to the State and the victims under Colorado law.
+Source Sentence : The Court today announces that petitioners have a right to an automatic refund because the State has "no legal right" to that money.
+Pair ID : 4519
+Target Sentence : Citing Bell v. Wolfish, 441 U. S. 520 (1979), Colorado asserts that "[t]he presumption of innocence applies only at criminal trials" and thus has no application here.
+Source Sentence : Our opinion in that case recognized that "under the Due Process Clause," a detainee who "has not been adjudged guilty of any crime" may not be punished.
+Pair ID : 4537
+Target Sentence : But if they prevailed on appellate inspection, the State gets to keep their money.
+Source Sentence : Under Colorado law, as the dissent reads the Colorado Supreme Court's opinion, "moneys lawfully exacted pursuant to a valid conviction become public funds (or[, in the case of restitution,] the victims' money)."
