@@ -27,8 +27,8 @@ import utils.models.NoRelation;
 
 public class DiscourseAPI {
 
-	//private static final String svmModelPath = "/home/thejan/FYP/LegalDisourseRelationParser/sentence-feature-extractor/discourseModel.txt";
-	private static final String svmModelPath ="G:\\repos\\ldrp\\LegalDisourseRelationParser\\sentence-feature-extractor\\discourseModel.txt";
+	private static final String svmModelPath = "/home/thejan/FYP/LegalDisourseRelationParser/sentence-feature-extractor/discourseModel.txt";
+//	private static final String svmModelPath ="G:\\repos\\ldrp\\LegalDisourseRelationParser\\sentence-feature-extractor\\discourseModel.txt";
 	private static NLPUtils nlpUtils;
 
 	private static svm_model model;
@@ -47,10 +47,8 @@ public class DiscourseAPI {
 		String sourceSent = "Lee has demonstrated that he was prejudiced by his "
 				+ "counsel’s erroneous advice.";*/
 
-		String targetSent="\n" +
-				"Cat go after rat.";
-		String sourceSent=
-				"Dog is the best friend of human.";
+		String targetSent="My name is Gathika.";
+		String sourceSent= "I work in a hospital.";
 
 		DiscourseAPI discourseAPI = new DiscourseAPI();
 
