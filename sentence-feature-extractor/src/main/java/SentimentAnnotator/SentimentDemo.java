@@ -15,10 +15,15 @@ public class SentimentDemo {
     public static void main(String[] args) {
         Properties props = new Properties();
         props.setProperty("annotators", "tokenize,ssplit,pos,lemma,parse,depparse,sentiment");
-        NLPUtils nlpUtils = new NLPUtils(props);
+//        NLPUtils nlpUtils = new NLPUtils(props);
+	    //normal server
+//	    NLPUtils nlpUtils = new NLPUtils(props, "http://104.248.226.230", 9000);
+	    //customized server
+	    NLPUtils nlpUtils = new NLPUtils(props, "http://142.93.243.74", 9000);
 
-        //String filePath = "/home/thejan/FYP/LegalDisourseRelationParser/sentence-feature-extractor/";
-        String filePath = "/home/viraj/FYP/";
+
+	    String filePath = "/home/thejan/FYP/LegalDisourseRelationParser/sentence-feature-extractor/";
+//        String filePath = "/home/viraj/FYP/";
 
         try {
             CustomizedSentimentAnnotator.addSentimentLayerToCoreNLPSentiment(
