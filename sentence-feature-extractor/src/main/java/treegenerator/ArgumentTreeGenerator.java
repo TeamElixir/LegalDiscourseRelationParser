@@ -20,15 +20,20 @@ public class ArgumentTreeGenerator {
     private static final ArrayList<String> SUBJECT_LIST = new ArrayList<>(
             Arrays.asList("petitioner", "government", "defendant"));
     private static ArrayList<SentenceModel> sentenceModels;
+    private static ArrayList<SentenceModel> subjectSentenceModel=new ArrayList<>();
+    private static ArrayList<String> caseSubjects;
+
 
     public static void main(String[] args) throws FileNotFoundException {
        // Scanner sc = new Scanner(new File("G:\\repos\\ldrp\\LegalDisourseRelationParser\\sentence-feature-extractor\\src\\main\\resources\\Cases\\Lee.txt"));
         // creates a StanfordCoreNLP object, with annotators
+        Case legalCase = new Case();
         Properties props = new Properties();
         props.setProperty("annotators", "tokenize,ssplit,pos,lemma,depparse,natlog,openie,ner");
         //StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
         NLPUtils nlpUtils = new NLPUtils(props);
         sentenceModels =new ArrayList<>();
+        caseSubjects=new ArrayList<>();
 
         //read case
         /*String filePath = new File("").getAbsolutePath();
@@ -49,10 +54,10 @@ public class ArgumentTreeGenerator {
 
 
         for (SentenceModel sentenceModel:sentenceModels){
-            System.out.println("_____________________");
+            /*System.out.println("_____________________");
             System.out.println("sentence");
             System.out.println(sentenceModel.sentence);
-            System.out.println("subjects");
+            System.out.println("subjects");*/
             if(sentenceModel.legalSubjects.size()>0){
                 for(String subject:sentenceModel.subjects){
                     System.out.println(subject);
@@ -63,6 +68,10 @@ public class ArgumentTreeGenerator {
 
 
 
+
+        for (SentenceModel sentenceModel:subjectSentenceModel){
+            System.out.println("subject "+ sentenceModel.sentence);
+        }
 
 
         for (SentenceModel sentenceModel:sentenceModels){
@@ -78,6 +87,8 @@ public class ArgumentTreeGenerator {
                 System.out.println(sentenceModel.sentence);
             }
         }
+
+
 
 
     }
@@ -97,6 +108,7 @@ public class ArgumentTreeGenerator {
 
         // Held: paragraph
         String held = splitted[0].split("Held: ")[1];
+
         System.out.println(held);
 
 
@@ -172,7 +184,14 @@ public class ArgumentTreeGenerator {
                     sentenceModel.subjects.add(subject.toLowerCase());
                     if(SUBJECT_LIST.contains(subject.toLowerCase())){
                         sentenceModel.legalSubjects.add(subject.toLowerCase());
+                        if(!caseSubjects.contains(subject.toLowerCase())){
+                            caseSubjects.add(subject);
+                            SentenceModel sentenceModelSubject = new SentenceModel();
+                            sentenceModelSubject.sentence=subject.toLowerCase();
+                            subjectSentenceModel.add(sentenceModelSubject);
+                        }
                     }
+
                 }
             }
         }
