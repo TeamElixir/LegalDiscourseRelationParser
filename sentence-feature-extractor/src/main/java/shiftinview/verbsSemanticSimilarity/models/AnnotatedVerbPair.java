@@ -1,4 +1,4 @@
-package shiftinview.wuPalmerTest.models;
+package shiftinview.verbsSemanticSimilarity.models;
 
 public class AnnotatedVerbPair extends VerbPair {
     public static final String TABLE_NAME = "ANNOTATED_VERB_PAIR";

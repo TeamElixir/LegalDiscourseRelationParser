@@ -1,4 +1,4 @@
-package shiftinview.wuPalmerTest.models;
+package shiftinview.verbsSemanticSimilarity.models;
 
 public class Relation {
     private static final String[] relations = {

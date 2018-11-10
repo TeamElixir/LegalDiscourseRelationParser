@@ -1,4 +1,4 @@
-package shiftinview.wuPalmerTest;
+package shiftinview.verbsSemanticSimilarity;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

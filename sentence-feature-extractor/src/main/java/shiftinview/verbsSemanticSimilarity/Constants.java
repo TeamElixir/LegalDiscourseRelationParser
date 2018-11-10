@@ -1,4 +1,4 @@
-package shiftinview.wuPalmerTest;
+package shiftinview.verbsSemanticSimilarity;
 
 public class Constants {
     public static final String HIRST_ST_ONGE = "HIRST_ST_ONGE";

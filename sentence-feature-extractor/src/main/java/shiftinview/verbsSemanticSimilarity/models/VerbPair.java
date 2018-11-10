@@ -1,4 +1,4 @@
-package shiftinview.wuPalmerTest.models;
+package shiftinview.verbsSemanticSimilarity.models;
 
 public class VerbPair {
     public static final String TABLE_NAME = "VERB_PAIR";
