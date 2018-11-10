@@ -2,6 +2,7 @@ package SentimentAnnotator;
 
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.pipeline.Annotation;
+import edu.stanford.nlp.sentiment.SentimentCoreAnnotations;
 import edu.stanford.nlp.sentiment.SentimentCostAndGradient;
 import edu.stanford.nlp.util.CoreMap;
 import utils.NLPUtils;
@@ -54,6 +55,16 @@ public class SentimentDemo {
         List<CoreMap> sentences = ann.get(CoreAnnotations.SentencesAnnotation.class);
         for (CoreMap sent : sentences) {
             return ParseTreeSplitter.SentimentClassification(sent);
+        }
+        return null;
+    }
+
+    public static String calculateSentimentOriginalModel (NLPUtils nlpUtils,String text){
+        Annotation ann = nlpUtils.annotate(text);
+
+        List<CoreMap> sentences = ann.get(CoreAnnotations.SentencesAnnotation.class);
+        for(CoreMap sent: sentences){
+            return sent.get(SentimentCoreAnnotations.SentimentClass.class);
         }
         return null;
     }
