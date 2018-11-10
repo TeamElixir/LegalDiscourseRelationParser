@@ -24,6 +24,9 @@ public class ArgumentTreeGenerator {
     private static ArrayList<NodeModel> nodeModels;
     private static ArrayList<String> caseSubjects;
     private static DiscourseAPINew discourseAPINew= new DiscourseAPINew();
+    private static ArrayList<Node> nodes = new ArrayList<>();
+
+    private static ArrayList<SentenceModel> allSentenceModels=new ArrayList<>();
 
 
     public static void main(String[] args) throws IOException {
@@ -149,11 +152,28 @@ public class ArgumentTreeGenerator {
             }
         }
 
+        allSentenceModels.add(heldSentenceModel);
+        for(SentenceModel sentenceModelSubject:sentenceModels){
+            allSentenceModels.add(sentenceModelSubject);
+        }
         for (SentenceModel sentenceModel:sentenceModels){
             System.out.println("______________________________");
             System.out.println("ID : "+sentenceModel.ID);
             System.out.println("Parent: "+sentenceModel.parentID);
             System.out.println("Sentence: "+sentenceModel.sentence);
+            allSentenceModels.add(sentenceModel);
+        }
+
+        for(SentenceModel sentenceModel4:allSentenceModels){
+            String id = Integer.toString(sentenceModel4.ID);
+            String parentId = Integer.toString(sentenceModel4.parentID);
+            String text = sentenceModel4.sentence;
+            Node node=new Node(id,parentId,text);
+            if(sentenceModel4.citation){
+                node.setType("Red");
+
+            }
+            nodes.add(node);
         }
 
 
@@ -272,6 +292,7 @@ public class ArgumentTreeGenerator {
     public static void InitializeIds(){
         int count =0;
         heldSentenceModel.ID=count;
+        heldSentenceModel.parentID=-1;
         count++;
         for(SentenceModel sentenceModel: subjectSentenceModels){
             count++;
