@@ -18,6 +18,8 @@ public class SentenceModel {
     public  boolean noRelation;
     public boolean shiftInView;
     public boolean argument;
+    public  boolean nodeStart=false;
+    public int parentID;
 
 
 }

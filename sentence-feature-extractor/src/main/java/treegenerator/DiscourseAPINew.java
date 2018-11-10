@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.Properties;
+package treegenerator;
 
 import datasetparser.models.FeatureEntry;
 import edu.stanford.nlp.pipeline.Annotation;
@@ -25,7 +24,11 @@ import utils.NLPUtils;
 import utils.models.CombinedFeatureEntry;
 import utils.models.NoRelation;
 
-public class DiscourseAPI {
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Properties;
+
+public class DiscourseAPINew {
 
 	//private static final String svmModelPath = "/home/thejan/FYP/LegalDisourseRelationParser/sentence-feature-extractor/discourseModel.txt";
 	private static final String svmModelPath ="G:\\repos\\ldrp\\LegalDisourseRelationParser\\sentence-feature-extractor\\discourseModel.txt";
@@ -34,7 +37,7 @@ public class DiscourseAPI {
 	private static svm_model model;
 
 	public static void main(String[] args) throws Exception {
-		model = svm.svm_load_model(svmModelPath);
+		/*model = svm.svm_load_model(svmModelPath);
 
 		Properties props = new Properties();
 		props.setProperty("annotators", "tokenize,ssplit,pos,lemma,ner,parse,coref");
@@ -47,20 +50,21 @@ public class DiscourseAPI {
 		String sourceSent = "Lee has demonstrated that he was prejudiced by his "
 				+ "counsel’s erroneous advice.";*/
 
-		String targetSent="\n" +
+		/*String targetSent="\n" +
 				"Cat go after rat.";
 		String sourceSent=
 				"Dog is the best friend of human.";
 
-		DiscourseAPI discourseAPI = new DiscourseAPI();
+		DiscourseAPINew discourseAPI = new DiscourseAPINew();*/
 
 
 
-		System.out.println("final value " + discourseAPI.getDiscourseType(sourceSent, targetSent));
+		//System.out.println("final value " + discourseAPI.getDiscourseType(sourceSent, targetSent));
 	}
 
-	public int getDiscourseType(String sourceSentence, String targetSentence) {
-
+	public int getDiscourseType(String sourceSentence, String targetSentence,NLPUtils nlpUtils) throws IOException {
+		model = svm.svm_load_model(svmModelPath);
+		this.nlpUtils=nlpUtils;
 		int originalRelationshipType;
 		int finalRelationshipType;
 

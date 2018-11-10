@@ -2,17 +2,16 @@ package treegenerator;
 
 import edu.stanford.nlp.ie.util.RelationTriple;
 import edu.stanford.nlp.ling.CoreAnnotations;
-import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.naturalli.NaturalLogicAnnotations;
 import edu.stanford.nlp.pipeline.Annotation;
-import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.simple.Document;
 import edu.stanford.nlp.simple.Sentence;
 import edu.stanford.nlp.util.CoreMap;
 import treegenerator.Utils.Utils;
 import utils.NLPUtils;
 
-import java.io.FileNotFoundException;
+
+import java.io.IOException;
 import java.util.*;
 
 public class ArgumentTreeGenerator {
@@ -20,20 +19,27 @@ public class ArgumentTreeGenerator {
     private static final ArrayList<String> SUBJECT_LIST = new ArrayList<>(
             Arrays.asList("petitioner", "government", "defendant"));
     private static ArrayList<SentenceModel> sentenceModels;
-    private static ArrayList<SentenceModel> subjectSentenceModel=new ArrayList<>();
+    private static ArrayList<SentenceModel> subjectSentenceModels =new ArrayList<>();
+    private static SentenceModel heldSentenceModel=new SentenceModel();
+    private static ArrayList<NodeModel> nodeModels;
     private static ArrayList<String> caseSubjects;
+    private static DiscourseAPINew discourseAPINew= new DiscourseAPINew();
 
 
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws IOException {
        // Scanner sc = new Scanner(new File("G:\\repos\\ldrp\\LegalDisourseRelationParser\\sentence-feature-extractor\\src\\main\\resources\\Cases\\Lee.txt"));
         // creates a StanfordCoreNLP object, with annotators
+
         Case legalCase = new Case();
         Properties props = new Properties();
-        props.setProperty("annotators", "tokenize,ssplit,pos,lemma,depparse,natlog,openie,ner");
+        props.setProperty("annotators", "tokenize,ssplit,pos,lemma,parse,natlog,openie,ner");
         //StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
-        NLPUtils nlpUtils = new NLPUtils(props);
+        props.setProperty("coref.algorithm", "statistical");
+        NLPUtils nlpUtils = new NLPUtils(props, "http://104.248.226.230", 9000);
+       // NLPUtils nlpUtils = new NLPUtils(props);
         sentenceModels =new ArrayList<>();
         caseSubjects=new ArrayList<>();
+        nodeModels=new ArrayList<>();
 
         //read case
         /*String filePath = new File("").getAbsolutePath();
@@ -66,26 +72,88 @@ public class ArgumentTreeGenerator {
         }
 
 
+        InitializeIds();
 
 
-
-        for (SentenceModel sentenceModel:subjectSentenceModel){
+        for (SentenceModel sentenceModel: subjectSentenceModels){
             System.out.println("subject "+ sentenceModel.sentence);
         }
 
-
+        int nodeCount=0;
         for (SentenceModel sentenceModel:sentenceModels){
+
             if(sentenceModel.legalSubjects.size()>0){
                 System.out.println("------------------------");
                 System.out.println("__________________________");
                 for (String subject : sentenceModel.legalSubjects){
-                    System.out.println(sentenceModel.sentence);
+
+                    System.out.println("sentence: "+sentenceModel.sentence);
                     System.out.println(subject);
+                    System.out.println("id :" + sentenceModel.ID);
+
+                    for(SentenceModel sentenceModelSubject: subjectSentenceModels){
+                        if(sentenceModelSubject.sentence.toLowerCase().equals(subject.toLowerCase())){
+                            sentenceModel.parentID=sentenceModelSubject.ID;
+                        }
+                    }
+                    NodeModel nodeModel=new NodeModel(subject);
+                    System.out.println("bbb");
+                    nodeCount=nodeCount+1;
+                    nodeModel.id=1;
+                    nodeModel.sentences.add(sentenceModel);
+                    nodeModels.add(nodeModel);
+
                 }
 
             }else {
-                System.out.println(sentenceModel.sentence);
+                System.out.println("lll "+nodeCount );
+                if(nodeCount<1){
+
+                }else {
+                    System.out.println("sentence: "+sentenceModel.sentence);
+                    System.out.println("Id: "+sentenceModel.ID);
+                    int nodesSize=nodeModels.size();
+                    NodeModel nodeModelAnpend = nodeModels.get(nodesSize-1);
+                    ArrayList<SentenceModel> nodeSentences=nodeModelAnpend.sentences;
+                    int sentencesSize= nodeSentences.size();
+                    int i=sentencesSize;
+                    while(i>0){
+                        if(sentencesSize==1){
+                            int parentID=nodeSentences.get(0).ID;
+                            sentenceModel.parentID=parentID;
+                            nodeSentences.add(sentenceModel);
+                            break;
+                        }else{
+                            int parentIndex = sentencesSize-1;
+                            SentenceModel parentSentenceModel = nodeSentences.get(parentIndex);
+                            String parentSentence = parentSentenceModel.sentence;
+
+                            int rType=discourseAPINew.getDiscourseType(sentenceModel.sentence,parentSentence,nlpUtils);
+                            if(rType==4){
+                                sentenceModel.citation=true;
+                                sentenceModel.parentID=parentSentenceModel.ID;
+                                nodeSentences.add(sentenceModel);
+                                break;
+                            }else if(rType==2||rType==3||rType==5){
+                                sentenceModel.parentID=parentSentenceModel.ID;
+                                nodeSentences.add(sentenceModel);
+                                break;
+                            }else {
+                                sentencesSize--;
+                            }
+
+                        }
+                    }
+                }
+
             }
+        }
+
+        for (SentenceModel sentenceModel:sentenceModels){
+            System.out.println("______________________________");
+            System.out.println("ID : "+sentenceModel.ID);
+            System.out.println("Parent: "+sentenceModel.parentID);
+            System.out.println("Sentence: "+sentenceModel.sentence);
         }
 
 
@@ -108,6 +176,8 @@ public class ArgumentTreeGenerator {
 
         // Held: paragraph
         String held = splitted[0].split("Held: ")[1];
+        heldSentenceModel.sentence=held;
+
 
         System.out.println(held);
 
@@ -119,7 +189,7 @@ public class ArgumentTreeGenerator {
             //extract the sentenceModels in the given case
 
             SentenceModel sentenceModel=new SentenceModel();
-            sentenceModel.ID=count;
+            //sentenceModel.ID=count;
             sentenceModel.sentence=sentence.toString();
             sentenceModel.processedSentence=sentence.toString();
             sentenceModels.add(sentenceModel);
@@ -188,7 +258,7 @@ public class ArgumentTreeGenerator {
                             caseSubjects.add(subject);
                             SentenceModel sentenceModelSubject = new SentenceModel();
                             sentenceModelSubject.sentence=subject.toLowerCase();
-                            subjectSentenceModel.add(sentenceModelSubject);
+                            subjectSentenceModels.add(sentenceModelSubject);
                         }
                     }
 
@@ -196,6 +266,22 @@ public class ArgumentTreeGenerator {
             }
         }
         return sentenceModels;
+
+    }
+
+    public static void InitializeIds(){
+        int count =0;
+        heldSentenceModel.ID=count;
+        count++;
+        for(SentenceModel sentenceModel: subjectSentenceModels){
+            count++;
+            sentenceModel.ID=count;
+            sentenceModel.parentID=heldSentenceModel.ID;
+        }
+        for(SentenceModel sentenceModel:sentenceModels){
+            count++;
+            sentenceModel.ID=count;
+        }
 
     }
 
